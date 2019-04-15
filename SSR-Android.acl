@@ -1,4 +1,4 @@
-#Time:2019-03-21 9:04 PM
+#Time:2019/4/15, 9:16 AM
 
 [bypass_all]
 
@@ -113,6 +113,8 @@ groups.google.cn
 grow.google
 gstatic.com
 .google.*
+ssl.google-analytics.com
+google-analytics.com
 
 # amazon
 amazon.co.jp
@@ -175,9 +177,10 @@ nflxvideo.net
 api.login.yahoo.com
 yahoo.com
 .yahoo.com
-imap.yahoo.com
-smtp.yahoo.com
+imap.mail.yahoo.com
+smtp.mail.yahoo.com
 mail.yahoo.com
+.mail.yahoo.com
 page.bid.yahoo.com
 tw.bid.yahoo.com
 blogs.yahoo.co.jp
