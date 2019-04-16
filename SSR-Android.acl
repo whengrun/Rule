@@ -1,4 +1,4 @@
-#Time:2019/4/16, 3:55 PM
+#Time:2019/4/16, 9:57 PM
 
 [bypass_all]
 
@@ -6184,6 +6184,12 @@ weibo.com
 yahoo.cn
 youdao.com
 zhongsou.com
+
+#MoneyWiz
+observices.wiz.money
+billing.wiz.money
+api.syncbits.com
+syncbits.com
 
 [outbound_block_list]
 
