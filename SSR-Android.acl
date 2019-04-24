@@ -1,4 +1,4 @@
-#Time:2019/4/16, 9:57 PM
+#Time:2019/4/24, 10:20 AM
 
 [bypass_all]
 
@@ -230,6 +230,22 @@ canadagoose.com
 imgur.com
 .imgur.com
 i.imgur.com
+
+#New York times
+static01.nyt.com
+nyt.com
+nytchina.com
+nytcn.me
+nytco.com
+.nytimes.com
+nytimes.com
+nytimg.com
+userapi.nytlog.com
+cn.nytstyle.com
+nytstyle.com
+app-measurement.com
+ulogs.umeng.com
+manifest.localytics.com
 
 85.17.73.31/32
 agnesb.fr
@@ -981,17 +997,6 @@ yt.be
 ytimg.com
 zynamics.com
 naughtyamerica.com
-static01.nyt.com
-nyt.com
-nytchina.com
-nytcn.me
-nytco.com
-.nytimes.com
-nytimes.com
-nytimg.com
-userapi.nytlog.com
-cn.nytstyle.com
-nytstyle.com
 .steamcommunity.com
 steamcommunity.com
 t.me
