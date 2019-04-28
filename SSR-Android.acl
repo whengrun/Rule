@@ -1,5 +1,5 @@
 #**********************************************************************
-# 2019/4/24, 2:21 PM
+# 2019/4/28, 11:15 AM
 # 
 # 参数解释：
 # [proxy_all] 默认代理
@@ -411,6 +411,9 @@ userapi.nytlog.com
 cn.nytstyle.com
 nytstyle.com
 app-measurement.com
+
+#wikipedia
+wikipedia.org
 
 85.17.73.31/32
 agnesb.fr
