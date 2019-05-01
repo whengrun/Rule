@@ -7712,7 +7712,7 @@
 (^|\.)\w*facebook\w*\.\w*$
 (^|\.)\w*fbcdn\w*\.\w*$
 (^|\.)\w*github\w*\.\w*$
-(^|\.)\w*google\w*\.\w*$
+#(^|\.)\w*google\w*\.\w*$
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)\w*porn\w*\.\w*$
 (^|\.)\w*sci-hub\w*\.\w*$
@@ -7779,6 +7779,7 @@
 (^|\.)gist\.github\.com$
 (^|\.)gongm\.in$
 (^|\.)googleapis\.cn$
+(^|\.)googleapis\.com$
 (^|\.)gstatic\.cn$
 (^|\.)gstatic\.com$
 (^|\.)gvt0\.com$
