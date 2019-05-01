@@ -1481,25 +1481,75 @@
 # 直连列表
 
 #FCM
-mtalk.google.com
-#mtalk4.google.com
-alt1-mtalk.google.com
-alt2-mtalk.google.com
-alt3-mtalk.google.com
-alt4-mtalk.google.com
-alt5-mtalk.google.com
-alt6-mtalk.google.com
-alt7-mtalk.google.com
-alt8-mtalk.google.com
-gcm.googleapis.com
-gcm.l.google.com
-gcm-xmpp.googleapis.com
+(^|\.)mtalk\.google\.com$
+(^|\.)mtalk4\.google\.com$
+(^|\.)alt1-mtalk\.google\.com$
+(^|\.)alt2-mtalk\.google\.com$
+(^|\.)alt3-mtalk\.google\.com$
+(^|\.)alt4-mtalk\.google\.com$
+(^|\.)alt5-mtalk\.google\.com$
+(^|\.)alt6-mtalk\.google\.com$
+(^|\.)alt7-mtalk\.google\.com$
+(^|\.)alt8-mtalk\.google\.com$
+(^|\.)gcm\.googleapis\.com$
+(^|\.)gcm\.l\.google\.com$
+(^|\.)gcm-xmpp\.googleapis\.com$
+
+#google unknow
+(^|\.)dl\.google\.com$
+(^|\.)kh\.google\.com$
+(^|\.)khm\.google\.com$
+(^|\.)khm\.googleapis\.com$
+(^|\.)khm0\.google\.com$
+(^|\.)khm0\.googleapis\.com$
+(^|\.)khm1\.google\.com$
+(^|\.)khm1\.googleapis\.com$
+(^|\.)khm2\.google\.com$
+(^|\.)khm2\.googleapis\.com$
+(^|\.)khm3\.google\.com$
+(^|\.)khm3\.googleapis\.com$
+(^|\.)khmdb\.google\.com$
+(^|\.)khmdb\.googleapis\.com$
+(^|\.)tools\.google\.com$
+(^|\.)clientservices\.googleapis.com$
+(^|\.)fonts\.googleapis\.com$
+(^|\.)storage\.googleapis\.com$
+(^|\.)translate\.googleapis\.com$
+(^|\.)update\.googleapis\.com$
+(^|\.)safebrowsing\.googleapis\.com$
+(^|\.)cn\.gravatar\.com$
+(^|\.)connectivitycheck\.gstatic\.com$
+(^|\.)csi\.gstatic\.com$
+(^|\.)fonts\.gstatic\.com$
+(^|\.)ssl\.gstatic\.com$
 
 #MoneyWiz
-observices.wiz.money
-billing.wiz.money
-api.syncbits.com
-syncbits.com
+(^|\.)observices\.wiz\.money$
+(^|\.)billing\.wiz\.money$
+(^|\.)api\.syncbits\.com$
+(^|\.)syncbits\.com$
+
+# GFWList Whitelist
+(^|\.)cwb\.gov\.tw$
+(^|\.)dbnsa\.gov\.tw$
+(^|\.)eastcoast-nsa\.gov\.tw$
+(^|\.)erv-nsa\.gov\.tw$
+(^|\.)maolin-nsa\.gov\.tw$
+(^|\.)matsu-nsa\.gov\.tw$
+(^|\.)matsucc\.gov\.tw$
+(^|\.)nankan\.gov\.tw$
+(^|\.)necoast-nsa\.gov\.tw$
+(^|\.)northguan-nsa\.gov\.tw$
+(^|\.)penghu-nsa\.gov\.tw$
+(^|\.)post\.gov\.tw$
+(^|\.)redirector\.gvt1\.com$
+(^|\.)share\.dmhy\.org$
+(^|\.)siraya-nsa\.gov\.tw$
+(^|\.)sunmoonlake\.gov\.tw$
+(^|\.)tools\.google\.com$
+(^|\.)trimt-nsa\.gov\.tw$
+(^|\.)uluai\.com\.cn$
+(^|\.)yda\.gov\.tw$
 
 # CN域名直连
 ^.*\.cn$
@@ -1508,6 +1558,7 @@ syncbits.com
 (^|\.)\w*-cn\w*\.\w*$
 (^|\.)\w*0x\w*\.\w*$
 (^|\.)\w*360buy\w*\.\w*$
+(^|\.)\w*jd\w*\.\w*$
 (^|\.)\w*alimama\w*\.\w*$
 (^|\.)\w*alipay\w*\.\w*$
 (^|\.)\w*appzapp\w*\.\w*$
@@ -1579,12 +1630,6 @@ syncbits.com
 (^|\.)ip\.bjango\.com$
 (^|\.)alphassl\.com$
 (^|\.)edu\.cn$
-
-# Spark
-(^|\.)amplitude\.com$
-(^|\.)firebaseio\.com$
-(^|\.)hockeyapp\.net$
-(^|\.)smartmailcloud\.com$
  
 # Sina
 (^|\.)sina\.cn$
@@ -1624,41 +1669,6 @@ syncbits.com
 172.16.102.56/32
 185.188.32.1/28
 221.226.128.146/32
-
-# GFWList Whitelist
-(^|\.)connectivitycheck\.gstatic\.com$
-(^|\.)cwb\.gov\.tw$
-(^|\.)dbnsa\.gov\.tw$
-(^|\.)eastcoast-nsa\.gov\.tw$
-(^|\.)erv-nsa\.gov\.tw$
-(^|\.)khm\.google\.com$
-(^|\.)khm\.googleapis\.com$
-(^|\.)khm0\.google\.com$
-(^|\.)khm0\.googleapis\.com$
-(^|\.)khm1\.google\.com$
-(^|\.)khm1\.googleapis\.com$
-(^|\.)khm2\.google\.com$
-(^|\.)khm2\.googleapis\.com$
-(^|\.)khm3\.google\.com$
-(^|\.)khm3\.googleapis\.com$
-(^|\.)khmdb\.google\.com$
-(^|\.)khmdb\.googleapis\.com$
-(^|\.)maolin-nsa\.gov\.tw$
-(^|\.)matsu-nsa\.gov\.tw$
-(^|\.)matsucc\.gov\.tw$
-(^|\.)nankan\.gov\.tw$
-(^|\.)necoast-nsa\.gov\.tw$
-(^|\.)northguan-nsa\.gov\.tw$
-(^|\.)penghu-nsa\.gov\.tw$
-(^|\.)post\.gov\.tw$
-(^|\.)redirector\.gvt1\.com$
-(^|\.)share\.dmhy\.org$
-(^|\.)siraya-nsa\.gov\.tw$
-(^|\.)sunmoonlake\.gov\.tw$
-(^|\.)tools\.google\.com$
-(^|\.)trimt-nsa\.gov\.tw$
-(^|\.)uluai\.com\.cn$
-(^|\.)yda\.gov\.tw$
 
 # Accelerate direct sites
 (^|\.)12306\.com$
@@ -7550,6 +7560,121 @@ syncbits.com
 [proxy_list]
 # 代理列表
 
+# amazon
+(^|\.)amazon\.co\.jp$
+(^|\.)amazon\.com$
+(^|\.)amazonaws\.com$
+(^|\.)eu-west-1\.console\.aws\.amazon\.com$
+(^|\.)s3\.amazonaws\.com$
+(^|\.)s3-ap-northeast-1\.amazonaws\.com$
+(^|\.)s3-ap-southeast-2\.amazonaws\.com$
+
+# The Economist
+(^|\.)economist\.com$
+(^|\.)api\.taplytics\.com$
+(^|\.)pugpig\.com$
+(^|\.)omtrdc\.net$
+
+#yahoo
+(^|\.)api\.login\.yahoo\.com$
+(^|\.)yahoo\.com$
+(^|\.)imap\.mail\.yahoo\.com$
+(^|\.)smtp\.mail\.yahoo\.com$
+(^|\.)mail\.yahoo\.com$
+(^|\.)page\.bid\.yahoo\.com$
+(^|\.)tw\.bid\.yahoo\.com$
+(^|\.)blogs\.yahoo\.co\.jp$
+(^|\.)search\.yahoo\.co\.jp$
+(^|\.)buy\.yahoo\.com\.tw$
+(^|\.)hk\.yahoo\.com$
+(^|\.)hk\.knowledge\.yahoo\.com$
+(^|\.)tw\.money\.yahoo\.com$
+(^|\.)hk\.myblog\.yahoo\.com$
+(^|\.)news\.yahoo\.com$
+(^|\.)hk\.news\.yahoo\.com$
+(^|\.)hk\.rd\.yahoo\.com$
+(^|\.)hk\.search\.yahoo\.com$
+(^|\.)hk\.video\.news\.yahoo\.com$
+(^|\.)meme\.yahoo\.com$
+(^|\.)tw\.answers\.yahoo\.com$
+(^|\.)tw\.knowledge\.yahoo\.com$
+(^|\.)tw\.mall\.yahoo\.com$
+(^|\.)tw\.yahoo\.com$
+(^|\.)tw\.mobi\.yahoo\.com$
+(^|\.)tw\.myblog\.yahoo\.com$
+(^|\.)tw\.news\.yahoo\.com$
+(^|\.)pulse\.yahoo\.com$
+(^|\.)search\.yahoo\.com$
+(^|\.)upcoming\.yahoo\.com$
+(^|\.)video\.yahoo\.com$
+(^|\.)yahoo\.com\.hk$
+(^|\.)duckduckgo-owned-server\.yahoo\.net$
+
+#aol
+(^|\.)aol\.com$
+(^|\.)mail\.aol\.com$
+(^|\.)imap\.aol\.com$
+(^|\.)smtp\.aol\.com$
+(^|\.)aolchannels\.aol\.com$
+(^|\.)video\.aol\.ca$
+(^|\.)video\.aol\.co\.uk$
+(^|\.)video\.aol\.com$
+(^|\.)search\.aol\.com$
+(^|\.)www\.aolnews\.com$
+
+#canadagoose
+(^|\.)canadagoose\.com$
+
+#imgur
+(^|\.)imgur\.com$
+(^|\.)i\.imgur\.com$
+
+#New York times
+(^|\.)static01\.nyt\.com$
+(^|\.)nyt\.com$
+(^|\.)nytchina\.com$
+(^|\.)nytcn\.me$
+(^|\.)nytco\.com$
+(^|\.)nytimes\.com$
+(^|\.)nytimg\.com$
+(^|\.)userapi\.nytlog\.com$
+(^|\.)cn\.nytstyle\.com$
+(^|\.)nytstyle\.com$
+(^|\.)app-measurement\.com$
+
+#wikipedia
+(^|\.)wikipedia\.org$
+(^|\.)en\.wikipedia\.org$
+(^|\.)wuu\.wikipedia\.org$
+(^|\.)www\.wikipedia\.org$
+(^|\.)zh-yue\.wikipedia\.org$
+(^|\.)zh\.m\.wikipedia\.org$
+(^|\.)zh\.wikipedia\.org$
+
+# Onenote
+(^|\.)onedrive\.live\.com$
+(^|\.)officeapps\.live\.com$
+(^|\.)docs\.live\.net$
+(^|\.)live\.net$
+(^|\.)live\.com$
+(^|\.)onenote\.com$
+
+#gmail
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)gmail\.com$
+(^|\.)imap\.gmail\.com$
+(^|\.)smtp\.gmail\.com$
+(^|\.)mail\.google\.com$
+(^|\.)smtp\.google\.com$
+(^|\.)imap\.google\.com$
+(^|\.)googlemail\.com$
+
+# Spark
+(^|\.)amplitude\.com$
+(^|\.)firebaseio\.com$
+(^|\.)hockeyapp\.net$
+(^|\.)smartmailcloud\.com$
+
 # 国外域名
 ^.*\.hk$
 ^.*\.tw$
@@ -7571,7 +7696,6 @@ syncbits.com
 (^|\.)ip138\.com$
 (^|\.)microsoft\.com$
 (^|\.)ping\.pe$
-(^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
 (^|\.)tvb\.com$
 (^|\.)twdvd\.com$
@@ -7588,7 +7712,6 @@ syncbits.com
 (^|\.)\w*facebook\w*\.\w*$
 (^|\.)\w*fbcdn\w*\.\w*$
 (^|\.)\w*github\w*\.\w*$
-(^|\.)\w*gmail\w*\.\w*$
 (^|\.)\w*google\w*\.\w*$
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)\w*porn\w*\.\w*$
@@ -7643,8 +7766,6 @@ syncbits.com
 (^|\.)edgecastcdn\.net$
 (^|\.)edgekey\.net$
 (^|\.)edgesuite\.net$
-(^|\.)en\.wikipedia\.org$
-(^|\.)eu-west-1\.console\.aws\.amazon\.com$
 (^|\.)eurekavpt\.com$
 (^|\.)facebook\.com$
 (^|\.)fastmail\.com$
@@ -7672,7 +7793,6 @@ syncbits.com
 (^|\.)kobo\.com$
 (^|\.)kobobooks\.com$
 (^|\.)licdn\.com$
-(^|\.)live\.net$
 (^|\.)livefilestore\.com$
 (^|\.)llnwd\.net$
 (^|\.)macrumors\.com$
@@ -7683,8 +7803,6 @@ syncbits.com
 (^|\.)netdna-cdn\.com$
 (^|\.)nintendo\.net$
 (^|\.)nsstatic\.net$
-(^|\.)nytstyle\.com$
-(^|\.)onedrive\.live\.com$
 (^|\.)openvpn\.net$
 (^|\.)periscope\.tv$
 (^|\.)pinimg\.com$
@@ -7692,8 +7810,6 @@ syncbits.com
 (^|\.)pixiv\.net$
 (^|\.)prfct\.co$
 (^|\.)resilio\.com$
-(^|\.)s3-ap-northeast-1\.amazonaws\.com$
-(^|\.)s3-ap-southeast-2\.amazonaws\.com$
 (^|\.)sfx\.ms$
 (^|\.)shadowsocks\.org$
 (^|\.)slack-edge\.com$
@@ -7723,15 +7839,10 @@ syncbits.com
 (^|\.)vine\.co$
 (^|\.)vox-cdn\.com$
 (^|\.)wikileaks\.org$
-(^|\.)wuu\.wikipedia\.org$
-(^|\.)www\.wikipedia\.org$
 (^|\.)www\.youtube-nocookie\.com$
 (^|\.)youtu\.be$
 (^|\.)youtube\.com$
 (^|\.)ytimg\.com$
-(^|\.)zh-yue\.wikipedia\.org$
-(^|\.)zh\.m\.wikipedia\.org$
-(^|\.)zh\.wikipedia\.org$
 
 # Other
 (^|\.)doub\.io$
@@ -7827,11 +7938,6 @@ syncbits.com
 198.45.48.0/20
 207.45.72.0/22
 208.75.76.0/24
-
-# Onenote
-(^|\.)live\.net$
-(^|\.)live\.com$
-(^|\.)onenote\.com$
 
 # Potato Chat
 (^|\.)potato\.im$
