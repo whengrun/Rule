@@ -1,17 +1,17 @@
 #**********************************************************************
-# 04.29
-# 2019年4月29日 20:32:24
+# 2019/5/1, 9:19 AM
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
+# 参照ACL4SSR的SSR规则改编，致谢!! https://github.com/ACL4SSR/ACL4SSR
 # 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
 # 参照scomper的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 #
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
 # [bypass_all] 默认直连
-# [outbound_block_list] 禁止访问列表 在25行
+# [outbound_block_list] 禁止访问列表 
 # [bypass_list] 直连列表 在1207多行
 # [proxy_list] 代理列表 在6874多行
 # [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
@@ -1479,6 +1479,27 @@
 #**********************************************************************
 [bypass_list]
 # 直连列表
+
+#FCM
+mtalk.google.com
+#mtalk4.google.com
+alt1-mtalk.google.com
+alt2-mtalk.google.com
+alt3-mtalk.google.com
+alt4-mtalk.google.com
+alt5-mtalk.google.com
+alt6-mtalk.google.com
+alt7-mtalk.google.com
+alt8-mtalk.google.com
+gcm.googleapis.com
+gcm.l.google.com
+gcm-xmpp.googleapis.com
+
+#MoneyWiz
+observices.wiz.money
+billing.wiz.money
+api.syncbits.com
+syncbits.com
 
 # CN域名直连
 ^.*\.cn$
