@@ -1,0 +1,10 @@
+# > Apple_News
+DOMAIN,gspe1-ssl.ls.apple.com,Apple_News
+PROCESS-NAME,News,Apple_News
+DOMAIN,gspe1-ssl.ls.apple.com,Apple_News
+USER-AGENT,AppleNews*,Apple_News
+DOMAIN-SUFFIX,apple.news,Apple_News
+DOMAIN,news-client.apple.com,Apple_News
+DOMAIN,news-edge.apple.com,Apple_News
+DOMAIN,news-events.apple.com,Apple_News
+DOMAIN,apple.comscoreresearch.com,Apple_News
