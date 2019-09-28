@@ -1,10 +1,24 @@
 # > Apple_News
 DOMAIN,gspe1-ssl.ls.apple.com,Apple_News
-PROCESS-NAME,News,Apple_News
+#PROCESS-NAME,News,Apple_News
 DOMAIN,gspe1-ssl.ls.apple.com,Apple_News
 USER-AGENT,AppleNews*,Apple_News
-DOMAIN-SUFFIX,apple.news,Apple_News
 DOMAIN,news-client.apple.com,Apple_News
 DOMAIN,news-edge.apple.com,Apple_News
 DOMAIN,news-events.apple.com,Apple_News
 DOMAIN,apple.comscoreresearch.com,Apple_News
+DOMAIN-SUFFIX,apple.news,Apple_News
+
+#DOMAIN-SUFFIX,news-events.apple.com,Apple_News
+#DOMAIN-SUFFIX,news-edge.apple.com,Apple_News
+#DOMAIN-SUFFIX,apple.comscoreresearch.com,Apple_News
+#DOMAIN-SUFFIX,play.itunes.apple.com,Apple_News
+#DOMAIN-SUFFIX,play-cdn.itunes-apple.com.akadns.net,Apple_News
+#DOMAIN-SUFFIX,ls.apple.com,Apple_News
+#DOMAIN-SUFFIX,cvws.apple-dns.net,Apple_News
+#DOMAIN-SUFFIX,news.apple-dns.net,Apple_News
+#DOMAIN-SUFFIX,gateway.fe.apple-dns.net,Apple_News
+#DOMAIN-SUFFIX,akamaiedge.net,Apple_News
+#DOMAIN-SUFFIX,gs-loc.apple.com,Apple_News
+#DOMAIN-SUFFIX,bag.itunes.apple.com,Apple_News
+#DOMAIN-SUFFIX,news.iadsdk.apple.com,Apple_News
