@@ -39,18 +39,14 @@ DOMAIN-SUFFIX,dtscout.com,UserRule
 DOMAIN-SUFFIX,techbang.com,UserRule
 DOMAIN-SUFFIX,amazon.com,UserRule
 DOMAIN-SUFFIX,imgur.com,UserRule
-
-# > Spark
-DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
-DOMAIN-SUFFIX,gmail.com,UserRule
-DOMAIN-SUFFIX,yahoo.com,UserRule
-DOMAIN-SUFFIX,aol.com,UserRule
-DOMAIN-SUFFIX,gate.hockeyapp.net,UserRule
-DOMAIN-SUFFIX,api.amplitude.com,UserRule
-DOMAIN-SUFFIX,api.login.yahoo.com,UserRule
 DOMAIN-SUFFIX,inplanesite.com,UserRule
 DOMAIN-SUFFIX,macworld.com,UserRule
 DOMAIN-SUFFIX,zoom.us,UserRule
+
+# > Spark
+DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
+DOMAIN-SUFFIX,gate.hockeyapp.net,UserRule
+DOMAIN-SUFFIX,api.amplitude.com,UserRule
 
 # > OneNote Start
 DOMAIN-SUFFIX,live.com,UserRule
