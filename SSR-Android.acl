@@ -171,6 +171,17 @@ syncbits.com
 [proxy_list]
 #代理列表
 
+# Samaung
+us-mop-api.samsungfeed.com
+api-partner.spotify.com
+googletagmanager.com
+secazgb-fota-dn.samsungdm.com
+ospserver.net
+
+# Protonmail
+protonvpn.com
+#protonmail.com
+
 # Onenote
 onedrive.live.com
 officeapps.live.com
@@ -179,12 +190,12 @@ docs.live.net
 (^|\.)live\.com$
 (^|\.)onenote\.com$
 
-#Spark
+# Spark
 smartmailcloud.com
 gate.hockeyapp.net
 api.amplitude.com
 
-#gmail
+# gmail
 gmail.com
 .gmail.com
 imap.gmail.com
@@ -704,7 +715,6 @@ pincong.rocks
 pixiv.net
 premproxy.com
 prism-break.org
-protonvpn.com
 api.pureapk.com
 quora.com
 quoracdn.net
