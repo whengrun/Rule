@@ -172,11 +172,12 @@ syncbits.com
 #代理列表
 
 # Samaung
-us-mop-api.samsungfeed.com
-api-partner.spotify.com
-googletagmanager.com
+samsungfeed.com
 secazgb-fota-dn.samsungdm.com
 ospserver.net
+
+#spotify
+spotify.com
 
 # Protonmail
 protonvpn.com
@@ -302,6 +303,7 @@ beacons.gcp.gvt2.com
 beacons5.gvt3.com
 beacons3.gvt2.com
 beacons4.gvt2.com
+googletagmanager.com
 
 # amazon
 amazon.co.jp
@@ -590,7 +592,6 @@ shiksha.com
 slacker.com
 sm-miracle.com
 soylentnews.org
-spotify.com
 spreadshirt.es
 springboardplatform.com
 sprite.org
