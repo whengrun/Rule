@@ -1,7 +1,8 @@
 DOMAIN-SUFFIX,hi.lanan.pro,UserRule
 DOMAIN-SUFFIX,maying.co,UserRule
 DOMAIN-SUFFIX,my.lanan.cloud,UserRule
-DOMAIN-SUFFIX,www.getoutline.org,UserRule
+DOMAIN-SUFFIX,getoutline.org,UserRule
+DOMAIN-SUFFIX,gnc.com,UserRule
 DOMAIN-SUFFIX,ftchinese.com,UserRule
 DOMAIN-SUFFIX,amazonaws.com,UserRule
 DOMAIN-SUFFIX,cloudtvapp.net,UserRule
@@ -13,8 +14,6 @@ DOMAIN-SUFFIX,kukudas.com,UserRule
 DOMAIN-SUFFIX,azureedge.net,UserRule
 DOMAIN-SUFFIX,evernote.com,UserRule
 DOMAIN-SUFFIX,googleapis.com,UserRule
-DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
-DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
 DOMAIN-SUFFIX,feeds.soundcloud.com,UserRule
 DOMAIN-SUFFIX,dts.podtrac.com,UserRule
 DOMAIN-SUFFIX,nightowl.kramser.xyz,UserRule
@@ -42,16 +41,39 @@ DOMAIN-SUFFIX,imgur.com,UserRule
 DOMAIN-SUFFIX,inplanesite.com,UserRule
 DOMAIN-SUFFIX,macworld.com,UserRule
 DOMAIN-SUFFIX,zoom.us,UserRule
+DOMAIN-SUFFIX,theguardian.com,UserRule
 
 # > Spark
 DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
 DOMAIN-SUFFIX,gate.hockeyapp.net,UserRule
 DOMAIN-SUFFIX,api.amplitude.com,UserRule
 
-# > OneNote Start
+# > MS live 
 DOMAIN-SUFFIX,live.com,UserRule
 DOMAIN-SUFFIX,live.net,UserRule
-DOMAIN-SUFFIX,officeapps.live.com,UserRule
-DOMAIN-SUFFIX,docs.live.net,UserRule
 DOMAIN-SUFFIX,onenote.com,UserRule
-# > OneNote End
+DOMAIN-SUFFIX,officeapps.live.com,UserRule
+DOMAIN-SUFFIX,onedrive.live.com,UserRule
+DOMAIN-SUFFIX,outlook.live.com,UserRule
+DOMAIN-SUFFIX,api.onedrive.com,UserRule
+DOMAIN-SUFFIX,storage.live.com,UserRule
+DOMAIN-SUFFIX,skyapi.live.net,UserRule
+
+# > Apple
+DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
+DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
+
+# > Protonmail
+DOMAIN-SUFFIX,protonvpn.com,UserRule
+DOMAIN-SUFFIX,protonmail.com,UserRule
+DOMAIN-SUFFIX,api.protonmail.ch,UserRule
+
+# > Yahoo
+DOMAIN-SUFFIX,yahoo.com,UserRule
+
+#> TD Ameritrade
+#DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
+#DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
+#DOMAIN-SUFFIX,trefis.com,TD Ameritrade
+#DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
+
