@@ -72,8 +72,8 @@ DOMAIN-SUFFIX,api.protonmail.ch,UserRule
 DOMAIN-SUFFIX,yahoo.com,UserRule
 
 #> TD Ameritrade
-#DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
-#DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
-#DOMAIN-SUFFIX,trefis.com,TD Ameritrade
-#DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
+DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
+DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
+DOMAIN-SUFFIX,trefis.com,TD Ameritrade
+DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
 
