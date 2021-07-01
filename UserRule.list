@@ -43,10 +43,15 @@ DOMAIN-SUFFIX,macworld.com,UserRule
 DOMAIN-SUFFIX,zoom.us,UserRule
 DOMAIN-SUFFIX,theguardian.com,UserRule
 
+# > Blueair
+DOMAIN-SUFFIX,blueair.io,DIRECT
+DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
+DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
+
 # > Spark
 DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
 DOMAIN-SUFFIX,gate.hockeyapp.net,UserRule
-DOMAIN-SUFFIX,api.amplitude.com,UserRule
+##DOMAIN-SUFFIX,api.amplitude.com,UserRule
 
 # > MS live 
 DOMAIN-SUFFIX,live.com,UserRule
