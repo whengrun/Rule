@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,69shu.com,UserRule
 DOMAIN-SUFFIX,dcs.megaphone.fm,UserRule
 DOMAIN-SUFFIX,cn.ft.com,UserRule
 DOMAIN-SUFFIX,yandex.com,UserRule
+DOMAIN-SUFFIX,rfi.fr,UserRule
 
 DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
 
