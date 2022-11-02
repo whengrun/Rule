@@ -4,6 +4,16 @@ DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com
 DOMAIN-SUFFIX,short.wechat.com
 
+#application
+PROCESS-NAME,Downie 4
+PROCESS-NAME,obfs4proxy
+PROCESS-NAME,tor.real
+PROCESS-NAME,tor.exe
+PROCESS-NAME,Tor Browser
+PROCESS-NAME,JavaApplicationStub
+PROCESS-NAME,OneDrive.exe
+PROCESS-NAME,OneDrive
+
 #others
 DOMAIN-SUFFIX,sub.ssr.ac
 DOMAIN-SUFFIX,nektony.com
