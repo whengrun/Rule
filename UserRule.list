@@ -42,6 +42,15 @@ DOMAIN-SUFFIX,inplanesite.com,UserRule
 DOMAIN-SUFFIX,macworld.com,UserRule
 DOMAIN-SUFFIX,zoom.us,UserRule
 DOMAIN-SUFFIX,theguardian.com,UserRule
+DOMAIN-SUFFIX,electrek.co,UserRule
+DOMAIN-SUFFIX,9to5mac.com,UserRule
+DOMAIN-SUFFIX,69shu.com,UserRule
+DOMAIN-SUFFIX,dcs.megaphone.fm,UserRule
+DOMAIN-SUFFIX,cn.ft.com,UserRule
+DOMAIN-SUFFIX,yandex.com,UserRule
+DOMAIN-SUFFIX,rfi.fr,UserRule
+
+DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
 
 # > Blueair
 DOMAIN-SUFFIX,blueair.io,DIRECT
@@ -72,6 +81,7 @@ DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
 DOMAIN-SUFFIX,protonvpn.com,UserRule
 DOMAIN-SUFFIX,protonmail.com,UserRule
 DOMAIN-SUFFIX,api.protonmail.ch,UserRule
+DOMAIN-SUFFIX,proton.me,UserRule
 
 # > Yahoo
 DOMAIN-SUFFIX,yahoo.com,UserRule
