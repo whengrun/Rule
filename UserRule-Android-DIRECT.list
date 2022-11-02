@@ -1,0 +1,12 @@
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,wechat.com
+
+DOMAIN-SUFFIX,interface.bilibili.com
+DOMAIN-SUFFIX,api.bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-KEYWORD,speedtest
+
+DOMAIN,clash.razord.top
+DOMAIN,yacd.haishan.me
