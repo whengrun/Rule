@@ -7,3 +7,5 @@ PROCESS-NAME,Tor Browser
 PROCESS-NAME,JavaApplicationStub
 PROCESS-NAME,OneDrive.exe
 PROCESS-NAME,OneDrive
+#PROCESS-NAME,HP.Smart.exe
+#DOMAIN-SUFFIX,login3.id.hp.com
