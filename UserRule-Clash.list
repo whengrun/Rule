@@ -1,5 +1,9 @@
 #UserRule
 DOMAIN-SUFFIX,sub.ssr.ac
+DOMAIN-SUFFIX,dw.com
+DOMAIN-SUFFIX,cdw.com
+DOMAIN-SUFFIX,ca.creaders.net
+DOMAIN-SUFFIX,soundofhope.org
 DOMAIN-SUFFIX,ptwxz.com
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,wsj.com
