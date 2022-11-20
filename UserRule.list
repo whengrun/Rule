@@ -1,81 +1,85 @@
-DOMAIN-SUFFIX,hi.lanan.pro,UserRule
+#UserRule
+DOMAIN-SUFFIX,dlercloud.com,UserRule
 DOMAIN-SUFFIX,maying.co,UserRule
-DOMAIN-SUFFIX,my.lanan.cloud,UserRule
+DOMAIN-SUFFIX,sub.ssr.ac,UserRule
+DOMAIN-SUFFIX,easyintnet.com,UserRule
 DOMAIN-SUFFIX,getoutline.org,UserRule
+DOMAIN-SUFFIX,pandafan.me,UserRule
+DOMAIN-SUFFIX,renzhe.cloud,UserRule
+DOMAIN-SUFFIX,paoluz.link,UserRule
+DOMAIN-SUFFIX,nameless13.com,UserRule
+DOMAIN-SUFFIX,sublinkxx.xyz,UserRule
+DOMAIN-SUFFIX,e-nets.xyz,UserRule
+DOMAIN-SUFFIX,maying.club,UserRule
+DOMAIN-SUFFIX,emby.maying.club,UserRule
 DOMAIN-SUFFIX,gnc.com,UserRule
 DOMAIN-SUFFIX,ftchinese.com,UserRule
-DOMAIN-SUFFIX,amazonaws.com,UserRule
 DOMAIN-SUFFIX,cloudtvapp.net,UserRule
-DOMAIN-SUFFIX,amazon.co.jp,UserRule
 DOMAIN-SUFFIX,f-secure.com,UserRule
-DOMAIN-SUFFIX,notebookcheck.net,UserRule
+DOMAIN-KEYWORD,notebookcheck,UserRule
 DOMAIN-SUFFIX,pigav.com,UserRule
 DOMAIN-SUFFIX,kukudas.com,UserRule
 DOMAIN-SUFFIX,azureedge.net,UserRule
-DOMAIN-SUFFIX,evernote.com,UserRule
-DOMAIN-SUFFIX,googleapis.com,UserRule
+DOMAIN-KEYWORD,evernote,UserRule
 DOMAIN-SUFFIX,feeds.soundcloud.com,UserRule
 DOMAIN-SUFFIX,dts.podtrac.com,UserRule
 DOMAIN-SUFFIX,nightowl.kramser.xyz,UserRule
 DOMAIN-SUFFIX,logitech.com,UserRule
+DOMAIN-SUFFIX,logi.com,UserRule
 DOMAIN-SUFFIX,airbus-shop.com,UserRule
 DOMAIN-SUFFIX,thule.com,UserRule
-DOMAIN-SUFFIX,rixcloud.com,UserRule
 DOMAIN-SUFFIX,funnycat.tv,UserRule
-DOMAIN-SUFFIX,ifixit.com,UserRule
-DOMAIN-SUFFIX,inside.com.tw,UserRule
-DOMAIN-SUFFIX,businessweekly.com.tw,UserRule
-DOMAIN-SUFFIX,ifixit.com,UserRule
 DOMAIN-SUFFIX,bose.com,UserRule
-DOMAIN-SUFFIX,pandafan.me,UserRule
-DOMAIN-SUFFIX,renzhe.cloud,UserRule
 DOMAIN-SUFFIX,wikipedia.org,UserRule
 DOMAIN-SUFFIX,forums.autodesk.com,UserRule
 DOMAIN-SUFFIX,origin.com,UserRule
 DOMAIN-SUFFIX,tynt.com,UserRule
 DOMAIN-SUFFIX,catchingnow.com,UserRule
 DOMAIN-SUFFIX,dtscout.com,UserRule
-DOMAIN-SUFFIX,techbang.com,UserRule
-DOMAIN-SUFFIX,amazon.com,UserRule
 DOMAIN-SUFFIX,imgur.com,UserRule
 DOMAIN-SUFFIX,inplanesite.com,UserRule
-DOMAIN-SUFFIX,macworld.com,UserRule
 DOMAIN-SUFFIX,zoom.us,UserRule
+DOMAIN-SUFFIX,dcs.megaphone.fm,UserRule
+DOMAIN-SUFFIX,yandex.com,UserRule
+DOMAIN-SUFFIX,cdw.com,UserRule
+DOMAIN-SUFFIX,nitter.it,UserRule
+DOMAIN-SUFFIX,setn.com,UserRule
+DOMAIN-SUFFIX,nektony.com,UserRule
+DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com,UserRule
+
+# > Media
+DOMAIN-SUFFIX,techbang.com,UserRule
+DOMAIN-KEYWORD,ifixit,UserRule
+DOMAIN-SUFFIX,inside.com.tw,UserRule
+DOMAIN-SUFFIX,businessweekly.com.tw,UserRule
+DOMAIN-SUFFIX,macworld.com,UserRule
 DOMAIN-SUFFIX,theguardian.com,UserRule
 DOMAIN-SUFFIX,electrek.co,UserRule
 DOMAIN-SUFFIX,9to5mac.com,UserRule
-DOMAIN-SUFFIX,69shu.com,UserRule
-DOMAIN-SUFFIX,dcs.megaphone.fm,UserRule
 DOMAIN-SUFFIX,cn.ft.com,UserRule
-DOMAIN-SUFFIX,yandex.com,UserRule
 DOMAIN-SUFFIX,rfi.fr,UserRule
+DOMAIN-SUFFIX,wsj.com,UserRule
+DOMAIN-SUFFIX,dw.com,UserRule
+DOMAIN-SUFFIX,creaders.net,UserRule
+DOMAIN-SUFFIX,soundofhope.org,UserRule
+DOMAIN-SUFFIX,rfa.org,UserRule
+DOMAIN-SUFFIX,yahoo.com,UserRule
+DOMAIN-SUFFIX,pressplay.cc,UserRule
+DOMAIN-SUFFIX,engadget.com,UserRule
+DOMAIN-SUFFIX,techcrunch.com,UserRule
+DOMAIN-SUFFIX,feedly.com,UserRule
 
-DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
+# > amazon
+DOMAIN-SUFFIX,amazonaws.com,UserRule
+DOMAIN-SUFFIX,amazon.co.jp,UserRule
+DOMAIN-SUFFIX,amazon.com,UserRule
 
-# > Blueair
-DOMAIN-SUFFIX,blueair.io,DIRECT
-DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
-DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
-
-# > Spark
-DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
-DOMAIN-SUFFIX,gate.hockeyapp.net,UserRule
-##DOMAIN-SUFFIX,api.amplitude.com,UserRule
-
-# > MS live 
-DOMAIN-SUFFIX,live.com,UserRule
-DOMAIN-SUFFIX,live.net,UserRule
-DOMAIN-SUFFIX,onenote.com,UserRule
-DOMAIN-SUFFIX,officeapps.live.com,UserRule
-DOMAIN-SUFFIX,onedrive.live.com,UserRule
-DOMAIN-SUFFIX,outlook.live.com,UserRule
-DOMAIN-SUFFIX,api.onedrive.com,UserRule
-DOMAIN-SUFFIX,storage.live.com,UserRule
-DOMAIN-SUFFIX,skyapi.live.net,UserRule
-
-# > Apple
-DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
-DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
+# > books
+DOMAIN-SUFFIX,69shu.com,UserRule
+DOMAIN-SUFFIX,uukanshu.com
+DOMAIN-SUFFIX,longmabookcn.com
+DOMAIN-SUFFIX,longmabook.com
+DOMAIN-SUFFIX,ptwxz.com
 
 # > Protonmail
 DOMAIN-SUFFIX,protonvpn.com,UserRule
@@ -83,8 +87,28 @@ DOMAIN-SUFFIX,protonmail.com,UserRule
 DOMAIN-SUFFIX,api.protonmail.ch,UserRule
 DOMAIN-SUFFIX,proton.me,UserRule
 
-# > Yahoo
-DOMAIN-SUFFIX,yahoo.com,UserRule
+# > MS
+DOMAIN-SUFFIX,storage.live.com,UserRule
+DOMAIN-SUFFIX,skyapi.live.net,UserRule
+DOMAIN-SUFFIX,g.live.com,UserRule
+DOMAIN-SUFFIX,live.net,UserRule
+DOMAIN-SUFFIX,onenote.com,UserRule
+DOMAIN-SUFFIX,officeapps.live.com,UserRule
+DOMAIN-SUFFIX,onedrive.live.com,UserRule
+DOMAIN-SUFFIX,outlook.live.com,UserRule
+DOMAIN-SUFFIX,api.onedrive.com,UserRule
+DOMAIN-SUFFIX,skydrivesync.policies.live.net,UserRule
+DOMAIN-SUFFIX,api.onedrive.com,UserRule
+DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,UserRule
+DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne,UserRule
+DOMAIN-SUFFIX,edge.microsoft.com,UserRule
+DOMAIN-SUFFIX,msn.com,UserRule
+DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,UserRule
+
+# > Spark
+DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
+DOMAIN-SUFFIX,gate.hockeyapp.net,UserRule
+#DOMAIN-SUFFIX,api.amplitude.com,UserRule
 
 #> TD Ameritrade
 DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
@@ -92,3 +116,55 @@ DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
 DOMAIN-SUFFIX,trefis.com,TD Ameritrade
 DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
 
+# > DIRECT
+DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
+
+# > Blueair
+DOMAIN-SUFFIX,blueair.io,DIRECT
+DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
+DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
+
+# > Apple
+DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
+DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
+
+# > google
+#DOMAIN-SUFFIX,googleapis.com,UserRule
+DOMAIN-SUFFIX,googleusercontent.com,UserRule
+
+DOMAIN-SUFFIX,ospserver.net,UserRule
+DOMAIN-SUFFIX,yugogo.xyz,UserRule
+DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com,UserRule
+DOMAIN-SUFFIX,charliemonroesoftware.com,UserRule
+DOMAIN-SUFFIX,app-measurement.com,UserRule
+DOMAIN-SUFFIX,cachefly.alfredapp.com,UserRule
+DOMAIN-SUFFIX,main-ecnpaper-economist.content.pugpig.com,UserRule
+DOMAIN-SUFFIX,api.apptentive.com,UserRule
+DOMAIN-SUFFIX,api.taplytics.com,UserRule
+DOMAIN-SUFFIX,canadagoose.com,UserRule
+DOMAIN-SUFFIX,arcteryx.com,UserRule
+DOMAIN-SUFFIX,vmware.com,UserRule
+DOMAIN-SUFFIX,yimg.com,UserRule
+IP-CIDR,52.84.49.0/24,UserRule
+DOMAIN-SUFFIX,github-releases.githubusercontent.com,UserRule
+DOMAIN-SUFFIX,thetvdb.com,UserRule
+DOMAIN-SUFFIX,javdb.com,UserRule
+DOMAIN-SUFFIX,substack.com,UserRule
+DOMAIN-SUFFIX,api.ipify.org,UserRule
+DOMAIN-SUFFIX,whrq.net,UserRule
+DOMAIN-SUFFIX,test-ipv6.com,UserRule
+DOMAIN-SUFFIX,hpe.com,UserRule
+DOMAIN-SUFFIX,vikacg.com,UserRule
+DOMAIN-SUFFIX,www.vikacg.com,UserRule
+DOMAIN-SUFFIX,sailoud.com,UserRule
+DOMAIN-SUFFIX,allin.vikacg.com,UserRule
+DOMAIN-SUFFIX,www.obdev.at,UserRule
+DOMAIN-SUFFIX,send.cm,UserRule
+DOMAIN-SUFFIX,sendcdn.com,UserRule
+DOMAIN-SUFFIX,nmac.to,UserRule
+DOMAIN-SUFFIX,macbed.com,UserRule
+DOMAIN-SUFFIX,notion-api.splitbee.io,UserRule
+DOMAIN-SUFFIX,notion.ronnie.workers.dev,UserRule
+DOMAIN-SUFFIX,themoviedb.org,UserRule
+DOMAIN-SUFFIX,ip.skk.moe,UserRule
+DOMAIN-SUFFIX,proxifier.com,UserRule
