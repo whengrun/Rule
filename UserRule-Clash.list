@@ -111,10 +111,10 @@ DOMAIN-SUFFIX,gate.hockeyapp.net
 #DOMAIN-SUFFIX,api.amplitude.com
 
 #> TD Ameritrade
-DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
-DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
-DOMAIN-SUFFIX,trefis.com,TD Ameritrade
-DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
+DOMAIN-SUFFIX,thinkorswim.com
+DOMAIN-SUFFIX,tdameritrade.com
+DOMAIN-SUFFIX,trefis.com
+DOMAIN-SUFFIX,ameritrade.com
 
 # > google
 DOMAIN-SUFFIX,www.google.com
