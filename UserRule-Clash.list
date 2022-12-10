@@ -68,6 +68,11 @@ DOMAIN-SUFFIX,pressplay.cc
 DOMAIN-SUFFIX,engadget.com
 DOMAIN-SUFFIX,techcrunch.com
 DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,10beasts.net
+DOMAIN-SUFFIX,chinadigitaltimes.net
+DOMAIN-SUFFIX,voachinese.com
+DOMAIN-KEYWORD,voa
+DOMAIN-SUFFIX,chinapress.com.my
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
@@ -86,7 +91,6 @@ DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,api.protonmail.ch
 DOMAIN-SUFFIX,proton.me
-DOMAIN-SUFFIX,10beasts.net
 
 # > MS
 DOMAIN-SUFFIX,storage.live.com
