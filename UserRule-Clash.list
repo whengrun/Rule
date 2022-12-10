@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,api.protonmail.ch
 DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,10beasts.net
 
 # > MS
 DOMAIN-SUFFIX,storage.live.com
