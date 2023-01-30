@@ -132,6 +132,7 @@ DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
 # > google
 #DOMAIN-SUFFIX,googleapis.com,UserRule
 DOMAIN-SUFFIX,googleusercontent.com,UserRule
+DOMAIN-SUFFIX,gmail.com,UserRule
 
 DOMAIN-SUFFIX,ospserver.net,UserRule
 DOMAIN-SUFFIX,yugogo.xyz,UserRule
