@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,pressplay.cc,UserRule
 DOMAIN-SUFFIX,engadget.com,UserRule
 DOMAIN-SUFFIX,techcrunch.com,UserRule
 DOMAIN-SUFFIX,feedly.com,UserRule
+DOMAIN-SUFFIX,v2ex.com,UserRule
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com,UserRule
