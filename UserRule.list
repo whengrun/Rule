@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,uukanshu.com,UserRule
 DOMAIN-SUFFIX,longmabookcn.com,UserRule
 DOMAIN-SUFFIX,longmabook.com,UserRule
 DOMAIN-SUFFIX,ptwxz.com,UserRule
+DOMAIN-SUFFIX,api.69xinshu.com,UserRule
 
 # > Protonmail
 DOMAIN-SUFFIX,protonvpn.com,UserRule
@@ -131,6 +132,7 @@ DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
 # > google
 #DOMAIN-SUFFIX,googleapis.com,UserRule
 DOMAIN-SUFFIX,googleusercontent.com,UserRule
+DOMAIN-SUFFIX,gmail.com,UserRule
 
 DOMAIN-SUFFIX,ospserver.net,UserRule
 DOMAIN-SUFFIX,yugogo.xyz,UserRule
