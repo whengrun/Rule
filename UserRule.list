@@ -46,6 +46,8 @@ DOMAIN-SUFFIX,nitter.it,UserRule
 DOMAIN-SUFFIX,setn.com,UserRule
 DOMAIN-SUFFIX,nektony.com,UserRule
 DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com,UserRule
+DOMAIN-SUFFIX,openstreetmap.org,UserRule
+DOMAIN-SUFFIX,zyxel.com,UserRule
 
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
