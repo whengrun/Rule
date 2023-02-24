@@ -48,6 +48,8 @@ DOMAIN-SUFFIX,nektony.com
 DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,openstreetmap.org
+DOMAIN-SUFFIX,zyxel.com
 
 # > Media
 DOMAIN-SUFFIX,techbang.com
