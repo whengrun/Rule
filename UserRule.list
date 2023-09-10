@@ -79,6 +79,7 @@ DOMAIN-SUFFIX,amazon.com,UserRule
 
 # > books
 DOMAIN-SUFFIX,69shu.com,UserRule
+DOMAIN-SUFFIX,69shuba.com,UserRule
 DOMAIN-SUFFIX,uukanshu.com,UserRule
 DOMAIN-SUFFIX,longmabookcn.com,UserRule
 DOMAIN-SUFFIX,longmabook.com,UserRule
