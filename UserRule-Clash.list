@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,zyxel.com
+DOMAIN-SUFFIX,godaddy.com
 
 # > Media
 DOMAIN-SUFFIX,techbang.com
