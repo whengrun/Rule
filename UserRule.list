@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,nektony.com,UserRule
 DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com,UserRule
 DOMAIN-SUFFIX,openstreetmap.org,UserRule
 DOMAIN-SUFFIX,zyxel.com,UserRule
+DOMAIN-SUFFIX,chineseaci.com,UserRule
 
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
