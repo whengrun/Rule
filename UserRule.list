@@ -50,6 +50,7 @@ DOMAIN-SUFFIX,openstreetmap.org,UserRule
 DOMAIN-SUFFIX,zyxel.com,UserRule
 DOMAIN-SUFFIX,chineseaci.com,UserRule
 DOMAIN-SUFFIX,nssurge.com,UserRule
+DOMAIN-SUFFIX,torrentmac.net,UserRule
 
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
