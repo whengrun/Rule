@@ -1,5 +1,6 @@
 #UserRule
 DOMAIN-SUFFIX,dlercloud.com,UserRule
+DOMAIN-SUFFIX,status.dler.io,UserRule
 DOMAIN-SUFFIX,maying.co,UserRule
 DOMAIN-SUFFIX,sub.ssr.ac,UserRule
 DOMAIN-SUFFIX,easyintnet.com,UserRule
