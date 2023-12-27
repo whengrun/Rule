@@ -25,8 +25,8 @@ DOMAIN-KEYWORD,evernote,UserRule
 DOMAIN-SUFFIX,feeds.soundcloud.com,UserRule
 DOMAIN-SUFFIX,dts.podtrac.com,UserRule
 DOMAIN-SUFFIX,nightowl.kramser.xyz,UserRule
-DOMAIN-SUFFIX,logitech.com,UserRule
-DOMAIN-SUFFIX,logi.com,UserRule
+# DOMAIN-SUFFIX,logitech.com,UserRule
+# DOMAIN-SUFFIX,logi.com,UserRule
 DOMAIN-SUFFIX,airbus-shop.com,UserRule
 DOMAIN-SUFFIX,thule.com,UserRule
 DOMAIN-SUFFIX,funnycat.tv,UserRule
