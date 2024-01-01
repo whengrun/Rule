@@ -138,6 +138,7 @@ DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 # > Apple
 DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
 DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
+DOMAIN-SUFFIX,gil.apple.com,UserRule
 
 # > google
 #DOMAIN-SUFFIX,googleapis.com,UserRule
