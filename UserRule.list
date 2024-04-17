@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,feedly.com,UserRule
 DOMAIN-SUFFIX,v2ex.com,UserRule
 DOMAIN-SUFFIX,voachinese.com,UserRule
 DOMAIN-SUFFIX,voanews.com,UserRule
+DOMAIN-SUFFIX,x.com,UserRule
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com,UserRule
