@@ -119,6 +119,7 @@ DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne,UserRule
 DOMAIN-SUFFIX,edge.microsoft.com,UserRule
 DOMAIN-SUFFIX,msn.com,UserRule
 DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,UserRule
+DOMAIN-SUFFIX,microsoft.com,UserRule
 
 # > Spark
 DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
