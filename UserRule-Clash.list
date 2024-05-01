@@ -134,6 +134,8 @@ DOMAIN-SUFFIX,ameritrade.com
 # > google
 DOMAIN-SUFFIX,www.google.com
 DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlevideo.com
 
 DOMAIN-SUFFIX,ospserver.net
 DOMAIN-SUFFIX,yugogo.xyz
