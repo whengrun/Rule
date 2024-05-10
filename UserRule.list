@@ -1,10 +1,11 @@
 #UserRule
 DOMAIN-SUFFIX,dlercloud.com,UserRule
+DOMAIN-SUFFIX,status.dler.io,UserRule
 DOMAIN-SUFFIX,maying.co,UserRule
 DOMAIN-SUFFIX,sub.ssr.ac,UserRule
 DOMAIN-SUFFIX,easyintnet.com,UserRule
 DOMAIN-SUFFIX,getoutline.org,UserRule
-DOMAIN-SUFFIX,pandafan.me,UserRule
+DOMAIN-SUFFIX,pandafan.pub,UserRule
 DOMAIN-SUFFIX,renzhe.cloud,UserRule
 DOMAIN-SUFFIX,paoluz.link,UserRule
 DOMAIN-SUFFIX,nameless13.com,UserRule
@@ -24,8 +25,8 @@ DOMAIN-KEYWORD,evernote,UserRule
 DOMAIN-SUFFIX,feeds.soundcloud.com,UserRule
 DOMAIN-SUFFIX,dts.podtrac.com,UserRule
 DOMAIN-SUFFIX,nightowl.kramser.xyz,UserRule
-DOMAIN-SUFFIX,logitech.com,UserRule
-DOMAIN-SUFFIX,logi.com,UserRule
+# DOMAIN-SUFFIX,logitech.com,UserRule
+# DOMAIN-SUFFIX,logi.com,UserRule
 DOMAIN-SUFFIX,airbus-shop.com,UserRule
 DOMAIN-SUFFIX,thule.com,UserRule
 DOMAIN-SUFFIX,funnycat.tv,UserRule
@@ -48,6 +49,12 @@ DOMAIN-SUFFIX,nektony.com,UserRule
 DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com,UserRule
 DOMAIN-SUFFIX,openstreetmap.org,UserRule
 DOMAIN-SUFFIX,zyxel.com,UserRule
+DOMAIN-SUFFIX,chineseaci.com,UserRule
+DOMAIN-SUFFIX,nssurge.com,UserRule
+DOMAIN-SUFFIX,torrentmac.net,UserRule
+
+# > AI
+DOMAIN-SUFFIX,perplexity.ai,AI
 
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
@@ -71,6 +78,9 @@ DOMAIN-SUFFIX,engadget.com,UserRule
 DOMAIN-SUFFIX,techcrunch.com,UserRule
 DOMAIN-SUFFIX,feedly.com,UserRule
 DOMAIN-SUFFIX,v2ex.com,UserRule
+DOMAIN-SUFFIX,voachinese.com,UserRule
+DOMAIN-SUFFIX,voanews.com,UserRule
+DOMAIN-SUFFIX,x.com,UserRule
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com,UserRule
@@ -79,6 +89,7 @@ DOMAIN-SUFFIX,amazon.com,UserRule
 
 # > books
 DOMAIN-SUFFIX,69shu.com,UserRule
+DOMAIN-SUFFIX,69shu.pro,UserRule
 DOMAIN-SUFFIX,69shuba.com,UserRule
 DOMAIN-SUFFIX,uukanshu.com,UserRule
 DOMAIN-SUFFIX,longmabookcn.com,UserRule
@@ -109,6 +120,7 @@ DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne,UserRule
 DOMAIN-SUFFIX,edge.microsoft.com,UserRule
 DOMAIN-SUFFIX,msn.com,UserRule
 DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,UserRule
+DOMAIN-SUFFIX,microsoft.com,UserRule
 
 # > Spark
 DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
@@ -132,11 +144,13 @@ DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 # > Apple
 DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
 DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
+DOMAIN-SUFFIX,gil.apple.com,UserRule
 
 # > google
 #DOMAIN-SUFFIX,googleapis.com,UserRule
 DOMAIN-SUFFIX,googleusercontent.com,UserRule
 DOMAIN-SUFFIX,gmail.com,UserRule
+DOMAIN-SUFFIX,googlevideo.com,UserRule
 
 DOMAIN-SUFFIX,ospserver.net,UserRule
 DOMAIN-SUFFIX,yugogo.xyz,UserRule
@@ -174,3 +188,4 @@ DOMAIN-SUFFIX,notion.ronnie.workers.dev,UserRule
 DOMAIN-SUFFIX,themoviedb.org,UserRule
 DOMAIN-SUFFIX,ip.skk.moe,UserRule
 DOMAIN-SUFFIX,proxifier.com,UserRule
+DOMAIN-SUFFIX,store.steampowered.com,UserRule
