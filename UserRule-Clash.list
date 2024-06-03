@@ -51,6 +51,8 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,googlevideo
 
 # > Media
 DOMAIN-SUFFIX,techbang.com
