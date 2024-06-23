@@ -59,10 +59,10 @@ DOMAIN-SUFFIX,perplexity.ai,AI
 # > Moneywiz
 DOMAIN-SUFFIX,billing.wiz.money,UserRule
 DOMAIN-SUFFIX,observices.wiz.money,UserRule
+DOMAIN-SUFFIX,api.syncbits.com,UserRule
 
 # > DIRECT
 # DOMAIN-SUFFIX,amplitude.com,DIRECT
-DOMAIN-SUFFIX,api.syncbits.com,DIRECT
 # DOMAIN-SUFFIX,gravatar.com,DIRECT
 # DOMAIN-SUFFIX,intercom.com,DIRECT
 DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
