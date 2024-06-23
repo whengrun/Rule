@@ -90,9 +90,15 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazon.com
 
+# > Moneywiz
+DOMAIN-SUFFIX,billing.wiz.money
+DOMAIN-SUFFIX,observices.wiz.money
+DOMAIN-SUFFIX,api.syncbits.com
+
 # > books
 DOMAIN-SUFFIX,69shu.com
 DOMAIN-SUFFIX,69shuba.com
+DOMAIN-SUFFIX,69shuba.pro
 DOMAIN-SUFFIX,uukanshu.com
 DOMAIN-SUFFIX,longmabookcn.com
 DOMAIN-SUFFIX,longmabook.com
