@@ -56,6 +56,13 @@ DOMAIN-SUFFIX,torrentmac.net,UserRule
 # > AI
 DOMAIN-SUFFIX,perplexity.ai,AI
 
+# > DIRECT
+DOMAIN-SUFFIX,amplitude.com,Direct
+DOMAIN-SUFFIX,wiz.money,Direct
+DOMAIN-SUFFIX,api.syncbits.com,Direct
+DOMAIN-SUFFIX,gravatar.com,Direct
+DOMAIN-SUFFIX,intercom.com,Direct
+
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
 DOMAIN-KEYWORD,ifixit,UserRule
