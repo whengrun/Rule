@@ -57,11 +57,18 @@ DOMAIN-SUFFIX,torrentmac.net,UserRule
 DOMAIN-SUFFIX,perplexity.ai,AI
 
 # > DIRECT
-DOMAIN-SUFFIX,amplitude.com,Direct
-DOMAIN-SUFFIX,wiz.money,Direct
-DOMAIN-SUFFIX,api.syncbits.com,Direct
-DOMAIN-SUFFIX,gravatar.com,Direct
-DOMAIN-SUFFIX,intercom.com,Direct
+# DOMAIN-SUFFIX,amplitude.com,DIRECT
+DOMAIN-SUFFIX,billing.wiz.money,DIRECT
+DOMAIN-SUFFIX,observices.wiz.money,DIRECT
+DOMAIN-SUFFIX,api.syncbits.com,DIRECT
+# DOMAIN-SUFFIX,gravatar.com,DIRECT
+# DOMAIN-SUFFIX,intercom.com,DIRECT
+DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
+
+# > Blueair
+DOMAIN-SUFFIX,blueair.io,DIRECT
+DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
+DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
@@ -140,14 +147,6 @@ DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
 DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
 DOMAIN-SUFFIX,trefis.com,TD Ameritrade
 DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
-
-# > DIRECT
-DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
-
-# > Blueair
-DOMAIN-SUFFIX,blueair.io,DIRECT
-DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
-DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 
 # > Apple
 DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
