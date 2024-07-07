@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,zyxel.com,UserRule
 DOMAIN-SUFFIX,chineseaci.com,UserRule
 DOMAIN-SUFFIX,nssurge.com,UserRule
 DOMAIN-SUFFIX,torrentmac.net,UserRule
+DOMAIN-SUFFIX,macked.homes,UserRule
 
 # > AI
 DOMAIN-SUFFIX,perplexity.ai,AI
@@ -93,7 +94,7 @@ DOMAIN-SUFFIX,pressplay.cc,UserRule
 DOMAIN-SUFFIX,engadget.com,UserRule
 DOMAIN-SUFFIX,techcrunch.com,UserRule
 DOMAIN-SUFFIX,feedly.com,UserRule
-DOMAIN-SUFFIX,v2ex.com,UserRule
+# DOMAIN-SUFFIX,v2ex.com,UserRule
 DOMAIN-SUFFIX,voachinese.com,UserRule
 DOMAIN-SUFFIX,voanews.com,UserRule
 DOMAIN-SUFFIX,x.com,UserRule
