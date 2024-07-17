@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,dlercloud.com,UserRule
 DOMAIN-SUFFIX,status.dler.io,UserRule
 DOMAIN-SUFFIX,maying.co,UserRule
 DOMAIN-SUFFIX,sub.ssr.ac,UserRule
+DOMAIN-SUFFIX,maying.club,UserRule
+DOMAIN-SUFFIX,emby.maying.club,UserRule
 DOMAIN-SUFFIX,easyintnet.com,UserRule
 DOMAIN-SUFFIX,getoutline.org,UserRule
 DOMAIN-SUFFIX,pandafan.pub,UserRule
@@ -11,8 +13,6 @@ DOMAIN-SUFFIX,paoluz.link,UserRule
 DOMAIN-SUFFIX,nameless13.com,UserRule
 DOMAIN-SUFFIX,sublinkxx.xyz,UserRule
 DOMAIN-SUFFIX,e-nets.xyz,UserRule
-DOMAIN-SUFFIX,maying.club,UserRule
-DOMAIN-SUFFIX,emby.maying.club,UserRule
 DOMAIN-SUFFIX,gnc.com,UserRule
 DOMAIN-SUFFIX,ftchinese.com,UserRule
 DOMAIN-SUFFIX,cloudtvapp.net,UserRule
@@ -52,9 +52,26 @@ DOMAIN-SUFFIX,zyxel.com,UserRule
 DOMAIN-SUFFIX,chineseaci.com,UserRule
 DOMAIN-SUFFIX,nssurge.com,UserRule
 DOMAIN-SUFFIX,torrentmac.net,UserRule
+DOMAIN-SUFFIX,macked.homes,UserRule
 
 # > AI
 DOMAIN-SUFFIX,perplexity.ai,AI
+
+# > Moneywiz
+DOMAIN-SUFFIX,billing.wiz.money,UserRule
+DOMAIN-SUFFIX,observices.wiz.money,UserRule
+DOMAIN-SUFFIX,api.syncbits.com,UserRule
+
+# > DIRECT
+# DOMAIN-SUFFIX,amplitude.com,DIRECT
+# DOMAIN-SUFFIX,gravatar.com,DIRECT
+# DOMAIN-SUFFIX,intercom.com,DIRECT
+DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
+
+# > Blueair
+DOMAIN-SUFFIX,blueair.io,DIRECT
+DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
+DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
@@ -77,7 +94,7 @@ DOMAIN-SUFFIX,pressplay.cc,UserRule
 DOMAIN-SUFFIX,engadget.com,UserRule
 DOMAIN-SUFFIX,techcrunch.com,UserRule
 DOMAIN-SUFFIX,feedly.com,UserRule
-DOMAIN-SUFFIX,v2ex.com,UserRule
+# DOMAIN-SUFFIX,v2ex.com,UserRule
 DOMAIN-SUFFIX,voachinese.com,UserRule
 DOMAIN-SUFFIX,voanews.com,UserRule
 DOMAIN-SUFFIX,x.com,UserRule
@@ -92,6 +109,7 @@ DOMAIN-SUFFIX,69shu.com,UserRule
 DOMAIN-SUFFIX,69shu.pro,UserRule
 DOMAIN-SUFFIX,69shuba.cx,UserRule
 DOMAIN-SUFFIX,69shuba.com,UserRule
+DOMAIN-SUFFIX,69shuba.pro,UserRule
 DOMAIN-SUFFIX,uukanshu.com,UserRule
 DOMAIN-SUFFIX,longmabookcn.com,UserRule
 DOMAIN-SUFFIX,longmabook.com,UserRule
@@ -105,23 +123,23 @@ DOMAIN-SUFFIX,api.protonmail.ch,UserRule
 DOMAIN-SUFFIX,proton.me,UserRule
 
 # > MS
-DOMAIN-SUFFIX,storage.live.com,UserRule
-DOMAIN-SUFFIX,skyapi.live.net,UserRule
-DOMAIN-SUFFIX,g.live.com,UserRule
-DOMAIN-SUFFIX,live.net,UserRule
+DOMAIN-SUFFIX,storage.live.com,DIRECT
+DOMAIN-SUFFIX,skyapi.live.net,DIRECT
+DOMAIN-SUFFIX,g.live.com,DIRECT
+DOMAIN-SUFFIX,live.net,DIRECT
 DOMAIN-SUFFIX,onenote.com,UserRule
-DOMAIN-SUFFIX,officeapps.live.com,UserRule
+DOMAIN-SUFFIX,officeapps.live.com,DIRECT
 DOMAIN-SUFFIX,onedrive.live.com,UserRule
-DOMAIN-SUFFIX,outlook.live.com,UserRule
-DOMAIN-SUFFIX,api.onedrive.com,UserRule
-DOMAIN-SUFFIX,skydrivesync.policies.live.net,UserRule
-DOMAIN-SUFFIX,api.onedrive.com,UserRule
-DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,UserRule
-DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne,UserRule
+DOMAIN-SUFFIX,outlook.live.com,DIRECT
+DOMAIN-SUFFIX,api.onedrive.com,DIRECT
+DOMAIN-SUFFIX,skydrivesync.policies.live.net,DIRECT
+DOMAIN-SUFFIX,api.onedrive.com,DIRECT
+DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,DIRECT
+DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne,DIRECT
 DOMAIN-SUFFIX,edge.microsoft.com,UserRule
 DOMAIN-SUFFIX,msn.com,UserRule
 DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,UserRule
-DOMAIN-SUFFIX,microsoft.com,UserRule
+DOMAIN-SUFFIX,microsoft.com,DIRECT
 
 # > Spark
 DOMAIN-SUFFIX,app.smartmailcloud.com,UserRule
@@ -133,14 +151,6 @@ DOMAIN-SUFFIX,thinkorswim.com,TD Ameritrade
 DOMAIN-SUFFIX,tdameritrade.com,TD Ameritrade
 DOMAIN-SUFFIX,trefis.com,TD Ameritrade
 DOMAIN-SUFFIX,ameritrade.com,TD Ameritrade
-
-# > DIRECT
-DOMAIN-SUFFIX,api.mixpanel.com,DIRECT
-
-# > Blueair
-DOMAIN-SUFFIX,blueair.io,DIRECT
-DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
-DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 
 # > Apple
 DOMAIN-SUFFIX,books.itunes.apple.com,UserRule
