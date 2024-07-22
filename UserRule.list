@@ -99,6 +99,7 @@ DOMAIN-SUFFIX,voachinese.com,UserRule
 DOMAIN-SUFFIX,voanews.com,UserRule
 DOMAIN-SUFFIX,x.com,UserRule
 DOMAIN-SUFFIX,cn.nytimes.com,UserRule
+DOMAIN-SUFFIX,nyt.com,UserRule
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com,UserRule

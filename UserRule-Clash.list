@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,cn.nytimes.com
+DOMAIN-SUFFIX,nyt.com
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
