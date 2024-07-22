@@ -98,6 +98,7 @@ DOMAIN-SUFFIX,feedly.com,UserRule
 DOMAIN-SUFFIX,voachinese.com,UserRule
 DOMAIN-SUFFIX,voanews.com,UserRule
 DOMAIN-SUFFIX,x.com,UserRule
+DOMAIN-SUFFIX,cn.nytimes.com,UserRule
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com,UserRule
