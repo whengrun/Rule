@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nodejs.org
 
 #plex
-#DOMAIN,plex.tv
+DOMAIN,plex.tv
 DOMAIN,metadata.provider.plex.tv
 DOMAIN,analytics.plex.tv
 DOMAIN,scrobbles.plex.tv
