@@ -32,7 +32,7 @@ DOMAIN,downloads.plex.tv
 DOMAIN,meta.plex.tv
 
 #Ubiquiti
-DOMAIN,config.ubnt.com
-DOMAIN,setup.svc.ui.com
-DOMAIN,static.ubnt.com
-DOMAIN,trace.svc.ui.com
+#DOMAIN,config.ubnt.com
+#DOMAIN,setup.svc.ui.com
+#DOMAIN,static.ubnt.com
+#DOMAIN,trace.svc.ui.com
