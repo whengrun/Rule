@@ -1,4 +1,4 @@
-#UserRule
+# > UserRule
 DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,maying.co
 DOMAIN-SUFFIX,sub.ssr.ac
@@ -51,8 +51,9 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,godaddy.com
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,googlevideo
+
+# > CloudFlare
+DOMAIN,one.one.one.one
 
 # > Media
 DOMAIN-SUFFIX,techbang.com
@@ -137,7 +138,7 @@ DOMAIN-SUFFIX,app.smartmailcloud.com
 DOMAIN-SUFFIX,gate.hockeyapp.net
 #DOMAIN-SUFFIX,api.amplitude.com
 
-#> TD Ameritrade
+# > TD Ameritrade
 DOMAIN-SUFFIX,thinkorswim.com
 DOMAIN-SUFFIX,tdameritrade.com
 DOMAIN-SUFFIX,trefis.com
@@ -149,6 +150,8 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,pki.goog
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,googlevideo
 
 DOMAIN-SUFFIX,ospserver.net
 DOMAIN-SUFFIX,yugogo.xyz
