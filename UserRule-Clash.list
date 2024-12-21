@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,registry-1.docker.io
 
 # > CloudFlare
 DOMAIN,one.one.one.one
