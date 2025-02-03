@@ -15,7 +15,7 @@ DOMAIN-KEYWORD,speedtest
 DOMAIN,clash.razord.top
 DOMAIN,yacd.haishan.me
 
-#
+#1password
 DOMAIN-SUFFIX,1password.com
 
 #cscec
@@ -23,3 +23,7 @@ DOMAIN-SUFFIX,cscec.com
 
 #home
 DOMAIN-SUFFIX,piranhaone.me
+
+#Adobe
+DOMAIN,photos.adobe.io
+DOMAIN,lcs-cops.adobe.io

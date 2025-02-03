@@ -165,6 +165,11 @@ DOMAIN-SUFFIX,googleusercontent.com,UserRule
 DOMAIN-SUFFIX,gmail.com,UserRule
 DOMAIN-SUFFIX,googlevideo.com,UserRule
 
+# > Adobe
+DOMAIN,photos.adobe.io,DIRECT
+DOMAIN,lcs-cops.adobe.io,DIRECT
+DOMAIN-SUFFIX,adobe.io,REJECT
+
 DOMAIN-SUFFIX,ospserver.net,UserRule
 DOMAIN-SUFFIX,yugogo.xyz,UserRule
 DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com,UserRule

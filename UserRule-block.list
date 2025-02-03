@@ -1,2 +1,5 @@
 DOMAIN,api.lemonsqueezy.com
 DOMAIN,screen.studio
+
+#Adobe
+DOMAIN-SUFFIX,adobe.io
