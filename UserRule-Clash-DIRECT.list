@@ -24,6 +24,15 @@ DOMAIN-SUFFIX,cscec.com
 #home
 DOMAIN-SUFFIX,piranhaone.me
 
+#synology
+DOMAIN,checkip.synology.com
+DOMAIN,ddns.synology.com
+
+#plex
+DOMAIN,v4.plex.tv
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,me.plexapp.com
+
 #Adobe
 DOMAIN,photos.adobe.io
 DOMAIN,lcs-cops.adobe.io

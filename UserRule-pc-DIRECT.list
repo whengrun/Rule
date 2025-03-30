@@ -67,9 +67,3 @@
 IP-CIDR,10.224.1.0/24
 IP-CIDR,10.33.33.0/28
 IP-CIDR,10.66.66.0/27
-DOMAIN,checkip.synology.com
-DOMAIN,ddns.synology.com
-DOMAIN-SUFFIX,piranhaone.me
-DOMAIN,v4.plex.tv
-DOMAIN-SUFFIX,plex.direct
-DOMAIN-SUFFIX,me.plexapp.com
