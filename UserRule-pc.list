@@ -34,6 +34,11 @@ DOMAIN,image.tmdb.org
 DOMAIN,downloads.plex.tv
 DOMAIN,meta.plex.tv
 
+#wireguard
+DOMAIN-SUFFIX,wireguard.com
+DOMAIN-SUFFIX,download.wireguard.com
+DOMAIN-SUFFIX,www.wireguard.com
+
 #Ubiquiti
 #DOMAIN,config.ubnt.com
 #DOMAIN,setup.svc.ui.com
