@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,bingwallpaper.anerg.com
 
 # > CloudFlare
 DOMAIN,one.one.one.one
