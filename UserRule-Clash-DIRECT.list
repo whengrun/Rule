@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,cscec.com
 
 #home
 DOMAIN-SUFFIX,piranhaone.me
+DOMAIN-SUFFIX,www.piranhaone.me
 
 #synology
 DOMAIN,checkip.synology.com
