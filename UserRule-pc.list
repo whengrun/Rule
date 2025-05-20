@@ -6,8 +6,8 @@ PROCESS-NAME,tor
 PROCESS-NAME,tor.exe
 PROCESS-NAME,Tor Browser.app
 PROCESS-NAME,JavaApplicationStub
-PROCESS-NAME,OneDrive.exe
-PROCESS-NAME,OneDrive
+#PROCESS-NAME,OneDrive.exe
+#PROCESS-NAME,OneDrive
 #PROCESS-NAME,HP.Smart.exe
 #DOMAIN-SUFFIX,login3.id.hp.com
 DOMAIN-SUFFIX,npmjs.org
