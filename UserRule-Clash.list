@@ -91,6 +91,7 @@ DOMAIN-SUFFIX,cn.nytimes.com
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,thestreet.com
+DOMAIN-SUFFIX,forum.chineseaci.com
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
