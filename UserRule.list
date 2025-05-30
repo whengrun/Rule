@@ -101,6 +101,8 @@ DOMAIN-SUFFIX,voanews.com,UserRule
 DOMAIN-SUFFIX,x.com,UserRule
 DOMAIN-SUFFIX,cn.nytimes.com,UserRule
 DOMAIN-SUFFIX,nyt.com,UserRule
+DOMAIN-SUFFIX,appleinsider.com,UserRule
+DOMAIN-SUFFIX,thestreet.com,UserRule
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com,UserRule
