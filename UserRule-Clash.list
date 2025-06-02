@@ -198,3 +198,8 @@ DOMAIN-SUFFIX,perplexity.ai
 
 #Emotn store
 DOMAIN-SUFFIX,keeflys.com
+
+#huggingface
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN,cdn-lfs-us-1.hf.co
