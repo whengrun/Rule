@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,bingwallpaper.anerg.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,nodejs.org
 
 # > CloudFlare
 DOMAIN,one.one.one.one
@@ -121,19 +123,18 @@ DOMAIN-SUFFIX,api.protonmail.ch
 DOMAIN-SUFFIX,proton.me
 
 # > MS
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,skyapi.live.net
-DOMAIN-SUFFIX,g.live.com
+#DOMAIN-SUFFIX,storage.live.com
+#DOMAIN-SUFFIX,skyapi.live.net
+#DOMAIN-SUFFIX,g.live.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,officeapps.live.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,outlook.live.com
-DOMAIN-SUFFIX,api.onedrive.com
-DOMAIN-SUFFIX,skydrivesync.policies.live.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
-DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne
+#DOMAIN-SUFFIX,api.onedrive.com
+#DOMAIN-SUFFIX,skydrivesync.policies.live.net
+#DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
+#DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne
 DOMAIN-SUFFIX,edge.microsoft.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
@@ -203,3 +204,35 @@ DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN,cdn-lfs-us-1.hf.co
+
+#plex
+#DOMAIN,plex.tv
+DOMAIN-SUFFIX,provider.plex.tv
+DOMAIN-SUFFIX,pubsub.plex.tv
+DOMAIN-SUFFIX,images.plex.tv
+DOMAIN,metadata.provider.plex.tv
+DOMAIN,analytics.plex.tv
+DOMAIN,scrobbles.plex.tv
+DOMAIN,assets.plex.tv
+DOMAIN,mbz.plex.tv
+DOMAIN,acoustid.plex.tv
+DOMAIN,me.plexapp.com
+DOMAIN,lyricfind.plex.tv
+DOMAIN,songkick.plex.tv
+DOMAIN,lastfm.freetls.fastly.net
+DOMAIN,notifications.plex.tv
+DOMAIN,metadata-static.plex.tv
+DOMAIN,image.tmdb.org
+DOMAIN,downloads.plex.tv
+DOMAIN,meta.plex.tv
+
+#wireguard
+DOMAIN-SUFFIX,wireguard.com
+DOMAIN-SUFFIX,download.wireguard.com
+DOMAIN-SUFFIX,www.wireguard.com
+
+#Ubiquiti
+#DOMAIN,config.ubnt.com
+#DOMAIN,setup.svc.ui.com
+#DOMAIN,static.ubnt.com
+#DOMAIN,trace.svc.ui.com
