@@ -56,6 +56,10 @@ DOMAIN-SUFFIX,bingwallpaper.anerg.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nodejs.org
 
+# > nothing phone
+DOMAIN-SUFFIX,us.nothing.tech
+DOMAIN-SUFFIX,nothing.tech
+
 # > CloudFlare
 DOMAIN,one.one.one.one
 
