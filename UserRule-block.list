@@ -5,4 +5,4 @@ DOMAIN,screen.studio
 DOMAIN-SUFFIX,adobe.io
 
 #AdGuard
-DOMAIN,api.adguard.org
+#DOMAIN,api.adguard.org
