@@ -3,3 +3,6 @@ DOMAIN,screen.studio
 
 #Adobe
 DOMAIN-SUFFIX,adobe.io
+
+#AdGuard
+DOMAIN,api.adguard.org
