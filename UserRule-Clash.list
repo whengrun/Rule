@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,bingwallpaper.anerg.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nodejs.org
+DOMAIN-SUFFIX,wiki.metacubex.one
 
 # > nothing phone
 DOMAIN-SUFFIX,us.nothing.tech
