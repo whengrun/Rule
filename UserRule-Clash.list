@@ -217,6 +217,9 @@ DOMAIN-SUFFIX,www.wireguard.com
 DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,anchor.fm
 
+# > Gork
+DOMAIN-SUFFIX,grok.com
+
 DOMAIN-SUFFIX,ospserver.net
 DOMAIN-SUFFIX,yugogo.xyz
 DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
