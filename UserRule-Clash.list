@@ -220,6 +220,7 @@ DOMAIN-SUFFIX,anchor.fm
 # > Gork
 DOMAIN-SUFFIX,grok.com
 
+# > Other
 DOMAIN-SUFFIX,ospserver.net
 DOMAIN-SUFFIX,yugogo.xyz
 DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
@@ -257,3 +258,5 @@ DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,ip.skk.moe
 DOMAIN-SUFFIX,proxifier.com
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,tenor.com
+DOMAIN-SUFFIX,media.tenor.com
