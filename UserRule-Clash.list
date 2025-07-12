@@ -99,10 +99,12 @@ DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,thestreet.com
 DOMAIN-SUFFIX,forum.chineseaci.com
+DOMAIN-SUFFIX,v2ex.pro
 DOMAIN,preview.redd.it
 DOMAIN,styles.redditmedia.com
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
