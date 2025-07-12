@@ -99,6 +99,10 @@ DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,thestreet.com
 DOMAIN-SUFFIX,forum.chineseaci.com
+DOMAIN,preview.redd.it
+DOMAIN,styles.redditmedia.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
@@ -163,6 +167,8 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,googlevideo
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,android.apis.google.com
 
 # > apple Podcast 
 DOMAIN,amp-api.podcasts.apple.com
