@@ -105,6 +105,7 @@ DOMAIN,styles.redditmedia.com
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,gitbook.io
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
