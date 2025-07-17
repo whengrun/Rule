@@ -3,3 +3,4 @@ DOMAIN-SUFFIX,short.weixin.qq.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com
 DOMAIN-SUFFIX,short.wechat.com
+GEOSITE,googlefcm
