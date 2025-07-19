@@ -168,6 +168,7 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,dns.google
 #DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,googlevideo
 DOMAIN-SUFFIX,googleapis.com
