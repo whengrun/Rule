@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,bingwallpaper.anerg.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,wiki.metacubex.one
+DOMAIN,fcm-toolbox-public.web.app
 
 # > nothing phone
 DOMAIN-SUFFIX,us.nothing.tech
