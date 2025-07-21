@@ -13,50 +13,7 @@ DOMAIN-SUFFIX,sublinkxx.xyz
 DOMAIN-SUFFIX,e-nets.xyz
 DOMAIN-SUFFIX,maying.club
 DOMAIN-SUFFIX,emby.maying.club
-DOMAIN-SUFFIX,gnc.com
-DOMAIN-SUFFIX,ftchinese.com
-DOMAIN-SUFFIX,cloudtvapp.net
-DOMAIN-SUFFIX,f-secure.com
-DOMAIN-KEYWORD,notebookcheck
-DOMAIN-SUFFIX,pigav.com
-DOMAIN-SUFFIX,kukudas.com
-DOMAIN-SUFFIX,azureedge.net
-DOMAIN-KEYWORD,evernote
-DOMAIN-SUFFIX,feeds.soundcloud.com
-DOMAIN-SUFFIX,dts.podtrac.com
-DOMAIN-SUFFIX,nightowl.kramser.xyz
-DOMAIN-SUFFIX,logitech.com
-DOMAIN-SUFFIX,logi.com
-DOMAIN-SUFFIX,airbus-shop.com
-DOMAIN-SUFFIX,thule.com
-DOMAIN-SUFFIX,funnycat.tv
-DOMAIN-SUFFIX,bose.com
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,forums.autodesk.com
-DOMAIN-SUFFIX,origin.com
-DOMAIN-SUFFIX,tynt.com
-DOMAIN-SUFFIX,catchingnow.com
-DOMAIN-SUFFIX,dtscout.com
-DOMAIN-SUFFIX,imgur.com
-DOMAIN-SUFFIX,inplanesite.com
-DOMAIN-SUFFIX,zoom.us
-DOMAIN-SUFFIX,dcs.megaphone.fm
-DOMAIN-SUFFIX,yandex.com
-DOMAIN-SUFFIX,cdw.com
-DOMAIN-SUFFIX,nitter.it
-DOMAIN-SUFFIX,setn.com
-DOMAIN-SUFFIX,nektony.com
-DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openstreetmap.org
-DOMAIN-SUFFIX,zyxel.com
-DOMAIN-SUFFIX,godaddy.com
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,bingwallpaper.anerg.com
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,nodejs.org
-DOMAIN-SUFFIX,wiki.metacubex.one
-DOMAIN,fcm-toolbox-public.web.app
+DOMAIN-SUFFIX,ip.skk.moe
 
 # > nothing phone
 DOMAIN-SUFFIX,us.nothing.tech
@@ -107,6 +64,8 @@ DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,ftchinese.com
+DOMAIN-KEYWORD,notebookcheck
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
@@ -174,6 +133,7 @@ DOMAIN-SUFFIX,dns.google
 DOMAIN-KEYWORD,googlevideo
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,android.apis.google.com
+DOMAIN-SUFFIX,tenor.googleapis.com
 
 # > apple Podcast 
 DOMAIN,amp-api.podcasts.apple.com
@@ -231,34 +191,62 @@ DOMAIN-SUFFIX,anchor.fm
 # > Gork
 DOMAIN-SUFFIX,grok.com
 
+# > Github
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+
+# > Samsung
+DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
+
+# > Meta
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net
+
+# > AI
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,openai.com
+
+# > Corp
+DOMAIN-SUFFIX,canadagoose.com
+DOMAIN-SUFFIX,arcteryx.com
+DOMAIN-SUFFIX,vmware.com
+DOMAIN-SUFFIX,hpe.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,logitech.com
+DOMAIN-SUFFIX,logi.com
+DOMAIN-SUFFIX,airbus-shop.com
+DOMAIN-SUFFIX,f-secure.com
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,zyxel.com
+DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,gnc.com
+DOMAIN-SUFFIX,thule.com
+DOMAIN-SUFFIX,bose.com
+DOMAIN-SUFFIX,obdev.at
+
+# > Porn
+DOMAIN-SUFFIX,vikacg.com
+DOMAIN-SUFFIX,www.vikacg.com
+DOMAIN-SUFFIX,sailoud.com
+DOMAIN-SUFFIX,allin.vikacg.com
+DOMAIN-SUFFIX,javdb.com
+DOMAIN-SUFFIX,pigav.com
+
 # > Other
 DOMAIN-SUFFIX,ospserver.net
 DOMAIN-SUFFIX,yugogo.xyz
-DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
 DOMAIN-SUFFIX,charliemonroesoftware.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,cachefly.alfredapp.com
 DOMAIN-SUFFIX,main-ecnpaper-economist.content.pugpig.com
 DOMAIN-SUFFIX,api.apptentive.com
 DOMAIN-SUFFIX,api.taplytics.com
-DOMAIN-SUFFIX,canadagoose.com
-DOMAIN-SUFFIX,arcteryx.com
-DOMAIN-SUFFIX,vmware.com
 DOMAIN-SUFFIX,yimg.com
 IP-CIDR,52.84.49.0/24
-DOMAIN-SUFFIX,github-releases.githubusercontent.com
 DOMAIN-SUFFIX,thetvdb.com
-DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,substack.com
 DOMAIN-SUFFIX,api.ipify.org
 DOMAIN-SUFFIX,whrq.net
 DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,hpe.com
-DOMAIN-SUFFIX,vikacg.com
-DOMAIN-SUFFIX,www.vikacg.com
-DOMAIN-SUFFIX,sailoud.com
-DOMAIN-SUFFIX,allin.vikacg.com
-DOMAIN-SUFFIX,www.obdev.at
 DOMAIN-SUFFIX,send.cm
 DOMAIN-SUFFIX,sendcdn.com
 DOMAIN-SUFFIX,nmac.to
@@ -266,10 +254,35 @@ DOMAIN-SUFFIX,macbed.com
 DOMAIN-SUFFIX,notion-api.splitbee.io
 DOMAIN-SUFFIX,notion.ronnie.workers.dev
 DOMAIN-SUFFIX,themoviedb.org
-DOMAIN-SUFFIX,ip.skk.moe
 DOMAIN-SUFFIX,proxifier.com
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,media.tenor.com
-DOMAIN-SUFFIX,tenor.googleapis.com
 DOMAIN-SUFFIX,f-droid.org
+DOMAIN-SUFFIX,cloudtvapp.net
+DOMAIN-SUFFIX,kukudas.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,feeds.soundcloud.com
+DOMAIN-SUFFIX,dts.podtrac.com
+DOMAIN-SUFFIX,nightowl.kramser.xyz
+DOMAIN-SUFFIX,funnycat.tv
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,forums.autodesk.com
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,tynt.com
+DOMAIN-SUFFIX,catchingnow.com
+DOMAIN-SUFFIX,dtscout.com
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,inplanesite.com
+DOMAIN-SUFFIX,dcs.megaphone.fm
+DOMAIN-SUFFIX,cdw.com
+DOMAIN-SUFFIX,nitter.it
+DOMAIN-SUFFIX,setn.com
+DOMAIN-SUFFIX,nektony.com
+DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com
+DOMAIN-SUFFIX,openstreetmap.org
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,bingwallpaper.anerg.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,nodejs.org
+DOMAIN-SUFFIX,wiki.metacubex.one
+DOMAIN,fcm-toolbox-public.web.app
