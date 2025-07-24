@@ -3,9 +3,3 @@ DOMAIN-SUFFIX,short.weixin.qq.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com
 DOMAIN-SUFFIX,short.wechat.com
-
-# > Google FCM
-# GEOSITE,googlefcm
-DOMAIN,mtalk4.google.com
-DOMAIN,mtalk-staging.google.com
-DOMAIN,mtalk-dev.google.com
