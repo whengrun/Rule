@@ -188,9 +188,6 @@ DOMAIN-SUFFIX,www.wireguard.com
 DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,anchor.fm
 
-# > Gork
-DOMAIN-SUFFIX,grok.com
-
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
 
@@ -204,6 +201,8 @@ DOMAIN-SUFFIX,threads.net
 # > AI
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
 
 # > Corp
 DOMAIN-SUFFIX,canadagoose.com
