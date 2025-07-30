@@ -74,6 +74,9 @@ DOMAIN-SUFFIX,blueair.io,DIRECT
 DOMAIN-SUFFIX,amazonaws.com.cn,DIRECT
 DOMAIN-SUFFIX,socialize.cn1.sapcdm.cn,DIRECT
 
+# > juejin
+DOMAIN-SUFFIX,juejin.cn,DIRECT
+
 # > Media
 DOMAIN-SUFFIX,techbang.com,UserRule
 DOMAIN-KEYWORD,ifixit,UserRule
