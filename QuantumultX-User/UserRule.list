@@ -55,6 +55,9 @@ DOMAIN-SUFFIX,torrentmac.net,UserRule
 DOMAIN-SUFFIX,macked.homes,UserRule
 DOMAIN-SUFFIX,bingwallpaper.anerg.com,UserRule
 
+# > Podcast
+DOMAIN-SUFFIX,pocketcasts.com,UserRule
+
 # > AI
 DOMAIN-SUFFIX,perplexity.ai,AI
 

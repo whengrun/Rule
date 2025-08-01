@@ -188,6 +188,7 @@ DOMAIN-SUFFIX,www.wireguard.com
 # > podcast
 DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,anchor.fm
+DOMAIN-SUFFIX,pocketcasts.com
 
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
