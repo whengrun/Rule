@@ -55,6 +55,9 @@ DOMAIN-SUFFIX,torrentmac.net,UserRule
 DOMAIN-SUFFIX,macked.homes,UserRule
 DOMAIN-SUFFIX,bingwallpaper.anerg.com,UserRule
 
+# > Wechat
+DOMAIN-SUFFIX,wsx.qq.com,REJECT
+
 # > Podcast
 DOMAIN-SUFFIX,pocketcasts.com,UserRule
 

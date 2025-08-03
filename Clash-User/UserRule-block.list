@@ -1,8 +1,11 @@
 DOMAIN,api.lemonsqueezy.com
 DOMAIN,screen.studio
 
-#Adobe
+# > Adobe
 DOMAIN-SUFFIX,adobe.io
 
-#AdGuard
+# > AdGuard
 #DOMAIN,api.adguard.org
+
+# > Wechat
+DOMAIN-SUFFIX,wsx.qq.com
