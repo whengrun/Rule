@@ -15,10 +15,6 @@ DOMAIN-SUFFIX,maying.club
 DOMAIN-SUFFIX,emby.maying.club
 DOMAIN-SUFFIX,ip.skk.moe
 
-# > nothing phone
-DOMAIN-SUFFIX,us.nothing.tech
-DOMAIN-SUFFIX,nothing.tech
-
 # > CloudFlare
 DOMAIN,one.one.one.one
 
@@ -146,9 +142,6 @@ DOMAIN-SUFFIX,lookup-api.apple.com
 DOMAIN,play.itunes.apple.com
 DOMAIN,xp.apple.com
 
-# > Emotn store
-DOMAIN-SUFFIX,keeflys.com
-
 # > huggingface
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,huggingface.co
@@ -194,8 +187,13 @@ DOMAIN-SUFFIX,pocketcasts.com
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
 
-# > Samsung
+# > Cellphone & TV
+DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
+DOMAIN-SUFFIX,us.nothing.tech
+DOMAIN-SUFFIX,nothing.tech
+DOMAIN-SUFFIX,talkeracr.app
+DOMAIN,fcm-toolbox-public.web.app
 
 # > Drive
 DOMAIN-SUFFIX,mypikpak.com
@@ -330,4 +328,3 @@ DOMAIN-SUFFIX,bingwallpaper.anerg.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,wiki.metacubex.one
-DOMAIN,fcm-toolbox-public.web.app
