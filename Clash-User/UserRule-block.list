@@ -9,3 +9,6 @@ DOMAIN-SUFFIX,adobe.io
 
 # > Wechat
 DOMAIN-SUFFIX,wsx.qq.com
+
+# > Autodesk
+DOMAIN,genuine-software2.autodesk.com
