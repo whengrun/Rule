@@ -65,6 +65,7 @@ DOMAIN-KEYWORD,notebookcheck
 DOMAIN-SUFFIX,v2rayssr.com
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,hk01.com
+DOMAIN-SUFFIX,economist.com
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
@@ -134,15 +135,6 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,android.apis.google.com
 DOMAIN-SUFFIX,tenor.googleapis.com
 
-# > apple Podcast 
-DOMAIN,amp-api.podcasts.apple.com
-DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
-DOMAIN,bag.itunes.apple.com
-DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,lookup-api.apple.com
-DOMAIN,play.itunes.apple.com
-DOMAIN,xp.apple.com
-
 # > huggingface
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,huggingface.co
@@ -181,9 +173,20 @@ DOMAIN-SUFFIX,www.wireguard.com
 #DOMAIN,trace.svc.ui.com
 
 # > podcast
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,xp.apple.com
 DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,anchor.fm
 DOMAIN-SUFFIX,pocketcasts.com
+DOMAIN,bbc.pdn.tritondigital.com
+DOMAIN,rss.soundon.fm
+DOMAIN,news-assets.apple.com
+DOMAIN,sphinx.acast.com
 
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
