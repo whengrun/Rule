@@ -187,6 +187,8 @@ DOMAIN,bbc.pdn.tritondigital.com
 DOMAIN,rss.soundon.fm
 DOMAIN,news-assets.apple.com
 DOMAIN,sphinx.acast.com
+DOMAIN,stitcher2.acast.com
+DOMAIN-SUFFIX,acast.com
 
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
