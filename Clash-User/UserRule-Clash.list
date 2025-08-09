@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,hk01.com
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,hket.com
+DOMAIN-SUFFIX,storm.mg
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
