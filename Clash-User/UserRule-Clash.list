@@ -113,6 +113,7 @@ DOMAIN-SUFFIX,outlook.live.com
 DOMAIN-SUFFIX,edge.microsoft.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
+DOMAIN-SUFFIX,onedrive.live.com
 
 # > Spark
 DOMAIN-SUFFIX,app.smartmailcloud.com
