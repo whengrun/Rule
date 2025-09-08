@@ -69,6 +69,8 @@ DOMAIN-SUFFIX,hk01.com
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,hket.com
 DOMAIN-SUFFIX,storm.mg
+DOMAIN-SUFFIX,zh.cn.nikkei.com
+DOMAIN-SUFFIX,nikkei.com
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
