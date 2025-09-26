@@ -46,3 +46,6 @@ GEOSITE,googlefcm
 DOMAIN,mtalk4.google.com
 DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk-dev.google.com
+
+# > Piranhaone.me
+DOMAIN,wallos.piranhaone.me
