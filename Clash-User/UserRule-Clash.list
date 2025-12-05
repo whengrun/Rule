@@ -184,7 +184,7 @@ DOMAIN-SUFFIX,www.wireguard.com
 #DOMAIN,trace.svc.ui.com
 
 # > podcast
-DOMAIN,amp-api.podcasts.apple.com
+DOMAIN-SUFFIX,amp-api.podcasts.apple.com
 DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
 DOMAIN,bag.itunes.apple.com
 DOMAIN-SUFFIX,podcasts.apple.com
@@ -200,6 +200,13 @@ DOMAIN,news-assets.apple.com
 DOMAIN,sphinx.acast.com
 DOMAIN,stitcher2.acast.com
 DOMAIN-SUFFIX,acast.com
+DOMAIN-SUFFIX,past.im
+DOMAIN,fpinit.itunes.apple.com
+DOMAIN,entitlements-edge.itunes.apple.com
+#DOMAIN,setup.icloud.com
+DOMAIN,play.itunes.apple.com
+DOMAIN-SUFFIX,buzzsprout.com
+DOMAIN-SUFFIX,open.live.bbc.co.uk
 
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
