@@ -60,6 +60,28 @@ DOMAIN-SUFFIX,wsx.qq.com,REJECT
 
 # > Podcast
 DOMAIN-SUFFIX,pocketcasts.com,UserRule
+DOMAIN-SUFFIX,amp-api.podcasts.apple.com,UserRule
+DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule
+DOMAIN,bag.itunes.apple.com,UserRule
+DOMAIN-SUFFIX,podcasts.apple.com,UserRule
+DOMAIN-SUFFIX,lookup-api.apple.com,UserRule
+DOMAIN,play.itunes.apple.com,UserRule
+DOMAIN,xp.apple.com,UserRule
+DOMAIN-SUFFIX,pdst.fm,UserRule
+DOMAIN-SUFFIX,anchor.fm,UserRule
+DOMAIN,bbc.pdn.tritondigital.com,UserRule
+DOMAIN,rss.soundon.fm,UserRule
+DOMAIN,news-assets.apple.com,UserRule
+DOMAIN,sphinx.acast.com,UserRule
+DOMAIN,stitcher2.acast.com,UserRule
+DOMAIN-SUFFIX,acast.com,UserRule
+DOMAIN-SUFFIX,past.im,UserRule
+DOMAIN,fpinit.itunes.apple.com,UserRule
+DOMAIN,entitlements-edge.itunes.apple.com,UserRule
+#DOMAIN,setup.icloud.com,UserRule
+DOMAIN,play.itunes.apple.com,UserRule
+DOMAIN-SUFFIX,buzzsprout.com,UserRule
+DOMAIN-SUFFIX,open.live.bbc.co.uk,UserRule
 
 # > AI
 DOMAIN-SUFFIX,perplexity.ai,AI
