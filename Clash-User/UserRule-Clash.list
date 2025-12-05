@@ -207,6 +207,26 @@ DOMAIN,entitlements-edge.itunes.apple.com
 DOMAIN,play.itunes.apple.com
 DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,open.live.bbc.co.uk
+DOMAIN-SUFFIX,moon.fm
+DOMAIN,11-courier.push.apple.com
+DOMAIN,22883.mc.tritondigital.com
+DOMAIN,audio.buzzsprout.com
+DOMAIN,chrt.fm
+DOMAIN,chtbl.com
+DOMAIN,content.libsyn.com
+DOMAIN,d3ctxlq1ktw2nl.cloudfront.net
+DOMAIN,file.cdn.firstory.me
+DOMAIN,filesb.soundon.fm
+DOMAIN,is1-ssl.mzstatic.com
+DOMAIN,m.cdn.firstory.me
+DOMAIN,mcdn.podbean.com
+DOMAIN,media.xyzcdn.net
+DOMAIN,s318.podbean.com
+DOMAIN,sph.mc.tritondigital.com
+DOMAIN,sw.soundon.fm
+DOMAIN,traffic.omny.fm
+DOMAIN,www.buzzsprout.com
+DOMAIN,y2pod.com
 
 # > Github
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
