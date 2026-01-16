@@ -260,6 +260,7 @@ DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,auth.grokipedia.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,invoice.stripe.com
 DOMAIN-SUFFIX,stripe.com

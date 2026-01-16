@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,open.live.bbc.co.uk,UserRule
 
 # > AI
 DOMAIN-SUFFIX,perplexity.ai,AI
+DOMAIN-SUFFIX,auth.grokipedia.com,AI
 
 # > Moneywiz
 DOMAIN-SUFFIX,billing.wiz.money,UserRule
