@@ -73,6 +73,8 @@ DOMAIN-SUFFIX,zh.cn.nikkei.com
 DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,worldjournal.com
+DOMAIN-SUFFIX,dq.yam.com
+DOMAIN-SUFFIX,singtao.ca
 
 # > amazon
 DOMAIN-SUFFIX,amazonaws.com
