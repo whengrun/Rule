@@ -21,8 +21,6 @@ DOMAIN,one.one.one.one
 # > Media
 DOMAIN-SUFFIX,techbang.com
 DOMAIN-KEYWORD,ifixit
-DOMAIN-SUFFIX,inside.com.tw
-DOMAIN-SUFFIX,businessweekly.com.tw
 DOMAIN-SUFFIX,macworld.com
 DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,electrek.co
@@ -34,7 +32,6 @@ DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,creaders.net
 DOMAIN-SUFFIX,soundofhope.org
 DOMAIN-SUFFIX,rfa.org
-DOMAIN-SUFFIX,pressplay.cc
 DOMAIN-SUFFIX,engadget.com
 DOMAIN-SUFFIX,techcrunch.com
 DOMAIN-SUFFIX,feedly.com
