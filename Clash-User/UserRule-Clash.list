@@ -97,6 +97,10 @@ DOMAIN-SUFFIX,haodoo.org
 DOMAIN-SUFFIX,zh.annas-archive.li
 DOMAIN-SUFFIX,24hbook.com
 DOMAIN-SUFFIX,annas-archive.li
+DOMAIN-SUFFIX,z-library.co
+DOMAIN-SUFFIX,z-lib.ai
+DOMAIN-SUFFIX,z-lib.id
+DOMAIN-SUFFIX,scribd.com
 
 # > Protonmail
 DOMAIN-SUFFIX,protonvpn.com
@@ -375,5 +379,3 @@ DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,wiki.metacubex.one
 DOMAIN-SUFFIX,affinity.studio
 DOMAIN-SUFFIX,canva.com
-DOMAIN-SUFFIX,z-library.co
-DOMAIN-SUFFIX,scribd.com
