@@ -27,6 +27,7 @@ DOMAIN,www.piranhaone.me
 DOMAIN,plex.piranhaone.me
 DOMAIN,wallos.piranhaone.me
 DOMAIN,speed.piranhaone.me
+DOMAIN,tesla.piranhaone.me
 
 #synology
 DOMAIN,checkip.synology.com
@@ -46,6 +47,3 @@ GEOSITE,googlefcm
 DOMAIN,mtalk4.google.com
 DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk-dev.google.com
-
-# > Piranhaone.me
-DOMAIN,wallos.piranhaone.me
