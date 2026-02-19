@@ -268,7 +268,7 @@ DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,invoice.stripe.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,sentry.io
+#DOMAIN-SUFFIX,sentry.io #和媒体规则重复
 IP-CIDR,142.251.43.10/31
 IP-CIDR,142.251.43.12/31
 IP-CIDR,142.251.43.14/32
