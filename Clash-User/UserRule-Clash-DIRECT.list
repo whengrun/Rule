@@ -28,6 +28,7 @@ DOMAIN,plex.piranhaone.me
 DOMAIN,wallos.piranhaone.me
 DOMAIN,speed.piranhaone.me
 DOMAIN,tesla.piranhaone.me
+PROCESS-NAME,HedgieMate
 
 #synology
 DOMAIN,checkip.synology.com
