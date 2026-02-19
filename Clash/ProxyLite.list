@@ -265,6 +265,7 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
@@ -359,6 +360,7 @@ DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 #DOMAIN-SUFFIX,aria.microsoft.com
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
 
 # Porn
 DOMAIN-KEYWORD,porn
@@ -398,24 +400,24 @@ DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
 # Steam
-#DOMAIN-SUFFIX,fanatical.com
-#DOMAIN-SUFFIX,humblebundle.com
-#DOMAIN-SUFFIX,underlords.com
-#DOMAIN-SUFFIX,valvesoftware.com
-#DOMAIN-SUFFIX,playartifact.com
-#DOMAIN-SUFFIX,steam-chat.com
-#DOMAIN-SUFFIX,steamcommunity.com
-#DOMAIN-SUFFIX,steamgames.com
-#DOMAIN-SUFFIX,steampowered.com
-#DOMAIN-SUFFIX,steamserver.net
-#DOMAIN-SUFFIX,steamstatic.com
-#DOMAIN-SUFFIX,steamstat.us
-#DOMAIN,steambroadcast.akamaized.net
-#DOMAIN,steamcommunity-a.akamaihd.net
-#DOMAIN,steamstore-a.akamaihd.net
-#DOMAIN,steamusercontent-a.akamaihd.net
-#DOMAIN,steamuserimages-a.akamaihd.net
-#DOMAIN,steampipe.akamaized.net
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,steampipe.akamaized.net
 
 # TapTap
 DOMAIN-SUFFIX,tap.io
