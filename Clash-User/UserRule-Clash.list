@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,api.lemonsqueezy.com
 DOMAIN-SUFFIX,scootersoftware.com
 DOMAIN,static.adguard.com
+DOMAIN,download.clipgrab.org
 
 # > CloudFlare
 DOMAIN,one.one.one.one
