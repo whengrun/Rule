@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,static.adtidy.org
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,api.lemonsqueezy.com
 DOMAIN-SUFFIX,scootersoftware.com
+DOMAIN,static.adguard.com
 
 # > CloudFlare
 DOMAIN,one.one.one.one
