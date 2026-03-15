@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,formulae.brew.sh
 DOMAIN-SUFFIX,static.adtidy.org
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,api.lemonsqueezy.com
+DOMAIN-SUFFIX,scootersoftware.com
 
 # > CloudFlare
 DOMAIN,one.one.one.one
