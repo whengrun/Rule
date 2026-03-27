@@ -1,0 +1,51 @@
+payload:
+  # > tencent
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,wechat.com
+
+  # > bilibili
+  - DOMAIN-SUFFIX,interface.bilibili.com
+  - DOMAIN-SUFFIX,api.bilibili.com
+  - DOMAIN-SUFFIX,hdslb.com
+
+  # > speedtest
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-KEYWORD,speedtest
+
+  # > yacd
+  - DOMAIN,clash.razord.top
+  - DOMAIN,yacd.haishan.me
+
+  # > 1password
+  - DOMAIN-SUFFIX,1password.com
+
+  # > cscec
+  - DOMAIN-SUFFIX,cscec.com
+
+  # > home
+  - DOMAIN-SUFFIX,piranhaone.me
+  - DOMAIN,www.piranhaone.me
+  - DOMAIN,plex.piranhaone.me
+  - DOMAIN,wallos.piranhaone.me
+  - DOMAIN,speed.piranhaone.me
+  - DOMAIN,tesla.piranhaone.me
+  - PROCESS-NAME,HedgieMate
+
+  # > synology
+  - DOMAIN,checkip.synology.com
+  - DOMAIN,ddns.synology.com
+
+  # > plex
+  - DOMAIN,v4.plex.tv
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,me.plexapp.com
+
+  # > Adobe
+  - DOMAIN,photos.adobe.io
+  - DOMAIN,lcs-cops.adobe.io
+
+  # > Google FCM
+  - GEOSITE,googlefcm
+  - DOMAIN,mtalk4.google.com
+  - DOMAIN,mtalk-staging.google.com
+  - DOMAIN,mtalk-dev.google.com

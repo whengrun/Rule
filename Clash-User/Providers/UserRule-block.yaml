@@ -1,0 +1,15 @@
+payload:
+  - DOMAIN,api.lemonsqueezy.com
+  - DOMAIN,screen.studio
+
+  # > Adobe
+  - DOMAIN-SUFFIX,adobe.io
+
+  # > AdGuard
+  # DOMAIN,api.adguard.org
+
+  # > Wechat
+  - DOMAIN-SUFFIX,wsx.qq.com
+
+  # > Autodesk
+  - DOMAIN,genuine-software2.autodesk.com

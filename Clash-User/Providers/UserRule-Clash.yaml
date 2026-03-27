@@ -1,0 +1,393 @@
+payload:
+  # > UserRule
+  - DOMAIN-SUFFIX,dlercloud.com
+  - DOMAIN-SUFFIX,maying.co
+  - DOMAIN-SUFFIX,sub.ssr.ac
+  - DOMAIN-SUFFIX,easyintnet.com
+  - DOMAIN-SUFFIX,getoutline.org
+  - DOMAIN-SUFFIX,pandafan.me
+  - DOMAIN-SUFFIX,renzhe.cloud
+  - DOMAIN-SUFFIX,paoluz.link
+  - DOMAIN-SUFFIX,paoluz.com
+  - DOMAIN-SUFFIX,nameless13.com
+  - DOMAIN-SUFFIX,sublinkxx.xyz
+  - DOMAIN-SUFFIX,e-nets.xyz
+  - DOMAIN-SUFFIX,maying.club
+  - DOMAIN-SUFFIX,emby.maying.club
+  - DOMAIN-SUFFIX,ip.skk.moe
+
+  # > Updatest
+  - DOMAIN-SUFFIX,formulae.brew.sh
+  - DOMAIN-SUFFIX,static.adtidy.org
+  - DOMAIN-SUFFIX,s3.amazonaws.com
+  - DOMAIN-SUFFIX,api.lemonsqueezy.com
+  - DOMAIN-SUFFIX,scootersoftware.com
+  - DOMAIN,static.adguard.com
+  - DOMAIN,download.clipgrab.org
+
+  # > CloudFlare
+  - DOMAIN,one.one.one.one
+
+  # > Media
+  - DOMAIN-SUFFIX,techbang.com
+  - DOMAIN-KEYWORD,ifixit
+  - DOMAIN-SUFFIX,macworld.com
+  - DOMAIN-SUFFIX,theguardian.com
+  - DOMAIN-SUFFIX,electrek.co
+  - DOMAIN-SUFFIX,9to5mac.com
+  - DOMAIN-SUFFIX,cn.ft.com
+  - DOMAIN-SUFFIX,rfi.fr
+  - DOMAIN-SUFFIX,wsj.com
+  - DOMAIN-SUFFIX,dw.com
+  - DOMAIN-SUFFIX,creaders.net
+  - DOMAIN-SUFFIX,soundofhope.org
+  - DOMAIN-SUFFIX,rfa.org
+  - DOMAIN-SUFFIX,engadget.com
+  - DOMAIN-SUFFIX,techcrunch.com
+  - DOMAIN-SUFFIX,feedly.com
+  - DOMAIN-SUFFIX,10beasts.net
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,chinadigitaltimes.net
+  - DOMAIN-SUFFIX,voachinese.com
+  - DOMAIN-KEYWORD,voa
+  - DOMAIN-SUFFIX,chinapress.com.my
+  - DOMAIN-SUFFIX,enanyang.my
+  - DOMAIN-SUFFIX,udn.com
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,cn.nytimes.com
+  - DOMAIN-SUFFIX,nyt.com
+  - DOMAIN-SUFFIX,appleinsider.com
+  - DOMAIN-SUFFIX,thestreet.com
+  - DOMAIN-SUFFIX,forum.chineseaci.com
+  - DOMAIN-SUFFIX,v2ex.pro
+  - DOMAIN,preview.redd.it
+  - DOMAIN,styles.redditmedia.com
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
+  - DOMAIN-SUFFIX,redditspace.com
+  - DOMAIN-SUFFIX,gitbook.io
+  - DOMAIN-SUFFIX,ftchinese.com
+  - DOMAIN-KEYWORD,notebookcheck
+  - DOMAIN-SUFFIX,v2rayssr.com
+  - DOMAIN-SUFFIX,mobile01.com
+  - DOMAIN-SUFFIX,hk01.com
+  - DOMAIN-SUFFIX,economist.com
+  - DOMAIN-SUFFIX,hket.com
+  - DOMAIN-SUFFIX,storm.mg
+  - DOMAIN-SUFFIX,zh.cn.nikkei.com
+  - DOMAIN-SUFFIX,nikkei.com
+  - DOMAIN-SUFFIX,nodeseek.com
+  - DOMAIN-SUFFIX,worldjournal.com
+  - DOMAIN-SUFFIX,dq.yam.com
+  - DOMAIN-SUFFIX,singtao.ca
+
+  # > amazon
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.com
+
+  # > Moneywiz
+  - DOMAIN-SUFFIX,billing.wiz.money
+  - DOMAIN-SUFFIX,observices.wiz.money
+  - DOMAIN-SUFFIX,api.syncbits.com
+
+  # > books
+  - DOMAIN-SUFFIX,69shu.com
+  - DOMAIN-SUFFIX,69shuba.com
+  - DOMAIN-SUFFIX,69shuba.pro
+  - DOMAIN-SUFFIX,69shuba.cx
+  - DOMAIN-SUFFIX,uukanshu.com
+  - DOMAIN-SUFFIX,longmabookcn.com
+  - DOMAIN-SUFFIX,longmabook.com
+  - DOMAIN-SUFFIX,ptwxz.com
+  - DOMAIN-SUFFIX,api.69xinshu.com
+  - DOMAIN-SUFFIX,haodoo.org
+  - DOMAIN-SUFFIX,zh.annas-archive.li
+  - DOMAIN-SUFFIX,24hbook.com
+  - DOMAIN-SUFFIX,annas-archive.li
+  - DOMAIN-SUFFIX,z-library.co
+  - DOMAIN-SUFFIX,z-lib.ai
+  - DOMAIN-SUFFIX,z-lib.id
+  - DOMAIN-SUFFIX,scribd.com
+
+  # > Protonmail
+  - DOMAIN-SUFFIX,protonvpn.com
+  - DOMAIN-SUFFIX,protonmail.com
+  - DOMAIN-SUFFIX,api.protonmail.ch
+  - DOMAIN-SUFFIX,proton.me
+
+  # > MS
+  # DOMAIN-SUFFIX,storage.live.com
+  # DOMAIN-SUFFIX,skyapi.live.net
+  # DOMAIN-SUFFIX,g.live.com
+  - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,onenote.com
+  - DOMAIN-SUFFIX,officeapps.live.com
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,outlook.live.com
+  # DOMAIN-SUFFIX,api.onedrive.com
+  # DOMAIN-SUFFIX,skydrivesync.policies.live.net
+  # DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
+  # DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne
+  - DOMAIN-SUFFIX,edge.microsoft.com
+  - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
+  - DOMAIN-SUFFIX,onedrive.live.com
+
+  # > Spark
+  - DOMAIN-SUFFIX,app.smartmailcloud.com
+  - DOMAIN-SUFFIX,gate.hockeyapp.net
+  # DOMAIN-SUFFIX,api.amplitude.com
+
+  # > TD Ameritrade
+  - DOMAIN-SUFFIX,thinkorswim.com
+  - DOMAIN-SUFFIX,tdameritrade.com
+  - DOMAIN-SUFFIX,trefis.com
+  - DOMAIN-SUFFIX,ameritrade.com
+
+  # > google
+  - DOMAIN-SUFFIX,www.google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,pki.goog
+  - DOMAIN-SUFFIX,dns.google
+  # DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,googlevideo
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,android.apis.google.com
+  - DOMAIN-SUFFIX,tenor.googleapis.com
+
+  # > huggingface
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN,cdn-lfs-us-1.hf.co
+
+  # > plex
+  # DOMAIN,plex.tv
+  - DOMAIN-SUFFIX,provider.plex.tv
+  - DOMAIN-SUFFIX,pubsub.plex.tv
+  - DOMAIN-SUFFIX,images.plex.tv
+  - DOMAIN,metadata.provider.plex.tv
+  - DOMAIN,analytics.plex.tv
+  - DOMAIN,scrobbles.plex.tv
+  - DOMAIN,assets.plex.tv
+  - DOMAIN,mbz.plex.tv
+  - DOMAIN,acoustid.plex.tv
+  - DOMAIN,me.plexapp.com
+  - DOMAIN,lyricfind.plex.tv
+  - DOMAIN,songkick.plex.tv
+  - DOMAIN,lastfm.freetls.fastly.net
+  - DOMAIN,notifications.plex.tv
+  - DOMAIN,metadata-static.plex.tv
+  - DOMAIN,image.tmdb.org
+  - DOMAIN,downloads.plex.tv
+  - DOMAIN,meta.plex.tv
+
+  # > wireguard
+  - DOMAIN-SUFFIX,wireguard.com
+  - DOMAIN-SUFFIX,download.wireguard.com
+  - DOMAIN-SUFFIX,www.wireguard.com
+
+  # > Ubiquiti
+  # DOMAIN,config.ubnt.com
+  # DOMAIN,setup.svc.ui.com
+  # DOMAIN,static.ubnt.com
+  # DOMAIN,trace.svc.ui.com
+
+  # > podcast
+  - DOMAIN-SUFFIX,amp-api.podcasts.apple.com
+  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
+  - DOMAIN,bag.itunes.apple.com
+  - DOMAIN-SUFFIX,podcasts.apple.com
+  - DOMAIN-SUFFIX,lookup-api.apple.com
+  - DOMAIN,play.itunes.apple.com
+  - DOMAIN,xp.apple.com
+  - DOMAIN-SUFFIX,pdst.fm
+  - DOMAIN-SUFFIX,anchor.fm
+  - DOMAIN-SUFFIX,pocketcasts.com
+  - DOMAIN,bbc.pdn.tritondigital.com
+  - DOMAIN,rss.soundon.fm
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,sphinx.acast.com
+  - DOMAIN,stitcher2.acast.com
+  - DOMAIN-SUFFIX,acast.com
+  - DOMAIN-SUFFIX,past.im
+  - DOMAIN,fpinit.itunes.apple.com
+  - DOMAIN,entitlements-edge.itunes.apple.com
+  # DOMAIN,setup.icloud.com
+  - DOMAIN,play.itunes.apple.com
+  - DOMAIN-SUFFIX,buzzsprout.com
+  - DOMAIN-SUFFIX,open.live.bbc.co.uk
+  - DOMAIN-SUFFIX,moon.fm
+  - DOMAIN,11-courier.push.apple.com
+  - DOMAIN,22883.mc.tritondigital.com
+  - DOMAIN,audio.buzzsprout.com
+  - DOMAIN,chrt.fm
+  - DOMAIN,chtbl.com
+  - DOMAIN,content.libsyn.com
+  - DOMAIN,d3ctxlq1ktw2nl.cloudfront.net
+  - DOMAIN,file.cdn.firstory.me
+  - DOMAIN,filesb.soundon.fm
+  - DOMAIN,is1-ssl.mzstatic.com
+  - DOMAIN,m.cdn.firstory.me
+  - DOMAIN,mcdn.podbean.com
+  - DOMAIN,media.xyzcdn.net
+  - DOMAIN,s318.podbean.com
+  - DOMAIN,sph.mc.tritondigital.com
+  - DOMAIN,sw.soundon.fm
+  - DOMAIN,traffic.omny.fm
+  - DOMAIN,www.buzzsprout.com
+  - DOMAIN,y2pod.com
+
+  # > Github
+  - DOMAIN-SUFFIX,github-releases.githubusercontent.com
+
+  # > Cellphone & TV
+  - DOMAIN-SUFFIX,keeflys.com
+  - DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
+  - DOMAIN-SUFFIX,us.nothing.tech
+  - DOMAIN-SUFFIX,nothing.tech
+  - DOMAIN-SUFFIX,talkeracr.app
+  - DOMAIN,fcm-toolbox-public.web.app
+
+  # > Drive
+  - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-SUFFIX,pikpak.com
+  - DOMAIN-SUFFIX,dlandroid.rcv.sandai.net
+  - DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net
+  - DOMAIN-SUFFIX,hub5pn.wap.sandai.net
+  - DOMAIN-SUFFIX,hub5pnc.sandai.net
+  - DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net
+  - DOMAIN-SUFFIX,hubciddata.sandai.net
+  - DOMAIN-KEYWORD,mypikpak
+
+  # > Meta
+  - DOMAIN-SUFFIX,threads.com
+  - DOMAIN-SUFFIX,threads.net
+
+  # > AI
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,auth.grokipedia.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,invoice.stripe.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,poe.com
+  # DOMAIN-SUFFIX,sentry.io   #和媒体规则重复
+  - IP-CIDR,142.251.43.10/31
+  - IP-CIDR,142.251.43.12/31
+  - IP-CIDR,142.251.43.14/32
+  - IP-CIDR,35.190.80.1/32
+  - IP-CIDR,104.18.37.228/32
+  - IP-CIDR,104.18.35.28/32
+  - IP-CIDR,172.217.160.0/25
+  - IP-CIDR,172.217.160.128/26
+  - IP-CIDR,172.217.160.192/27
+  - IP-CIDR,172.217.160.224/28
+  - IP-CIDR,172.217.160.240/29
+  - IP-CIDR,172.217.160.248/30
+  - IP-CIDR,172.217.160.252/31
+  - IP-CIDR,172.217.160.254/32
+  - IP-CIDR,104.18.35.28/32
+  - IP-CIDR,74.125.203.113/32
+  - IP-CIDR,172.217.163.0/25
+  - IP-CIDR,172.217.163.128/26
+  - IP-CIDR,172.217.163.192/27
+  - IP-CIDR,172.217.163.224/28
+  - IP-CIDR,172.217.163.240/29
+  - IP-CIDR,172.217.163.248/30
+  - IP-CIDR,172.217.163.252/31
+  - IP-CIDR,172.217.163.254/32
+  - DOMAIN-SUFFIX,descript.com
+
+  # > Corp
+  - DOMAIN-SUFFIX,canadagoose.com
+  - DOMAIN-SUFFIX,arcteryx.com
+  - DOMAIN-SUFFIX,vmware.com
+  - DOMAIN-SUFFIX,hpe.com
+  - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,logitech.com
+  - DOMAIN-SUFFIX,logi.com
+  - DOMAIN-SUFFIX,airbus-shop.com
+  - DOMAIN-SUFFIX,f-secure.com
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,zyxel.com
+  - DOMAIN-SUFFIX,godaddy.com
+  - DOMAIN-SUFFIX,gnc.com
+  - DOMAIN-SUFFIX,thule.com
+  - DOMAIN-SUFFIX,bose.com
+  - DOMAIN-SUFFIX,obdev.at
+
+  # > Porn
+  - DOMAIN-SUFFIX,vikacg.com
+  - DOMAIN-SUFFIX,www.vikacg.com
+  - DOMAIN-SUFFIX,sailoud.com
+  - DOMAIN-SUFFIX,allin.vikacg.com
+  - DOMAIN-SUFFIX,javdb.com
+  - DOMAIN-SUFFIX,pigav.com
+  - DOMAIN-SUFFIX,laowang.vip
+  - DOMAIN-SUFFIX,lanrenbl.net
+
+  # > Other
+  - DOMAIN-SUFFIX,ospserver.net
+  - DOMAIN-SUFFIX,yugogo.xyz
+  - DOMAIN-SUFFIX,charliemonroesoftware.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,cachefly.alfredapp.com
+  - DOMAIN-SUFFIX,main-ecnpaper-economist.content.pugpig.com
+  - DOMAIN-SUFFIX,api.apptentive.com
+  - DOMAIN-SUFFIX,api.taplytics.com
+  - DOMAIN-SUFFIX,yimg.com
+  - IP-CIDR,52.84.49.0/24
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,substack.com
+  - DOMAIN-SUFFIX,api.ipify.org
+  - DOMAIN-SUFFIX,whrq.net
+  - DOMAIN-SUFFIX,test-ipv6.com
+  - DOMAIN-SUFFIX,send.cm
+  - DOMAIN-SUFFIX,sendcdn.com
+  - DOMAIN-SUFFIX,nmac.to
+  - DOMAIN-SUFFIX,macbed.com
+  - DOMAIN-SUFFIX,notion-api.splitbee.io
+  - DOMAIN-SUFFIX,notion.ronnie.workers.dev
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,proxifier.com
+  - DOMAIN-SUFFIX,tenor.com
+  - DOMAIN-SUFFIX,media.tenor.com
+  - DOMAIN-SUFFIX,f-droid.org
+  - DOMAIN-SUFFIX,cloudtvapp.net
+  - DOMAIN-SUFFIX,kukudas.com
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,feeds.soundcloud.com
+  - DOMAIN-SUFFIX,dts.podtrac.com
+  - DOMAIN-SUFFIX,nightowl.kramser.xyz
+  - DOMAIN-SUFFIX,funnycat.tv
+  - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,forums.autodesk.com
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN-SUFFIX,tynt.com
+  - DOMAIN-SUFFIX,catchingnow.com
+  - DOMAIN-SUFFIX,dtscout.com
+  - DOMAIN-SUFFIX,imgur.com
+  - DOMAIN-SUFFIX,inplanesite.com
+  - DOMAIN-SUFFIX,dcs.megaphone.fm
+  - DOMAIN-SUFFIX,cdw.com
+  - DOMAIN-SUFFIX,nitter.it
+  - DOMAIN-SUFFIX,setn.com
+  - DOMAIN-SUFFIX,nektony.com
+  - DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com
+  - DOMAIN-SUFFIX,openstreetmap.org
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,bingwallpaper.anerg.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,nodejs.org
+  - DOMAIN-SUFFIX,wiki.metacubex.one
+  - DOMAIN-SUFFIX,affinity.studio
+  - DOMAIN-SUFFIX,canva.com
+  - DOMAIN-SUFFIX,1lou.me

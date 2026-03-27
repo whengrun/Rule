@@ -1,0 +1,17 @@
+payload:
+  # > application
+  - PROCESS-NAME,Downie 4
+  - PROCESS-NAME,obfs4proxy
+  - PROCESS-NAME,tor.real
+  - PROCESS-NAME,tor
+  - PROCESS-NAME,tor.exe
+  - PROCESS-NAME,Tor Browser.app
+  - PROCESS-NAME,JavaApplicationStub
+  # PROCESS-NAME,OneDrive.exe
+  # PROCESS-NAME,OneDrive
+  # PROCESS-NAME,HP.Smart.exe
+  # DOMAIN-SUFFIX,login3.id.hp.com
+  - PROCESS-NAME,Podcasts
+
+
+
