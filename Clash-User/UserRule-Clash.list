@@ -346,8 +346,7 @@ DOMAIN-SUFFIX,yimg.com
 IP-CIDR,52.84.49.0/24
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,substack.com
-DOMAIN-SUFFIX,api.ipify.org
-DOMAIN-SUFFIX,whrq.net
+;DOMAIN-SUFFIX,api.ipify.org
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,send.cm
 DOMAIN-SUFFIX,sendcdn.com
