@@ -123,19 +123,22 @@ payload:
   # DOMAIN-SUFFIX,storage.live.com
   # DOMAIN-SUFFIX,skyapi.live.net
   # DOMAIN-SUFFIX,g.live.com
-  - DOMAIN-SUFFIX,live.net
-  - DOMAIN-SUFFIX,onenote.com
-  - DOMAIN-SUFFIX,officeapps.live.com
-  - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,outlook.live.com
+  # DOMAIN-SUFFIX,live.net
+  # DOMAIN-SUFFIX,onenote.com
+  # DOMAIN-SUFFIX,officeapps.live.com
+  # DOMAIN-SUFFIX,onedrive.live.com
+  # DOMAIN-SUFFIX,outlook.live.com
   # DOMAIN-SUFFIX,api.onedrive.com
   # DOMAIN-SUFFIX,skydrivesync.policies.live.net
   # DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
   # DOMAIN-SUFFIX,wns.notify.windwos.com.akadns.ne
-  - DOMAIN-SUFFIX,edge.microsoft.com
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
-  - DOMAIN-SUFFIX,onedrive.live.com
+  # DOMAIN-SUFFIX,edge.microsoft.com
+  # DOMAIN-SUFFIX,msn.com
+  # DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
+  # DOMAIN-SUFFIX,onedrive.live.com
+
+  # > openwebui
+  - DOMAIN-SUFFIX,openwebui.com
 
   # > Spark
   - DOMAIN-SUFFIX,app.smartmailcloud.com
