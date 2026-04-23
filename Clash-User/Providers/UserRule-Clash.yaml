@@ -28,6 +28,7 @@ payload:
 
   # > CloudFlare
   - DOMAIN,one.one.one.one
+  - DOMAIN,chrome.cloudflare-dns.com
 
   # > Media
   - DOMAIN-SUFFIX,techbang.com
