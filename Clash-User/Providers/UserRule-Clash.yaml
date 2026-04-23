@@ -83,6 +83,7 @@ payload:
   - DOMAIN-SUFFIX,worldjournal.com
   - DOMAIN-SUFFIX,dq.yam.com
   - DOMAIN-SUFFIX,singtao.ca
+  - DOMAIN-SUFFIX,xda-developers.com
 
   # > amazon
   - DOMAIN-SUFFIX,amazonaws.com
