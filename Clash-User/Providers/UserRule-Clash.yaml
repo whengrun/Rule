@@ -30,6 +30,9 @@ payload:
   - DOMAIN,one.one.one.one
   - DOMAIN,chrome.cloudflare-dns.com
 
+  # > Mega
+  - DOMAIN,g.api.mega.co.nz
+
   # > Media
   - DOMAIN-SUFFIX,techbang.com
   - DOMAIN-KEYWORD,ifixit
