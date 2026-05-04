@@ -49,3 +49,7 @@ payload:
   - DOMAIN,mtalk4.google.com
   - DOMAIN,mtalk-staging.google.com
   - DOMAIN,mtalk-dev.google.com
+
+  # > UPDF
+  - DOMAIN,api.updf.com
+  
