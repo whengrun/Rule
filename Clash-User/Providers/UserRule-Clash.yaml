@@ -112,8 +112,11 @@ payload:
   - DOMAIN-SUFFIX,api.69xinshu.com
   - DOMAIN-SUFFIX,haodoo.org
   - DOMAIN-SUFFIX,zh.annas-archive.li
-  - DOMAIN-SUFFIX,24hbook.com
   - DOMAIN-SUFFIX,annas-archive.li
+  - DOMAIN-SUFFIX,annas-archive.gl
+  - DOMAIN-SUFFIX,annas-archive.pk
+  - DOMAIN-SUFFIX,annas-archive.gd
+  - DOMAIN-SUFFIX,24hbook.com
   - DOMAIN-SUFFIX,z-library.co
   - DOMAIN-SUFFIX,z-lib.ai
   - DOMAIN-SUFFIX,z-lib.id
