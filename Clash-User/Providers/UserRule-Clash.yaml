@@ -89,6 +89,7 @@ payload:
   - DOMAIN-SUFFIX,dq.yam.com
   - DOMAIN-SUFFIX,singtao.ca
   - DOMAIN-SUFFIX,xda-developers.com
+  - DOMAIN-SUFFIX,bangumi.tv
 
   # > amazon
   - DOMAIN-SUFFIX,amazonaws.com
