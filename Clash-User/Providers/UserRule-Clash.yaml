@@ -14,7 +14,7 @@ payload:
   - DOMAIN-SUFFIX,sublinkxx.xyz
   - DOMAIN-SUFFIX,e-nets.xyz
   - DOMAIN-SUFFIX,maying.club
-  - DOMAIN-SUFFIX,emby.maying.club
+  # DOMAIN-SUFFIX,emby.maying.club
   - DOMAIN-SUFFIX,ip.skk.moe
   - DOMAIN-SUFFIX,easyenable.com
 
@@ -129,6 +129,28 @@ payload:
   - DOMAIN-SUFFIX,api.protonmail.ch
   - DOMAIN-SUFFIX,proton.me
 
+  # > Apple News
+  - DOMAIN,gspe1-ssl.ls.apple.com
+
+  # > Apple TV
+  - DOMAIN,np-edge.itunes.apple.com
+  - DOMAIN,play-edge.itunes.apple.com
+  - DOMAIN-SUFFIX,tv.apple.com
+
+  # > Apple Postcast
+  # DOMAIN-SUFFIX,amp-api.podcasts.apple.com
+  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
+  - DOMAIN,bag.itunes.apple.com
+  - DOMAIN-SUFFIX,podcasts.apple.com
+  - DOMAIN-SUFFIX,lookup-api.apple.com
+  - DOMAIN,play.itunes.apple.com
+  - DOMAIN,xp.apple.com
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,fpinit.itunes.apple.com
+  - DOMAIN,entitlements-edge.itunes.apple.com
+  # DOMAIN,setup.icloud.com
+  - DOMAIN,11-courier.push.apple.com
+
   # > MS
   # DOMAIN-SUFFIX,storage.live.com
   # DOMAIN-SUFFIX,skyapi.live.net
@@ -165,7 +187,7 @@ payload:
   - DOMAIN-SUFFIX,www.google.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,gmail.com
-  - DOMAIN-SUFFIX,googlevideo.com
+  # DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,pki.goog
   - DOMAIN-SUFFIX,dns.google
   # DOMAIN-KEYWORD,google
@@ -202,8 +224,8 @@ payload:
 
   # > wireguard
   - DOMAIN-SUFFIX,wireguard.com
-  - DOMAIN-SUFFIX,download.wireguard.com
-  - DOMAIN-SUFFIX,www.wireguard.com
+  # DOMAIN-SUFFIX,download.wireguard.com
+  # DOMAIN-SUFFIX,www.wireguard.com
 
   # > Ubiquiti
   # DOMAIN,config.ubnt.com
@@ -215,31 +237,18 @@ payload:
   - DOMAIN-SUFFIX,upgrade.mikrotik.com
 
   # > podcast
-  - DOMAIN-SUFFIX,amp-api.podcasts.apple.com
-  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
-  - DOMAIN,bag.itunes.apple.com
-  - DOMAIN-SUFFIX,podcasts.apple.com
-  - DOMAIN-SUFFIX,lookup-api.apple.com
-  - DOMAIN,play.itunes.apple.com
-  - DOMAIN,xp.apple.com
   - DOMAIN-SUFFIX,pdst.fm
   - DOMAIN-SUFFIX,anchor.fm
   - DOMAIN-SUFFIX,pocketcasts.com
   - DOMAIN,bbc.pdn.tritondigital.com
   - DOMAIN,rss.soundon.fm
-  - DOMAIN,news-assets.apple.com
   - DOMAIN,sphinx.acast.com
   - DOMAIN,stitcher2.acast.com
   - DOMAIN-SUFFIX,acast.com
   - DOMAIN-SUFFIX,past.im
-  - DOMAIN,fpinit.itunes.apple.com
-  - DOMAIN,entitlements-edge.itunes.apple.com
-  # DOMAIN,setup.icloud.com
-  - DOMAIN,play.itunes.apple.com
   - DOMAIN-SUFFIX,buzzsprout.com
   - DOMAIN-SUFFIX,open.live.bbc.co.uk
   - DOMAIN-SUFFIX,moon.fm
-  - DOMAIN,11-courier.push.apple.com
   - DOMAIN,22883.mc.tritondigital.com
   - DOMAIN,audio.buzzsprout.com
   - DOMAIN,chrt.fm
@@ -265,7 +274,7 @@ payload:
   # > Cellphone & TV
   - DOMAIN-SUFFIX,keeflys.com
   - DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com
-  - DOMAIN-SUFFIX,us.nothing.tech
+  # DOMAIN-SUFFIX,us.nothing.tech
   - DOMAIN-SUFFIX,nothing.tech
   - DOMAIN-SUFFIX,talkeracr.app
   - DOMAIN,fcm-toolbox-public.web.app
@@ -311,7 +320,6 @@ payload:
   - IP-CIDR,172.217.160.248/30
   - IP-CIDR,172.217.160.252/31
   - IP-CIDR,172.217.160.254/32
-  - IP-CIDR,104.18.35.28/32
   - IP-CIDR,74.125.203.113/32
   - IP-CIDR,172.217.163.0/25
   - IP-CIDR,172.217.163.128/26
@@ -343,7 +351,7 @@ payload:
 
   # > Porn
   - DOMAIN-SUFFIX,vikacg.com
-  - DOMAIN-SUFFIX,www.vikacg.com
+  # DOMAIN-SUFFIX,www.vikacg.com
   - DOMAIN-SUFFIX,sailoud.com
   - DOMAIN-SUFFIX,allin.vikacg.com
   - DOMAIN-SUFFIX,javdb.com
