@@ -1,0 +1,39 @@
+payload:
+  # 内容：Clash规则，AI平台相关的域名和IP地址
+  # > AI
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,auth.grokipedia.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,invoice.stripe.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,poe.com
+  # DOMAIN-SUFFIX,sentry.io   #和媒体规则重复
+  - IP-CIDR,142.251.43.10/31
+  - IP-CIDR,142.251.43.12/31
+  - IP-CIDR,142.251.43.14/32
+  - IP-CIDR,35.190.80.1/32
+  - IP-CIDR,104.18.37.228/32
+  - IP-CIDR,104.18.35.28/32
+  - IP-CIDR,172.217.160.0/25
+  - IP-CIDR,172.217.160.128/26
+  - IP-CIDR,172.217.160.192/27
+  - IP-CIDR,172.217.160.224/28
+  - IP-CIDR,172.217.160.240/29
+  - IP-CIDR,172.217.160.248/30
+  - IP-CIDR,172.217.160.252/31
+  - IP-CIDR,172.217.160.254/32
+  - IP-CIDR,74.125.203.113/32
+  - IP-CIDR,172.217.163.0/25
+  - IP-CIDR,172.217.163.128/26
+  - IP-CIDR,172.217.163.192/27
+  - IP-CIDR,172.217.163.224/28
+  - IP-CIDR,172.217.163.240/29
+  - IP-CIDR,172.217.163.248/30
+  - IP-CIDR,172.217.163.252/31
+  - IP-CIDR,172.217.163.254/32
+  - DOMAIN-SUFFIX,descript.com
+  - DOMAIN-SUFFIX,descriptapp.com
