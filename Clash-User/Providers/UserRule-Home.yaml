@@ -1,0 +1,10 @@
+payload:
+  # > figma
+  - DOMAIN-SUFFIX,figma.com
+  - DOMAIN-SUFFIX,figmausercontent.com
+  - DOMAIN-SUFFIX,figma.app
+  - DOMAIN-SUFFIX,figma.site
+  - DOMAIN-SUFFIX,makeproxy-c.figma.site
+  - DOMAIN-SUFFIX,makeproxy-m.figma.site
+  - DOMAIN-SUFFIX,esm.instatus.com
+  - DOMAIN-SUFFIX,esm.sh
