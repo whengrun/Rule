@@ -48,10 +48,21 @@ payload:
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,ab.chatgpt.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN,openai.com.cdn.cloudflare.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,openaicom.imgix.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,chatgpt.livekit.cloud
+  - DOMAIN,host.livekit.cloud
+  - DOMAIN,turn.livekit.cloud
   # DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   # DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   # DOMAIN,openaicomproductionae4b.blob.core.windows.net
   # DOMAIN,production-openaicom-storage.azureedge.net
+
+  # OpenAI IP 段
+  - IP-CIDR,160.79.104.0/23,no-resolve
+  - IP-CIDR6,2607:6bc0::/48,no-resolve
 
   # >> Apple Intelligence
   # has been moved to a dedicated file: /non_ip/apple_inteligence.conf
@@ -62,6 +73,9 @@ payload:
 
   # >> Perplexity
   - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN,pplx-res.cloudinary.com
+  - DOMAIN-SUFFIX,perplexity.com
+  - DOMAIN-SUFFIX,pplx.ai
 
   # >> Claude
   - DOMAIN-SUFFIX,anthropic.com
@@ -69,6 +83,7 @@ payload:
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
+  - DOMAIN-SUFFIX,crixet.com
 
   # >> Google
   # Gemini
@@ -77,6 +92,11 @@ payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN,aisandbox-pa.googleapis.com
   - DOMAIN,robinfrontend-pa.googleapis.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+  - DOMAIN,aiplatform.googleapis.com
+  - DOMAIN-SUFFIX,jules.google
+  - DOMAIN-SUFFIX,labs.google
   # Here is how gemini.google.com doing HTTP 429 right now:
   #
   # without a special cookie, gemini.google.com will return HTTP 302 to the following URL with
@@ -108,7 +128,7 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN,alkalicore-pa.clients6.google.com
-  - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
   - DOMAIN-SUFFIX,generativeai.google
   # NotebookLM
   - DOMAIN-SUFFIX,notebooklm.google
@@ -156,23 +176,80 @@ payload:
   # >> JetBrains AI
   - DOMAIN,api.jetbrains.ai
 
+  # Mistral AI
+  - DOMAIN,chat.mistral.ai
+  - DOMAIN,console.mistral.ai
+
+  # xAI / Grok
+  - DOMAIN,api.x.ai
+
+  # NVIDIA
+  - DOMAIN,integrate.api.nvidia.com
+
+  # Hugging Face
+  - DOMAIN,router.huggingface.co
+  
+  # GitHub / Microsoft Copilot
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN,copilot-proxy.githubusercontent.com
+  - DOMAIN,api.githubcopilot.com
+
+  # Meta AI
+  - DOMAIN,imagine.meta.com
+
+  # Hyperbolic
+  - DOMAIN,api.hyperbolic.xyz
+  - DOMAIN-SUFFIX,hyperbolic.ai
+
+  # Cerebras
+  - DOMAIN-SUFFIX,cerebras.ai
+
+  # Fireworks AI
+  - DOMAIN-SUFFIX,fireworks.ai
+
+  # Jina AI
+  - DOMAIN-SUFFIX,jina.ai
+
+  # Together AI
+  - DOMAIN-SUFFIX,together.ai
+
+  # Voyage AI
+  - DOMAIN-SUFFIX,voyageai.com
+
+  # Z.ai
+  - DOMAIN-SUFFIX,z.ai
+
+  # MiniMax
+  - DOMAIN-SUFFIX,minimax.io
+
+  # TokenFlux
+  - DOMAIN-SUFFIX,tokenflux.ai
+
+  # Trae AI
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN,trae-api-sg.mchost.guru
+ 
+  # Kiro
+  - DOMAIN-SUFFIX,kiro.dev
+
+  # Xiaomi MiMo
+  - DOMAIN,token-plan-ams.xiaomimimo.com
+  - DOMAIN,token-plan-sgp.xiaomimimo.com
+
   # >> OpenRouter AI - Unified Relay
   # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
   - DOMAIN,openrouter.ai
 
-  - DOMAIN,api.githubcopilot.com
   - DOMAIN,api.groq.com
   - DOMAIN,api.together.xyz
   - DOMAIN,console.groq.com
-  - DOMAIN,copilot-proxy.githubusercontent.com
-  - DOMAIN,notebooklm.google.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,copilot.cloud.microsoft
-  - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,events.statsigapi.net
@@ -184,5 +261,4 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,mistral.ai
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
