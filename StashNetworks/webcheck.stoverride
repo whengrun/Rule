@@ -1,6 +1,6 @@
 name: 网络监控
 desc: 流媒体与GPT检测
-icon: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/img/deepcogito.png
+icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/deepcogito.png
 
 tiles:
   - name: IPPure IP Info
@@ -20,51 +20,51 @@ tiles:
     url: https://ippure.com
   - name: ChatGPT-Web-Check
     title: ChatGPT Web
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/chatgpt.png
     collapsed: true
     url: https://chatgpt.com
   - name: ChatGPT-App-Check
     title: ChatGPT App
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/chatgpt.png
     collapsed: true
     url: https://chatgpt.com
   - name: YouTube-Check
     title: YouTube
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/youtube.png
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/youtube.png
     collapsed: true
     url: https://www.youtube.com
   - name: Netflix-Check
     title: Netflix
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/netflix.png
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/netflix.png
     collapsed: true
     url: https://www.netflix.com
   - name: Disney-Check
     title: Disney+
-    icon: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/img/disney.png
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/disney.png
     collapsed: true
     url: https://www.disneyplus.com/
   - name: Gemini-Check
     title: Gemini
-    icon: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/img/gemini.png
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/gemini.png
     collapsed: true
     url: https://gemini.google.com/
 
 script-providers:
   IPPure IP Info:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/ippure-ip-info.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/ippure-ip-info.js
   IPPure IP Fraud Score:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/ippure-ip-fraud-score.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/ippure-ip-fraud-score.js
   IPPure IP Native Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/ippure-ip-native-check.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/ippure-ip-native-check.js
   ChatGPT-Web-Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-web.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/chatgpt-web.js
   ChatGPT-App-Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-app.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/chatgpt-app.js
   YouTube-Check:
-    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/youtube.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/youtube.js
   Netflix-Check:
-    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/netflix.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/netflix.js
   Disney-Check:
-    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/Disney+.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/Disney+.js
   Gemini-Check:
-    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/Gemini.js
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/Gemini.js
