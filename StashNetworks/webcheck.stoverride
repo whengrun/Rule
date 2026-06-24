@@ -1,0 +1,70 @@
+name: 网络监控
+desc: 流媒体与GPT检测
+icon: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/img/deepcogito.png
+
+tiles:
+  - name: IPPure IP Info
+    title: IPPure IP 信息
+    icon: https://ippure.com/logo.png
+    collapsed: true
+    url: https://ippure.com
+  - name: IPPure IP Fraud Score
+    title: IPPure IP 风险评分
+    icon: https://ippure.com/logo.png
+    collapsed: true
+    url: https://ippure.com
+  - name: IPPure IP Native Check
+    title: IPPure 原生 IP 检查
+    icon: https://ippure.com/logo.png
+    collapsed: true
+    url: https://ippure.com
+  - name: ChatGPT-Web-Check
+    title: ChatGPT Web
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
+    collapsed: true
+    url: https://chatgpt.com
+  - name: ChatGPT-App-Check
+    title: ChatGPT App
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
+    collapsed: true
+    url: https://chatgpt.com
+  - name: YouTube-Check
+    title: YouTube
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/youtube.png
+    collapsed: true
+    url: https://www.youtube.com
+  - name: Netflix-Check
+    title: Netflix
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/netflix.png
+    collapsed: true
+    url: https://www.netflix.com
+  - name: Disney-Check
+    title: Disney+
+    icon: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/img/disney.png
+    collapsed: true
+    url: https://www.disneyplus.com/
+  - name: Gemini-Check
+    title: Gemini
+    icon: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/img/gemini.png
+    collapsed: true
+    url: https://gemini.google.com/
+
+script-providers:
+  IPPure IP Info:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/ippure-ip-info.js
+  IPPure IP Fraud Score:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/ippure-ip-fraud-score.js
+  IPPure IP Native Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/ippure-ip-native-check.js
+  ChatGPT-Web-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-web.js
+  ChatGPT-App-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-app.js
+  YouTube-Check:
+    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/youtube.js
+  Netflix-Check:
+    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/netflix.js
+  Disney-Check:
+    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/Disney+.js
+  Gemini-Check:
+    url: https://cdn.jsdelivr.net/gh/chirophy/StashNetworks@main/script/Gemini.js
