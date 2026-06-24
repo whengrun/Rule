@@ -1,6 +1,8 @@
-name: 网络监控
+name: 网络检测
 desc: 流媒体与GPT检测
-icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/deepcogito.png
+icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/AI.png
+category: '网络检测'
+version: 'a2'
 
 tiles:
   - name: IPPure IP Info
@@ -60,11 +62,11 @@ script-providers:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/chatgpt-web.js
   ChatGPT-App-Check:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/chatgpt-app.js
+  Gemini-Check:
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/Gemini.js
   YouTube-Check:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/youtube.js
   Netflix-Check:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/netflix.js
   Disney-Check:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/Disney+.js
-  Gemini-Check:
-    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/Gemini.js
