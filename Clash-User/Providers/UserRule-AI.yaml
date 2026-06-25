@@ -261,4 +261,9 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,mistral.ai
-
+  
+  # >> Gemma
+  - DOMAIN-SUFFIX,multiplayer.api.gamma.app
+  - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN-SUFFIX,api.gamma.app
+  - DOMAIN-SUFFIX,assets.api.gamma.app
