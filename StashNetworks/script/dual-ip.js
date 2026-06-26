@@ -1,7 +1,8 @@
-// 统一使用 ip-api.com 接口以获取地理位置信息
+// Version: a5
+// 统一使用 ip-api.com 接口以获取极其详尽的地理位置和运营商信息
 const apiUrl = "http://ip-api.com/json/?lang=zh-CN";
 
-// 基础网络请求封装
+// 基础网络请求封装（使用 Promise 配合 async/await）
 async function request(params) {
   return new Promise((resolve) => {
     $httpClient.get(params, (error, response, data) => {
@@ -12,13 +13,18 @@ async function request(params) {
 
 // 通用的 IP 信息获取与解析函数
 async function fetchIpInfo(prefix, policy) {
-  // 添加时间戳防缓存
   const url = `${apiUrl}&t=${Date.now()}`;
   
-  // 组装请求参数，如果有 policy 则强制走该策略
-  const params = { url: url, timeout: 5000 };
+  // 组装 Stash 规范的请求参数
+  const params = { 
+    url: url, 
+    timeout: 6000, // 稍微放宽超时时间，确保大厂节点回传稳定
+    headers: {} 
+  };
+  
+  // 核心分流修复：遵循 Stash 官方规范，通过 Header 强制指定策略或直连
   if (policy) {
-    params.policy = policy;
+    params.headers['X-Stash-Selected-Proxy'] = encodeURIComponent(policy);
   }
 
   const { error, response, data } = await request(params);
@@ -28,38 +34,43 @@ async function fetchIpInfo(prefix, policy) {
   try {
     const obj = JSON.parse(data);
     if (obj.status === "success") {
-      // 成功提取 IP 和 国家代码
-      return { text: `${prefix}: ${obj.query} (${obj.countryCode})`, hasError: false };
+      const ip = obj.query;
+      const country = obj.countryCode;
+      const city = obj.city || "未知城市";
+      const isp = obj.isp || "未知运营商";
+      
+      // ✨ 这里就是精确到城市和运营商的格式化输出整行文本
+      return { text: `${prefix}: ${ip} (${country} · ${city} · ${isp})`, hasError: false };
     }
     return { text: `${prefix}: 查询异常`, hasError: true };
   } catch (e) {
-    return { text: `${prefix}: 数据解析异常`, hasError: true };
+    return { text: `${prefix}: 解析异常`, hasError: true };
   }
 }
 
 // 主函数
 async function main() {
-  // ⚠️ 填入你想查询的特定节点或策略组名称（必须与节点列表完全一致）
+  // ⚠️ 记得将这里修改为你 Stash 中实际存在的特定节点或策略组名称
   const targetNodeName = "AI平台"; 
 
-  // 并发执行三个查询
+  // 三路并发请求，互不干扰，速度极快
   const [local, proxy, specific] = await Promise.all([
-    fetchIpInfo("直连", "DIRECT"),
-    fetchIpInfo("代理", null), // null 代表走 Stash 当前的默认代理分流
-    fetchIpInfo("AI", targetNodeName)
+    fetchIpInfo("境内落地", "DIRECT"),      // 强制直连
+    fetchIpInfo("地域定位", "地域定位"),          // null,走默认规则分流
+    fetchIpInfo("AI平台", targetNodeName)  // 强制走指定节点
   ]);
 
-  // 如果有任何一个查询报错，面板底色变橙色警告
+  // 只要有一路失败，面板就会变成橙色背景作为警告
   const hasError = local.hasError || proxy.hasError || specific.hasError;
 
   $done({
     title: "IP 检测",
-    content: `${local.text}\n${proxy.text}\n${specific.text}`,
-    backgroundColor: hasError ? "#FF9500" : "#34C759", 
+    content: `${local.text}\n${proxy.text}\n${specific.text}`, // 通过 \n 换行输出
+    backgroundColor: hasError ? "#FF9500" : "#34C759",        // 正常为绿色，异常为橙色
   });
 }
 
-// 启动脚本
+// 脚本自执行入口
 (async () => {
   try {
     await main();
