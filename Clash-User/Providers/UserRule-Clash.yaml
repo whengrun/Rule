@@ -380,3 +380,4 @@ payload:
   - DOMAIN-SUFFIX,1lou.me
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,mazegenerator.net
+  - DOMAIN,api.my-ip.io

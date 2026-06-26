@@ -2,9 +2,14 @@ name: 网络检测
 desc: 流媒体与GPT检测
 icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/AI.png
 category: '网络检测'
-version: 'a3'
+version: 'b1'
 
 tiles:
+  - name: dual-ip-script
+    interval: 600
+    title: '双路 IP 检测'
+    content: fasle
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/dual-ip.png
   - name: IPPure IP Info
     title: IPPure IP 信息
     icon: https://ippure.com/logo.png
@@ -70,3 +75,5 @@ script-providers:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/netflix.js
   Disney-Check:
     url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/Disney+.js
+  dual-ip-script:
+    url: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/script/dual-ip.js
