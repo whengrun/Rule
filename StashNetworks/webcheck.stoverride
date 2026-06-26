@@ -2,7 +2,7 @@ name: 网络检测
 desc: 流媒体与GPT检测
 icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/AI.png
 category: '网络检测'
-version: 'a2'
+version: 'a3'
 
 tiles:
   - name: IPPure IP Info
@@ -28,8 +28,13 @@ tiles:
   - name: ChatGPT-App-Check
     title: ChatGPT App
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/chatgpt.png
-    collapsed: true
+    collapsed: false
     url: https://chatgpt.com
+  - name: Gemini-Check
+    title: Gemini
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/gemini.png
+    collapsed: fasle
+    url: https://gemini.google.com/  
   - name: YouTube-Check
     title: YouTube
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/youtube.png
@@ -45,11 +50,6 @@ tiles:
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/disney.png
     collapsed: true
     url: https://www.disneyplus.com/
-  - name: Gemini-Check
-    title: Gemini
-    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/gemini.png
-    collapsed: true
-    url: https://gemini.google.com/
 
 script-providers:
   IPPure IP Info:
