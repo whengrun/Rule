@@ -40,7 +40,7 @@ async function fetchIpInfo(prefix, policy) {
       const isp = obj.isp || "未知运营商";
       
       // ✨ 这里就是精确到城市和运营商的格式化输出整行文本
-      return { text: `${prefix}: ${ip} \n  ↳${country} · ${city} · ${isp}`, hasError: false };
+      return { text: `${prefix}: ${ip} \n  ${country} · ${city} · ${isp}`, hasError: false };
     }
     return { text: `${prefix}: 查询异常`, hasError: true };
   } catch (e) {
