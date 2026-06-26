@@ -1,75 +1,73 @@
-// 封装的通用请求函数 (基于你的代码优化)
+// 统一使用 ip-api.com 接口以获取地理位置信息
+const apiUrl = "http://ip-api.com/json/?lang=zh-CN";
+
+// 基础网络请求封装
 async function request(params) {
   return new Promise((resolve) => {
-    // 强制使用 GET 请求
     $httpClient.get(params, (error, response, data) => {
       resolve({ error, response, data });
     });
   });
 }
 
-// 1. 获取本地直连 IP
-async function getLocalIp() {
-  const url = `http://ip-api.com/json/?lang=zh-CN&t=${Date.now()}`;
-  const { error, response, data } = await request({ url: url, policy: "DIRECT", timeout: 5000 });
+// 通用的 IP 信息获取与解析函数
+async function fetchIpInfo(prefix, policy) {
+  // 添加时间戳防缓存
+  const url = `${apiUrl}&t=${Date.now()}`;
+  
+  // 组装请求参数，如果有 policy 则强制走该策略
+  const params = { url: url, timeout: 5000 };
+  if (policy) {
+    params.policy = policy;
+  }
 
-  if (error) return { text: "🇨🇳 直连: 请求超时或失败", hasError: true };
+  const { error, response, data } = await request(params);
+
+  if (error) return { text: `${prefix}: 超时/失败`, hasError: true };
 
   try {
     const obj = JSON.parse(data);
     if (obj.status === "success") {
-      return { text: `🇨🇳 直连: ${obj.query} (${obj.countryCode})`, hasError: false };
+      // 成功提取 IP 和 国家代码
+      return { text: `${prefix}: ${obj.query} (${obj.countryCode})`, hasError: false };
     }
-    return { text: "🇨🇳 直连: 查询异常", hasError: true };
+    return { text: `${prefix}: 查询异常`, hasError: true };
   } catch (e) {
-    return { text: "🇨🇳 直连: 解析异常", hasError: true };
+    return { text: `${prefix}: 数据解析异常`, hasError: true };
   }
-}
-
-// 2. 获取海外代理 IP
-async function getProxyIp() {
-  const url = `https://api.my-ip.io/v1/ip?t=${Date.now()}`;
-  const { error, response, data } = await request({ url: url, timeout: 5000 });
-
-  if (error) return { text: "✈️ 代理: 请求超时或失败", hasError: true };
-
-  let ipStr = data ? data.trim() : "未知";
-  try {
-    const obj = JSON.parse(ipStr);
-    if (obj && obj.ip) ipStr = obj.ip;
-  } catch (e) {
-    // 非 JSON 格式，保持原样（纯文本 IP）
-  }
-
-  return { text: `✈️ 代理: ${ipStr}`, hasError: false };
 }
 
 // 主函数
 async function main() {
-  // 使用 Promise.all 让两个 await 并发执行，节省一半等待时间
-  const [local, proxy] = await Promise.all([getLocalIp(), getProxyIp()]);
+  // ⚠️ 填入你想查询的特定节点或策略组名称（必须与节点列表完全一致）
+  const targetNodeName = "AI平台"; 
 
-  // 如果任意一个出错，使用警告色；否则使用正常色
-  const hasError = local.hasError || proxy.hasError;
+  // 并发执行三个查询
+  const [local, proxy, specific] = await Promise.all([
+    fetchIpInfo("直连", "DIRECT"),
+    fetchIpInfo("代理", null), // null 代表走 Stash 当前的默认代理分流
+    fetchIpInfo("AI", targetNodeName)
+  ]);
+
+  // 如果有任何一个查询报错，面板底色变橙色警告
+  const hasError = local.hasError || proxy.hasError || specific.hasError;
 
   $done({
-    title: "双路 IP 检测",
-    content: `${local.text}\n${proxy.text}`,
-    backgroundColor: hasError ? "#FF9500" : "#34C759", // 橙色 vs 绿色
-    icon: "arrow.left.arrow.right.circle.fill"
+    title: "IP 检测",
+    content: `${local.text}\n${proxy.text}\n${specific.text}`,
+    backgroundColor: hasError ? "#FF9500" : "#34C759", 
   });
 }
 
-// 立即执行函数 (IIFE) 启动脚本
+// 启动脚本
 (async () => {
   try {
     await main();
   } catch (error) {
-    // 捕获不可预见的全局严重错误
     $done({
-      title: "双路 IP 检测",
+      title: "系统故障",
       content: "脚本执行遭遇未知错误",
-      backgroundColor: "#FF3B30", // 红色
+      backgroundColor: "#FF3B30",
       icon: "exclamationmark.triangle.fill"
     });
   }
