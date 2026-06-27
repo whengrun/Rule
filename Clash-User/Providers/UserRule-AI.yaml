@@ -1,6 +1,11 @@
 payload:
   # 内容：Clash规则，AI平台相关的域名和IP地址
-  # > AI
+  # 引用：https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/ai.conf
+  # 引用：https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_intelligence.conf
+
+  # $ meta_description This file contains domains of OpenAI, Claude., Perplexity, Google Gemini, and other AI platforms. It is used for routing traffic to these services through a proxy.
+
+  # >> AI
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,auth.grokipedia.com
   - DOMAIN-SUFFIX,invoice.stripe.com
@@ -32,9 +37,6 @@ payload:
   - DOMAIN-SUFFIX,descript.com
   - DOMAIN-SUFFIX,descriptapp.com
 
-  # $ meta_title Sukka's Ruleset - AIGC Domains
-  # $ meta_description This file contains domains of OpenAI, Claude.
-
   # >> OpenAI / ChatGPT
   # OpenAI A/B Flag, no geo blocking
   # DOMAIN,api.statsig.com
@@ -64,12 +66,18 @@ payload:
   - IP-CIDR,160.79.104.0/23,no-resolve
   - IP-CIDR6,2607:6bc0::/48,no-resolve
 
-  # >> Apple Intelligence
-  # has been moved to a dedicated file: /non_ip/apple_inteligence.conf
-  # DOMAIN gspe1-ssl.ls.apple.com (which is part of com.apple.geod) is crucial for unlocking
-  # Apple Intelligence. However, this domain (along side com.apple.geod) also affects other
-  # Apple services like Map, Compass, Weather, etc. Therefore, we can't really include everything
-  # in this general "ai.conf" here.
+  # >> Apple Relay
+  # Sadly, even though Oblivious HTTP Relay is an open standard, supposed to enhance privacy. Apple uses a loophole
+  # to get user real request country and IP address from third-party CDN providers (like Cloudflare or Fastly) to
+  # blocks country from accessing Apple Intelligence services.
+  # DOMAIN,apple-relay.fastly-edge.com
+  # DOMAIN,apple-relay.cloudflare.com
+  # DOMAIN,apple-relay.apple.com
+  # DOMAIN,cp4.cloudflare.com
+
+  # >> com.apple.geod
+  # DOMAIN,gspe1-ssl.ls.apple.com
+  # TODO: find other domains that com.apple.geod is trying to connect to.
 
   # >> Perplexity
   - DOMAIN-SUFFIX,perplexity.ai
