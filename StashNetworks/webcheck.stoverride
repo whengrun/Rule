@@ -8,7 +8,7 @@ tiles:
   - name: dual-ip-script
     title: 'IP 检测'
     content: true
-    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/dual-ip.svg
+    icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/dual-ip.png
   - name: IPPure IP Info
     title: IPPure IP 信息
     icon: https://ippure.com/logo.png
