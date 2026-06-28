@@ -61,6 +61,9 @@ payload:
   # DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   # DOMAIN,openaicomproductionae4b.blob.core.windows.net
   # DOMAIN,production-openaicom-storage.azureedge.net
+  - PROCESS-NAME,Codex.app
+  - PROCESS-NAME,Codex (Service).app
+  - PROCESS-NAME,ChatGPT.app
 
   # OpenAI IP 段
   - IP-CIDR,160.79.104.0/23,no-resolve
