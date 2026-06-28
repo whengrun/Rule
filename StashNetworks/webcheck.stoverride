@@ -2,12 +2,12 @@ name: 网络检测
 desc: 流媒体与GPT检测
 icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/AI.png
 category: '网络检测'
-version: 'b1'
+version: 'b2'
 
 tiles:
   - name: dual-ip-script
     title: 'IP 检测'
-    content: fasle
+    content: true
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/dual-ip.png
   - name: IPPure IP Info
     title: IPPure IP 信息
@@ -32,12 +32,12 @@ tiles:
   - name: ChatGPT-App-Check
     title: ChatGPT App
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/chatgpt.png
-    collapsed: false
+    collapsed: true
     url: https://chatgpt.com
   - name: Gemini-Check
     title: Gemini
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/gemini.png
-    collapsed: fasle
+    collapsed: true
     url: https://gemini.google.com/  
   - name: YouTube-Check
     title: YouTube
