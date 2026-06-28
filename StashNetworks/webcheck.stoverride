@@ -6,7 +6,6 @@ version: 'b1'
 
 tiles:
   - name: dual-ip-script
-    interval: 600
     title: 'IP 检测'
     content: fasle
     icon: https://raw.githubusercontent.com/whengrun/Rule/master/StashNetworks/img/dual-ip.png
