@@ -101,6 +101,7 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.gstatic.com
   - DOMAIN,aisandbox-pa.googleapis.com
   - DOMAIN,robinfrontend-pa.googleapis.com
   - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
