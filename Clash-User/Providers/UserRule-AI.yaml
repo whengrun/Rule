@@ -231,7 +231,7 @@ payload:
   - DOMAIN-SUFFIX,voyageai.com
 
   # Z.ai
-  - DOMAIN-SUFFIX,z.ai
+  # DOMAIN-SUFFIX,z.ai
 
   # MiniMax
   - DOMAIN-SUFFIX,minimax.io
