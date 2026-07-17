@@ -281,3 +281,4 @@ payload:
   - DOMAIN-SUFFIX,gamma.app
   - DOMAIN-SUFFIX,api.gamma.app
   - DOMAIN-SUFFIX,assets.api.gamma.app
+  - DOMAIN-SUFFIX,billing.gamma.app
