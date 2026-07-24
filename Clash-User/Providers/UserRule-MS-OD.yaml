@@ -2,6 +2,7 @@ payload:
   # 内容：Microsoft
   # 数量：20
   - DOMAIN-KEYWORD,1drv
+  - DOMAIN-SUFFIX,live.net
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,skyapi.live.net
   - DOMAIN-SUFFIX,g.live.com
@@ -17,8 +18,19 @@ payload:
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
-  - DOMAIN-SUFFIX,onedrive.live.com
   - PROCESS-NAME,OneDrive.exe
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDrive File Provider
   - PROCESS-NAME,OneDrive.app
+
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,photos.live.com
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+  - DOMAIN-SUFFIX,storage.msn.com
+  # DOMAIN-SUFFIX,aria.microsoft.com
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com

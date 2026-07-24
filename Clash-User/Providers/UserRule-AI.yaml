@@ -40,6 +40,7 @@ payload:
   # >> OpenAI / ChatGPT
   # OpenAI A/B Flag, no geo blocking
   # DOMAIN,api.statsig.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,sora.com
