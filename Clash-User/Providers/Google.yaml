@@ -1,8 +1,64 @@
 payload:
   # 内容：Google
   # 数量：25条
+
+  # >> Google
+  # Gemini
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,gemini.google
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.gstatic.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,jules.google
+  - DOMAIN-SUFFIX,labs.google
+  - DOMAIN-SUFFIX,gstatic.com
+  # Here is how gemini.google.com doing HTTP 429 right now:
+  #
+  # without a special cookie, gemini.google.com will return HTTP 302 to the following URL with
+  # a special state token URL parameter:
+  # https://www.google.com/sorry/index?continue=https://gemini.google.com/...
+  #
+  # On https://www.google.com/sorry/index?continue=xxx, the CDN edge will validate this state token,
+  # compare the client IPs, and reject the request with HTTP 429 if the IPs are mismatched
+  #
+  # If the IP matches, the CDN edge will return a HTTP 302 redirect back to https://gemini.google.com
+  # with another special state token URL parameter telling gemini.google.com stop returning HTTP 302
+  # back to www.google.com/sorry/index?continue=xxx and start serving the real content.
+  #
+  # We can simply matches www.google.com/sorry/index?continue=xxx and proxy this as well
+  #
+  # Note that you will need to enable MitM www.google.com for this rule to work.
+  # URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+  # DeepMind
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  # Generative Language API
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  # Google AI Studio
+  - DOMAIN,ai.google.dev
+  - DOMAIN-SUFFIX,g.ai
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  # NotebookLM
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  # Jules
+  - DOMAIN,jules.google.com
+  # Android Studio
+  # Antigravity
+  - DOMAIN,antigravity.google
+  - DOMAIN,antigravity-unleash.goog
+
+
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,youtube
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,app-measurement.net
@@ -13,7 +69,6 @@ payload:
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,gstatic.cn
-  - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
@@ -37,6 +92,16 @@ payload:
   - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-SUFFIX,android.apis.google.com
   - DOMAIN-SUFFIX,tenor.googleapis.com
+
+  # YouTube
+  # USER-AGENT,*youtube*
+  # USER-AGENT,YouTube*
+  # USER-AGENT,com.google.ios.youtube*
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,withyoutube.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubekids.com
 
   # GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
   - IP-CIDR,120.232.181.162/32,no-resolve

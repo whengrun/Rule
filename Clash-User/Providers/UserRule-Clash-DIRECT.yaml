@@ -24,11 +24,6 @@ payload:
 
   # > home
   - DOMAIN-SUFFIX,piranhaone.me
-  - DOMAIN,www.piranhaone.me
-  - DOMAIN,plex.piranhaone.me
-  - DOMAIN,wallos.piranhaone.me
-  - DOMAIN,speed.piranhaone.me
-  - DOMAIN,tesla.piranhaone.me
   - PROCESS-NAME,HedgieMate
 
   # > synology

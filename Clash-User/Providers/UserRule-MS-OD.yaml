@@ -6,7 +6,6 @@ payload:
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,skyapi.live.net
   - DOMAIN-SUFFIX,g.live.com
-  - DOMAIN-SUFFIX,live.net
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,officeapps.live.com
   - DOMAIN-SUFFIX,onedrive.live.com

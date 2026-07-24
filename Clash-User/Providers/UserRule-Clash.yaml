@@ -67,8 +67,6 @@ payload:
   - DOMAIN-SUFFIX,thestreet.com
   - DOMAIN-SUFFIX,forum.chineseaci.com
   - DOMAIN-SUFFIX,v2ex.pro
-  - DOMAIN,preview.redd.it
-  - DOMAIN,styles.redditmedia.com
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,redditstatic.com
@@ -163,14 +161,12 @@ payload:
   # > huggingface
   - DOMAIN-SUFFIX,hf.co
   - DOMAIN-SUFFIX,huggingface.co
-  - DOMAIN,cdn-lfs-us-1.hf.co
 
   # > plex
   # DOMAIN,plex.tv
   - DOMAIN-SUFFIX,provider.plex.tv
   - DOMAIN-SUFFIX,pubsub.plex.tv
   - DOMAIN-SUFFIX,images.plex.tv
-  - DOMAIN,metadata.provider.plex.tv
   - DOMAIN,analytics.plex.tv
   - DOMAIN,scrobbles.plex.tv
   - DOMAIN,assets.plex.tv
@@ -206,15 +202,12 @@ payload:
   - DOMAIN-SUFFIX,pocketcasts.com
   - DOMAIN,bbc.pdn.tritondigital.com
   - DOMAIN,rss.soundon.fm
-  - DOMAIN,sphinx.acast.com
-  - DOMAIN,stitcher2.acast.com
   - DOMAIN-SUFFIX,acast.com
   - DOMAIN-SUFFIX,past.im
   - DOMAIN-SUFFIX,buzzsprout.com
   - DOMAIN-SUFFIX,open.live.bbc.co.uk
   - DOMAIN-SUFFIX,moon.fm
   - DOMAIN,22883.mc.tritondigital.com
-  - DOMAIN,audio.buzzsprout.com
   - DOMAIN,chrt.fm
   - DOMAIN,chtbl.com
   - DOMAIN,content.libsyn.com
@@ -229,7 +222,6 @@ payload:
   - DOMAIN,sph.mc.tritondigital.com
   - DOMAIN,sw.soundon.fm
   - DOMAIN,traffic.omny.fm
-  - DOMAIN,www.buzzsprout.com
   - DOMAIN,y2pod.com
 
   # > Github

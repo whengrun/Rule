@@ -40,7 +40,6 @@ payload:
   # >> OpenAI / ChatGPT
   # OpenAI A/B Flag, no geo blocking
   # DOMAIN,api.statsig.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,sora.com
@@ -49,7 +48,6 @@ payload:
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-KEYWORD,openai
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,ab.chatgpt.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN,openai.com.cdn.cloudflare.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
@@ -65,6 +63,13 @@ payload:
   - PROCESS-NAME,Codex.app
   - PROCESS-NAME,Codex (Service).app
   - PROCESS-NAME,ChatGPT.app
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
 
   # OpenAI IP 段
   - IP-CIDR,160.79.104.0/23,no-resolve
@@ -97,66 +102,6 @@ payload:
   - DOMAIN-KEYWORD,claude
   - DOMAIN-SUFFIX,crixet.com
 
-  # >> Google
-  # Gemini
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,gemini.google
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,gemini.gstatic.com
-  - DOMAIN,aisandbox-pa.googleapis.com
-  - DOMAIN,robinfrontend-pa.googleapis.com
-  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
-  - DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
-  - DOMAIN,aiplatform.googleapis.com
-  - DOMAIN-SUFFIX,jules.google
-  - DOMAIN-SUFFIX,labs.google
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN,optimizationguide-pa.googleapis.com
-  # Here is how gemini.google.com doing HTTP 429 right now:
-  #
-  # without a special cookie, gemini.google.com will return HTTP 302 to the following URL with
-  # a special state token URL parameter:
-  # https://www.google.com/sorry/index?continue=https://gemini.google.com/...
-  #
-  # On https://www.google.com/sorry/index?continue=xxx, the CDN edge will validate this state token,
-  # compare the client IPs, and reject the request with HTTP 429 if the IPs are mismatched
-  #
-  # If the IP matches, the CDN edge will return a HTTP 302 redirect back to https://gemini.google.com
-  # with another special state token URL parameter telling gemini.google.com stop returning HTTP 302
-  # back to www.google.com/sorry/index?continue=xxx and start serving the real content.
-  #
-  # We can simply matches www.google.com/sorry/index?continue=xxx and proxy this as well
-  #
-  # Note that you will need to enable MitM www.google.com for this rule to work.
-  # URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
-  # DeepMind
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,deepmind.google
-  # Generative Language API
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-  - DOMAIN-SUFFIX,geller-pa.googleapis.com
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
-  # Google AI Studio
-  - DOMAIN,ai.google.dev
-  - DOMAIN-SUFFIX,g.ai
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN,alkalicore-pa.clients6.google.com
-  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN-SUFFIX,generativeai.google
-  # NotebookLM
-  - DOMAIN-SUFFIX,notebooklm.google
-  - DOMAIN-SUFFIX,notebooklm.google.com
-  # Jules
-  - DOMAIN,jules.google.com
-  # Android Studio
-  - DOMAIN,aida.googleapis.com
-  # Antigravity
-  - DOMAIN,antigravity.google
-  - DOMAIN,antigravity-unleash.goog
-  - DOMAIN,daily-cloudcode-pa.googleapis.com
-
   # >> POE
   - DOMAIN-SUFFIX,poe.com
 
@@ -181,7 +126,7 @@ payload:
   # see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
   - DOMAIN,api.github.com
 
-  # >> Grok
+  # >> xAI / Grok
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,x.ai
 
@@ -189,14 +134,11 @@ payload:
   - DOMAIN-SUFFIX,groq.com
 
   # >> JetBrains AI
-  - DOMAIN,api.jetbrains.ai
+  - DOMAIN-SUFFIX,jetbrains.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
 
   # Mistral AI
-  - DOMAIN,chat.mistral.ai
-  - DOMAIN,console.mistral.ai
-
-  # xAI / Grok
-  - DOMAIN,api.x.ai
+  - DOMAIN-SUFFIX,mistral.ai
 
   # NVIDIA
   - DOMAIN,integrate.api.nvidia.com
@@ -257,26 +199,14 @@ payload:
   # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
   - DOMAIN,openrouter.ai
 
-  - DOMAIN,api.groq.com
   - DOMAIN,api.together.xyz
-  - DOMAIN,console.groq.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
-  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,claudeusercontent.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,grazie.ai
-  - DOMAIN-SUFFIX,grazie.aws.intellij.net
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,jetbrains.ai
-  - DOMAIN-SUFFIX,mistral.ai
-  
+
   # >> Gemma
   - DOMAIN-SUFFIX,multiplayer.api.gamma.app
   - DOMAIN-SUFFIX,gamma.app
