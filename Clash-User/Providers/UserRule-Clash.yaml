@@ -17,6 +17,7 @@ payload:
   # DOMAIN-SUFFIX,emby.maying.club
   - DOMAIN-SUFFIX,ip.skk.moe
   - DOMAIN-SUFFIX,easyenable.com
+  - DOMAIN-SUFFIX,db-ip.com
 
   # > Updatest
   - DOMAIN-SUFFIX,formulae.brew.sh
