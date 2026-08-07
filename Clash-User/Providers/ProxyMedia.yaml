@@ -8,13 +8,10 @@ payload:
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,go.com
 
-  # AI
-  - DOMAIN,aistudio.google.com
-  - DOMAIN,generativelanguage.googleapis.com
-  - DOMAIN,notebooklm.google.com
+  #
+  - DOMAIN-SUFFIX,gumroad.com
 
-  # AbemaTV
-  #   
+  # AbemaTV  
   - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
@@ -22,7 +19,6 @@ payload:
   - DOMAIN-SUFFIX,hayabusa.io
 
   # All4
-  #   
   - DOMAIN-SUFFIX,c4assets.com
   - DOMAIN-SUFFIX,channel4.com
 
@@ -50,15 +46,6 @@ payload:
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,seattlespheres.com
   # URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
-
-  # AppleNews
-  #   #   
-  - DOMAIN,gspe1-ssl.ls.apple.com
-
-  # AppleTV
-  - DOMAIN,np-edge.itunes.apple.com
-  - DOMAIN,play-edge.itunes.apple.com
-  - DOMAIN-SUFFIX,tv.apple.com
 
   # BBCiPlayer
   #   

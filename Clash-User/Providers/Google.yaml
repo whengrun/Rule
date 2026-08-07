@@ -93,6 +93,11 @@ payload:
   - DOMAIN-SUFFIX,android.apis.google.com
   - DOMAIN-SUFFIX,tenor.googleapis.com
 
+  # AI
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,notebooklm.google.com
+  
   # YouTube
   # USER-AGENT,*youtube*
   # USER-AGENT,YouTube*
