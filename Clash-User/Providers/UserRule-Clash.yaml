@@ -19,6 +19,11 @@ payload:
   - DOMAIN-SUFFIX,easyenable.com
   - DOMAIN-SUFFIX,db-ip.com
 
+  # > BetterTouchTool
+  - PROCESS-NAME,BetterTouchTool
+  - DOMAIN-SUFFIX,updates.folivora.ai
+  - DOMAIN-SUFFIX,bttreleases.llo.ai
+
   # > Updatest
   - DOMAIN-SUFFIX,formulae.brew.sh
   - DOMAIN-SUFFIX,static.adtidy.org
