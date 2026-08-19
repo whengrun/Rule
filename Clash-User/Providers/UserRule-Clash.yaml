@@ -155,8 +155,11 @@ payload:
   # DOMAIN,setup.icloud.com
   - DOMAIN,11-courier.push.apple.com
 
-  # > openwebui
+  # > OpenwebUI
   - DOMAIN-SUFFIX,openwebui.com
+
+  # > Hedgiemate
+  - DOMAIN,push.hedgiemate.com
 
   # > TD Ameritrade
   - DOMAIN-SUFFIX,thinkorswim.com
