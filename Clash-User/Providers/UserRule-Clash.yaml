@@ -166,6 +166,7 @@ payload:
   - DOMAIN,toslc.thinkorswim.com
   - DOMAIN,thinkswim-desktop1.schwab.com
   - DOMAIN,sws-gateway-nr.schwab.com
+  - DOMAIN,tsdrs.schwab.com
 
   # > huggingface
   - DOMAIN-SUFFIX,hf.co
