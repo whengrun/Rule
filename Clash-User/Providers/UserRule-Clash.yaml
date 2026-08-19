@@ -163,6 +163,9 @@ payload:
   - DOMAIN-SUFFIX,tdameritrade.com
   - DOMAIN-SUFFIX,trefis.com
   - DOMAIN-SUFFIX,ameritrade.com
+  - DOMAIN,toslc.thinkorswim.com
+  - DOMAIN,thinkswim-desktop1.schwab.com
+  - DOMAIN,sws-gateway-nr.schwab.com
 
   # > huggingface
   - DOMAIN-SUFFIX,hf.co
