@@ -158,9 +158,6 @@ payload:
   # > OpenwebUI
   - DOMAIN-SUFFIX,openwebui.com
 
-  # > Hedgiemate
-  - DOMAIN,push.hedgiemate.com
-
   # > TD Ameritrade
   - DOMAIN-SUFFIX,thinkorswim.com
   - DOMAIN-SUFFIX,tdameritrade.com
