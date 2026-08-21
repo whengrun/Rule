@@ -213,3 +213,7 @@ payload:
   - DOMAIN-SUFFIX,api.gamma.app
   - DOMAIN-SUFFIX,assets.api.gamma.app
   - DOMAIN-SUFFIX,billing.gamma.app
+
+  # >> LongBridge
+  - DOMAIN,openapi.longbridge.com
+  - DOMAIN,open.longbridge.com
