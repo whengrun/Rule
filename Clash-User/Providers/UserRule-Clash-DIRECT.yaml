@@ -48,3 +48,6 @@ payload:
   # > UPDF
   - DOMAIN,api.updf.com
   
+  # >> typeless
+  - DOMAIN,api.typeless.com
+  - DOMAIN-SUFFIX,typeless.com
