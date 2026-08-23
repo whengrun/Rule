@@ -51,3 +51,4 @@ payload:
   # >> typeless
   - DOMAIN,api.typeless.com
   - DOMAIN-SUFFIX,typeless.com
+  - DOMAIN-SUFFIX,typeless-static.com
