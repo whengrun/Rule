@@ -11,6 +11,6 @@ payload:
   # PROCESS-NAME,HP.Smart.exe
   # DOMAIN-SUFFIX,login3.id.hp.com
   - PROCESS-NAME,Podcasts
-
-
-
+  - PROCESS-NAME,Antigravity IDE.app
+  - PROCESS-NAME,Antigravity IDE Helper
+  - PROCESS-NAME,Antigravity IDE Helper (Plugin)
