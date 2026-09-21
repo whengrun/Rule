@@ -52,3 +52,7 @@ payload:
   - DOMAIN,api.typeless.com
   - DOMAIN-SUFFIX,typeless.com
   - DOMAIN-SUFFIX,typeless-static.com
+
+  # >> CAD快速看图
+  - PROCESS-NAME,CAD快速看图
+  - DOMAIN,cad.everdrawing.com
