@@ -1,0 +1,21 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # 内容：用于海外esim的激活
+
+# 地区检测
+DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com, eSim
+DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org, eSim
+DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org, eSim
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org, eSim
+DOMAIN-SUFFIX, entsrv-uk.vodafone.com, eSim
+DOMAIN-SUFFIX, vuk-gto.prod.ondemandconnectivity.com, eSim
+IP-CIDR, 88.82.0.0/19, eSim, no-resolve
+# CMLinkUK & CTExcel EE
+DOMAIN-SUFFIX, epdg.epc.mnc033.mcc234.pub.3gppnetwork.org, eSim
+DOMAIN-SUFFIX, ss.epdg.epc.mnc033.mcc234.pub.3gppnetwork.org, eSim
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc033.mcc234.pub.3gppnetwork.org, eSim
+IP-CIDR, 46.68.0.0/17, eSim, no-resolve
+# 新增的 EE 专属 IP 段
+IP-CIDR, 31.94.0.0/16, eSim, no-resolve
+# Giffgaff 
+IP-CIDR, 87.194.0.0/16, eSim, no-resolve

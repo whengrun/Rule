@@ -1,0 +1,36 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # 内容：Microsoft
+  # 数量：20
+DOMAIN-KEYWORD, 1drv, UserRule-MS-OD
+DOMAIN-SUFFIX, live.net, UserRule-MS-OD
+DOMAIN-SUFFIX, storage.live.com, UserRule-MS-OD
+DOMAIN-SUFFIX, skyapi.live.net, UserRule-MS-OD
+DOMAIN-SUFFIX, g.live.com, UserRule-MS-OD
+DOMAIN-SUFFIX, onenote.com, UserRule-MS-OD
+DOMAIN-SUFFIX, officeapps.live.com, UserRule-MS-OD
+DOMAIN-SUFFIX, onedrive.live.com, UserRule-MS-OD
+DOMAIN-SUFFIX, outlook.live.com, UserRule-MS-OD
+DOMAIN-SUFFIX, api.onedrive.com, UserRule-MS-OD
+DOMAIN-SUFFIX, skydrivesync.policies.live.net, UserRule-MS-OD
+DOMAIN-SUFFIX, mobile.pipe.aria.microsoft.com, UserRule-MS-OD
+DOMAIN-SUFFIX, wns.notify.windwos.com.akadns.ne, UserRule-MS-OD
+DOMAIN-SUFFIX, edge.microsoft.com, UserRule-MS-OD
+DOMAIN-SUFFIX, msn.com, UserRule-MS-OD
+DOMAIN-SUFFIX, img-s-msn-com.akamaized.net, UserRule-MS-OD
+# PROCESS-NAME, OneDrive.exe, UserRule-MS-OD (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, OneDrive, UserRule-MS-OD (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, OneDrive File Provider, UserRule-MS-OD (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, OneDrive.app, UserRule-MS-OD (Loon 当前规则语法不支持，已保留为注释)
+
+DOMAIN-KEYWORD, onedrive, UserRule-MS-OD
+DOMAIN-KEYWORD, skydrive, UserRule-MS-OD
+DOMAIN-SUFFIX, livefilestore.com, UserRule-MS-OD
+DOMAIN-SUFFIX, oneclient.sfx.ms, UserRule-MS-OD
+DOMAIN-SUFFIX, onedrive.com, UserRule-MS-OD
+DOMAIN-SUFFIX, photos.live.com, UserRule-MS-OD
+DOMAIN-SUFFIX, skydrive.wns.windows.com, UserRule-MS-OD
+DOMAIN-SUFFIX, spoprod-a.akamaihd.net, UserRule-MS-OD
+DOMAIN-SUFFIX, storage.msn.com, UserRule-MS-OD
+  # DOMAIN-SUFFIX,aria.microsoft.com
+DOMAIN-SUFFIX, microsoftpersonalcontent.com, UserRule-MS-OD

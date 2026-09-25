@@ -1,0 +1,44 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # 本地/局域网地址
+  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+
+  # 本地/局域网地址
+DOMAIN-SUFFIX, ip6-localhost, LocalAreaNetnork
+DOMAIN-SUFFIX, ip6-loopback, LocalAreaNetnork
+DOMAIN-SUFFIX, internal, LocalAreaNetnork
+DOMAIN-SUFFIX, lan, LocalAreaNetnork
+DOMAIN-SUFFIX, local, LocalAreaNetnork
+DOMAIN-SUFFIX, localhost, LocalAreaNetnork
+IP-CIDR, 0.0.0.0/8, LocalAreaNetnork, no-resolve
+IP-CIDR, 10.0.0.0/8, LocalAreaNetnork, no-resolve
+IP-CIDR, 100.64.0.0/10, LocalAreaNetnork, no-resolve
+IP-CIDR, 127.0.0.0/8, LocalAreaNetnork, no-resolve
+IP-CIDR, 169.254.0.0/16, LocalAreaNetnork, no-resolve
+IP-CIDR, 172.16.0.0/12, LocalAreaNetnork, no-resolve
+IP-CIDR, 192.168.0.0/16, LocalAreaNetnork, no-resolve
+IP-CIDR, 198.18.0.0/16, LocalAreaNetnork, no-resolve
+IP-CIDR, 224.0.0.0/4, LocalAreaNetnork, no-resolve
+IP-CIDR6, ::1/128, LocalAreaNetnork, no-resolve
+IP-CIDR6, fc00::/7, LocalAreaNetnork, no-resolve
+IP-CIDR6, fe80::/10, LocalAreaNetnork, no-resolve
+IP-CIDR6, fd00::/8, LocalAreaNetnork, no-resolve
+
+  # Router managed 路由器管理域名
+DOMAIN, instant.arubanetworks.com, LocalAreaNetnork
+DOMAIN, setmeup.arubanetworks.com, LocalAreaNetnork
+DOMAIN, router.asus.com, LocalAreaNetnork
+DOMAIN, www.asusrouter.com, LocalAreaNetnork
+DOMAIN-SUFFIX, hiwifi.com, LocalAreaNetnork
+DOMAIN-SUFFIX, leike.cc, LocalAreaNetnork
+DOMAIN-SUFFIX, miwifi.com, LocalAreaNetnork
+DOMAIN-SUFFIX, my.router, LocalAreaNetnork
+DOMAIN-SUFFIX, p.to, LocalAreaNetnork
+DOMAIN-SUFFIX, peiluyou.com, LocalAreaNetnork
+DOMAIN-SUFFIX, phicomm.me, LocalAreaNetnork
+DOMAIN-SUFFIX, router.ctc, LocalAreaNetnork
+DOMAIN-SUFFIX, routerlogin.com, LocalAreaNetnork
+DOMAIN-SUFFIX, tendawifi.com, LocalAreaNetnork
+DOMAIN-SUFFIX, zte.home, LocalAreaNetnork
+DOMAIN-SUFFIX, tplogin.cn, LocalAreaNetnork
+DOMAIN-SUFFIX, wifi.cmcc, LocalAreaNetnork

@@ -1,0 +1,344 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # 代理列表
+
+  # MyList && Other
+DOMAIN-SUFFIX, 1password.com, PorxyLite
+DOMAIN-SUFFIX, adguard.org, PorxyLite
+DOMAIN-SUFFIX, bit.no.com, PorxyLite
+DOMAIN-SUFFIX, btlibrary.me, PorxyLite
+DOMAIN-SUFFIX, cloudcone.com, PorxyLite
+DOMAIN-SUFFIX, dubox.com, PorxyLite
+DOMAIN-SUFFIX, gameloft.com, PorxyLite
+DOMAIN-SUFFIX, garena.com, PorxyLite
+DOMAIN-SUFFIX, hoyolab.com, PorxyLite
+DOMAIN-SUFFIX, inoreader.com, PorxyLite
+DOMAIN-SUFFIX, ip138.com, PorxyLite
+DOMAIN-SUFFIX, linkedin.com, PorxyLite
+DOMAIN-SUFFIX, myteamspeak.com, PorxyLite
+DOMAIN-SUFFIX, notion.so, PorxyLite
+DOMAIN-SUFFIX, ping.pe, PorxyLite
+DOMAIN-SUFFIX, reddit.com, PorxyLite
+DOMAIN-SUFFIX, teddysun.com, PorxyLite
+DOMAIN-SUFFIX, tumbex.com, PorxyLite
+DOMAIN-SUFFIX, twdvd.com, PorxyLite
+DOMAIN-SUFFIX, unsplash.com, PorxyLite
+DOMAIN-SUFFIX, buzzsprout.com, PorxyLite
+
+  # 国外域名
+DOMAIN-SUFFIX, eu, PorxyLite
+DOMAIN-SUFFIX, hk, PorxyLite
+DOMAIN-SUFFIX, jp, PorxyLite
+DOMAIN-SUFFIX, kr, PorxyLite
+DOMAIN-SUFFIX, sg, PorxyLite
+DOMAIN-SUFFIX, tw, PorxyLite
+DOMAIN-SUFFIX, uk, PorxyLite
+
+  # 国外域名关键字
+DOMAIN-KEYWORD, 1e100, PorxyLite
+DOMAIN-KEYWORD, abema, PorxyLite
+DOMAIN-KEYWORD, appledaily, PorxyLite
+DOMAIN-KEYWORD, avtb, PorxyLite
+DOMAIN-KEYWORD, beetalk, PorxyLite
+DOMAIN-KEYWORD, blogspot, PorxyLite
+DOMAIN-KEYWORD, dropbox, PorxyLite
+DOMAIN-KEYWORD, facebook, PorxyLite
+DOMAIN-KEYWORD, github, PorxyLite
+DOMAIN-KEYWORD, instagram, PorxyLite
+DOMAIN-KEYWORD, sci-hub, PorxyLite
+DOMAIN-KEYWORD, spotify, PorxyLite
+  # DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD, twitter, PorxyLite
+
+  # Top Blocked Sites
+DOMAIN-SUFFIX, 4sqi.net, PorxyLite
+DOMAIN-SUFFIX, a248.e.akamai.net, PorxyLite
+DOMAIN-SUFFIX, ampproject.org, PorxyLite
+DOMAIN-SUFFIX, android.com, PorxyLite
+DOMAIN-SUFFIX, aolcdn.com, PorxyLite
+DOMAIN-SUFFIX, apkmirror.com, PorxyLite
+DOMAIN-SUFFIX, apkpure.com, PorxyLite
+DOMAIN-SUFFIX, app-measurement.com, PorxyLite
+DOMAIN-SUFFIX, appspot.com, PorxyLite
+DOMAIN-SUFFIX, archive.org, PorxyLite
+DOMAIN-SUFFIX, armorgames.com, PorxyLite
+DOMAIN-SUFFIX, aspnetcdn.com, PorxyLite
+DOMAIN-SUFFIX, awsstatic.com, PorxyLite
+DOMAIN-SUFFIX, azureedge.net, PorxyLite
+DOMAIN-SUFFIX, azurewebsites.net, PorxyLite
+DOMAIN-SUFFIX, bandwagonhost.com, PorxyLite
+DOMAIN-SUFFIX, bing.com, PorxyLite
+DOMAIN-SUFFIX, bkrtx.com, PorxyLite
+DOMAIN-SUFFIX, blogcdn.com, PorxyLite
+DOMAIN-SUFFIX, blogger.com, PorxyLite
+DOMAIN-SUFFIX, blogsmithmedia.com, PorxyLite
+DOMAIN-SUFFIX, blogspot.com, PorxyLite
+DOMAIN-SUFFIX, blogspot.hk, PorxyLite
+DOMAIN-SUFFIX, blogspot.jp, PorxyLite
+DOMAIN-SUFFIX, bloomberg.cn, PorxyLite
+DOMAIN-SUFFIX, bloomberg.com, PorxyLite
+DOMAIN-SUFFIX, box.com, PorxyLite
+DOMAIN-SUFFIX, cachefly.net, PorxyLite
+DOMAIN-SUFFIX, cdnst.net, PorxyLite
+DOMAIN-SUFFIX, cloudfront.net, PorxyLite
+DOMAIN-SUFFIX, comodoca.com, PorxyLite
+DOMAIN-SUFFIX, daum.net, PorxyLite
+DOMAIN-SUFFIX, deskconnect.com, PorxyLite
+DOMAIN-SUFFIX, disqus.com, PorxyLite
+DOMAIN-SUFFIX, disquscdn.com, PorxyLite
+DOMAIN-SUFFIX, dropbox.com, PorxyLite
+DOMAIN-SUFFIX, dropboxapi.com, PorxyLite
+DOMAIN-SUFFIX, dropboxstatic.com, PorxyLite
+DOMAIN-SUFFIX, dropboxusercontent.com, PorxyLite
+DOMAIN-SUFFIX, duckduckgo.com, PorxyLite
+DOMAIN-SUFFIX, edgecastcdn.net, PorxyLite
+DOMAIN-SUFFIX, edgekey.net, PorxyLite
+DOMAIN-SUFFIX, edgesuite.net, PorxyLite
+DOMAIN-SUFFIX, eurekavpt.com, PorxyLite
+DOMAIN-SUFFIX, fastmail.com, PorxyLite
+DOMAIN-SUFFIX, flickr.com, PorxyLite
+DOMAIN-SUFFIX, flipboard.com, PorxyLite
+DOMAIN-SUFFIX, gfx.ms, PorxyLite
+DOMAIN-SUFFIX, gongm.in, PorxyLite
+DOMAIN-SUFFIX, id.heroku.com, PorxyLite
+DOMAIN-SUFFIX, io.io, PorxyLite
+DOMAIN-SUFFIX, issuu.com, PorxyLite
+DOMAIN-SUFFIX, ixquick.com, PorxyLite
+DOMAIN-SUFFIX, kat.cr, PorxyLite
+DOMAIN-SUFFIX, kik.com, PorxyLite
+DOMAIN-SUFFIX, kobo.com, PorxyLite
+DOMAIN-SUFFIX, kobobooks.com, PorxyLite
+DOMAIN-SUFFIX, licdn.com, PorxyLite
+DOMAIN-SUFFIX, llnwd.net, PorxyLite
+DOMAIN-SUFFIX, macrumors.com, PorxyLite
+DOMAIN-SUFFIX, medium.com, PorxyLite
+DOMAIN-SUFFIX, mega.nz, PorxyLite
+DOMAIN-SUFFIX, megaupload.com, PorxyLite
+DOMAIN-SUFFIX, messenger.com, PorxyLite
+DOMAIN-SUFFIX, netdna-cdn.com, PorxyLite
+DOMAIN-SUFFIX, nintendo.net, PorxyLite
+DOMAIN-SUFFIX, nsstatic.net, PorxyLite
+DOMAIN-SUFFIX, nytstyle.com, PorxyLite
+DOMAIN-SUFFIX, overcast.fm, PorxyLite
+DOMAIN-SUFFIX, openvpn.net, PorxyLite
+DOMAIN-SUFFIX, periscope.tv, PorxyLite
+DOMAIN-SUFFIX, pinimg.com, PorxyLite
+DOMAIN-SUFFIX, pinterest.com, PorxyLite
+DOMAIN-SUFFIX, potato.im, PorxyLite
+DOMAIN-SUFFIX, prfct.co, PorxyLite
+DOMAIN-SUFFIX, pscp.tv, PorxyLite
+DOMAIN-SUFFIX, quora.com, PorxyLite
+DOMAIN-SUFFIX, resilio.com, PorxyLite
+DOMAIN-SUFFIX, sfx.ms, PorxyLite
+DOMAIN-SUFFIX, shadowsocks.org, PorxyLite
+DOMAIN-SUFFIX, slack-edge.com, PorxyLite
+DOMAIN-SUFFIX, smartdnsproxy.com, PorxyLite
+DOMAIN-SUFFIX, startpage.com, PorxyLite
+DOMAIN-SUFFIX, staticflickr.com, PorxyLite
+DOMAIN-SUFFIX, symauth.com, PorxyLite
+DOMAIN-SUFFIX, symcb.com, PorxyLite
+DOMAIN-SUFFIX, symcd.com, PorxyLite
+DOMAIN-SUFFIX, textnow.com, PorxyLite
+DOMAIN-SUFFIX, textnow.me, PorxyLite
+DOMAIN-SUFFIX, thefacebook.com, PorxyLite
+DOMAIN-SUFFIX, thepiratebay.org, PorxyLite
+DOMAIN-SUFFIX, torproject.org, PorxyLite
+DOMAIN-SUFFIX, trustasiassl.com, PorxyLite
+DOMAIN-SUFFIX, tumblr.co, PorxyLite
+DOMAIN-SUFFIX, tumblr.com, PorxyLite
+DOMAIN-SUFFIX, txmblr.com, PorxyLite
+DOMAIN-SUFFIX, v2ex.com, PorxyLite
+DOMAIN-SUFFIX, vimeo.com, PorxyLite
+DOMAIN-SUFFIX, vine.co, PorxyLite
+DOMAIN-SUFFIX, vox-cdn.com, PorxyLite
+
+  # Amazon
+DOMAIN-SUFFIX, amazon.co.jp, PorxyLite
+DOMAIN-SUFFIX, amazon.com, PorxyLite
+DOMAIN-SUFFIX, amazonaws.com, PorxyLite
+IP-CIDR, 13.32.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 13.35.0.0/17, PorxyLite, no-resolve
+IP-CIDR, 18.184.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 18.194.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 18.208.0.0/13, PorxyLite, no-resolve
+IP-CIDR, 18.232.0.0/14, PorxyLite, no-resolve
+IP-CIDR, 52.58.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 52.74.0.0/16, PorxyLite, no-resolve
+IP-CIDR, 52.77.0.0/16, PorxyLite, no-resolve
+IP-CIDR, 52.84.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 52.200.0.0/13, PorxyLite, no-resolve
+IP-CIDR, 54.93.0.0/16, PorxyLite, no-resolve
+IP-CIDR, 54.156.0.0/14, PorxyLite, no-resolve
+IP-CIDR, 54.226.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 54.230.156.0/22, PorxyLite, no-resolve
+
+  # BBC
+
+  # Developer 开发者常用国外网站、镜像和论坛
+DOMAIN-SUFFIX, apache.org, PorxyLite
+DOMAIN-SUFFIX, elastic.co, PorxyLite
+DOMAIN-SUFFIX, elastic.com, PorxyLite
+DOMAIN-SUFFIX, gcr.io, PorxyLite
+DOMAIN-SUFFIX, gitlab.com, PorxyLite
+DOMAIN-SUFFIX, gitlab.io, PorxyLite
+DOMAIN-SUFFIX, jitpack.io, PorxyLite
+DOMAIN-SUFFIX, maven.org, PorxyLite
+DOMAIN-SUFFIX, mvnrepository.com, PorxyLite
+DOMAIN-SUFFIX, quay.io, PorxyLite
+DOMAIN-SUFFIX, redhat.com, PorxyLite
+DOMAIN-SUFFIX, sonatype.org, PorxyLite
+DOMAIN-SUFFIX, sourcegraph.com, PorxyLite
+DOMAIN-SUFFIX, spring.io, PorxyLite
+DOMAIN-SUFFIX, spring.net, PorxyLite
+DOMAIN-SUFFIX, stackoverflow.com, PorxyLite
+
+  # Docker
+DOMAIN-SUFFIX, compose-spec.io, PorxyLite
+DOMAIN-SUFFIX, docker.com, PorxyLite
+DOMAIN-SUFFIX, docker.io, PorxyLite
+DOMAIN-SUFFIX, dockerhub.com, PorxyLite
+
+  # Discord
+DOMAIN-SUFFIX, discord.co, PorxyLite
+DOMAIN-SUFFIX, discord.com, PorxyLite
+DOMAIN-SUFFIX, discord.gg, PorxyLite
+DOMAIN-SUFFIX, discord.media, PorxyLite
+DOMAIN-SUFFIX, discordapp.com, PorxyLite
+DOMAIN-SUFFIX, discordapp.net, PorxyLite
+
+  # Facebook
+DOMAIN-SUFFIX, facebook.com, PorxyLite
+DOMAIN-SUFFIX, fb.com, PorxyLite
+DOMAIN-SUFFIX, fb.me, PorxyLite
+DOMAIN-SUFFIX, fbcdn.com, PorxyLite
+DOMAIN-SUFFIX, fbcdn.net, PorxyLite
+IP-CIDR, 31.13.24.0/21, PorxyLite, no-resolve
+IP-CIDR, 31.13.64.0/18, PorxyLite, no-resolve
+IP-CIDR, 45.64.40.0/22, PorxyLite, no-resolve
+IP-CIDR, 66.220.144.0/20, PorxyLite, no-resolve
+IP-CIDR, 69.63.176.0/20, PorxyLite, no-resolve
+IP-CIDR, 69.171.224.0/19, PorxyLite, no-resolve
+IP-CIDR, 74.119.76.0/22, PorxyLite, no-resolve
+IP-CIDR, 103.4.96.0/22, PorxyLite, no-resolve
+IP-CIDR, 129.134.0.0/17, PorxyLite, no-resolve
+IP-CIDR, 157.240.0.0/17, PorxyLite, no-resolve
+IP-CIDR, 173.252.64.0/18, PorxyLite, no-resolve
+IP-CIDR, 179.60.192.0/22, PorxyLite, no-resolve
+IP-CIDR, 185.60.216.0/22, PorxyLite, no-resolve
+IP-CIDR, 204.15.20.0/22, PorxyLite, no-resolve
+
+  # Github
+DOMAIN-SUFFIX, github.com, PorxyLite
+DOMAIN-SUFFIX, github.io, PorxyLite
+DOMAIN-SUFFIX, githubapp.com, PorxyLite
+DOMAIN-SUFFIX, githubassets.com, PorxyLite
+DOMAIN-SUFFIX, githubusercontent.com, PorxyLite
+
+  # Instagram
+DOMAIN-SUFFIX, cdninstagram.com, PorxyLite
+DOMAIN-SUFFIX, instagram.com, PorxyLite
+DOMAIN-SUFFIX, instagr.am, PorxyLite
+
+  # Kakao Talk
+DOMAIN-SUFFIX, kakao.com, PorxyLite
+DOMAIN-SUFFIX, kakao.co.kr, PorxyLite
+DOMAIN-SUFFIX, kakaocdn.net, PorxyLite
+IP-CIDR, 1.201.0.0/24, PorxyLite, no-resolve
+IP-CIDR, 27.0.236.0/22, PorxyLite, no-resolve
+IP-CIDR, 103.27.148.0/22, PorxyLite, no-resolve
+IP-CIDR, 103.246.56.0/22, PorxyLite, no-resolve
+IP-CIDR, 110.76.140.0/22, PorxyLite, no-resolve
+IP-CIDR, 113.61.104.0/22, PorxyLite, no-resolve
+
+  # Line
+DOMAIN-SUFFIX, lin.ee, PorxyLite
+DOMAIN-SUFFIX, line-apps.com, PorxyLite
+DOMAIN-SUFFIX, line-cdn.net, PorxyLite
+DOMAIN-SUFFIX, line-scdn.net, PorxyLite
+DOMAIN-SUFFIX, line.me, PorxyLite
+DOMAIN-SUFFIX, line.naver.jp, PorxyLite
+DOMAIN-SUFFIX, nhncorp.jp, PorxyLite
+IP-CIDR, 103.2.28.0/24, PorxyLite, no-resolve
+IP-CIDR, 103.2.30.0/23, PorxyLite, no-resolve
+IP-CIDR, 119.235.224.0/24, PorxyLite, no-resolve
+IP-CIDR, 119.235.232.0/24, PorxyLite, no-resolve
+IP-CIDR, 119.235.235.0/24, PorxyLite, no-resolve
+IP-CIDR, 119.235.236.0/23, PorxyLite, no-resolve
+IP-CIDR, 147.92.128.0/17, PorxyLite, no-resolve
+IP-CIDR, 203.104.128.0/19, PorxyLite, no-resolve
+
+  # Pixiv
+DOMAIN-SUFFIX, pixiv.net, PorxyLite
+DOMAIN-SUFFIX, pximg.net, PorxyLite
+DOMAIN-SUFFIX, fanbox.cc, PorxyLite
+
+  # Spark
+DOMAIN-SUFFIX, amplitude.com, PorxyLite
+DOMAIN-SUFFIX, firebaseio.com, PorxyLite
+DOMAIN-SUFFIX, hockeyapp.net, PorxyLite
+DOMAIN-SUFFIX, readdle.com, PorxyLite
+DOMAIN-SUFFIX, smartmailcloud.com, PorxyLite
+
+  # TapTap
+DOMAIN-SUFFIX, tap.io, PorxyLite
+DOMAIN-SUFFIX, taptap.tw, PorxyLite
+
+  # Twitter
+DOMAIN-SUFFIX, t.co, PorxyLite
+DOMAIN-SUFFIX, twimg.co, PorxyLite
+DOMAIN-SUFFIX, twimg.com, PorxyLite
+DOMAIN-SUFFIX, twimg.org, PorxyLite
+DOMAIN-SUFFIX, x.com, PorxyLite
+
+  # TeraBox
+DOMAIN-SUFFIX, terabox.com, PorxyLite
+DOMAIN-SUFFIX, teraboxcdn.com, PorxyLite
+
+  # Whatsapp
+  # WhatsApp 官方核心域名
+DOMAIN-SUFFIX, whatsapp.com, PorxyLite
+DOMAIN-SUFFIX, whatsapp.net, PorxyLite
+DOMAIN-SUFFIX, wa.me, PorxyLite
+DOMAIN-KEYWORD, whatsapp, PorxyLite
+  # Meta / Facebook 配合使用的 CDN 与服务
+DOMAIN-KEYWORD, fbcdn, PorxyLite
+DOMAIN-SUFFIX, cdn.whatsapp.net, PorxyLite
+IP-CIDR, 34.224.0.0/12, PorxyLite, no-resolve
+IP-CIDR, 54.242.0.0/15, PorxyLite, no-resolve
+IP-CIDR, 50.22.198.204/30, PorxyLite, no-resolve
+IP-CIDR, 208.43.122.128/27, PorxyLite, no-resolve
+  # IP-CIDR,108.168.174.0/16,no-resolve
+IP-CIDR, 173.192.231.32/27, PorxyLite, no-resolve
+IP-CIDR, 158.85.5.192/27, PorxyLite, no-resolve
+  # IP-CIDR,174.37.243.0/16,no-resolve
+IP-CIDR, 158.85.46.128/27, PorxyLite, no-resolve
+IP-CIDR, 173.192.222.160/27, PorxyLite, no-resolve
+IP-CIDR, 184.173.128.0/17, PorxyLite, no-resolve
+IP-CIDR, 158.85.224.160/27, PorxyLite, no-resolve
+  # IP-CIDR,75.126.150.0/16,no-resolve
+  # IP-CIDR,69.171.235.0/16,no-resolve
+
+  # Wikipedia 维基相关域名
+DOMAIN-SUFFIX, mediawiki.org, PorxyLite
+DOMAIN-SUFFIX, wikibooks.org, PorxyLite
+DOMAIN-SUFFIX, wikidata.org, PorxyLite
+DOMAIN-SUFFIX, wikileaks.org, PorxyLite
+DOMAIN-SUFFIX, wikimedia.org, PorxyLite
+DOMAIN-SUFFIX, wikinews.org, PorxyLite
+DOMAIN-SUFFIX, wikipedia.org, PorxyLite
+DOMAIN-SUFFIX, wikiquote.org, PorxyLite
+DOMAIN-SUFFIX, wikisource.org, PorxyLite
+DOMAIN-SUFFIX, wikiversity.org, PorxyLite
+DOMAIN-SUFFIX, wikivoyage.org, PorxyLite
+DOMAIN-SUFFIX, wiktionary.org, PorxyLite
+
+  # Zoom
+DOMAIN-SUFFIX, zoom.us, PorxyLite
+DOMAIN-SUFFIX, zoomgov.com, PorxyLite
+
+  #飞流直播
+DOMAIN-SUFFIX, neulion.com, PorxyLite
+DOMAIN-SUFFIX, icntv.xyz, PorxyLite
+DOMAIN-SUFFIX, flzbcdn.xyz, PorxyLite
+
+  #华文电视

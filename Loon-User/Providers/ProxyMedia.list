@@ -1,0 +1,399 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # 内容：国外媒体列表
+
+  # common
+DOMAIN-SUFFIX, uplynk.com, ProxyMedia
+
+  # ABC
+DOMAIN-SUFFIX, edgedatg.com, ProxyMedia
+DOMAIN-SUFFIX, go.com, ProxyMedia
+
+  #
+DOMAIN-SUFFIX, gumroad.com, ProxyMedia
+
+  # AbemaTV  
+DOMAIN-KEYWORD, abematv.akamaized.net, ProxyMedia
+DOMAIN-SUFFIX, abema.io, ProxyMedia
+DOMAIN-SUFFIX, abema.tv, ProxyMedia
+DOMAIN-SUFFIX, ameba.jp, ProxyMedia
+DOMAIN-SUFFIX, hayabusa.io, ProxyMedia
+
+  # All4
+DOMAIN-SUFFIX, c4assets.com, ProxyMedia
+DOMAIN-SUFFIX, channel4.com, ProxyMedia
+
+  # Amazon
+DOMAIN-KEYWORD, avoddashs, ProxyMedia
+DOMAIN, atv-ps.amazon.com, ProxyMedia
+DOMAIN, avodmp4s3ww-a.akamaihd.net, ProxyMedia
+DOMAIN, d1v5ir2lpwr8os.cloudfront.net, ProxyMedia
+DOMAIN, d1xfray82862hr.cloudfront.net, ProxyMedia
+DOMAIN, d22qjgkvxw22r6.cloudfront.net, ProxyMedia
+DOMAIN, d25xi40x97liuc.cloudfront.net, ProxyMedia
+DOMAIN, d27xxe7juh1us6.cloudfront.net, ProxyMedia
+DOMAIN, d3196yreox78o9.cloudfront.net, ProxyMedia
+DOMAIN, dmqdd6hw24ucf.cloudfront.net, ProxyMedia
+DOMAIN, ktpx.amazon.com, ProxyMedia
+DOMAIN-SUFFIX, aboutamazon.com, ProxyMedia
+DOMAIN-SUFFIX, aiv-cdn.net, ProxyMedia
+DOMAIN-SUFFIX, aiv-delivery.net, ProxyMedia
+DOMAIN-SUFFIX, amazon.jobs, ProxyMedia
+DOMAIN-SUFFIX, amazontools.com, ProxyMedia
+DOMAIN-SUFFIX, amazontours.com, ProxyMedia
+DOMAIN-SUFFIX, amazonuniversity.jobs, ProxyMedia
+DOMAIN-SUFFIX, amazonvideo.com, ProxyMedia
+DOMAIN-SUFFIX, media-amazon.com, ProxyMedia
+DOMAIN-SUFFIX, pv-cdn.net, ProxyMedia
+DOMAIN-SUFFIX, seattlespheres.com, ProxyMedia
+  # URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+
+  # BBCiPlayer
+  #   
+DOMAIN-KEYWORD, bbcfmt, ProxyMedia
+DOMAIN-KEYWORD, uk-live, ProxyMedia
+DOMAIN, aod-dash-uk-live.akamaized.net, ProxyMedia
+DOMAIN, aod-hls-uk-live.akamaized.net, ProxyMedia
+DOMAIN, vod-dash-uk-live.akamaized.net, ProxyMedia
+DOMAIN, vod-thumb-uk-live.akamaized.net, ProxyMedia
+DOMAIN-SUFFIX, bbc.co, ProxyMedia
+DOMAIN-SUFFIX, bbc.co.uk, ProxyMedia
+DOMAIN-SUFFIX, bbc.com, ProxyMedia
+DOMAIN-SUFFIX, bbc.net.uk, ProxyMedia
+DOMAIN-SUFFIX, bbcfmt.hs.llnwd.net, ProxyMedia
+DOMAIN-SUFFIX, bbci.co, ProxyMedia
+DOMAIN-SUFFIX, bbci.co.uk, ProxyMedia
+DOMAIN-SUFFIX, bidi.net.uk, ProxyMedia
+
+  # Bahamut
+  #   
+DOMAIN, bahamut.akamaized.net, ProxyMedia
+DOMAIN, gamer-cds.cdn.hinet.net, ProxyMedia
+DOMAIN, gamer2-cds.cdn.hinet.net, ProxyMedia
+DOMAIN-SUFFIX, bahamut.com.tw, ProxyMedia
+DOMAIN-SUFFIX, gamer.com.tw, ProxyMedia
+
+  # DAZN
+  #   
+DOMAIN-KEYWORD, voddazn, ProxyMedia
+DOMAIN-SUFFIX, d151l6v8er5bdm.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, d1sgwhnao7452x.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, dazn-api.com, ProxyMedia
+DOMAIN-SUFFIX, dazn.com, ProxyMedia
+DOMAIN-SUFFIX, dazndn.com, ProxyMedia
+DOMAIN-SUFFIX, dcblivedazn.akamaized.net, ProxyMedia
+DOMAIN-SUFFIX, indazn.com, ProxyMedia
+DOMAIN-SUFFIX, indaznlab.com, ProxyMedia
+
+  # Deezer
+  #   
+DOMAIN-SUFFIX, deezer.com, ProxyMedia
+DOMAIN-SUFFIX, dzcdn.net, ProxyMedia
+
+  # DiscoveryPlus
+DOMAIN-SUFFIX, disco-api.com, ProxyMedia
+DOMAIN-SUFFIX, discovery.com, ProxyMedia
+
+  # DisneyPlus
+  #
+DOMAIN-SUFFIX, adobedtm.com, ProxyMedia
+DOMAIN-SUFFIX, bam.nr-data.net, ProxyMedia
+DOMAIN-SUFFIX, bamgrid.com, ProxyMedia
+DOMAIN-SUFFIX, braze.com, ProxyMedia
+DOMAIN-SUFFIX, cdn.optimizely.com, ProxyMedia
+DOMAIN-SUFFIX, cdn.registerdisney.go.com, ProxyMedia
+DOMAIN-SUFFIX, cws.conviva.com, ProxyMedia
+DOMAIN-SUFFIX, d9.flashtalking.com, ProxyMedia
+DOMAIN-SUFFIX, disney-plus.net, ProxyMedia
+DOMAIN-SUFFIX, disney-portal.my.onetrust.com, ProxyMedia
+DOMAIN-SUFFIX, disney.demdex.net, ProxyMedia
+DOMAIN-SUFFIX, disney.my.sentry.io, ProxyMedia
+DOMAIN-SUFFIX, disneyplus.bn5x.net, ProxyMedia
+DOMAIN-SUFFIX, disneyplus.com, ProxyMedia
+DOMAIN-SUFFIX, disneyplus.com.ssl.sc.omtrdc.net, ProxyMedia
+DOMAIN-SUFFIX, disneystreaming.com, ProxyMedia
+DOMAIN-SUFFIX, dssott.com, ProxyMedia
+DOMAIN-SUFFIX, execute-api.us-east-1.amazonaws.com, ProxyMedia
+DOMAIN-SUFFIX, js-agent.newrelic.com, ProxyMedia
+
+  # EncoreTVB
+  #   
+DOMAIN, bcbolt446c5271-a.akamaihd.net, ProxyMedia
+DOMAIN, content.jwplatform.com, ProxyMedia
+DOMAIN, edge.api.brightcove.com, ProxyMedia
+DOMAIN, videos-f.jwpsrv.com, ProxyMedia
+DOMAIN-SUFFIX, encoretvb.com, ProxyMedia
+
+  # FoxNow
+  #   
+DOMAIN-SUFFIX, fox.com, ProxyMedia
+DOMAIN-SUFFIX, foxdcg.com, ProxyMedia
+
+  # HBO
+  # 
+DOMAIN-SUFFIX, hbo.com, ProxyMedia
+DOMAIN-SUFFIX, hbogo.com, ProxyMedia
+DOMAIN-SUFFIX, hbomax.com, ProxyMedia
+DOMAIN-SUFFIX, hbomaxcdn.com, ProxyMedia
+DOMAIN-SUFFIX, hbonow.com, ProxyMedia
+
+  # HBO_GO_HKG
+  #   
+DOMAIN-KEYWORD, hbogoasia, ProxyMedia
+DOMAIN, 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com, ProxyMedia
+DOMAIN, bcbolthboa-a.akamaihd.net, ProxyMedia
+DOMAIN, cf-images.ap-southeast-1.prod.boltdns.net, ProxyMedia
+DOMAIN, dai3fd1oh325y.cloudfront.net, ProxyMedia
+DOMAIN, hboasia1-i.akamaihd.net, ProxyMedia
+DOMAIN, hboasia2-i.akamaihd.net, ProxyMedia
+DOMAIN, hboasia3-i.akamaihd.net, ProxyMedia
+DOMAIN, hboasia4-i.akamaihd.net, ProxyMedia
+DOMAIN, hboasia5-i.akamaihd.net, ProxyMedia
+DOMAIN, hboasialive.akamaized.net, ProxyMedia
+DOMAIN, hbogoprod-vod.akamaized.net, ProxyMedia
+DOMAIN, hbolb.onwardsmg.com, ProxyMedia
+DOMAIN, hbounify-prod.evergent.com, ProxyMedia
+DOMAIN, players.brightcove.net, ProxyMedia
+DOMAIN, s3-ap-southeast-1.amazonaws.com, ProxyMedia
+DOMAIN-SUFFIX, hboasia.com, ProxyMedia
+DOMAIN-SUFFIX, hbogoasia.com, ProxyMedia
+DOMAIN-SUFFIX, hbogoasia.hk, ProxyMedia
+
+  # HWTV
+  #   
+DOMAIN-SUFFIX, 5itv.tv, ProxyMedia
+DOMAIN-SUFFIX, ocnttv.com, ProxyMedia
+
+  # Hulu
+DOMAIN-SUFFIX, cws-hulu.conviva.com, ProxyMedia
+DOMAIN-SUFFIX, hulu.com, ProxyMedia
+DOMAIN-SUFFIX, hulu.hb.omtrdc.net, ProxyMedia
+DOMAIN-SUFFIX, hulu.sc.omtrdc.net, ProxyMedia
+DOMAIN-SUFFIX, huluad.com, ProxyMedia
+DOMAIN-SUFFIX, huluim.com, ProxyMedia
+DOMAIN-SUFFIX, hulustream.com, ProxyMedia
+
+  # HuluJapan
+DOMAIN-SUFFIX, happyon.jp, ProxyMedia
+DOMAIN-SUFFIX, hjholdings.jp, ProxyMedia
+DOMAIN-SUFFIX, hulu.jp, ProxyMedia
+DOMAIN-SUFFIX, prod.hjholdings.tv, ProxyMedia
+DOMAIN-SUFFIX, streaks.jp, ProxyMedia
+DOMAIN-SUFFIX, yb.uncn.jp, ProxyMedia
+
+  # ITV
+  #   
+DOMAIN, itvpnpmobile-a.akamaihd.net, ProxyMedia
+DOMAIN-SUFFIX, itv.com, ProxyMedia
+DOMAIN-SUFFIX, itvstatic.com, ProxyMedia
+
+  # Iwara
+DOMAIN-SUFFIX, iwara.tv, ProxyMedia
+
+  # JOOX
+  #   #   
+DOMAIN-KEYWORD, jooxweb-api, ProxyMedia
+DOMAIN-SUFFIX, joox.com, ProxyMedia
+
+  # Japonx
+DOMAIN-KEYWORD, japonx, ProxyMedia
+DOMAIN-KEYWORD, japronx, ProxyMedia
+DOMAIN-SUFFIX, japonx.com, ProxyMedia
+DOMAIN-SUFFIX, japonx.net, ProxyMedia
+DOMAIN-SUFFIX, japonx.tv, ProxyMedia
+DOMAIN-SUFFIX, japonx.vip, ProxyMedia
+DOMAIN-SUFFIX, japronx.com, ProxyMedia
+DOMAIN-SUFFIX, japronx.net, ProxyMedia
+DOMAIN-SUFFIX, japronx.tv, ProxyMedia
+DOMAIN-SUFFIX, japronx.vip, ProxyMedia
+
+  # KKBOX
+DOMAIN-SUFFIX, kfs.io, ProxyMedia
+DOMAIN-SUFFIX, kkbox.com, ProxyMedia
+DOMAIN-SUFFIX, kkbox.com.tw, ProxyMedia
+
+  # KKTV
+  #   #   
+DOMAIN, kktv-theater.kk.stream, ProxyMedia
+DOMAIN, theater-kktv.cdn.hinet.net, ProxyMedia
+DOMAIN-SUFFIX, kktv.com.tw, ProxyMedia
+DOMAIN-SUFFIX, kktv.me, ProxyMedia
+
+  # LiTV
+DOMAIN, litvfreemobile-hichannel.cdn.hinet.net, ProxyMedia
+DOMAIN-SUFFIX, litv.tv, ProxyMedia
+
+  # LineTV
+  #   #   
+DOMAIN-SUFFIX, d3c7rimkq79yfu.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, linetv.tw, ProxyMedia
+DOMAIN-SUFFIX, profile.line-scdn.net, ProxyMedia
+
+  # My5
+  #   
+DOMAIN, d349g9zuie06uo.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, channel5.com, ProxyMedia
+DOMAIN-SUFFIX, my5.tv, ProxyMedia
+
+  # MyTVSuper
+  #   
+DOMAIN-KEYWORD, nowtv100, ProxyMedia
+DOMAIN-KEYWORD, rthklive, ProxyMedia
+DOMAIN, mytvsuperlimited.hb.omtrdc.net, ProxyMedia
+DOMAIN, mytvsuperlimited.sc.omtrdc.net, ProxyMedia
+DOMAIN-SUFFIX, mytvsuper.com, ProxyMedia
+DOMAIN-SUFFIX, tvb.com, ProxyMedia
+
+  # Netflix
+  #   
+DOMAIN-KEYWORD, apiproxy-device-prod-nlb-, ProxyMedia
+DOMAIN-KEYWORD, dualstack.apiproxy-, ProxyMedia
+DOMAIN-KEYWORD, netflixdnstest, ProxyMedia
+DOMAIN, netflix.com.edgesuite.net, ProxyMedia
+DOMAIN-SUFFIX, fast.com, ProxyMedia
+DOMAIN-SUFFIX, netflix.com, ProxyMedia
+DOMAIN-SUFFIX, netflix.net, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest0.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest1.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest2.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest3.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest4.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest5.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest6.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest7.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest8.com, ProxyMedia
+DOMAIN-SUFFIX, netflixdnstest9.com, ProxyMedia
+DOMAIN-SUFFIX, nflxext.com, ProxyMedia
+DOMAIN-SUFFIX, nflximg.com, ProxyMedia
+DOMAIN-SUFFIX, nflximg.net, ProxyMedia
+DOMAIN-SUFFIX, nflxso.net, ProxyMedia
+DOMAIN-SUFFIX, nflxvideo.net, ProxyMedia
+IP-CIDR, 8.41.4.0/24, ProxyMedia, no-resolve
+IP-CIDR, 23.246.0.0/18, ProxyMedia, no-resolve
+IP-CIDR, 37.77.184.0/21, ProxyMedia, no-resolve
+IP-CIDR, 38.72.126.0/24, ProxyMedia, no-resolve
+IP-CIDR, 45.57.0.0/17, ProxyMedia, no-resolve
+IP-CIDR, 64.120.128.0/17, ProxyMedia, no-resolve
+IP-CIDR, 66.197.128.0/17, ProxyMedia, no-resolve
+IP-CIDR, 69.53.224.0/19, ProxyMedia, no-resolve
+IP-CIDR, 103.87.204.0/22, ProxyMedia, no-resolve
+IP-CIDR, 108.175.32.0/20, ProxyMedia, no-resolve
+IP-CIDR, 185.2.220.0/22, ProxyMedia, no-resolve
+IP-CIDR, 185.9.188.0/22, ProxyMedia, no-resolve
+IP-CIDR, 192.173.64.0/18, ProxyMedia, no-resolve
+IP-CIDR, 198.38.96.0/19, ProxyMedia, no-resolve
+IP-CIDR, 198.45.48.0/20, ProxyMedia, no-resolve
+IP-CIDR, 203.75.84.0/24, ProxyMedia, no-resolve
+IP-CIDR, 207.45.72.0/22, ProxyMedia, no-resolve
+IP-CIDR, 208.75.76.0/22, ProxyMedia, no-resolve
+
+  # Niconico
+  #   
+DOMAIN-SUFFIX, dmc.nico, ProxyMedia
+DOMAIN-SUFFIX, nicovideo.jp, ProxyMedia
+DOMAIN-SUFFIX, nimg.jp, ProxyMedia
+
+  # NivodTV
+DOMAIN-KEYWORD, nivod, ProxyMedia
+DOMAIN-SUFFIX, biggggg.com, ProxyMedia
+DOMAIN-SUFFIX, mudvod.tv, ProxyMedia
+DOMAIN-SUFFIX, nbys.tv, ProxyMedia
+DOMAIN-SUFFIX, nbys1.tv, ProxyMedia
+DOMAIN-SUFFIX, nbyy.tv, ProxyMedia
+DOMAIN-SUFFIX, newpppp.com, ProxyMedia
+DOMAIN-SUFFIX, nivod.tv, ProxyMedia
+DOMAIN-SUFFIX, nivodi.tv, ProxyMedia
+DOMAIN-SUFFIX, nivodz.com, ProxyMedia
+DOMAIN-SUFFIX, vod360.net, ProxyMedia
+
+  # Olevod
+DOMAIN-KEYWORD, olevod, ProxyMedia
+DOMAIN-SUFFIX, haiwaikan.com, ProxyMedia
+DOMAIN-SUFFIX, iole.tv, ProxyMedia
+DOMAIN-SUFFIX, olehd.com, ProxyMedia
+DOMAIN-SUFFIX, olelive.com, ProxyMedia
+DOMAIN-SUFFIX, olevod.com, ProxyMedia
+DOMAIN-SUFFIX, olevod.io, ProxyMedia
+DOMAIN-SUFFIX, olevod.tv, ProxyMedia
+DOMAIN-SUFFIX, olevodtv.com, ProxyMedia
+
+  # PBS
+  #   
+DOMAIN-SUFFIX, pbs.org, ProxyMedia
+
+  # Pandora
+  #   
+DOMAIN-SUFFIX, pandora.com, ProxyMedia
+
+  # Pornhub
+DOMAIN-SUFFIX, phncdn.com, ProxyMedia
+DOMAIN-SUFFIX, phprcdn.com, ProxyMedia
+DOMAIN-SUFFIX, pornhub.com, ProxyMedia
+DOMAIN-SUFFIX, pornhubpremium.com, ProxyMedia
+
+  # Qobuz
+DOMAIN-SUFFIX, qobuz.com, ProxyMedia
+
+  # SoundCloud
+  #   
+DOMAIN-SUFFIX, p-cdn.us, ProxyMedia
+DOMAIN-SUFFIX, sndcdn.com, ProxyMedia
+DOMAIN-SUFFIX, soundcloud.com, ProxyMedia
+
+  # Spotify
+  #   
+DOMAIN-KEYWORD, -spotify-, ProxyMedia
+DOMAIN-KEYWORD, spotify.com, ProxyMedia
+DOMAIN-SUFFIX, pscdn.co, ProxyMedia
+DOMAIN-SUFFIX, scdn.co, ProxyMedia
+DOMAIN-SUFFIX, spoti.fi, ProxyMedia
+DOMAIN-SUFFIX, spotify.com, ProxyMedia
+DOMAIN-SUFFIX, spotifycdn.com, ProxyMedia
+DOMAIN-SUFFIX, spotifycdn.net, ProxyMedia
+
+  # TIDAL
+  #   
+DOMAIN-SUFFIX, tidal-cms.s3.amazonaws.com, ProxyMedia
+DOMAIN-SUFFIX, tidal.com, ProxyMedia
+DOMAIN-SUFFIX, tidalhifi.com, ProxyMedia
+
+  # TaiWanGood 台湾好
+  #   
+DOMAIN, hamifans.emome.net, ProxyMedia
+DOMAIN-SUFFIX, skyking.com.tw, ProxyMedia
+
+  # TikTok
+  #   
+DOMAIN-KEYWORD, tiktokcdn, ProxyMedia
+DOMAIN-SUFFIX, byteoversea.com, ProxyMedia
+DOMAIN-SUFFIX, ibytedtos.com, ProxyMedia
+DOMAIN-SUFFIX, ipstatp.com, ProxyMedia
+DOMAIN-SUFFIX, muscdn.com, ProxyMedia
+DOMAIN-SUFFIX, musical.ly, ProxyMedia
+DOMAIN-SUFFIX, tik-tokapi.com, ProxyMedia
+DOMAIN-SUFFIX, tiktok.com, ProxyMedia
+DOMAIN-SUFFIX, tiktokcdn.com, ProxyMedia
+DOMAIN-SUFFIX, tiktokv.com, ProxyMedia
+
+  # Twitch
+DOMAIN-KEYWORD, ttvnw, ProxyMedia
+DOMAIN-SUFFIX, ext-twitch.tv, ProxyMedia
+DOMAIN-SUFFIX, jtvnw.net, ProxyMedia
+DOMAIN-SUFFIX, ttvnw.net, ProxyMedia
+DOMAIN-SUFFIX, twitch-ext.rootonline.de, ProxyMedia
+DOMAIN-SUFFIX, twitch.tv, ProxyMedia
+DOMAIN-SUFFIX, twitchcdn.net, ProxyMedia
+
+  # ViuTV
+  #   
+  # PROCESS-NAME,com.viu.pad
+  # PROCESS-NAME,com.viu.phone
+  # PROCESS-NAME,com.vuclip.viu
+DOMAIN-SUFFIX, cognito-identity.us-east-1.amazonaws.com, ProxyMedia
+DOMAIN-SUFFIX, d1k2us671qcoau.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, d2anahhhmp1ffz.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, dfp6rglgjqszk.cloudfront.net, ProxyMedia
+DOMAIN-SUFFIX, mobileanalytics.us-east-1.amazonaws.com, ProxyMedia
+DOMAIN-SUFFIX, viu.com, ProxyMedia
+DOMAIN-SUFFIX, viu.now.com, ProxyMedia
+DOMAIN-SUFFIX, viu.tv, ProxyMedia

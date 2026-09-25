@@ -1,0 +1,7 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # > wechat FCM
+DOMAIN-SUFFIX, short.weixin.qq.com, UserRule-FCM
+DOMAIN-SUFFIX, weixin.qq.com, UserRule-FCM
+DOMAIN-SUFFIX, dns.weixin.qq.com, UserRule-FCM
+DOMAIN-SUFFIX, short.wechat.com, UserRule-FCM

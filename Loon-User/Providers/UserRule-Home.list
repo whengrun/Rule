@@ -1,0 +1,11 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # > figma
+DOMAIN-SUFFIX, figma.com, UserRule-Home
+DOMAIN-SUFFIX, figmausercontent.com, UserRule-Home
+DOMAIN-SUFFIX, figma.app, UserRule-Home
+DOMAIN-SUFFIX, figma.site, UserRule-Home
+DOMAIN-SUFFIX, makeproxy-c.figma.site, UserRule-Home
+DOMAIN-SUFFIX, makeproxy-m.figma.site, UserRule-Home
+DOMAIN-SUFFIX, esm.instatus.com, UserRule-Home
+DOMAIN-SUFFIX, esm.sh, UserRule-Home

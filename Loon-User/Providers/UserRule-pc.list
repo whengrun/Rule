@@ -1,0 +1,17 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # > application
+# PROCESS-NAME, Downie 4, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, obfs4proxy, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, tor.real, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, tor, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, tor.exe, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, Tor Browser.app, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, JavaApplicationStub, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, MEGAsync, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+  # PROCESS-NAME,HP.Smart.exe
+  # DOMAIN-SUFFIX,login3.id.hp.com
+# PROCESS-NAME, Podcasts, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, Antigravity IDE.app, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, Antigravity IDE Helper, UserRule-PC (Loon 当前规则语法不支持，已保留为注释)
+# PROCESS-NAME, Antigravity IDE Helper (Plugin), UserRule-PC (Loon 当前规则语法不支持，已保留为注释)

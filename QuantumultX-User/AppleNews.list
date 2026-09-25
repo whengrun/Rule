@@ -1,3 +1,4 @@
+# target-client: quantumultx
 # > Apple News
 DOMAIN,gspe1-ssl.ls.apple.com,Apple News
 #PROCESS-NAME,News,Apple News

@@ -1,0 +1,59 @@
+# target-client: loon
+# --- Loon 规则集转换自 Clash payload ---
+  # > tencent
+DOMAIN-SUFFIX, qq.com, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, wechat.com, UserRule-Loon-DIRECT
+
+  # > bilibili
+DOMAIN-SUFFIX, interface.bilibili.com, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, api.bilibili.com, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, hdslb.com, UserRule-Loon-DIRECT
+
+  # > speedtest
+DOMAIN-SUFFIX, speedtest.net, UserRule-Loon-DIRECT
+DOMAIN-KEYWORD, speedtest, UserRule-Loon-DIRECT
+
+  # > yacd
+DOMAIN, clash.razord.top, UserRule-Loon-DIRECT
+DOMAIN, yacd.haishan.me, UserRule-Loon-DIRECT
+
+  # > 1password
+DOMAIN-SUFFIX, 1password.com, UserRule-Loon-DIRECT
+
+  # > cscec
+DOMAIN-SUFFIX, cscec.com, UserRule-Loon-DIRECT
+
+  # > home
+DOMAIN-SUFFIX, piranhaone.me, UserRule-Loon-DIRECT
+# PROCESS-NAME, HedgieMate, UserRule-Loon-DIRECT (Loon 当前规则语法不支持，已保留为注释)
+
+  # > synology
+DOMAIN, checkip.synology.com, UserRule-Loon-DIRECT
+DOMAIN, ddns.synology.com, UserRule-Loon-DIRECT
+
+  # > plex
+DOMAIN, v4.plex.tv, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, plex.direct, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, me.plexapp.com, UserRule-Loon-DIRECT
+
+  # > Adobe
+DOMAIN, photos.adobe.io, UserRule-Loon-DIRECT
+DOMAIN, lcs-cops.adobe.io, UserRule-Loon-DIRECT
+
+  # > Google FCM
+# GEOSITE, googlefcm, UserRule-Loon-DIRECT (未识别规则类型)
+DOMAIN, mtalk4.google.com, UserRule-Loon-DIRECT
+DOMAIN, mtalk-staging.google.com, UserRule-Loon-DIRECT
+DOMAIN, mtalk-dev.google.com, UserRule-Loon-DIRECT
+
+  # > UPDF
+DOMAIN, api.updf.com, UserRule-Loon-DIRECT
+
+  # >> typeless
+DOMAIN, api.typeless.com, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, typeless.com, UserRule-Loon-DIRECT
+DOMAIN-SUFFIX, typeless-static.com, UserRule-Loon-DIRECT
+
+  # >> CAD快速看图
+# PROCESS-NAME, CAD快速看图, UserRule-Loon-DIRECT (Loon 当前规则语法不支持，已保留为注释)
+DOMAIN, cad.everdrawing.com, UserRule-Loon-DIRECT
