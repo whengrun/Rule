@@ -1,56 +1,55 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # Unbreak 白名单 不应该被广告链接的网站
 
   # Epicgames
-DOMAIN-SUFFIX, ol.epicgames.com, UnBan
+  DOMAIN-SUFFIX,ol.epicgames.com,UnBan
 
   # Getui
-DOMAIN-SUFFIX, dizhensubao.getui.com, UnBan
+  DOMAIN-SUFFIX,dizhensubao.getui.com,UnBan
 
   # Mozilla
-DOMAIN-SUFFIX, tracking-protection.cdn.mozilla.net, UnBan
+  DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,UnBan
 
   # Origin
-DOMAIN, origin-a.akamaihd.net, UnBan
+  DOMAIN,origin-a.akamaihd.net,UnBan
 
   # Tencent
-DOMAIN, fairplay.l.qq.com, UnBan
-DOMAIN, livew.l.qq.com, UnBan
-DOMAIN, vd.l.qq.com, UnBan
+  DOMAIN,fairplay.l.qq.com,UnBan
+  DOMAIN,livew.l.qq.com,UnBan
+  DOMAIN,vd.l.qq.com,UnBan
 
   # Strava
 
   # Umeng
-DOMAIN, errlog.umeng.com, UnBan
-DOMAIN, msg.umeng.com, UnBan
-DOMAIN, msg.umengcloud.com, UnBan
+  DOMAIN,errlog.umeng.com,UnBan
+  DOMAIN,msg.umeng.com,UnBan
+  DOMAIN,msg.umengcloud.com,UnBan
 
   # Miui 小米
-DOMAIN, tracking.miui.com, UnBan
+  DOMAIN,tracking.miui.com,UnBan
 
   # General
-DOMAIN, app.adjust.com, UnBan
-DOMAIN, bdtj.tagtic.cn, UnBan
+  DOMAIN,app.adjust.com,UnBan
+  DOMAIN,bdtj.tagtic.cn,UnBan
 
   # Hypixel Network
-DOMAIN, rewards.hypixel.net, UnBan
+  DOMAIN,rewards.hypixel.net,UnBan
 
   # Koodo Mobile
-DOMAIN-SUFFIX, koodomobile.com, UnBan
-DOMAIN-SUFFIX, koodomobile.ca, UnBan
+  DOMAIN-SUFFIX,koodomobile.com,UnBan
+  DOMAIN-SUFFIX,koodomobile.ca,UnBan
 
   # 群晖ddns
-DOMAIN-SUFFIX, synology.me, UnBan
-DOMAIN-SUFFIX, diskstation.me, UnBan
-DOMAIN-SUFFIX, i234.me, UnBan
-DOMAIN-SUFFIX, myds.me, UnBan
-DOMAIN-SUFFIX, dscloud.biz, UnBan
-DOMAIN-SUFFIX, dscloud.me, UnBan
-DOMAIN-SUFFIX, dscloud.mobi, UnBan
-DOMAIN-SUFFIX, dsmynas.com, UnBan
-DOMAIN-SUFFIX, dsmynas.net, UnBan
-DOMAIN-SUFFIX, dsmynas.org, UnBan
-DOMAIN-SUFFIX, familyds.com, UnBan
-DOMAIN-SUFFIX, familyds.net, UnBan
-DOMAIN-SUFFIX, familyds.org, UnBan
+  DOMAIN-SUFFIX,synology.me,UnBan
+  DOMAIN-SUFFIX,DiskStation.me,UnBan
+  DOMAIN-SUFFIX,i234.me,UnBan
+  DOMAIN-SUFFIX,myDS.me,UnBan
+  DOMAIN-SUFFIX,DSCloud.biz,UnBan
+  DOMAIN-SUFFIX,DSCloud.me,UnBan
+  DOMAIN-SUFFIX,DSCloud.mobi,UnBan
+  DOMAIN-SUFFIX,DSmyNAS.com,UnBan
+  DOMAIN-SUFFIX,DSmyNAS.net,UnBan
+  DOMAIN-SUFFIX,DSmyNAS.org,UnBan
+  DOMAIN-SUFFIX,FamilyDS.com,UnBan
+  DOMAIN-SUFFIX,FamilyDS.net,UnBan
+  DOMAIN-SUFFIX,FamilyDS.org,UnBan

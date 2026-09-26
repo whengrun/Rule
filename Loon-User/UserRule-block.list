@@ -1,16 +1,15 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
-DOMAIN, api.lemonsqueezy.com, UserRule-Block
-DOMAIN, screen.studio, UserRule-Block
+  DOMAIN,api.lemonsqueezy.com,UserRule-Block
+  DOMAIN,screen.studio,UserRule-Block
 
   # > Adobe
-DOMAIN-SUFFIX, adobe.io, UserRule-Block
+  DOMAIN-SUFFIX,adobe.io,UserRule-Block
 
   # > AdGuard
   # DOMAIN,api.adguard.org
 
   # > Wechat
-DOMAIN-SUFFIX, wsx.qq.com, UserRule-Block
+  DOMAIN-SUFFIX,wsx.qq.com,UserRule-Block
 
   # > Autodesk
-DOMAIN, genuine-software2.autodesk.com, UserRule-Block
+  DOMAIN,genuine-software2.autodesk.com,UserRule-Block

@@ -1,200 +1,199 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # 内容：Clash
   # > UserRule
-DOMAIN-SUFFIX, dlercloud.com, UserRule-Loon
-DOMAIN-SUFFIX, maying.co, UserRule-Loon
-DOMAIN-SUFFIX, sub.ssr.ac, UserRule-Loon
-DOMAIN-SUFFIX, easyintnet.com, UserRule-Loon
-DOMAIN-SUFFIX, getoutline.org, UserRule-Loon
-DOMAIN-SUFFIX, pandafan.me, UserRule-Loon
-DOMAIN-SUFFIX, renzhe.cloud, UserRule-Loon
-DOMAIN-SUFFIX, paoluz.link, UserRule-Loon
-DOMAIN-SUFFIX, paoluz.com, UserRule-Loon
-DOMAIN-SUFFIX, nameless13.com, UserRule-Loon
-DOMAIN-SUFFIX, sublinkxx.xyz, UserRule-Loon
-DOMAIN-SUFFIX, e-nets.xyz, UserRule-Loon
-DOMAIN-SUFFIX, maying.club, UserRule-Loon
+  DOMAIN-SUFFIX,dlercloud.com,UserRule-Clash
+  DOMAIN-SUFFIX,maying.co,UserRule-Clash
+  DOMAIN-SUFFIX,sub.ssr.ac,UserRule-Clash
+  DOMAIN-SUFFIX,easyintnet.com,UserRule-Clash
+  DOMAIN-SUFFIX,getoutline.org,UserRule-Clash
+  DOMAIN-SUFFIX,pandafan.me,UserRule-Clash
+  DOMAIN-SUFFIX,renzhe.cloud,UserRule-Clash
+  DOMAIN-SUFFIX,paoluz.link,UserRule-Clash
+  DOMAIN-SUFFIX,paoluz.com,UserRule-Clash
+  DOMAIN-SUFFIX,nameless13.com,UserRule-Clash
+  DOMAIN-SUFFIX,sublinkxx.xyz,UserRule-Clash
+  DOMAIN-SUFFIX,e-nets.xyz,UserRule-Clash
+  DOMAIN-SUFFIX,maying.club,UserRule-Clash
   # DOMAIN-SUFFIX,emby.maying.club
-DOMAIN-SUFFIX, ip.skk.moe, UserRule-Loon
-DOMAIN-SUFFIX, easyenable.com, UserRule-Loon
-DOMAIN-SUFFIX, db-ip.com, UserRule-Loon
+  DOMAIN-SUFFIX,ip.skk.moe,UserRule-Clash
+  DOMAIN-SUFFIX,easyenable.com,UserRule-Clash
+  DOMAIN-SUFFIX,db-ip.com,UserRule-Clash
 
   # > BetterTouchTool
-# PROCESS-NAME, BetterTouchTool, UserRule-Loon (Loon 当前规则语法不支持，已保留为注释)
-DOMAIN-SUFFIX, updates.folivora.ai, UserRule-Loon
-DOMAIN-SUFFIX, bttreleases.llo.ai, UserRule-Loon
+  # PROCESS-NAME,BetterTouchTool (目标软件不支持此匹配类型，已保留为注释。)
+  DOMAIN-SUFFIX,updates.folivora.ai,UserRule-Clash
+  DOMAIN-SUFFIX,bttreleases.llo.ai,UserRule-Clash
 
   # > Updatest
-DOMAIN-SUFFIX, formulae.brew.sh, UserRule-Loon
-DOMAIN-SUFFIX, static.adtidy.org, UserRule-Loon
-DOMAIN-SUFFIX, s3.amazonaws.com, UserRule-Loon
-DOMAIN-SUFFIX, api.lemonsqueezy.com, UserRule-Loon
-DOMAIN-SUFFIX, scootersoftware.com, UserRule-Loon
-DOMAIN, static.adguard.com, UserRule-Loon
-DOMAIN, download.clipgrab.org, UserRule-Loon
+  DOMAIN-SUFFIX,formulae.brew.sh,UserRule-Clash
+  DOMAIN-SUFFIX,static.adtidy.org,UserRule-Clash
+  DOMAIN-SUFFIX,s3.amazonaws.com,UserRule-Clash
+  DOMAIN-SUFFIX,api.lemonsqueezy.com,UserRule-Clash
+  DOMAIN-SUFFIX,scootersoftware.com,UserRule-Clash
+  DOMAIN,static.adguard.com,UserRule-Clash
+  DOMAIN,download.clipgrab.org,UserRule-Clash
 
   # > CloudFlare
-DOMAIN, one.one.one.one, UserRule-Loon
-DOMAIN, chrome.cloudflare-dns.com, UserRule-Loon
+  DOMAIN,one.one.one.one,UserRule-Clash
+  DOMAIN,chrome.cloudflare-dns.com,UserRule-Clash
 
   # > Mega
-DOMAIN, g.api.mega.co.nz, UserRule-Loon
+  DOMAIN,g.api.mega.co.nz,UserRule-Clash
 
   # > Media
-DOMAIN-SUFFIX, techbang.com, UserRule-Loon
-DOMAIN-KEYWORD, ifixit, UserRule-Loon
-DOMAIN-SUFFIX, macworld.com, UserRule-Loon
-DOMAIN-SUFFIX, theguardian.com, UserRule-Loon
-DOMAIN-SUFFIX, electrek.co, UserRule-Loon
-DOMAIN-SUFFIX, 9to5mac.com, UserRule-Loon
-DOMAIN-SUFFIX, cn.ft.com, UserRule-Loon
-DOMAIN-SUFFIX, rfi.fr, UserRule-Loon
-DOMAIN-SUFFIX, wsj.com, UserRule-Loon
-DOMAIN-SUFFIX, dw.com, UserRule-Loon
-DOMAIN-SUFFIX, creaders.net, UserRule-Loon
-DOMAIN-SUFFIX, soundofhope.org, UserRule-Loon
-DOMAIN-SUFFIX, rfa.org, UserRule-Loon
-DOMAIN-SUFFIX, engadget.com, UserRule-Loon
-DOMAIN-SUFFIX, techcrunch.com, UserRule-Loon
-DOMAIN-SUFFIX, feedly.com, UserRule-Loon
-DOMAIN-SUFFIX, 10beasts.net, UserRule-Loon
-DOMAIN-SUFFIX, yahoo.com, UserRule-Loon
-DOMAIN-SUFFIX, chinadigitaltimes.net, UserRule-Loon
-DOMAIN-SUFFIX, voachinese.com, UserRule-Loon
-DOMAIN-KEYWORD, voa, UserRule-Loon
-DOMAIN-SUFFIX, chinapress.com.my, UserRule-Loon
-DOMAIN-SUFFIX, enanyang.my, UserRule-Loon
-DOMAIN-SUFFIX, udn.com, UserRule-Loon
-DOMAIN-SUFFIX, x.com, UserRule-Loon
-DOMAIN-SUFFIX, facebook.com, UserRule-Loon
-DOMAIN-SUFFIX, cn.nytimes.com, UserRule-Loon
-DOMAIN-SUFFIX, nyt.com, UserRule-Loon
-DOMAIN-SUFFIX, appleinsider.com, UserRule-Loon
-DOMAIN-SUFFIX, thestreet.com, UserRule-Loon
-DOMAIN-SUFFIX, forum.chineseaci.com, UserRule-Loon
-DOMAIN-SUFFIX, v2ex.pro, UserRule-Loon
-DOMAIN-SUFFIX, redd.it, UserRule-Loon
-DOMAIN-SUFFIX, redditmedia.com, UserRule-Loon
-DOMAIN-SUFFIX, redditstatic.com, UserRule-Loon
-DOMAIN-SUFFIX, redditspace.com, UserRule-Loon
-DOMAIN-SUFFIX, gitbook.io, UserRule-Loon
-DOMAIN-SUFFIX, ftchinese.com, UserRule-Loon
-DOMAIN-KEYWORD, notebookcheck, UserRule-Loon
-DOMAIN-SUFFIX, v2rayssr.com, UserRule-Loon
-DOMAIN-SUFFIX, mobile01.com, UserRule-Loon
-DOMAIN-SUFFIX, hk01.com, UserRule-Loon
-DOMAIN-SUFFIX, economist.com, UserRule-Loon
-DOMAIN-SUFFIX, hket.com, UserRule-Loon
-DOMAIN-SUFFIX, storm.mg, UserRule-Loon
-DOMAIN-SUFFIX, zh.cn.nikkei.com, UserRule-Loon
-DOMAIN-SUFFIX, nikkei.com, UserRule-Loon
-DOMAIN-SUFFIX, nodeseek.com, UserRule-Loon
-DOMAIN-SUFFIX, worldjournal.com, UserRule-Loon
-DOMAIN-SUFFIX, dq.yam.com, UserRule-Loon
-DOMAIN-SUFFIX, singtao.ca, UserRule-Loon
-DOMAIN-SUFFIX, xda-developers.com, UserRule-Loon
-DOMAIN-SUFFIX, bangumi.tv, UserRule-Loon
+  DOMAIN-SUFFIX,techbang.com,UserRule-Clash
+  DOMAIN-KEYWORD,ifixit,UserRule-Clash
+  DOMAIN-SUFFIX,macworld.com,UserRule-Clash
+  DOMAIN-SUFFIX,theguardian.com,UserRule-Clash
+  DOMAIN-SUFFIX,electrek.co,UserRule-Clash
+  DOMAIN-SUFFIX,9to5mac.com,UserRule-Clash
+  DOMAIN-SUFFIX,cn.ft.com,UserRule-Clash
+  DOMAIN-SUFFIX,rfi.fr,UserRule-Clash
+  DOMAIN-SUFFIX,wsj.com,UserRule-Clash
+  DOMAIN-SUFFIX,dw.com,UserRule-Clash
+  DOMAIN-SUFFIX,creaders.net,UserRule-Clash
+  DOMAIN-SUFFIX,soundofhope.org,UserRule-Clash
+  DOMAIN-SUFFIX,rfa.org,UserRule-Clash
+  DOMAIN-SUFFIX,engadget.com,UserRule-Clash
+  DOMAIN-SUFFIX,techcrunch.com,UserRule-Clash
+  DOMAIN-SUFFIX,feedly.com,UserRule-Clash
+  DOMAIN-SUFFIX,10beasts.net,UserRule-Clash
+  DOMAIN-SUFFIX,yahoo.com,UserRule-Clash
+  DOMAIN-SUFFIX,chinadigitaltimes.net,UserRule-Clash
+  DOMAIN-SUFFIX,voachinese.com,UserRule-Clash
+  DOMAIN-KEYWORD,voa,UserRule-Clash
+  DOMAIN-SUFFIX,chinapress.com.my,UserRule-Clash
+  DOMAIN-SUFFIX,enanyang.my,UserRule-Clash
+  DOMAIN-SUFFIX,udn.com,UserRule-Clash
+  DOMAIN-SUFFIX,x.com,UserRule-Clash
+  DOMAIN-SUFFIX,facebook.com,UserRule-Clash
+  DOMAIN-SUFFIX,cn.nytimes.com,UserRule-Clash
+  DOMAIN-SUFFIX,nyt.com,UserRule-Clash
+  DOMAIN-SUFFIX,appleinsider.com,UserRule-Clash
+  DOMAIN-SUFFIX,thestreet.com,UserRule-Clash
+  DOMAIN-SUFFIX,forum.chineseaci.com,UserRule-Clash
+  DOMAIN-SUFFIX,v2ex.pro,UserRule-Clash
+  DOMAIN-SUFFIX,redd.it,UserRule-Clash
+  DOMAIN-SUFFIX,redditmedia.com,UserRule-Clash
+  DOMAIN-SUFFIX,redditstatic.com,UserRule-Clash
+  DOMAIN-SUFFIX,redditspace.com,UserRule-Clash
+  DOMAIN-SUFFIX,gitbook.io,UserRule-Clash
+  DOMAIN-SUFFIX,ftchinese.com,UserRule-Clash
+  DOMAIN-KEYWORD,notebookcheck,UserRule-Clash
+  DOMAIN-SUFFIX,v2rayssr.com,UserRule-Clash
+  DOMAIN-SUFFIX,mobile01.com,UserRule-Clash
+  DOMAIN-SUFFIX,hk01.com,UserRule-Clash
+  DOMAIN-SUFFIX,economist.com,UserRule-Clash
+  DOMAIN-SUFFIX,hket.com,UserRule-Clash
+  DOMAIN-SUFFIX,storm.mg,UserRule-Clash
+  DOMAIN-SUFFIX,zh.cn.nikkei.com,UserRule-Clash
+  DOMAIN-SUFFIX,nikkei.com,UserRule-Clash
+  DOMAIN-SUFFIX,nodeseek.com,UserRule-Clash
+  DOMAIN-SUFFIX,worldjournal.com,UserRule-Clash
+  DOMAIN-SUFFIX,dq.yam.com,UserRule-Clash
+  DOMAIN-SUFFIX,singtao.ca,UserRule-Clash
+  DOMAIN-SUFFIX,xda-developers.com,UserRule-Clash
+  DOMAIN-SUFFIX,bangumi.tv,UserRule-Clash
 
   # > amazon
-DOMAIN-SUFFIX, amazonaws.com, UserRule-Loon
-DOMAIN-SUFFIX, amazon.co.jp, UserRule-Loon
-DOMAIN-SUFFIX, amazon.com, UserRule-Loon
+  DOMAIN-SUFFIX,amazonaws.com,UserRule-Clash
+  DOMAIN-SUFFIX,amazon.co.jp,UserRule-Clash
+  DOMAIN-SUFFIX,amazon.com,UserRule-Clash
 
   # > Moneywiz
-DOMAIN-SUFFIX, billing.wiz.money, UserRule-Loon
-DOMAIN-SUFFIX, observices.wiz.money, UserRule-Loon
-DOMAIN-SUFFIX, api.syncbits.com, UserRule-Loon
+  DOMAIN-SUFFIX,billing.wiz.money,UserRule-Clash
+  DOMAIN-SUFFIX,observices.wiz.money,UserRule-Clash
+  DOMAIN-SUFFIX,api.syncbits.com,UserRule-Clash
 
   # > books
-DOMAIN-SUFFIX, 69shu.com, UserRule-Loon
-DOMAIN-SUFFIX, 69shuba.com, UserRule-Loon
-DOMAIN-SUFFIX, 69shuba.pro, UserRule-Loon
-DOMAIN-SUFFIX, 69shuba.cx, UserRule-Loon
-DOMAIN-SUFFIX, uukanshu.com, UserRule-Loon
-DOMAIN-SUFFIX, longmabookcn.com, UserRule-Loon
-DOMAIN-SUFFIX, longmabook.com, UserRule-Loon
-DOMAIN-SUFFIX, ptwxz.com, UserRule-Loon
-DOMAIN-SUFFIX, api.69xinshu.com, UserRule-Loon
-DOMAIN-SUFFIX, haodoo.org, UserRule-Loon
-DOMAIN-SUFFIX, zh.annas-archive.li, UserRule-Loon
-DOMAIN-SUFFIX, annas-archive.li, UserRule-Loon
-DOMAIN-SUFFIX, annas-archive.gl, UserRule-Loon
-DOMAIN-SUFFIX, annas-archive.pk, UserRule-Loon
-DOMAIN-SUFFIX, annas-archive.gd, UserRule-Loon
-DOMAIN-SUFFIX, 24hbook.com, UserRule-Loon
-DOMAIN-SUFFIX, z-library.co, UserRule-Loon
-DOMAIN-SUFFIX, z-lib.ai, UserRule-Loon
-DOMAIN-SUFFIX, z-lib.id, UserRule-Loon
-DOMAIN-SUFFIX, scribd.com, UserRule-Loon
+  DOMAIN-SUFFIX,69shu.com,UserRule-Clash
+  DOMAIN-SUFFIX,69shuba.com,UserRule-Clash
+  DOMAIN-SUFFIX,69shuba.pro,UserRule-Clash
+  DOMAIN-SUFFIX,69shuba.cx,UserRule-Clash
+  DOMAIN-SUFFIX,uukanshu.com,UserRule-Clash
+  DOMAIN-SUFFIX,longmabookcn.com,UserRule-Clash
+  DOMAIN-SUFFIX,longmabook.com,UserRule-Clash
+  DOMAIN-SUFFIX,ptwxz.com,UserRule-Clash
+  DOMAIN-SUFFIX,api.69xinshu.com,UserRule-Clash
+  DOMAIN-SUFFIX,haodoo.org,UserRule-Clash
+  DOMAIN-SUFFIX,zh.annas-archive.li,UserRule-Clash
+  DOMAIN-SUFFIX,annas-archive.li,UserRule-Clash
+  DOMAIN-SUFFIX,annas-archive.gl,UserRule-Clash
+  DOMAIN-SUFFIX,annas-archive.pk,UserRule-Clash
+  DOMAIN-SUFFIX,annas-archive.gd,UserRule-Clash
+  DOMAIN-SUFFIX,24hbook.com,UserRule-Clash
+  DOMAIN-SUFFIX,z-library.co,UserRule-Clash
+  DOMAIN-SUFFIX,z-lib.ai,UserRule-Clash
+  DOMAIN-SUFFIX,z-lib.id,UserRule-Clash
+  DOMAIN-SUFFIX,scribd.com,UserRule-Clash
 
   # > Protonmail
-DOMAIN-SUFFIX, protonvpn.com, UserRule-Loon
-DOMAIN-SUFFIX, protonmail.com, UserRule-Loon
-DOMAIN-SUFFIX, api.protonmail.ch, UserRule-Loon
-DOMAIN-SUFFIX, proton.me, UserRule-Loon
+  DOMAIN-SUFFIX,protonvpn.com,UserRule-Clash
+  DOMAIN-SUFFIX,protonmail.com,UserRule-Clash
+  DOMAIN-SUFFIX,api.protonmail.ch,UserRule-Clash
+  DOMAIN-SUFFIX,proton.me,UserRule-Clash
 
   # > Apple News
-DOMAIN, gspe1-ssl.ls.apple.com, UserRule-Loon
+  DOMAIN,gspe1-ssl.ls.apple.com,UserRule-Clash
 
   # > Apple TV
-DOMAIN, np-edge.itunes.apple.com, UserRule-Loon
-DOMAIN, play-edge.itunes.apple.com, UserRule-Loon
-DOMAIN-SUFFIX, tv.apple.com, UserRule-Loon
+  DOMAIN,np-edge.itunes.apple.com,UserRule-Clash
+  DOMAIN,play-edge.itunes.apple.com,UserRule-Clash
+  DOMAIN-SUFFIX,tv.apple.com,UserRule-Clash
 
   # > Apple Postcast
   # DOMAIN-SUFFIX,amp-api.podcasts.apple.com
-DOMAIN-SUFFIX, bookkeeper.itunes.apple.com, UserRule-Loon
-DOMAIN, bag.itunes.apple.com, UserRule-Loon
-DOMAIN-SUFFIX, podcasts.apple.com, UserRule-Loon
-DOMAIN-SUFFIX, lookup-api.apple.com, UserRule-Loon
-DOMAIN, play.itunes.apple.com, UserRule-Loon
-DOMAIN, xp.apple.com, UserRule-Loon
-DOMAIN, news-assets.apple.com, UserRule-Loon
-DOMAIN, fpinit.itunes.apple.com, UserRule-Loon
-DOMAIN, entitlements-edge.itunes.apple.com, UserRule-Loon
+  DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,UserRule-Clash
+  DOMAIN,bag.itunes.apple.com,UserRule-Clash
+  DOMAIN-SUFFIX,podcasts.apple.com,UserRule-Clash
+  DOMAIN-SUFFIX,lookup-api.apple.com,UserRule-Clash
+  DOMAIN,play.itunes.apple.com,UserRule-Clash
+  DOMAIN,xp.apple.com,UserRule-Clash
+  DOMAIN,news-assets.apple.com,UserRule-Clash
+  DOMAIN,fpinit.itunes.apple.com,UserRule-Clash
+  DOMAIN,entitlements-edge.itunes.apple.com,UserRule-Clash
   # DOMAIN,setup.icloud.com
-DOMAIN, 11-courier.push.apple.com, UserRule-Loon
+  DOMAIN,11-courier.push.apple.com,UserRule-Clash
 
   # > OpenwebUI
-DOMAIN-SUFFIX, openwebui.com, UserRule-Loon
+  DOMAIN-SUFFIX,openwebui.com,UserRule-Clash
 
   # > TD Ameritrade
-DOMAIN-SUFFIX, thinkorswim.com, UserRule-Loon
-DOMAIN-SUFFIX, tdameritrade.com, UserRule-Loon
-DOMAIN-SUFFIX, trefis.com, UserRule-Loon
-DOMAIN-SUFFIX, ameritrade.com, UserRule-Loon
-DOMAIN, toslc.thinkorswim.com, UserRule-Loon
-DOMAIN, thinkswim-desktop1.schwab.com, UserRule-Loon
-DOMAIN, sws-gateway-nr.schwab.com, UserRule-Loon
-DOMAIN, tsdrs.schwab.com, UserRule-Loon
+  DOMAIN-SUFFIX,thinkorswim.com,UserRule-Clash
+  DOMAIN-SUFFIX,tdameritrade.com,UserRule-Clash
+  DOMAIN-SUFFIX,trefis.com,UserRule-Clash
+  DOMAIN-SUFFIX,ameritrade.com,UserRule-Clash
+  DOMAIN,toslc.thinkorswim.com,UserRule-Clash
+  DOMAIN,thinkswim-desktop1.schwab.com,UserRule-Clash
+  DOMAIN,sws-gateway-nr.schwab.com,UserRule-Clash
+  DOMAIN,tsdrs.schwab.com,UserRule-Clash
 
   # > huggingface
-DOMAIN-SUFFIX, hf.co, UserRule-Loon
-DOMAIN-SUFFIX, huggingface.co, UserRule-Loon
+  DOMAIN-SUFFIX,hf.co,UserRule-Clash
+  DOMAIN-SUFFIX,huggingface.co,UserRule-Clash
 
   # > plex
   # DOMAIN,plex.tv
-DOMAIN-SUFFIX, provider.plex.tv, UserRule-Loon
-DOMAIN-SUFFIX, pubsub.plex.tv, UserRule-Loon
-DOMAIN-SUFFIX, images.plex.tv, UserRule-Loon
-DOMAIN, analytics.plex.tv, UserRule-Loon
-DOMAIN, scrobbles.plex.tv, UserRule-Loon
-DOMAIN, assets.plex.tv, UserRule-Loon
-DOMAIN, mbz.plex.tv, UserRule-Loon
-DOMAIN, acoustid.plex.tv, UserRule-Loon
-DOMAIN, me.plexapp.com, UserRule-Loon
-DOMAIN, lyricfind.plex.tv, UserRule-Loon
-DOMAIN, songkick.plex.tv, UserRule-Loon
-DOMAIN, lastfm.freetls.fastly.net, UserRule-Loon
-DOMAIN, notifications.plex.tv, UserRule-Loon
-DOMAIN, metadata-static.plex.tv, UserRule-Loon
-DOMAIN, image.tmdb.org, UserRule-Loon
-DOMAIN, downloads.plex.tv, UserRule-Loon
-DOMAIN, meta.plex.tv, UserRule-Loon
+  DOMAIN-SUFFIX,provider.plex.tv,UserRule-Clash
+  DOMAIN-SUFFIX,pubsub.plex.tv,UserRule-Clash
+  DOMAIN-SUFFIX,images.plex.tv,UserRule-Clash
+  DOMAIN,analytics.plex.tv,UserRule-Clash
+  DOMAIN,scrobbles.plex.tv,UserRule-Clash
+  DOMAIN,assets.plex.tv,UserRule-Clash
+  DOMAIN,mbz.plex.tv,UserRule-Clash
+  DOMAIN,acoustid.plex.tv,UserRule-Clash
+  DOMAIN,me.plexapp.com,UserRule-Clash
+  DOMAIN,lyricfind.plex.tv,UserRule-Clash
+  DOMAIN,songkick.plex.tv,UserRule-Clash
+  DOMAIN,lastfm.freetls.fastly.net,UserRule-Clash
+  DOMAIN,notifications.plex.tv,UserRule-Clash
+  DOMAIN,metadata-static.plex.tv,UserRule-Clash
+  DOMAIN,image.tmdb.org,UserRule-Clash
+  DOMAIN,downloads.plex.tv,UserRule-Clash
+  DOMAIN,meta.plex.tv,UserRule-Clash
 
   # > wireguard
-DOMAIN-SUFFIX, wireguard.com, UserRule-Loon
+  DOMAIN-SUFFIX,wireguard.com,UserRule-Clash
   # DOMAIN-SUFFIX,download.wireguard.com
   # DOMAIN-SUFFIX,www.wireguard.com
 
@@ -205,137 +204,137 @@ DOMAIN-SUFFIX, wireguard.com, UserRule-Loon
   # DOMAIN,trace.svc.ui.com
 
   # > Mikrotik
-DOMAIN-SUFFIX, upgrade.mikrotik.com, UserRule-Loon
+  DOMAIN-SUFFIX,upgrade.mikrotik.com,UserRule-Clash
 
   # > podcast
-DOMAIN-SUFFIX, pdst.fm, UserRule-Loon
-DOMAIN-SUFFIX, anchor.fm, UserRule-Loon
-DOMAIN-SUFFIX, pocketcasts.com, UserRule-Loon
-DOMAIN, bbc.pdn.tritondigital.com, UserRule-Loon
-DOMAIN, rss.soundon.fm, UserRule-Loon
-DOMAIN-SUFFIX, acast.com, UserRule-Loon
-DOMAIN-SUFFIX, past.im, UserRule-Loon
-DOMAIN-SUFFIX, buzzsprout.com, UserRule-Loon
-DOMAIN-SUFFIX, open.live.bbc.co.uk, UserRule-Loon
-DOMAIN-SUFFIX, moon.fm, UserRule-Loon
-DOMAIN, 22883.mc.tritondigital.com, UserRule-Loon
-DOMAIN, chrt.fm, UserRule-Loon
-DOMAIN, chtbl.com, UserRule-Loon
-DOMAIN, content.libsyn.com, UserRule-Loon
-DOMAIN, d3ctxlq1ktw2nl.cloudfront.net, UserRule-Loon
-DOMAIN, file.cdn.firstory.me, UserRule-Loon
-DOMAIN, filesb.soundon.fm, UserRule-Loon
-DOMAIN, is1-ssl.mzstatic.com, UserRule-Loon
-DOMAIN, m.cdn.firstory.me, UserRule-Loon
-DOMAIN, mcdn.podbean.com, UserRule-Loon
-DOMAIN, media.xyzcdn.net, UserRule-Loon
-DOMAIN, s318.podbean.com, UserRule-Loon
-DOMAIN, sph.mc.tritondigital.com, UserRule-Loon
-DOMAIN, sw.soundon.fm, UserRule-Loon
-DOMAIN, traffic.omny.fm, UserRule-Loon
-DOMAIN, y2pod.com, UserRule-Loon
+  DOMAIN-SUFFIX,pdst.fm,UserRule-Clash
+  DOMAIN-SUFFIX,anchor.fm,UserRule-Clash
+  DOMAIN-SUFFIX,pocketcasts.com,UserRule-Clash
+  DOMAIN,bbc.pdn.tritondigital.com,UserRule-Clash
+  DOMAIN,rss.soundon.fm,UserRule-Clash
+  DOMAIN-SUFFIX,acast.com,UserRule-Clash
+  DOMAIN-SUFFIX,past.im,UserRule-Clash
+  DOMAIN-SUFFIX,buzzsprout.com,UserRule-Clash
+  DOMAIN-SUFFIX,open.live.bbc.co.uk,UserRule-Clash
+  DOMAIN-SUFFIX,moon.fm,UserRule-Clash
+  DOMAIN,22883.mc.tritondigital.com,UserRule-Clash
+  DOMAIN,chrt.fm,UserRule-Clash
+  DOMAIN,chtbl.com,UserRule-Clash
+  DOMAIN,content.libsyn.com,UserRule-Clash
+  DOMAIN,d3ctxlq1ktw2nl.cloudfront.net,UserRule-Clash
+  DOMAIN,file.cdn.firstory.me,UserRule-Clash
+  DOMAIN,filesb.soundon.fm,UserRule-Clash
+  DOMAIN,is1-ssl.mzstatic.com,UserRule-Clash
+  DOMAIN,m.cdn.firstory.me,UserRule-Clash
+  DOMAIN,mcdn.podbean.com,UserRule-Clash
+  DOMAIN,media.xyzcdn.net,UserRule-Clash
+  DOMAIN,s318.podbean.com,UserRule-Clash
+  DOMAIN,sph.mc.tritondigital.com,UserRule-Clash
+  DOMAIN,sw.soundon.fm,UserRule-Clash
+  DOMAIN,traffic.omny.fm,UserRule-Clash
+  DOMAIN,y2pod.com,UserRule-Clash
 
   # > Github
-DOMAIN-SUFFIX, github-releases.githubusercontent.com, UserRule-Loon
+  DOMAIN-SUFFIX,github-releases.githubusercontent.com,UserRule-Clash
 
   # > Cellphone & TV
-DOMAIN-SUFFIX, keeflys.com, UserRule-Loon
-DOMAIN-SUFFIX, secazgb-fota-dn.samsungdm.com, UserRule-Loon
+  DOMAIN-SUFFIX,keeflys.com,UserRule-Clash
+  DOMAIN-SUFFIX,secazgb-fota-dn.samsungdm.com,UserRule-Clash
   # DOMAIN-SUFFIX,us.nothing.tech
-DOMAIN-SUFFIX, nothing.tech, UserRule-Loon
-DOMAIN-SUFFIX, talkeracr.app, UserRule-Loon
-DOMAIN, fcm-toolbox-public.web.app, UserRule-Loon
+  DOMAIN-SUFFIX,nothing.tech,UserRule-Clash
+  DOMAIN-SUFFIX,talkeracr.app,UserRule-Clash
+  DOMAIN,fcm-toolbox-public.web.app,UserRule-Clash
 
   # > Drive
-DOMAIN-SUFFIX, mypikpak.com, UserRule-Loon
-DOMAIN-SUFFIX, pikpak.com, UserRule-Loon
-DOMAIN-SUFFIX, dlandroid.rcv.sandai.net, UserRule-Loon
-DOMAIN-SUFFIX, hub5idx.v6.shub.sandai.net, UserRule-Loon
-DOMAIN-SUFFIX, hub5pn.wap.sandai.net, UserRule-Loon
-DOMAIN-SUFFIX, hub5pnc.sandai.net, UserRule-Loon
-DOMAIN-SUFFIX, hub5pr.v6.phub.sandai.net, UserRule-Loon
-DOMAIN-SUFFIX, hubciddata.sandai.net, UserRule-Loon
-DOMAIN-KEYWORD, mypikpak, UserRule-Loon
+  DOMAIN-SUFFIX,mypikpak.com,UserRule-Clash
+  DOMAIN-SUFFIX,pikpak.com,UserRule-Clash
+  DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,UserRule-Clash
+  DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,UserRule-Clash
+  DOMAIN-SUFFIX,hub5pn.wap.sandai.net,UserRule-Clash
+  DOMAIN-SUFFIX,hub5pnc.sandai.net,UserRule-Clash
+  DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,UserRule-Clash
+  DOMAIN-SUFFIX,hubciddata.sandai.net,UserRule-Clash
+  DOMAIN-KEYWORD,mypikpak,UserRule-Clash
 
   # > Meta
-DOMAIN-SUFFIX, threads.com, UserRule-Loon
-DOMAIN-SUFFIX, threads.net, UserRule-Loon
+  DOMAIN-SUFFIX,threads.com,UserRule-Clash
+  DOMAIN-SUFFIX,threads.net,UserRule-Clash
 
   # > Corp
-DOMAIN-SUFFIX, canadagoose.com, UserRule-Loon
-DOMAIN-SUFFIX, arcteryx.com, UserRule-Loon
-DOMAIN-SUFFIX, vmware.com, UserRule-Loon
-DOMAIN-SUFFIX, hpe.com, UserRule-Loon
-DOMAIN-SUFFIX, zoom.us, UserRule-Loon
-DOMAIN-SUFFIX, logitech.com, UserRule-Loon
-DOMAIN-SUFFIX, logi.com, UserRule-Loon
-DOMAIN-SUFFIX, airbus-shop.com, UserRule-Loon
-DOMAIN-SUFFIX, f-secure.com, UserRule-Loon
-DOMAIN-SUFFIX, yandex.com, UserRule-Loon
-DOMAIN-SUFFIX, zyxel.com, UserRule-Loon
-DOMAIN-SUFFIX, godaddy.com, UserRule-Loon
-DOMAIN-SUFFIX, gnc.com, UserRule-Loon
-DOMAIN-SUFFIX, thule.com, UserRule-Loon
-DOMAIN-SUFFIX, bose.com, UserRule-Loon
-DOMAIN-SUFFIX, obdev.at, UserRule-Loon
-DOMAIN-SUFFIX, stclairsoft.com, UserRule-Loon
+  DOMAIN-SUFFIX,canadagoose.com,UserRule-Clash
+  DOMAIN-SUFFIX,arcteryx.com,UserRule-Clash
+  DOMAIN-SUFFIX,vmware.com,UserRule-Clash
+  DOMAIN-SUFFIX,hpe.com,UserRule-Clash
+  DOMAIN-SUFFIX,zoom.us,UserRule-Clash
+  DOMAIN-SUFFIX,logitech.com,UserRule-Clash
+  DOMAIN-SUFFIX,logi.com,UserRule-Clash
+  DOMAIN-SUFFIX,airbus-shop.com,UserRule-Clash
+  DOMAIN-SUFFIX,f-secure.com,UserRule-Clash
+  DOMAIN-SUFFIX,yandex.com,UserRule-Clash
+  DOMAIN-SUFFIX,zyxel.com,UserRule-Clash
+  DOMAIN-SUFFIX,godaddy.com,UserRule-Clash
+  DOMAIN-SUFFIX,gnc.com,UserRule-Clash
+  DOMAIN-SUFFIX,thule.com,UserRule-Clash
+  DOMAIN-SUFFIX,bose.com,UserRule-Clash
+  DOMAIN-SUFFIX,obdev.at,UserRule-Clash
+  DOMAIN-SUFFIX,stclairsoft.com,UserRule-Clash
 
   # > Other
-DOMAIN-SUFFIX, ospserver.net, UserRule-Loon
-DOMAIN-SUFFIX, yugogo.xyz, UserRule-Loon
-DOMAIN-SUFFIX, charliemonroesoftware.com, UserRule-Loon
-DOMAIN-SUFFIX, app-measurement.com, UserRule-Loon
-DOMAIN-SUFFIX, cachefly.alfredapp.com, UserRule-Loon
-DOMAIN-SUFFIX, main-ecnpaper-economist.content.pugpig.com, UserRule-Loon
-DOMAIN-SUFFIX, api.apptentive.com, UserRule-Loon
-DOMAIN-SUFFIX, api.taplytics.com, UserRule-Loon
-DOMAIN-SUFFIX, yimg.com, UserRule-Loon
-IP-CIDR, 52.84.49.0/24, UserRule-Loon
-DOMAIN-SUFFIX, thetvdb.com, UserRule-Loon
-DOMAIN-SUFFIX, substack.com, UserRule-Loon
+  DOMAIN-SUFFIX,ospserver.net,UserRule-Clash
+  DOMAIN-SUFFIX,yugogo.xyz,UserRule-Clash
+  DOMAIN-SUFFIX,charliemonroesoftware.com,UserRule-Clash
+  DOMAIN-SUFFIX,app-measurement.com,UserRule-Clash
+  DOMAIN-SUFFIX,cachefly.alfredapp.com,UserRule-Clash
+  DOMAIN-SUFFIX,main-ecnpaper-economist.content.pugpig.com,UserRule-Clash
+  DOMAIN-SUFFIX,api.apptentive.com,UserRule-Clash
+  DOMAIN-SUFFIX,api.taplytics.com,UserRule-Clash
+  DOMAIN-SUFFIX,yimg.com,UserRule-Clash
+  IP-CIDR,52.84.49.0/24,UserRule-Clash
+  DOMAIN-SUFFIX,thetvdb.com,UserRule-Clash
+  DOMAIN-SUFFIX,substack.com,UserRule-Clash
   # DOMAIN-SUFFIX,api.ipify.org
-DOMAIN-SUFFIX, test-ipv6.com, UserRule-Loon
-DOMAIN-SUFFIX, send.cm, UserRule-Loon
-DOMAIN-SUFFIX, sendcdn.com, UserRule-Loon
-DOMAIN-SUFFIX, nmac.to, UserRule-Loon
-DOMAIN-SUFFIX, macbed.com, UserRule-Loon
-DOMAIN-SUFFIX, notion-api.splitbee.io, UserRule-Loon
-DOMAIN-SUFFIX, notion.ronnie.workers.dev, UserRule-Loon
-DOMAIN-SUFFIX, themoviedb.org, UserRule-Loon
-DOMAIN-SUFFIX, proxifier.com, UserRule-Loon
-DOMAIN-SUFFIX, tenor.com, UserRule-Loon
-DOMAIN-SUFFIX, media.tenor.com, UserRule-Loon
-DOMAIN-SUFFIX, f-droid.org, UserRule-Loon
-DOMAIN-SUFFIX, cloudtvapp.net, UserRule-Loon
-DOMAIN-SUFFIX, kukudas.com, UserRule-Loon
-DOMAIN-SUFFIX, azureedge.net, UserRule-Loon
-DOMAIN-SUFFIX, feeds.soundcloud.com, UserRule-Loon
-DOMAIN-SUFFIX, dts.podtrac.com, UserRule-Loon
-DOMAIN-SUFFIX, nightowl.kramser.xyz, UserRule-Loon
-DOMAIN-SUFFIX, funnycat.tv, UserRule-Loon
-DOMAIN-SUFFIX, wikipedia.org, UserRule-Loon
-DOMAIN-SUFFIX, forums.autodesk.com, UserRule-Loon
-DOMAIN-SUFFIX, origin.com, UserRule-Loon
-DOMAIN-SUFFIX, tynt.com, UserRule-Loon
-DOMAIN-SUFFIX, catchingnow.com, UserRule-Loon
-DOMAIN-SUFFIX, dtscout.com, UserRule-Loon
-DOMAIN-SUFFIX, imgur.com, UserRule-Loon
-DOMAIN-SUFFIX, inplanesite.com, UserRule-Loon
-DOMAIN-SUFFIX, dcs.megaphone.fm, UserRule-Loon
-DOMAIN-SUFFIX, cdw.com, UserRule-Loon
-DOMAIN-SUFFIX, nitter.it, UserRule-Loon
-DOMAIN-SUFFIX, setn.com, UserRule-Loon
-DOMAIN-SUFFIX, nektony.com, UserRule-Loon
-DOMAIN-SUFFIX, liveupdate.symantecliveupdate.com, UserRule-Loon
-DOMAIN-SUFFIX, openstreetmap.org, UserRule-Loon
-DOMAIN-SUFFIX, docker.io, UserRule-Loon
-DOMAIN-SUFFIX, bingwallpaper.anerg.com, UserRule-Loon
-DOMAIN-SUFFIX, npmjs.org, UserRule-Loon
-DOMAIN-SUFFIX, nodejs.org, UserRule-Loon
-DOMAIN-SUFFIX, wiki.metacubex.one, UserRule-Loon
-DOMAIN-SUFFIX, affinity.studio, UserRule-Loon
-DOMAIN-SUFFIX, canva.com, UserRule-Loon
-DOMAIN-SUFFIX, 1lou.me, UserRule-Loon
-DOMAIN-SUFFIX, linux.do, UserRule-Loon
-DOMAIN-SUFFIX, mazegenerator.net, UserRule-Loon
-DOMAIN, api.my-ip.io, UserRule-Loon
+  DOMAIN-SUFFIX,test-ipv6.com,UserRule-Clash
+  DOMAIN-SUFFIX,send.cm,UserRule-Clash
+  DOMAIN-SUFFIX,sendcdn.com,UserRule-Clash
+  DOMAIN-SUFFIX,nmac.to,UserRule-Clash
+  DOMAIN-SUFFIX,macbed.com,UserRule-Clash
+  DOMAIN-SUFFIX,notion-api.splitbee.io,UserRule-Clash
+  DOMAIN-SUFFIX,notion.ronnie.workers.dev,UserRule-Clash
+  DOMAIN-SUFFIX,themoviedb.org,UserRule-Clash
+  DOMAIN-SUFFIX,proxifier.com,UserRule-Clash
+  DOMAIN-SUFFIX,tenor.com,UserRule-Clash
+  DOMAIN-SUFFIX,media.tenor.com,UserRule-Clash
+  DOMAIN-SUFFIX,f-droid.org,UserRule-Clash
+  DOMAIN-SUFFIX,cloudtvapp.net,UserRule-Clash
+  DOMAIN-SUFFIX,kukudas.com,UserRule-Clash
+  DOMAIN-SUFFIX,azureedge.net,UserRule-Clash
+  DOMAIN-SUFFIX,feeds.soundcloud.com,UserRule-Clash
+  DOMAIN-SUFFIX,dts.podtrac.com,UserRule-Clash
+  DOMAIN-SUFFIX,nightowl.kramser.xyz,UserRule-Clash
+  DOMAIN-SUFFIX,funnycat.tv,UserRule-Clash
+  DOMAIN-SUFFIX,wikipedia.org,UserRule-Clash
+  DOMAIN-SUFFIX,forums.autodesk.com,UserRule-Clash
+  DOMAIN-SUFFIX,origin.com,UserRule-Clash
+  DOMAIN-SUFFIX,tynt.com,UserRule-Clash
+  DOMAIN-SUFFIX,catchingnow.com,UserRule-Clash
+  DOMAIN-SUFFIX,dtscout.com,UserRule-Clash
+  DOMAIN-SUFFIX,imgur.com,UserRule-Clash
+  DOMAIN-SUFFIX,inplanesite.com,UserRule-Clash
+  DOMAIN-SUFFIX,dcs.megaphone.fm,UserRule-Clash
+  DOMAIN-SUFFIX,cdw.com,UserRule-Clash
+  DOMAIN-SUFFIX,nitter.it,UserRule-Clash
+  DOMAIN-SUFFIX,setn.com,UserRule-Clash
+  DOMAIN-SUFFIX,nektony.com,UserRule-Clash
+  DOMAIN-SUFFIX,liveupdate.symantecliveupdate.com,UserRule-Clash
+  DOMAIN-SUFFIX,openstreetmap.org,UserRule-Clash
+  DOMAIN-SUFFIX,docker.io,UserRule-Clash
+  DOMAIN-SUFFIX,bingwallpaper.anerg.com,UserRule-Clash
+  DOMAIN-SUFFIX,npmjs.org,UserRule-Clash
+  DOMAIN-SUFFIX,nodejs.org,UserRule-Clash
+  DOMAIN-SUFFIX,wiki.metacubex.one,UserRule-Clash
+  DOMAIN-SUFFIX,affinity.studio,UserRule-Clash
+  DOMAIN-SUFFIX,canva.com,UserRule-Clash
+  DOMAIN-SUFFIX,1lou.me,UserRule-Clash
+  DOMAIN-SUFFIX,linux.do,UserRule-Clash
+  DOMAIN-SUFFIX,mazegenerator.net,UserRule-Clash
+  DOMAIN,api.my-ip.io,UserRule-Clash

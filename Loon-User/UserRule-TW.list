@@ -1,14 +1,13 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # > Yahoo Taiwan
   # DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX, autos.yahoo.com.tw, UserRule-TW
-DOMAIN-SUFFIX, tw.yahoo.com, UserRule-TW
-DOMAIN-SUFFIX, tw.tv.yahoo.com, UserRule-TW
-DOMAIN-SUFFIX, tw.stock.yahoo.com, UserRule-TW
-DOMAIN-SUFFIX, cnyes.com, UserRule-TW
-DOMAIN-SUFFIX, news.cnyes.com, UserRule-TW
-DOMAIN-SUFFIX, ctinews.com, UserRule-TW
-DOMAIN-SUFFIX, inside.com.tw, UserRule-TW
-DOMAIN-SUFFIX, businessweekly.com.tw, UserRule-TW
-DOMAIN-SUFFIX, pressplay.cc, UserRule-TW
+  DOMAIN-SUFFIX,autos.yahoo.com.tw,UserRule-TW
+  DOMAIN-SUFFIX,tw.yahoo.com,UserRule-TW
+  DOMAIN-SUFFIX,tw.tv.yahoo.com,UserRule-TW
+  DOMAIN-SUFFIX,tw.stock.yahoo.com,UserRule-TW
+  DOMAIN-SUFFIX,cnyes.com,UserRule-TW
+  DOMAIN-SUFFIX,news.cnyes.com,UserRule-TW
+  DOMAIN-SUFFIX,ctinews.com,UserRule-TW
+  DOMAIN-SUFFIX,inside.com.tw,UserRule-TW
+  DOMAIN-SUFFIX,businessweekly.com.tw,UserRule-TW
+  DOMAIN-SUFFIX,pressplay.cc,UserRule-TW

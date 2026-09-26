@@ -1,3 +1,4 @@
+# target-client: mihomo
 payload:
   # 内容：Clash规则，AI平台相关的域名和IP地址
   # 引用：https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/ai.conf

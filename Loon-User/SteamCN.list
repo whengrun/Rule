@@ -1,20 +1,19 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # 内容：SteamCN
   # 数量：16条
-DOMAIN, csgo.wmsj.cn, SteamCN
-DOMAIN, dl.steam.clngaa.com, SteamCN
-DOMAIN, dl.steam.ksyna.com, SteamCN
-DOMAIN, dota2.wmsj.cn, SteamCN
-DOMAIN, st.dl.bscstorage.net, SteamCN
-DOMAIN, st.dl.eccdnx.com, SteamCN
-DOMAIN, st.dl.pinyuncloud.com, SteamCN
-DOMAIN, steampipe.steamcontent.tnkjmec.com, SteamCN
-DOMAIN, steampowered.com.8686c.com, SteamCN
-DOMAIN, steamstatic.com.8686c.com, SteamCN
-DOMAIN, wmsjsteam.com, SteamCN
-DOMAIN, xz.pphimalayanrt.com, SteamCN
-DOMAIN-SUFFIX, cm.steampowered.com, SteamCN
-DOMAIN-SUFFIX, steamchina.com, SteamCN
-DOMAIN-SUFFIX, steamcontent.com, SteamCN
-DOMAIN-SUFFIX, steamusercontent.com, SteamCN
+  DOMAIN,csgo.wmsj.cn,SteamCN
+  DOMAIN,dl.steam.clngaa.com,SteamCN
+  DOMAIN,dl.steam.ksyna.com,SteamCN
+  DOMAIN,dota2.wmsj.cn,SteamCN
+  DOMAIN,st.dl.bscstorage.net,SteamCN
+  DOMAIN,st.dl.eccdnx.com,SteamCN
+  DOMAIN,st.dl.pinyuncloud.com,SteamCN
+  DOMAIN,steampipe.steamcontent.tnkjmec.com,SteamCN
+  DOMAIN,steampowered.com.8686c.com,SteamCN
+  DOMAIN,steamstatic.com.8686c.com,SteamCN
+  DOMAIN,wmsjsteam.com,SteamCN
+  DOMAIN,xz.pphimalayanrt.com,SteamCN
+  DOMAIN-SUFFIX,cm.steampowered.com,SteamCN
+  DOMAIN-SUFFIX,steamchina.com,SteamCN
+  DOMAIN-SUFFIX,steamcontent.com,SteamCN
+  DOMAIN-SUFFIX,steamusercontent.com,SteamCN

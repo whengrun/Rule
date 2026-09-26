@@ -1,44 +1,43 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # 本地/局域网地址
   # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
   # 本地/局域网地址
-DOMAIN-SUFFIX, ip6-localhost, LocalAreaNetnork
-DOMAIN-SUFFIX, ip6-loopback, LocalAreaNetnork
-DOMAIN-SUFFIX, internal, LocalAreaNetnork
-DOMAIN-SUFFIX, lan, LocalAreaNetnork
-DOMAIN-SUFFIX, local, LocalAreaNetnork
-DOMAIN-SUFFIX, localhost, LocalAreaNetnork
-IP-CIDR, 0.0.0.0/8, LocalAreaNetnork, no-resolve
-IP-CIDR, 10.0.0.0/8, LocalAreaNetnork, no-resolve
-IP-CIDR, 100.64.0.0/10, LocalAreaNetnork, no-resolve
-IP-CIDR, 127.0.0.0/8, LocalAreaNetnork, no-resolve
-IP-CIDR, 169.254.0.0/16, LocalAreaNetnork, no-resolve
-IP-CIDR, 172.16.0.0/12, LocalAreaNetnork, no-resolve
-IP-CIDR, 192.168.0.0/16, LocalAreaNetnork, no-resolve
-IP-CIDR, 198.18.0.0/16, LocalAreaNetnork, no-resolve
-IP-CIDR, 224.0.0.0/4, LocalAreaNetnork, no-resolve
-IP-CIDR6, ::1/128, LocalAreaNetnork, no-resolve
-IP-CIDR6, fc00::/7, LocalAreaNetnork, no-resolve
-IP-CIDR6, fe80::/10, LocalAreaNetnork, no-resolve
-IP-CIDR6, fd00::/8, LocalAreaNetnork, no-resolve
+  DOMAIN-SUFFIX,ip6-localhost,LocalAreaNetwork
+  DOMAIN-SUFFIX,ip6-loopback,LocalAreaNetwork
+  DOMAIN-SUFFIX,internal,LocalAreaNetwork
+  DOMAIN-SUFFIX,lan,LocalAreaNetwork
+  DOMAIN-SUFFIX,local,LocalAreaNetwork
+  DOMAIN-SUFFIX,localhost,LocalAreaNetwork
+  IP-CIDR,0.0.0.0/8,LocalAreaNetwork,no-resolve
+  IP-CIDR,10.0.0.0/8,LocalAreaNetwork,no-resolve
+  IP-CIDR,100.64.0.0/10,LocalAreaNetwork,no-resolve
+  IP-CIDR,127.0.0.0/8,LocalAreaNetwork,no-resolve
+  IP-CIDR,169.254.0.0/16,LocalAreaNetwork,no-resolve
+  IP-CIDR,172.16.0.0/12,LocalAreaNetwork,no-resolve
+  IP-CIDR,192.168.0.0/16,LocalAreaNetwork,no-resolve
+  IP-CIDR,198.18.0.0/16,LocalAreaNetwork,no-resolve
+  IP-CIDR,224.0.0.0/4,LocalAreaNetwork,no-resolve
+  IP-CIDR6,::1/128,LocalAreaNetwork,no-resolve
+  IP-CIDR6,fc00::/7,LocalAreaNetwork,no-resolve
+  IP-CIDR6,fe80::/10,LocalAreaNetwork,no-resolve
+  IP-CIDR6,fd00::/8,LocalAreaNetwork,no-resolve
 
   # Router managed 路由器管理域名
-DOMAIN, instant.arubanetworks.com, LocalAreaNetnork
-DOMAIN, setmeup.arubanetworks.com, LocalAreaNetnork
-DOMAIN, router.asus.com, LocalAreaNetnork
-DOMAIN, www.asusrouter.com, LocalAreaNetnork
-DOMAIN-SUFFIX, hiwifi.com, LocalAreaNetnork
-DOMAIN-SUFFIX, leike.cc, LocalAreaNetnork
-DOMAIN-SUFFIX, miwifi.com, LocalAreaNetnork
-DOMAIN-SUFFIX, my.router, LocalAreaNetnork
-DOMAIN-SUFFIX, p.to, LocalAreaNetnork
-DOMAIN-SUFFIX, peiluyou.com, LocalAreaNetnork
-DOMAIN-SUFFIX, phicomm.me, LocalAreaNetnork
-DOMAIN-SUFFIX, router.ctc, LocalAreaNetnork
-DOMAIN-SUFFIX, routerlogin.com, LocalAreaNetnork
-DOMAIN-SUFFIX, tendawifi.com, LocalAreaNetnork
-DOMAIN-SUFFIX, zte.home, LocalAreaNetnork
-DOMAIN-SUFFIX, tplogin.cn, LocalAreaNetnork
-DOMAIN-SUFFIX, wifi.cmcc, LocalAreaNetnork
+  DOMAIN,instant.arubanetworks.com,LocalAreaNetwork
+  DOMAIN,setmeup.arubanetworks.com,LocalAreaNetwork
+  DOMAIN,router.asus.com,LocalAreaNetwork
+  DOMAIN,www.asusrouter.com,LocalAreaNetwork
+  DOMAIN-SUFFIX,hiwifi.com,LocalAreaNetwork
+  DOMAIN-SUFFIX,leike.cc,LocalAreaNetwork
+  DOMAIN-SUFFIX,miwifi.com,LocalAreaNetwork
+  DOMAIN-SUFFIX,my.router,LocalAreaNetwork
+  DOMAIN-SUFFIX,p.to,LocalAreaNetwork
+  DOMAIN-SUFFIX,peiluyou.com,LocalAreaNetwork
+  DOMAIN-SUFFIX,phicomm.me,LocalAreaNetwork
+  DOMAIN-SUFFIX,router.ctc,LocalAreaNetwork
+  DOMAIN-SUFFIX,routerlogin.com,LocalAreaNetwork
+  DOMAIN-SUFFIX,tendawifi.com,LocalAreaNetwork
+  DOMAIN-SUFFIX,zte.home,LocalAreaNetwork
+  DOMAIN-SUFFIX,tplogin.cn,LocalAreaNetwork
+  DOMAIN-SUFFIX,wifi.cmcc,LocalAreaNetwork

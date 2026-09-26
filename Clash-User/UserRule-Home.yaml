@@ -1,3 +1,4 @@
+# target-client: mihomo
 payload:
   # > figma
   - DOMAIN-SUFFIX,figma.com

@@ -1,18 +1,17 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # 内容：Google
   # 数量：25条
 
   # >> Google
   # Gemini
-DOMAIN-SUFFIX, bard.google.com, Goolge
-DOMAIN-SUFFIX, gemini.google, Goolge
-DOMAIN-SUFFIX, gemini.google.com, Goolge
-DOMAIN-SUFFIX, gemini.gstatic.com, Goolge
-DOMAIN, webchannel-alkalimakersuite-pa.clients6.google.com, Goolge
-DOMAIN-SUFFIX, jules.google, Goolge
-DOMAIN-SUFFIX, labs.google, Goolge
-DOMAIN-SUFFIX, gstatic.com, Goolge
+  DOMAIN-SUFFIX,bard.google.com,Google
+  DOMAIN-SUFFIX,gemini.google,Google
+  DOMAIN-SUFFIX,gemini.google.com,Google
+  DOMAIN-SUFFIX,gemini.gstatic.com,Google
+  DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com,Google
+  DOMAIN-SUFFIX,jules.google,Google
+  DOMAIN-SUFFIX,labs.google,Google
+  DOMAIN-SUFFIX,gstatic.com,Google
   # Here is how gemini.google.com doing HTTP 429 right now:
   #
   # without a special cookie, gemini.google.com will return HTTP 302 to the following URL with
@@ -31,106 +30,106 @@ DOMAIN-SUFFIX, gstatic.com, Goolge
   # Note that you will need to enable MitM www.google.com for this rule to work.
   # URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
   # DeepMind
-DOMAIN-SUFFIX, deepmind.com, Goolge
-DOMAIN-SUFFIX, deepmind.google, Goolge
+  DOMAIN-SUFFIX,deepmind.com,Google
+  DOMAIN-SUFFIX,deepmind.google,Google
   # Generative Language API
-DOMAIN-SUFFIX, generativelanguage.googleapis.com, Goolge
-DOMAIN-SUFFIX, geller-pa.googleapis.com, Goolge
-DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com, Goolge
-DOMAIN-SUFFIX, cloudcode-pa.googleapis.com, Goolge
+  DOMAIN-SUFFIX,generativelanguage.googleapis.com,Google
+  DOMAIN-SUFFIX,geller-pa.googleapis.com,Google
+  DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,Google
+  DOMAIN-SUFFIX,cloudcode-pa.googleapis.com,Google
   # Google AI Studio
-DOMAIN, ai.google.dev, Goolge
-DOMAIN-SUFFIX, g.ai, Goolge
-DOMAIN-SUFFIX, aistudio.google.com, Goolge
-DOMAIN-SUFFIX, makersuite.google.com, Goolge
-DOMAIN, alkalicore-pa.clients6.google.com, Goolge
-DOMAIN-SUFFIX, alkalimakersuite-pa.clients6.google.com, Goolge
-DOMAIN-SUFFIX, generativeai.google, Goolge
+  DOMAIN,ai.google.dev,Google
+  DOMAIN-SUFFIX,g.ai,Google
+  DOMAIN-SUFFIX,aistudio.google.com,Google
+  DOMAIN-SUFFIX,makersuite.google.com,Google
+  DOMAIN,alkalicore-pa.clients6.google.com,Google
+  DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,Google
+  DOMAIN-SUFFIX,generativeai.google,Google
   # NotebookLM
-DOMAIN-SUFFIX, notebooklm.google, Goolge
-DOMAIN-SUFFIX, notebooklm.google.com, Goolge
+  DOMAIN-SUFFIX,notebooklm.google,Google
+  DOMAIN-SUFFIX,notebooklm.google.com,Google
   # Jules
-DOMAIN, jules.google.com, Goolge
+  DOMAIN,jules.google.com,Google
   # Android Studio
   # Antigravity
-DOMAIN, antigravity.google, Goolge
-DOMAIN, antigravity-unleash.goog, Goolge
+  DOMAIN,antigravity.google,Google
+  DOMAIN,antigravity-unleash.goog,Google
 
 
-DOMAIN-KEYWORD, gmail, Goolge
-DOMAIN-KEYWORD, google, Goolge
-DOMAIN-KEYWORD, youtube, Goolge
-DOMAIN-SUFFIX, 1e100.net, Goolge
-DOMAIN-SUFFIX, 2mdn.net, Goolge
-DOMAIN-SUFFIX, app-measurement.net, Goolge
-DOMAIN-SUFFIX, c.gle, Goolge
-DOMAIN-SUFFIX, g.co, Goolge
-DOMAIN-SUFFIX, ggpht.com, Goolge
-DOMAIN-SUFFIX, goo.gl, Goolge
-DOMAIN-SUFFIX, googleapis.cn, Goolge
-DOMAIN-SUFFIX, googleapis.com, Goolge
-DOMAIN-SUFFIX, gstatic.cn, Goolge
-DOMAIN-SUFFIX, gvt0.com, Goolge
-DOMAIN-SUFFIX, gvt1.com, Goolge
-DOMAIN-SUFFIX, gvt2.com, Goolge
-DOMAIN-SUFFIX, gvt3.com, Goolge
-DOMAIN-SUFFIX, xn--ngstr-lra8j.com, Goolge
-DOMAIN-SUFFIX, youtu.be, Goolge
-DOMAIN-SUFFIX, youtube-nocookie.com, Goolge
-DOMAIN-SUFFIX, youtube.com, Goolge
-DOMAIN-SUFFIX, yt.be, Goolge
-DOMAIN-SUFFIX, ytimg.com, Goolge
-IP-CIDR, 74.125.0.0/16, Goolge, no-resolve
-IP-CIDR, 173.194.0.0/16, Goolge, no-resolve
+  DOMAIN-KEYWORD,gmail,Google
+  DOMAIN-KEYWORD,google,Google
+  DOMAIN-KEYWORD,youtube,Google
+  DOMAIN-SUFFIX,1e100.net,Google
+  DOMAIN-SUFFIX,2mdn.net,Google
+  DOMAIN-SUFFIX,app-measurement.net,Google
+  DOMAIN-SUFFIX,c.gle,Google
+  DOMAIN-SUFFIX,g.co,Google
+  DOMAIN-SUFFIX,ggpht.com,Google
+  DOMAIN-SUFFIX,goo.gl,Google
+  DOMAIN-SUFFIX,googleapis.cn,Google
+  DOMAIN-SUFFIX,googleapis.com,Google
+  DOMAIN-SUFFIX,gstatic.cn,Google
+  DOMAIN-SUFFIX,gvt0.com,Google
+  DOMAIN-SUFFIX,gvt1.com,Google
+  DOMAIN-SUFFIX,gvt2.com,Google
+  DOMAIN-SUFFIX,gvt3.com,Google
+  DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
+  DOMAIN-SUFFIX,youtu.be,Google
+  DOMAIN-SUFFIX,youtube-nocookie.com,Google
+  DOMAIN-SUFFIX,youtube.com,Google
+  DOMAIN-SUFFIX,yt.be,Google
+  DOMAIN-SUFFIX,ytimg.com,Google
+  IP-CIDR,74.125.0.0/16,Google,no-resolve
+  IP-CIDR,173.194.0.0/16,Google,no-resolve
 
-DOMAIN-SUFFIX, www.google.com, Goolge
-DOMAIN-SUFFIX, googleusercontent.com, Goolge
-DOMAIN-SUFFIX, gmail.com, Goolge
+  DOMAIN-SUFFIX,www.google.com,Google
+  DOMAIN-SUFFIX,googleusercontent.com,Google
+  DOMAIN-SUFFIX,gmail.com,Google
   # DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX, pki.goog, Goolge
-DOMAIN-SUFFIX, dns.google, Goolge
+  DOMAIN-SUFFIX,pki.goog,Google
+  DOMAIN-SUFFIX,dns.google,Google
   # DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD, googlevideo, Goolge
-DOMAIN-SUFFIX, android.apis.google.com, Goolge
-DOMAIN-SUFFIX, tenor.googleapis.com, Goolge
+  DOMAIN-KEYWORD,googlevideo,Google
+  DOMAIN-SUFFIX,android.apis.google.com,Google
+  DOMAIN-SUFFIX,tenor.googleapis.com,Google
 
   # AI
-DOMAIN, aistudio.google.com, Goolge
-DOMAIN, generativelanguage.googleapis.com, Goolge
-DOMAIN, notebooklm.google.com, Goolge
-
+  DOMAIN,aistudio.google.com,Google
+  DOMAIN,generativelanguage.googleapis.com,Google
+  DOMAIN,notebooklm.google.com,Google
+  
   # YouTube
   # USER-AGENT,*youtube*
   # USER-AGENT,YouTube*
   # USER-AGENT,com.google.ios.youtube*
-DOMAIN-SUFFIX, googlevideo.com, Goolge
-DOMAIN-SUFFIX, withyoutube.com, Goolge
-DOMAIN-SUFFIX, youtubeeducation.com, Goolge
-DOMAIN-SUFFIX, youtubegaming.com, Goolge
-DOMAIN-SUFFIX, youtubekids.com, Goolge
+  DOMAIN-SUFFIX,googlevideo.com,Google
+  DOMAIN-SUFFIX,withyoutube.com,Google
+  DOMAIN-SUFFIX,youtubeeducation.com,Google
+  DOMAIN-SUFFIX,youtubegaming.com,Google
+  DOMAIN-SUFFIX,youtubekids.com,Google
 
   # GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
-IP-CIDR, 120.232.181.162/32, Goolge, no-resolve
-IP-CIDR, 120.241.147.226/32, Goolge, no-resolve
-IP-CIDR, 120.253.253.226/32, Goolge, no-resolve
-IP-CIDR, 120.253.255.162/32, Goolge, no-resolve
-IP-CIDR, 120.253.255.34/32, Goolge, no-resolve
-IP-CIDR, 120.253.255.98/32, Goolge, no-resolve
-IP-CIDR, 180.163.150.162/32, Goolge, no-resolve
-IP-CIDR, 180.163.150.34/32, Goolge, no-resolve
-IP-CIDR, 180.163.151.162/32, Goolge, no-resolve
-IP-CIDR, 180.163.151.34/32, Goolge, no-resolve
-IP-CIDR, 203.208.39.0/24, Goolge, no-resolve
-IP-CIDR, 203.208.40.0/24, Goolge, no-resolve
-IP-CIDR, 203.208.41.0/24, Goolge, no-resolve
-IP-CIDR, 203.208.43.0/24, Goolge, no-resolve
-IP-CIDR, 203.208.50.0/24, Goolge, no-resolve
-IP-CIDR, 220.181.174.162/32, Goolge, no-resolve
-IP-CIDR, 220.181.174.226/32, Goolge, no-resolve
-IP-CIDR, 220.181.174.34/32, Goolge, no-resolve
+  IP-CIDR,120.232.181.162/32,Google,no-resolve
+  IP-CIDR,120.241.147.226/32,Google,no-resolve
+  IP-CIDR,120.253.253.226/32,Google,no-resolve
+  IP-CIDR,120.253.255.162/32,Google,no-resolve
+  IP-CIDR,120.253.255.34/32,Google,no-resolve
+  IP-CIDR,120.253.255.98/32,Google,no-resolve
+  IP-CIDR,180.163.150.162/32,Google,no-resolve
+  IP-CIDR,180.163.150.34/32,Google,no-resolve
+  IP-CIDR,180.163.151.162/32,Google,no-resolve
+  IP-CIDR,180.163.151.34/32,Google,no-resolve
+  IP-CIDR,203.208.39.0/24,Google,no-resolve
+  IP-CIDR,203.208.40.0/24,Google,no-resolve
+  IP-CIDR,203.208.41.0/24,Google,no-resolve
+  IP-CIDR,203.208.43.0/24,Google,no-resolve
+  IP-CIDR,203.208.50.0/24,Google,no-resolve
+  IP-CIDR,220.181.174.162/32,Google,no-resolve
+  IP-CIDR,220.181.174.226/32,Google,no-resolve
+  IP-CIDR,220.181.174.34/32,Google,no-resolve
 
   # antigravity-ide
   # - DOMAIN,browser.events.data.microsoft.com
   # - DOMAIN,default.exp-tas.com
   # - DOMAIN,open-vsx.org
-DOMAIN, antigravity-ide-auto-updater-974169037036.us-central1.run.app, Goolge
+  DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app,Google

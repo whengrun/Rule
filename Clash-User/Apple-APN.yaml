@@ -1,3 +1,4 @@
+# target-client: mihomo
 payload:
   # 内容：修复X和TG通知
   # 引用：https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/loon/apns.list

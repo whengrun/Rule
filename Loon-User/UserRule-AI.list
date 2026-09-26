@@ -1,5 +1,4 @@
 # target-client: loon
-# --- Loon 规则集转换自 Clash payload ---
   # 内容：Clash规则，AI平台相关的域名和IP地址
   # 引用：https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/ai.conf
   # 引用：https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_intelligence.conf
@@ -7,75 +6,75 @@
   # $ meta_description This file contains domains of OpenAI, Claude., Perplexity, Google Gemini, and other AI platforms. It is used for routing traffic to these services through a proxy.
 
   # >> AI
-DOMAIN-SUFFIX, challenges.cloudflare.com, UserRule-AI
-DOMAIN-SUFFIX, auth.grokipedia.com, UserRule-AI
-DOMAIN-SUFFIX, invoice.stripe.com, UserRule-AI
-DOMAIN-SUFFIX, sentry.io, UserRule-AI
-DOMAIN-SUFFIX, stripe.com, UserRule-AI
-IP-CIDR, 142.251.43.10/31, UserRule-AI
-IP-CIDR, 142.251.43.12/31, UserRule-AI
-IP-CIDR, 142.251.43.14/32, UserRule-AI
-IP-CIDR, 35.190.80.1/32, UserRule-AI
-IP-CIDR, 104.18.37.228/32, UserRule-AI
-IP-CIDR, 104.18.35.28/32, UserRule-AI
-IP-CIDR, 172.217.160.0/25, UserRule-AI
-IP-CIDR, 172.217.160.128/26, UserRule-AI
-IP-CIDR, 172.217.160.192/27, UserRule-AI
-IP-CIDR, 172.217.160.224/28, UserRule-AI
-IP-CIDR, 172.217.160.240/29, UserRule-AI
-IP-CIDR, 172.217.160.248/30, UserRule-AI
-IP-CIDR, 172.217.160.252/31, UserRule-AI
-IP-CIDR, 172.217.160.254/32, UserRule-AI
-IP-CIDR, 74.125.203.113/32, UserRule-AI
-IP-CIDR, 172.217.163.0/25, UserRule-AI
-IP-CIDR, 172.217.163.128/26, UserRule-AI
-IP-CIDR, 172.217.163.192/27, UserRule-AI
-IP-CIDR, 172.217.163.224/28, UserRule-AI
-IP-CIDR, 172.217.163.240/29, UserRule-AI
-IP-CIDR, 172.217.163.248/30, UserRule-AI
-IP-CIDR, 172.217.163.252/31, UserRule-AI
-IP-CIDR, 172.217.163.254/32, UserRule-AI
-DOMAIN-SUFFIX, descript.com, UserRule-AI
-DOMAIN-SUFFIX, descriptapp.com, UserRule-AI
+  DOMAIN-SUFFIX,challenges.cloudflare.com,UserRule-AI
+  DOMAIN-SUFFIX,auth.grokipedia.com,UserRule-AI
+  DOMAIN-SUFFIX,invoice.stripe.com,UserRule-AI
+  DOMAIN-SUFFIX,sentry.io,UserRule-AI
+  DOMAIN-SUFFIX,stripe.com,UserRule-AI
+  IP-CIDR,142.251.43.10/31,UserRule-AI
+  IP-CIDR,142.251.43.12/31,UserRule-AI
+  IP-CIDR,142.251.43.14/32,UserRule-AI
+  IP-CIDR,35.190.80.1/32,UserRule-AI
+  IP-CIDR,104.18.37.228/32,UserRule-AI
+  IP-CIDR,104.18.35.28/32,UserRule-AI
+  IP-CIDR,172.217.160.0/25,UserRule-AI
+  IP-CIDR,172.217.160.128/26,UserRule-AI
+  IP-CIDR,172.217.160.192/27,UserRule-AI
+  IP-CIDR,172.217.160.224/28,UserRule-AI
+  IP-CIDR,172.217.160.240/29,UserRule-AI
+  IP-CIDR,172.217.160.248/30,UserRule-AI
+  IP-CIDR,172.217.160.252/31,UserRule-AI
+  IP-CIDR,172.217.160.254/32,UserRule-AI
+  IP-CIDR,74.125.203.113/32,UserRule-AI
+  IP-CIDR,172.217.163.0/25,UserRule-AI
+  IP-CIDR,172.217.163.128/26,UserRule-AI
+  IP-CIDR,172.217.163.192/27,UserRule-AI
+  IP-CIDR,172.217.163.224/28,UserRule-AI
+  IP-CIDR,172.217.163.240/29,UserRule-AI
+  IP-CIDR,172.217.163.248/30,UserRule-AI
+  IP-CIDR,172.217.163.252/31,UserRule-AI
+  IP-CIDR,172.217.163.254/32,UserRule-AI
+  DOMAIN-SUFFIX,descript.com,UserRule-AI
+  DOMAIN-SUFFIX,descriptapp.com,UserRule-AI
 
   # >> OpenAI / ChatGPT
   # OpenAI A/B Flag, no geo blocking
   # DOMAIN,api.statsig.com
-DOMAIN-SUFFIX, openai.com, UserRule-AI
-DOMAIN-SUFFIX, oaistatic.com, UserRule-AI
-DOMAIN-SUFFIX, sora.com, UserRule-AI
-DOMAIN-SUFFIX, chatgpt.com, UserRule-AI
-DOMAIN-SUFFIX, chat.com, UserRule-AI
-DOMAIN-SUFFIX, ai.com, UserRule-AI
-DOMAIN-KEYWORD, openai, UserRule-AI
-DOMAIN, chat.openai.com.cdn.cloudflare.net, UserRule-AI
-DOMAIN-SUFFIX, oaiusercontent.com, UserRule-AI
-DOMAIN, openai.com.cdn.cloudflare.net, UserRule-AI
-DOMAIN, openaicomproductionae4b.blob.core.windows.net, UserRule-AI
-DOMAIN, openaicom.imgix.net, UserRule-AI
-DOMAIN, production-openaicom-storage.azureedge.net, UserRule-AI
-DOMAIN, chatgpt.livekit.cloud, UserRule-AI
-DOMAIN, host.livekit.cloud, UserRule-AI
-DOMAIN, turn.livekit.cloud, UserRule-AI
-DOMAIN, chatgpt.site, UserRule-AI
+  DOMAIN-SUFFIX,openai.com,UserRule-AI
+  DOMAIN-SUFFIX,oaistatic.com,UserRule-AI
+  DOMAIN-SUFFIX,sora.com,UserRule-AI
+  DOMAIN-SUFFIX,chatgpt.com,UserRule-AI
+  DOMAIN-SUFFIX,chat.com,UserRule-AI
+  DOMAIN-SUFFIX,ai.com,UserRule-AI
+  DOMAIN-KEYWORD,openai,UserRule-AI
+  DOMAIN,chat.openai.com.cdn.cloudflare.net,UserRule-AI
+  DOMAIN-SUFFIX,oaiusercontent.com,UserRule-AI
+  DOMAIN,openai.com.cdn.cloudflare.net,UserRule-AI
+  DOMAIN,openaicomproductionae4b.blob.core.windows.net,UserRule-AI
+  DOMAIN,openaicom.imgix.net,UserRule-AI
+  DOMAIN,production-openaicom-storage.azureedge.net,UserRule-AI
+  DOMAIN,chatgpt.livekit.cloud,UserRule-AI
+  DOMAIN,host.livekit.cloud,UserRule-AI
+  DOMAIN,turn.livekit.cloud,UserRule-AI
+  DOMAIN,chatgpt.site,UserRule-AI
   # DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   # DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   # DOMAIN,openaicomproductionae4b.blob.core.windows.net
   # DOMAIN,production-openaicom-storage.azureedge.net
-# PROCESS-NAME, Codex.app, UserRule-AI (Loon 当前规则语法不支持，已保留为注释)
-# PROCESS-NAME, Codex (Service).app, UserRule-AI (Loon 当前规则语法不支持，已保留为注释)
-# PROCESS-NAME, ChatGPT.app, UserRule-AI (Loon 当前规则语法不支持，已保留为注释)
-DOMAIN-SUFFIX, auth0.com, UserRule-AI
-DOMAIN-SUFFIX, client-api.arkoselabs.com, UserRule-AI
-DOMAIN-SUFFIX, events.statsigapi.net, UserRule-AI
-DOMAIN-SUFFIX, featuregates.org, UserRule-AI
-DOMAIN-SUFFIX, identrust.com, UserRule-AI
-DOMAIN-SUFFIX, intercom.io, UserRule-AI
-DOMAIN-SUFFIX, intercomcdn.com, UserRule-AI
+  # PROCESS-NAME,Codex.app (目标软件不支持此匹配类型，已保留为注释。)
+  # PROCESS-NAME,Codex (Service).app (目标软件不支持此匹配类型，已保留为注释。)
+  # PROCESS-NAME,ChatGPT.app (目标软件不支持此匹配类型，已保留为注释。)
+  DOMAIN-SUFFIX,auth0.com,UserRule-AI
+  DOMAIN-SUFFIX,client-api.arkoselabs.com,UserRule-AI
+  DOMAIN-SUFFIX,events.statsigapi.net,UserRule-AI
+  DOMAIN-SUFFIX,featuregates.org,UserRule-AI
+  DOMAIN-SUFFIX,identrust.com,UserRule-AI
+  DOMAIN-SUFFIX,intercom.io,UserRule-AI
+  DOMAIN-SUFFIX,intercomcdn.com,UserRule-AI
 
   # OpenAI IP 段
-IP-CIDR, 160.79.104.0/23, UserRule-AI, no-resolve
-IP-CIDR6, 2607:6bc0::/48, UserRule-AI, no-resolve
+  IP-CIDR,160.79.104.0/23,UserRule-AI,no-resolve
+  IP-CIDR6,2607:6bc0::/48,UserRule-AI,no-resolve
 
   # >> Apple Relay
   # Sadly, even though Oblivious HTTP Relay is an open standard, supposed to enhance privacy. Apple uses a loophole
@@ -91,131 +90,131 @@ IP-CIDR6, 2607:6bc0::/48, UserRule-AI, no-resolve
   # TODO: find other domains that com.apple.geod is trying to connect to.
 
   # >> Perplexity
-DOMAIN-SUFFIX, perplexity.ai, UserRule-AI
-DOMAIN, pplx-res.cloudinary.com, UserRule-AI
-DOMAIN-SUFFIX, perplexity.com, UserRule-AI
-DOMAIN-SUFFIX, pplx.ai, UserRule-AI
+  DOMAIN-SUFFIX,perplexity.ai,UserRule-AI
+  DOMAIN,pplx-res.cloudinary.com,UserRule-AI
+  DOMAIN-SUFFIX,perplexity.com,UserRule-AI
+  DOMAIN-SUFFIX,pplx.ai,UserRule-AI
 
   # >> Claude
-DOMAIN-SUFFIX, anthropic.com, UserRule-AI
-DOMAIN-SUFFIX, claude.ai, UserRule-AI
-DOMAIN-SUFFIX, claude.com, UserRule-AI
-DOMAIN-KEYWORD, anthropic, UserRule-AI
-DOMAIN-KEYWORD, claude, UserRule-AI
-DOMAIN-SUFFIX, crixet.com, UserRule-AI
+  DOMAIN-SUFFIX,anthropic.com,UserRule-AI
+  DOMAIN-SUFFIX,claude.ai,UserRule-AI
+  DOMAIN-SUFFIX,claude.com,UserRule-AI
+  DOMAIN-KEYWORD,anthropic,UserRule-AI
+  DOMAIN-KEYWORD,claude,UserRule-AI
+  DOMAIN-SUFFIX,crixet.com,UserRule-AI
 
   # >> POE
-DOMAIN-SUFFIX, poe.com, UserRule-AI
+  DOMAIN-SUFFIX,poe.com,UserRule-AI
 
   # >> Meta AI
-DOMAIN-SUFFIX, meta.ai, UserRule-AI
+  DOMAIN-SUFFIX,meta.ai,UserRule-AI
 
   # >> Cloudflare AI Gateway
-DOMAIN, gateway.ai.cloudflare.com, UserRule-AI
+  DOMAIN,gateway.ai.cloudflare.com,UserRule-AI
 
   # >> Dify.AI
-DOMAIN-SUFFIX, dify.ai, UserRule-AI
+  DOMAIN-SUFFIX,dify.ai,UserRule-AI
 
   # >> Jasper
-DOMAIN-SUFFIX, clipdrop.co, UserRule-AI
-DOMAIN-SUFFIX, jasper.ai, UserRule-AI
+  DOMAIN-SUFFIX,clipdrop.co,UserRule-AI
+  DOMAIN-SUFFIX,jasper.ai,UserRule-AI
 
   # >> OpenArt
-DOMAIN-SUFFIX, openart.ai, UserRule-AI
+  DOMAIN-SUFFIX,openart.ai,UserRule-AI
 
   # >> GitHub Copilot
   # api.*.githubcopilot.com is not required, since the ip & asn information are coming from api.github.com
   # see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
-DOMAIN, api.github.com, UserRule-AI
+  DOMAIN,api.github.com,UserRule-AI
 
   # >> xAI / Grok
-DOMAIN-SUFFIX, grok.com, UserRule-AI
-DOMAIN-SUFFIX, x.ai, UserRule-AI
+  DOMAIN-SUFFIX,grok.com,UserRule-AI
+  DOMAIN-SUFFIX,x.ai,UserRule-AI
 
   # >> groq
-DOMAIN-SUFFIX, groq.com, UserRule-AI
+  DOMAIN-SUFFIX,groq.com,UserRule-AI
 
   # >> JetBrains AI
-DOMAIN-SUFFIX, jetbrains.ai, UserRule-AI
-DOMAIN-SUFFIX, grazie.aws.intellij.net, UserRule-AI
+  DOMAIN-SUFFIX,jetbrains.ai,UserRule-AI
+  DOMAIN-SUFFIX,grazie.aws.intellij.net,UserRule-AI
 
   # Mistral AI
-DOMAIN-SUFFIX, mistral.ai, UserRule-AI
+  DOMAIN-SUFFIX,mistral.ai,UserRule-AI
 
   # NVIDIA
-DOMAIN, integrate.api.nvidia.com, UserRule-AI
+  DOMAIN,integrate.api.nvidia.com,UserRule-AI
 
   # Hugging Face
-DOMAIN, router.huggingface.co, UserRule-AI
-
+  DOMAIN,router.huggingface.co,UserRule-AI
+  
   # GitHub / Microsoft Copilot
-DOMAIN-SUFFIX, copilot.cloud.microsoft, UserRule-AI
-DOMAIN-SUFFIX, copilot.microsoft.com, UserRule-AI
-DOMAIN-SUFFIX, openaiapi-site.azureedge.net, UserRule-AI
-DOMAIN, copilot-proxy.githubusercontent.com, UserRule-AI
-DOMAIN, api.githubcopilot.com, UserRule-AI
+  DOMAIN-SUFFIX,copilot.cloud.microsoft,UserRule-AI
+  DOMAIN-SUFFIX,copilot.microsoft.com,UserRule-AI
+  DOMAIN-SUFFIX,openaiapi-site.azureedge.net,UserRule-AI
+  DOMAIN,copilot-proxy.githubusercontent.com,UserRule-AI
+  DOMAIN,api.githubcopilot.com,UserRule-AI
 
   # Meta AI
-DOMAIN, imagine.meta.com, UserRule-AI
+  DOMAIN,imagine.meta.com,UserRule-AI
 
   # Hyperbolic
-DOMAIN, api.hyperbolic.xyz, UserRule-AI
-DOMAIN-SUFFIX, hyperbolic.ai, UserRule-AI
+  DOMAIN,api.hyperbolic.xyz,UserRule-AI
+  DOMAIN-SUFFIX,hyperbolic.ai,UserRule-AI
 
   # Cerebras
-DOMAIN-SUFFIX, cerebras.ai, UserRule-AI
+  DOMAIN-SUFFIX,cerebras.ai,UserRule-AI
 
   # Fireworks AI
-DOMAIN-SUFFIX, fireworks.ai, UserRule-AI
+  DOMAIN-SUFFIX,fireworks.ai,UserRule-AI
 
   # Jina AI
-DOMAIN-SUFFIX, jina.ai, UserRule-AI
+  DOMAIN-SUFFIX,jina.ai,UserRule-AI
 
   # Together AI
-DOMAIN-SUFFIX, together.ai, UserRule-AI
+  DOMAIN-SUFFIX,together.ai,UserRule-AI
 
   # Voyage AI
-DOMAIN-SUFFIX, voyageai.com, UserRule-AI
+  DOMAIN-SUFFIX,voyageai.com,UserRule-AI
 
   # Z.ai
   # DOMAIN-SUFFIX,z.ai
 
   # MiniMax
-DOMAIN-SUFFIX, minimax.io, UserRule-AI
+  DOMAIN-SUFFIX,minimax.io,UserRule-AI
 
   # TokenFlux
-DOMAIN-SUFFIX, tokenflux.ai, UserRule-AI
+  DOMAIN-SUFFIX,tokenflux.ai,UserRule-AI
 
   # Trae AI
-DOMAIN-SUFFIX, trae.ai, UserRule-AI
-DOMAIN, trae-api-sg.mchost.guru, UserRule-AI
-
+  DOMAIN-SUFFIX,trae.ai,UserRule-AI
+  DOMAIN,trae-api-sg.mchost.guru,UserRule-AI
+ 
   # Kiro
-DOMAIN-SUFFIX, kiro.dev, UserRule-AI
+  DOMAIN-SUFFIX,kiro.dev,UserRule-AI
 
   # Xiaomi MiMo
-DOMAIN, token-plan-ams.xiaomimimo.com, UserRule-AI
-DOMAIN, token-plan-sgp.xiaomimimo.com, UserRule-AI
+  DOMAIN,token-plan-ams.xiaomimimo.com,UserRule-AI
+  DOMAIN,token-plan-sgp.xiaomimimo.com,UserRule-AI
 
   # >> OpenRouter AI - Unified Relay
   # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
-DOMAIN, openrouter.ai, UserRule-AI
+  DOMAIN,openrouter.ai,UserRule-AI
 
-DOMAIN, api.together.xyz, UserRule-AI
-DOMAIN, sydney.bing.com, UserRule-AI
-DOMAIN-SUFFIX, ai.azure.com, UserRule-AI
-DOMAIN-SUFFIX, claudeusercontent.com, UserRule-AI
-DOMAIN-SUFFIX, cursor.com, UserRule-AI
-DOMAIN-SUFFIX, cursor.sh, UserRule-AI
-DOMAIN-SUFFIX, grazie.ai, UserRule-AI
+  DOMAIN,api.together.xyz,UserRule-AI
+  DOMAIN,sydney.bing.com,UserRule-AI
+  DOMAIN-SUFFIX,ai.azure.com,UserRule-AI
+  DOMAIN-SUFFIX,claudeusercontent.com,UserRule-AI
+  DOMAIN-SUFFIX,cursor.com,UserRule-AI
+  DOMAIN-SUFFIX,cursor.sh,UserRule-AI
+  DOMAIN-SUFFIX,grazie.ai,UserRule-AI
 
   # >> Gemma
-DOMAIN-SUFFIX, multiplayer.api.gamma.app, UserRule-AI
-DOMAIN-SUFFIX, gamma.app, UserRule-AI
-DOMAIN-SUFFIX, api.gamma.app, UserRule-AI
-DOMAIN-SUFFIX, assets.api.gamma.app, UserRule-AI
-DOMAIN-SUFFIX, billing.gamma.app, UserRule-AI
+  DOMAIN-SUFFIX,multiplayer.api.gamma.app,UserRule-AI
+  DOMAIN-SUFFIX,gamma.app,UserRule-AI
+  DOMAIN-SUFFIX,api.gamma.app,UserRule-AI
+  DOMAIN-SUFFIX,assets.api.gamma.app,UserRule-AI
+  DOMAIN-SUFFIX,billing.gamma.app,UserRule-AI
 
   # >> LongBridge
-DOMAIN, openapi.longbridge.com, UserRule-AI
-DOMAIN, open.longbridge.com, UserRule-AI
+  DOMAIN,openapi.longbridge.com,UserRule-AI
+  DOMAIN,open.longbridge.com,UserRule-AI
