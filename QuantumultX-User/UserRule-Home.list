@@ -1,10 +1,10 @@
 # target-client: quantumultx
   # > figma
-  host-suffix,figma.com,Home
-  host-suffix,figmausercontent.com,Home
-  host-suffix,figma.app,Home
-  host-suffix,figma.site,Home
-  host-suffix,makeproxy-c.figma.site,Home
-  host-suffix,makeproxy-m.figma.site,Home
-  host-suffix,esm.instatus.com,Home
-  host-suffix,esm.sh,Home
+  host-suffix,figma.com,回家
+  host-suffix,figmausercontent.com,回家
+  host-suffix,figma.app,回家
+  host-suffix,figma.site,回家
+  host-suffix,makeproxy-c.figma.site,回家
+  host-suffix,makeproxy-m.figma.site,回家
+  host-suffix,esm.instatus.com,回家
+  host-suffix,esm.sh,回家

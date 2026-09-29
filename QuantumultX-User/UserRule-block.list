@@ -1,15 +1,15 @@
 # target-client: quantumultx
-  host,api.lemonsqueezy.com,UserRule-Block
-  host,screen.studio,UserRule-Block
+  host,api.lemonsqueezy.com,全球拦截
+  host,screen.studio,全球拦截
 
   # > Adobe
-  host-suffix,adobe.io,UserRule-Block
+  host-suffix,adobe.io,全球拦截
 
   # > AdGuard
-  # DOMAIN,api.adguard.org
+  # DOMAIN,api.adguard.org,全球拦截
 
   # > Wechat
-  host-suffix,wsx.qq.com,UserRule-Block
+  host-suffix,wsx.qq.com,全球拦截
 
   # > Autodesk
-  host,genuine-software2.autodesk.com,UserRule-Block
+  host,genuine-software2.autodesk.com,全球拦截
