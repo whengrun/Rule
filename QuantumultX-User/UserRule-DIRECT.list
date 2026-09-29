@@ -1,58 +1,58 @@
 # target-client: quantumultx
   # > tencent
-  host-suffix,qq.com,UserRule-DIRECT
-  host-suffix,wechat.com,UserRule-DIRECT
+  host-suffix,qq.com,DIRECT
+  host-suffix,wechat.com,DIRECT
 
   # > bilibili
-  host-suffix,interface.bilibili.com,UserRule-DIRECT
-  host-suffix,api.bilibili.com,UserRule-DIRECT
-  host-suffix,hdslb.com,UserRule-DIRECT
+  host-suffix,interface.bilibili.com,DIRECT
+  host-suffix,api.bilibili.com,DIRECT
+  host-suffix,hdslb.com,DIRECT
 
   # > speedtest
-  host-suffix,speedtest.net,UserRule-DIRECT
-  host-keyword,speedtest,UserRule-DIRECT
+  host-suffix,speedtest.net,DIRECT
+  host-keyword,speedtest,DIRECT
 
   # > yacd
-  host,clash.razord.top,UserRule-DIRECT
-  host,yacd.haishan.me,UserRule-DIRECT
+  host,clash.razord.top,DIRECT
+  host,yacd.haishan.me,DIRECT
 
   # > 1password
-  host-suffix,1password.com,UserRule-DIRECT
+  host-suffix,1password.com,DIRECT
 
   # > cscec
-  host-suffix,cscec.com,UserRule-DIRECT
+  host-suffix,cscec.com,DIRECT
 
   # > home
-  host-suffix,piranhaone.me,UserRule-DIRECT
+  host-suffix,piranhaone.me,DIRECT
   ; PROCESS-NAME,HedgieMate (目标软件不支持此匹配类型，已保留为注释。)
 
   # > synology
-  host,checkip.synology.com,UserRule-DIRECT
-  host,ddns.synology.com,UserRule-DIRECT
+  host,checkip.synology.com,DIRECT
+  host,ddns.synology.com,DIRECT
 
   # > plex
-  host,v4.plex.tv,UserRule-DIRECT
-  host-suffix,plex.direct,UserRule-DIRECT
-  host-suffix,me.plexapp.com,UserRule-DIRECT
+  host,v4.plex.tv,DIRECT
+  host-suffix,plex.direct,DIRECT
+  host-suffix,me.plexapp.com,DIRECT
 
   # > Adobe
-  host,photos.adobe.io,UserRule-DIRECT
-  host,lcs-cops.adobe.io,UserRule-DIRECT
+  host,photos.adobe.io,DIRECT
+  host,lcs-cops.adobe.io,DIRECT
 
   # > Google FCM
   ; GEOSITE,googlefcm (目标软件不支持此匹配类型，已保留为注释。)
-  host,mtalk4.google.com,UserRule-DIRECT
-  host,mtalk-staging.google.com,UserRule-DIRECT
-  host,mtalk-dev.google.com,UserRule-DIRECT
+  host,mtalk4.google.com,DIRECT
+  host,mtalk-staging.google.com,DIRECT
+  host,mtalk-dev.google.com,DIRECT
 
   # > UPDF
-  host,api.updf.com,UserRule-DIRECT
+  host,api.updf.com,DIRECT
   
   # >> typeless
-  host,api.typeless.com,UserRule-DIRECT
-  host-suffix,typeless.com,UserRule-DIRECT
-  host-suffix,typeless-static.com,UserRule-DIRECT
+  host,api.typeless.com,DIRECT
+  host-suffix,typeless.com,DIRECT
+  host-suffix,typeless-static.com,DIRECT
 
   # >> CAD快速看图
   ; PROCESS-NAME,CAD快速看图 (目标软件不支持此匹配类型，已保留为注释。)
-  host,cad.everdrawing.com,UserRule-DIRECT
+  host,cad.everdrawing.com,DIRECT

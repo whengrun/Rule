@@ -1,13 +1,13 @@
 # target-client: quantumultx
   # > Yahoo Taiwan
-  # DOMAIN-SUFFIX,yahoo.com
-  host-suffix,autos.yahoo.com.tw,UserRule-TW
-  host-suffix,tw.yahoo.com,UserRule-TW
-  host-suffix,tw.tv.yahoo.com,UserRule-TW
-  host-suffix,tw.stock.yahoo.com,UserRule-TW
-  host-suffix,cnyes.com,UserRule-TW
-  host-suffix,news.cnyes.com,UserRule-TW
-  host-suffix,ctinews.com,UserRule-TW
-  host-suffix,inside.com.tw,UserRule-TW
-  host-suffix,businessweekly.com.tw,UserRule-TW
-  host-suffix,pressplay.cc,UserRule-TW
+  # DOMAIN-SUFFIX,yahoo.com,台湾服务
+  host-suffix,autos.yahoo.com.tw,台湾服务
+  host-suffix,tw.yahoo.com,台湾服务
+  host-suffix,tw.tv.yahoo.com,台湾服务
+  host-suffix,tw.stock.yahoo.com,台湾服务
+  host-suffix,cnyes.com,台湾服务
+  host-suffix,news.cnyes.com,台湾服务
+  host-suffix,ctinews.com,台湾服务
+  host-suffix,inside.com.tw,台湾服务
+  host-suffix,businessweekly.com.tw,台湾服务
+  host-suffix,pressplay.cc,台湾服务

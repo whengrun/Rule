@@ -1,35 +1,35 @@
 # target-client: quantumultx
   # 内容：Microsoft
   # 数量：20
-  host-keyword,1drv,UserRule-MS-OD
-  host-suffix,live.net,UserRule-MS-OD
-  host-suffix,storage.live.com,UserRule-MS-OD
-  host-suffix,skyapi.live.net,UserRule-MS-OD
-  host-suffix,g.live.com,UserRule-MS-OD
-  host-suffix,onenote.com,UserRule-MS-OD
-  host-suffix,officeapps.live.com,UserRule-MS-OD
-  host-suffix,onedrive.live.com,UserRule-MS-OD
-  host-suffix,outlook.live.com,UserRule-MS-OD
-  host-suffix,api.onedrive.com,UserRule-MS-OD
-  host-suffix,skydrivesync.policies.live.net,UserRule-MS-OD
-  host-suffix,mobile.pipe.aria.microsoft.com,UserRule-MS-OD
-  host-suffix,wns.notify.windwos.com.akadns.ne,UserRule-MS-OD
-  host-suffix,edge.microsoft.com,UserRule-MS-OD
-  host-suffix,msn.com,UserRule-MS-OD
-  host-suffix,img-s-msn-com.akamaized.net,UserRule-MS-OD
+  host-keyword,1drv,OneDrive
+  host-suffix,live.net,OneDrive
+  host-suffix,storage.live.com,OneDrive
+  host-suffix,skyapi.live.net,OneDrive
+  host-suffix,g.live.com,OneDrive
+  host-suffix,onenote.com,OneDrive
+  host-suffix,officeapps.live.com,OneDrive
+  host-suffix,onedrive.live.com,OneDrive
+  host-suffix,outlook.live.com,OneDrive
+  host-suffix,api.onedrive.com,OneDrive
+  host-suffix,skydrivesync.policies.live.net,OneDrive
+  host-suffix,mobile.pipe.aria.microsoft.com,OneDrive
+  host-suffix,wns.notify.windwos.com.akadns.ne,OneDrive
+  host-suffix,edge.microsoft.com,OneDrive
+  host-suffix,msn.com,OneDrive
+  host-suffix,img-s-msn-com.akamaized.net,OneDrive
   ; PROCESS-NAME,OneDrive.exe (目标软件不支持此匹配类型，已保留为注释。)
   ; PROCESS-NAME,OneDrive (目标软件不支持此匹配类型，已保留为注释。)
   ; PROCESS-NAME,OneDrive File Provider (目标软件不支持此匹配类型，已保留为注释。)
   ; PROCESS-NAME,OneDrive.app (目标软件不支持此匹配类型，已保留为注释。)
 
-  host-keyword,onedrive,UserRule-MS-OD
-  host-keyword,skydrive,UserRule-MS-OD
-  host-suffix,livefilestore.com,UserRule-MS-OD
-  host-suffix,oneclient.sfx.ms,UserRule-MS-OD
-  host-suffix,onedrive.com,UserRule-MS-OD
-  host-suffix,photos.live.com,UserRule-MS-OD
-  host-suffix,skydrive.wns.windows.com,UserRule-MS-OD
-  host-suffix,spoprod-a.akamaihd.net,UserRule-MS-OD
-  host-suffix,storage.msn.com,UserRule-MS-OD
+  host-keyword,onedrive,OneDrive
+  host-keyword,skydrive,OneDrive
+  host-suffix,livefilestore.com,OneDrive
+  host-suffix,oneclient.sfx.ms,OneDrive
+  host-suffix,onedrive.com,OneDrive
+  host-suffix,photos.live.com,OneDrive
+  host-suffix,skydrive.wns.windows.com,OneDrive
+  host-suffix,spoprod-a.akamaihd.net,OneDrive
+  host-suffix,storage.msn.com,OneDrive
   # DOMAIN-SUFFIX,aria.microsoft.com
-  host-suffix,microsoftpersonalcontent.com,UserRule-MS-OD
+  host-suffix,microsoftpersonalcontent.com,OneDrive

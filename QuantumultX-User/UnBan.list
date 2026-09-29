@@ -2,54 +2,54 @@
   # Unbreak 白名单 不应该被广告链接的网站
 
   # Epicgames
-  host-suffix,ol.epicgames.com,UnBan
+  host-suffix,ol.epicgames.com,全球直连
 
   # Getui
-  host-suffix,dizhensubao.getui.com,UnBan
+  host-suffix,dizhensubao.getui.com,全球直连
 
   # Mozilla
-  host-suffix,tracking-protection.cdn.mozilla.net,UnBan
+  host-suffix,tracking-protection.cdn.mozilla.net,全球直连
 
   # Origin
-  host,origin-a.akamaihd.net,UnBan
+  host,origin-a.akamaihd.net,全球直连
 
   # Tencent
-  host,fairplay.l.qq.com,UnBan
-  host,livew.l.qq.com,UnBan
-  host,vd.l.qq.com,UnBan
+  host,fairplay.l.qq.com,全球直连
+  host,livew.l.qq.com,全球直连
+  host,vd.l.qq.com,全球直连
 
   # Strava
 
   # Umeng
-  host,errlog.umeng.com,UnBan
-  host,msg.umeng.com,UnBan
-  host,msg.umengcloud.com,UnBan
+  host,errlog.umeng.com,全球直连
+  host,msg.umeng.com,全球直连
+  host,msg.umengcloud.com,全球直连
 
   # Miui 小米
-  host,tracking.miui.com,UnBan
+  host,tracking.miui.com,全球直连
 
   # General
-  host,app.adjust.com,UnBan
-  host,bdtj.tagtic.cn,UnBan
+  host,app.adjust.com,全球直连
+  host,bdtj.tagtic.cn,全球直连
 
   # Hypixel Network
-  host,rewards.hypixel.net,UnBan
+  host,rewards.hypixel.net,全球直连
 
   # Koodo Mobile
-  host-suffix,koodomobile.com,UnBan
-  host-suffix,koodomobile.ca,UnBan
+  host-suffix,koodomobile.com,全球直连
+  host-suffix,koodomobile.ca,全球直连
 
   # 群晖ddns
-  host-suffix,synology.me,UnBan
-  host-suffix,DiskStation.me,UnBan
-  host-suffix,i234.me,UnBan
-  host-suffix,myDS.me,UnBan
-  host-suffix,DSCloud.biz,UnBan
-  host-suffix,DSCloud.me,UnBan
-  host-suffix,DSCloud.mobi,UnBan
-  host-suffix,DSmyNAS.com,UnBan
-  host-suffix,DSmyNAS.net,UnBan
-  host-suffix,DSmyNAS.org,UnBan
-  host-suffix,FamilyDS.com,UnBan
-  host-suffix,FamilyDS.net,UnBan
-  host-suffix,FamilyDS.org,UnBan
+  host-suffix,synology.me,全球直连
+  host-suffix,DiskStation.me,全球直连
+  host-suffix,i234.me,全球直连
+  host-suffix,myDS.me,全球直连
+  host-suffix,DSCloud.biz,全球直连
+  host-suffix,DSCloud.me,全球直连
+  host-suffix,DSCloud.mobi,全球直连
+  host-suffix,DSmyNAS.com,全球直连
+  host-suffix,DSmyNAS.net,全球直连
+  host-suffix,DSmyNAS.org,全球直连
+  host-suffix,FamilyDS.com,全球直连
+  host-suffix,FamilyDS.net,全球直连
+  host-suffix,FamilyDS.org,全球直连

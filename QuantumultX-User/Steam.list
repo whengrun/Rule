@@ -1,23 +1,23 @@
 # target-client: quantumultx
   # 内容：Steam
   # 数量：18条
-  host,steambroadcast.akamaized.net,Steam
-  host,steamcommunity-a.akamaihd.net,Steam
-  host,steampipe.akamaized.net,Steam
-  host,steamstore-a.akamaihd.net,Steam
-  host,steamusercontent-a.akamaihd.net,Steam
-  host,steamuserimages-a.akamaihd.net,Steam
-  host-suffix,fanatical.com,Steam
-  host-suffix,humblebundle.com,Steam
-  host-suffix,playartifact.com,Steam
-  host-suffix,steam-chat.com,Steam
-  host-suffix,steamcommunity.com,Steam
-  host-suffix,steamgames.com,Steam
-  host-suffix,steampowered.com,Steam
-  host-suffix,steamserver.net,Steam
-  host-suffix,steamstat.us,Steam
-  host-suffix,steamstatic.com,Steam
-  host-suffix,underlords.com,Steam
-  host-suffix,valvesoftware.com,Steam
+  host,steambroadcast.akamaized.net,Steam服务
+  host,steamcommunity-a.akamaihd.net,Steam服务
+  host,steampipe.akamaized.net,Steam服务
+  host,steamstore-a.akamaihd.net,Steam服务
+  host,steamusercontent-a.akamaihd.net,Steam服务
+  host,steamuserimages-a.akamaihd.net,Steam服务
+  host-suffix,fanatical.com,Steam服务
+  host-suffix,humblebundle.com,Steam服务
+  host-suffix,playartifact.com,Steam服务
+  host-suffix,steam-chat.com,Steam服务
+  host-suffix,steamcommunity.com,Steam服务
+  host-suffix,steamgames.com,Steam服务
+  host-suffix,steampowered.com,Steam服务
+  host-suffix,steamserver.net,Steam服务
+  host-suffix,steamstat.us,Steam服务
+  host-suffix,steamstatic.com,Steam服务
+  host-suffix,underlords.com,Steam服务
+  host-suffix,valvesoftware.com,Steam服务
 
  

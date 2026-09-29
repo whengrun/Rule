@@ -4,14 +4,14 @@
 
   # >> Google
   # Gemini
-  host-suffix,bard.google.com,Google
-  host-suffix,gemini.google,Google
-  host-suffix,gemini.google.com,Google
-  host-suffix,gemini.gstatic.com,Google
-  host,webchannel-alkalimakersuite-pa.clients6.google.com,Google
-  host-suffix,jules.google,Google
-  host-suffix,labs.google,Google
-  host-suffix,gstatic.com,Google
+  host-suffix,bard.google.com,地域定位
+  host-suffix,gemini.google,地域定位
+  host-suffix,gemini.google.com,地域定位
+  host-suffix,gemini.gstatic.com,地域定位
+  host,webchannel-alkalimakersuite-pa.clients6.google.com,地域定位
+  host-suffix,jules.google,地域定位
+  host-suffix,labs.google,地域定位
+  host-suffix,gstatic.com,地域定位
   # Here is how gemini.google.com doing HTTP 429 right now:
   #
   # without a special cookie, gemini.google.com will return HTTP 302 to the following URL with
@@ -30,106 +30,106 @@
   # Note that you will need to enable MitM www.google.com for this rule to work.
   # URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
   # DeepMind
-  host-suffix,deepmind.com,Google
-  host-suffix,deepmind.google,Google
+  host-suffix,deepmind.com,地域定位
+  host-suffix,deepmind.google,地域定位
   # Generative Language API
-  host-suffix,generativelanguage.googleapis.com,Google
-  host-suffix,geller-pa.googleapis.com,Google
-  host-suffix,proactivebackend-pa.googleapis.com,Google
-  host-suffix,cloudcode-pa.googleapis.com,Google
+  host-suffix,generativelanguage.googleapis.com,地域定位
+  host-suffix,geller-pa.googleapis.com,地域定位
+  host-suffix,proactivebackend-pa.googleapis.com,地域定位
+  host-suffix,cloudcode-pa.googleapis.com,地域定位
   # Google AI Studio
-  host,ai.google.dev,Google
-  host-suffix,g.ai,Google
-  host-suffix,aistudio.google.com,Google
-  host-suffix,makersuite.google.com,Google
-  host,alkalicore-pa.clients6.google.com,Google
-  host-suffix,alkalimakersuite-pa.clients6.google.com,Google
-  host-suffix,generativeai.google,Google
+  host,ai.google.dev,地域定位
+  host-suffix,g.ai,地域定位
+  host-suffix,aistudio.google.com,地域定位
+  host-suffix,makersuite.google.com,地域定位
+  host,alkalicore-pa.clients6.google.com,地域定位
+  host-suffix,alkalimakersuite-pa.clients6.google.com,地域定位
+  host-suffix,generativeai.google,地域定位
   # NotebookLM
-  host-suffix,notebooklm.google,Google
-  host-suffix,notebooklm.google.com,Google
+  host-suffix,notebooklm.google,地域定位
+  host-suffix,notebooklm.google.com,地域定位
   # Jules
-  host,jules.google.com,Google
+  host,jules.google.com,地域定位
   # Android Studio
   # Antigravity
-  host,antigravity.google,Google
-  host,antigravity-unleash.goog,Google
+  host,antigravity.google,地域定位
+  host,antigravity-unleash.goog,地域定位
 
 
-  host-keyword,gmail,Google
-  host-keyword,google,Google
-  host-keyword,youtube,Google
-  host-suffix,1e100.net,Google
-  host-suffix,2mdn.net,Google
-  host-suffix,app-measurement.net,Google
-  host-suffix,c.gle,Google
-  host-suffix,g.co,Google
-  host-suffix,ggpht.com,Google
-  host-suffix,goo.gl,Google
-  host-suffix,googleapis.cn,Google
-  host-suffix,googleapis.com,Google
-  host-suffix,gstatic.cn,Google
-  host-suffix,gvt0.com,Google
-  host-suffix,gvt1.com,Google
-  host-suffix,gvt2.com,Google
-  host-suffix,gvt3.com,Google
-  host-suffix,xn--ngstr-lra8j.com,Google
-  host-suffix,youtu.be,Google
-  host-suffix,youtube-nocookie.com,Google
-  host-suffix,youtube.com,Google
-  host-suffix,yt.be,Google
-  host-suffix,ytimg.com,Google
-  ip-cidr,74.125.0.0/16,Google
-  ip-cidr,173.194.0.0/16,Google
+  host-keyword,gmail,地域定位
+  host-keyword,google,地域定位
+  host-keyword,youtube,地域定位
+  host-suffix,1e100.net,地域定位
+  host-suffix,2mdn.net,地域定位
+  host-suffix,app-measurement.net,地域定位
+  host-suffix,c.gle,地域定位
+  host-suffix,g.co,地域定位
+  host-suffix,ggpht.com,地域定位
+  host-suffix,goo.gl,地域定位
+  host-suffix,googleapis.cn,地域定位
+  host-suffix,googleapis.com,地域定位
+  host-suffix,gstatic.cn,地域定位
+  host-suffix,gvt0.com,地域定位
+  host-suffix,gvt1.com,地域定位
+  host-suffix,gvt2.com,地域定位
+  host-suffix,gvt3.com,地域定位
+  host-suffix,xn--ngstr-lra8j.com,地域定位
+  host-suffix,youtu.be,地域定位
+  host-suffix,youtube-nocookie.com,地域定位
+  host-suffix,youtube.com,地域定位
+  host-suffix,yt.be,地域定位
+  host-suffix,ytimg.com,地域定位
+  ip-cidr,74.125.0.0/16,地域定位
+  ip-cidr,173.194.0.0/16,地域定位
 
-  host-suffix,www.google.com,Google
-  host-suffix,googleusercontent.com,Google
-  host-suffix,gmail.com,Google
+  host-suffix,www.google.com,地域定位
+  host-suffix,googleusercontent.com,地域定位
+  host-suffix,gmail.com,地域定位
   # DOMAIN-SUFFIX,googlevideo.com
-  host-suffix,pki.goog,Google
-  host-suffix,dns.google,Google
-  # DOMAIN-KEYWORD,google
-  host-keyword,googlevideo,Google
-  host-suffix,android.apis.google.com,Google
-  host-suffix,tenor.googleapis.com,Google
+  host-suffix,pki.goog,地域定位
+  host-suffix,dns.google,地域定位
+  # DOMAIN-KEYWORD,地域定位
+  host-keyword,googlevideo,地域定位
+  host-suffix,android.apis.google.com,地域定位
+  host-suffix,tenor.googleapis.com,地域定位
 
   # AI
-  host,aistudio.google.com,Google
-  host,generativelanguage.googleapis.com,Google
-  host,notebooklm.google.com,Google
+  host,aistudio.google.com,地域定位
+  host,generativelanguage.googleapis.com,地域定位
+  host,notebooklm.google.com,地域定位
   
   # YouTube
   # USER-AGENT,*youtube*
   # USER-AGENT,YouTube*
   # USER-AGENT,com.google.ios.youtube*
-  host-suffix,googlevideo.com,Google
-  host-suffix,withyoutube.com,Google
-  host-suffix,youtubeeducation.com,Google
-  host-suffix,youtubegaming.com,Google
-  host-suffix,youtubekids.com,Google
+  host-suffix,googlevideo.com,地域定位
+  host-suffix,withyoutube.com,地域定位
+  host-suffix,youtubeeducation.com,地域定位
+  host-suffix,youtubegaming.com,地域定位
+  host-suffix,youtubekids.com,地域定位
 
   # GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
-  ip-cidr,120.232.181.162/32,Google
-  ip-cidr,120.241.147.226/32,Google
-  ip-cidr,120.253.253.226/32,Google
-  ip-cidr,120.253.255.162/32,Google
-  ip-cidr,120.253.255.34/32,Google
-  ip-cidr,120.253.255.98/32,Google
-  ip-cidr,180.163.150.162/32,Google
-  ip-cidr,180.163.150.34/32,Google
-  ip-cidr,180.163.151.162/32,Google
-  ip-cidr,180.163.151.34/32,Google
-  ip-cidr,203.208.39.0/24,Google
-  ip-cidr,203.208.40.0/24,Google
-  ip-cidr,203.208.41.0/24,Google
-  ip-cidr,203.208.43.0/24,Google
-  ip-cidr,203.208.50.0/24,Google
-  ip-cidr,220.181.174.162/32,Google
-  ip-cidr,220.181.174.226/32,Google
-  ip-cidr,220.181.174.34/32,Google
+  ip-cidr,120.232.181.162/32,地域定位
+  ip-cidr,120.241.147.226/32,地域定位
+  ip-cidr,120.253.253.226/32,地域定位
+  ip-cidr,120.253.255.162/32,地域定位
+  ip-cidr,120.253.255.34/32,地域定位
+  ip-cidr,120.253.255.98/32,地域定位
+  ip-cidr,180.163.150.162/32,地域定位
+  ip-cidr,180.163.150.34/32,地域定位
+  ip-cidr,180.163.151.162/32,地域定位
+  ip-cidr,180.163.151.34/32,地域定位
+  ip-cidr,203.208.39.0/24,地域定位
+  ip-cidr,203.208.40.0/24,地域定位
+  ip-cidr,203.208.41.0/24,地域定位
+  ip-cidr,203.208.43.0/24,地域定位
+  ip-cidr,203.208.50.0/24,地域定位
+  ip-cidr,220.181.174.162/32,地域定位
+  ip-cidr,220.181.174.226/32,地域定位
+  ip-cidr,220.181.174.34/32,地域定位
 
   # antigravity-ide
   # - DOMAIN,browser.events.data.microsoft.com
   # - DOMAIN,default.exp-tas.com
   # - DOMAIN,open-vsx.org
-  host,antigravity-ide-auto-updater-974169037036.us-central1.run.app,Google
+  host,antigravity-ide-auto-updater-974169037036.us-central1.run.app,地域定位

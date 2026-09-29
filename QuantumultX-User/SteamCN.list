@@ -1,19 +1,19 @@
 # target-client: quantumultx
-  # 内容：SteamCN
+  # 内容：全球直连
   # 数量：16条
-  host,csgo.wmsj.cn,SteamCN
-  host,dl.steam.clngaa.com,SteamCN
-  host,dl.steam.ksyna.com,SteamCN
-  host,dota2.wmsj.cn,SteamCN
-  host,st.dl.bscstorage.net,SteamCN
-  host,st.dl.eccdnx.com,SteamCN
-  host,st.dl.pinyuncloud.com,SteamCN
-  host,steampipe.steamcontent.tnkjmec.com,SteamCN
-  host,steampowered.com.8686c.com,SteamCN
-  host,steamstatic.com.8686c.com,SteamCN
-  host,wmsjsteam.com,SteamCN
-  host,xz.pphimalayanrt.com,SteamCN
-  host-suffix,cm.steampowered.com,SteamCN
-  host-suffix,steamchina.com,SteamCN
-  host-suffix,steamcontent.com,SteamCN
-  host-suffix,steamusercontent.com,SteamCN
+  host,csgo.wmsj.cn,全球直连
+  host,dl.steam.clngaa.com,全球直连
+  host,dl.steam.ksyna.com,全球直连
+  host,dota2.wmsj.cn,全球直连
+  host,st.dl.bscstorage.net,全球直连
+  host,st.dl.eccdnx.com,全球直连
+  host,st.dl.pinyuncloud.com,全球直连
+  host,steampipe.steamcontent.tnkjmec.com,全球直连
+  host,steampowered.com.8686c.com,全球直连
+  host,steamstatic.com.8686c.com,全球直连
+  host,wmsjsteam.com,全球直连
+  host,xz.pphimalayanrt.com,全球直连
+  host-suffix,cm.steampowered.com,全球直连
+  host-suffix,steamchina.com,全球直连
+  host-suffix,steamcontent.com,全球直连
+  host-suffix,steamusercontent.com,全球直连

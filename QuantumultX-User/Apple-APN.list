@@ -3,16 +3,16 @@
   # 引用：https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/loon/apns.list
 
   # >> APN
-  host,identity.apple.com,Apple-APN
-  host-suffix,akadns.net,Apple-APN
-  host-suffix,push.apple.com,Apple-APN
-  host-keyword,apple.com.edgekey.net,Apple-APN
-  ip-cidr,17.188.128.0/18,Apple-APN
-  ip-cidr,17.188.20.0/23,Apple-APN
-  ip-cidr,17.249.0.0/16,Apple-APN
-  ip-cidr,17.252.0.0/16,Apple-APN
-  ip-cidr,17.57.144.0/22,Apple-APN
-  ip6-cidr,2403:300:a42::/48,Apple-APN
-  ip6-cidr,2403:300:a51::/48,Apple-APN
-  ip6-cidr,2620:149:a44::/48,Apple-APN
-  ip6-cidr,2a01:b740:a42::/48,Apple-APN
+  host,identity.apple.com,苹果推送服务
+  host-suffix,akadns.net,苹果推送服务
+  host-suffix,push.apple.com,苹果推送服务
+  host-keyword,apple.com.edgekey.net,苹果推送服务
+  ip-cidr,17.188.128.0/18,苹果推送服务
+  ip-cidr,17.188.20.0/23,苹果推送服务
+  ip-cidr,17.249.0.0/16,苹果推送服务
+  ip-cidr,17.252.0.0/16,苹果推送服务
+  ip-cidr,17.57.144.0/22,苹果推送服务
+  ip6-cidr,2403:300:a42::/48,苹果推送服务
+  ip6-cidr,2403:300:a51::/48,苹果推送服务
+  ip6-cidr,2620:149:a44::/48,苹果推送服务
+  ip6-cidr,2a01:b740:a42::/48,苹果推送服务
