@@ -1,0 +1,220 @@
+# target-client: quantumultx
+  # 内容：Clash规则，AI平台相关的域名和IP地址
+  # 引用：https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/ai.conf
+  # 引用：https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_intelligence.conf
+
+  # $ meta_description This file contains domains of OpenAI, Claude., Perplexity, Google Gemini, and other AI platforms. It is used for routing traffic to these services through a proxy.
+
+  # >> AI
+  host-suffix,challenges.cloudflare.com,UserRule-AI
+  host-suffix,auth.grokipedia.com,UserRule-AI
+  host-suffix,invoice.stripe.com,UserRule-AI
+  host-suffix,sentry.io,UserRule-AI
+  host-suffix,stripe.com,UserRule-AI
+  ip-cidr,142.251.43.10/31,UserRule-AI
+  ip-cidr,142.251.43.12/31,UserRule-AI
+  ip-cidr,142.251.43.14/32,UserRule-AI
+  ip-cidr,35.190.80.1/32,UserRule-AI
+  ip-cidr,104.18.37.228/32,UserRule-AI
+  ip-cidr,104.18.35.28/32,UserRule-AI
+  ip-cidr,172.217.160.0/25,UserRule-AI
+  ip-cidr,172.217.160.128/26,UserRule-AI
+  ip-cidr,172.217.160.192/27,UserRule-AI
+  ip-cidr,172.217.160.224/28,UserRule-AI
+  ip-cidr,172.217.160.240/29,UserRule-AI
+  ip-cidr,172.217.160.248/30,UserRule-AI
+  ip-cidr,172.217.160.252/31,UserRule-AI
+  ip-cidr,172.217.160.254/32,UserRule-AI
+  ip-cidr,74.125.203.113/32,UserRule-AI
+  ip-cidr,172.217.163.0/25,UserRule-AI
+  ip-cidr,172.217.163.128/26,UserRule-AI
+  ip-cidr,172.217.163.192/27,UserRule-AI
+  ip-cidr,172.217.163.224/28,UserRule-AI
+  ip-cidr,172.217.163.240/29,UserRule-AI
+  ip-cidr,172.217.163.248/30,UserRule-AI
+  ip-cidr,172.217.163.252/31,UserRule-AI
+  ip-cidr,172.217.163.254/32,UserRule-AI
+  host-suffix,descript.com,UserRule-AI
+  host-suffix,descriptapp.com,UserRule-AI
+
+  # >> OpenAI / ChatGPT
+  # OpenAI A/B Flag, no geo blocking
+  # DOMAIN,api.statsig.com
+  host-suffix,openai.com,UserRule-AI
+  host-suffix,oaistatic.com,UserRule-AI
+  host-suffix,sora.com,UserRule-AI
+  host-suffix,chatgpt.com,UserRule-AI
+  host-suffix,chat.com,UserRule-AI
+  host-suffix,ai.com,UserRule-AI
+  host-keyword,openai,UserRule-AI
+  host,chat.openai.com.cdn.cloudflare.net,UserRule-AI
+  host-suffix,oaiusercontent.com,UserRule-AI
+  host,openai.com.cdn.cloudflare.net,UserRule-AI
+  host,openaicomproductionae4b.blob.core.windows.net,UserRule-AI
+  host,openaicom.imgix.net,UserRule-AI
+  host,production-openaicom-storage.azureedge.net,UserRule-AI
+  host,chatgpt.livekit.cloud,UserRule-AI
+  host,host.livekit.cloud,UserRule-AI
+  host,turn.livekit.cloud,UserRule-AI
+  host,chatgpt.site,UserRule-AI
+  # DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  # DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  # DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  # DOMAIN,production-openaicom-storage.azureedge.net
+  ; PROCESS-NAME,Codex.app (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,Codex (Service).app (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,ChatGPT.app (目标软件不支持此匹配类型，已保留为注释。)
+  host-suffix,auth0.com,UserRule-AI
+  host-suffix,client-api.arkoselabs.com,UserRule-AI
+  host-suffix,events.statsigapi.net,UserRule-AI
+  host-suffix,featuregates.org,UserRule-AI
+  host-suffix,identrust.com,UserRule-AI
+  host-suffix,intercom.io,UserRule-AI
+  host-suffix,intercomcdn.com,UserRule-AI
+
+  # OpenAI IP 段
+  ip-cidr,160.79.104.0/23,UserRule-AI
+  ip6-cidr,2607:6bc0::/48,UserRule-AI
+
+  # >> Apple Relay
+  # Sadly, even though Oblivious HTTP Relay is an open standard, supposed to enhance privacy. Apple uses a loophole
+  # to get user real request country and IP address from third-party CDN providers (like Cloudflare or Fastly) to
+  # blocks country from accessing Apple Intelligence services.
+  # DOMAIN,apple-relay.fastly-edge.com
+  # DOMAIN,apple-relay.cloudflare.com
+  # DOMAIN,apple-relay.apple.com
+  # DOMAIN,cp4.cloudflare.com
+
+  # >> com.apple.geod
+  # DOMAIN,gspe1-ssl.ls.apple.com
+  # TODO: find other domains that com.apple.geod is trying to connect to.
+
+  # >> Perplexity
+  host-suffix,perplexity.ai,UserRule-AI
+  host,pplx-res.cloudinary.com,UserRule-AI
+  host-suffix,perplexity.com,UserRule-AI
+  host-suffix,pplx.ai,UserRule-AI
+
+  # >> Claude
+  host-suffix,anthropic.com,UserRule-AI
+  host-suffix,claude.ai,UserRule-AI
+  host-suffix,claude.com,UserRule-AI
+  host-keyword,anthropic,UserRule-AI
+  host-keyword,claude,UserRule-AI
+  host-suffix,crixet.com,UserRule-AI
+
+  # >> POE
+  host-suffix,poe.com,UserRule-AI
+
+  # >> Meta AI
+  host-suffix,meta.ai,UserRule-AI
+
+  # >> Cloudflare AI Gateway
+  host,gateway.ai.cloudflare.com,UserRule-AI
+
+  # >> Dify.AI
+  host-suffix,dify.ai,UserRule-AI
+
+  # >> Jasper
+  host-suffix,clipdrop.co,UserRule-AI
+  host-suffix,jasper.ai,UserRule-AI
+
+  # >> OpenArt
+  host-suffix,openart.ai,UserRule-AI
+
+  # >> GitHub Copilot
+  # api.*.githubcopilot.com is not required, since the ip & asn information are coming from api.github.com
+  # see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
+  host,api.github.com,UserRule-AI
+
+  # >> xAI / Grok
+  host-suffix,grok.com,UserRule-AI
+  host-suffix,x.ai,UserRule-AI
+
+  # >> groq
+  host-suffix,groq.com,UserRule-AI
+
+  # >> JetBrains AI
+  host-suffix,jetbrains.ai,UserRule-AI
+  host-suffix,grazie.aws.intellij.net,UserRule-AI
+
+  # Mistral AI
+  host-suffix,mistral.ai,UserRule-AI
+
+  # NVIDIA
+  host,integrate.api.nvidia.com,UserRule-AI
+
+  # Hugging Face
+  host,router.huggingface.co,UserRule-AI
+  
+  # GitHub / Microsoft Copilot
+  host-suffix,copilot.cloud.microsoft,UserRule-AI
+  host-suffix,copilot.microsoft.com,UserRule-AI
+  host-suffix,openaiapi-site.azureedge.net,UserRule-AI
+  host,copilot-proxy.githubusercontent.com,UserRule-AI
+  host,api.githubcopilot.com,UserRule-AI
+
+  # Meta AI
+  host,imagine.meta.com,UserRule-AI
+
+  # Hyperbolic
+  host,api.hyperbolic.xyz,UserRule-AI
+  host-suffix,hyperbolic.ai,UserRule-AI
+
+  # Cerebras
+  host-suffix,cerebras.ai,UserRule-AI
+
+  # Fireworks AI
+  host-suffix,fireworks.ai,UserRule-AI
+
+  # Jina AI
+  host-suffix,jina.ai,UserRule-AI
+
+  # Together AI
+  host-suffix,together.ai,UserRule-AI
+
+  # Voyage AI
+  host-suffix,voyageai.com,UserRule-AI
+
+  # Z.ai
+  # DOMAIN-SUFFIX,z.ai
+
+  # MiniMax
+  host-suffix,minimax.io,UserRule-AI
+
+  # TokenFlux
+  host-suffix,tokenflux.ai,UserRule-AI
+
+  # Trae AI
+  host-suffix,trae.ai,UserRule-AI
+  host,trae-api-sg.mchost.guru,UserRule-AI
+ 
+  # Kiro
+  host-suffix,kiro.dev,UserRule-AI
+
+  # Xiaomi MiMo
+  host,token-plan-ams.xiaomimimo.com,UserRule-AI
+  host,token-plan-sgp.xiaomimimo.com,UserRule-AI
+
+  # >> OpenRouter AI - Unified Relay
+  # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
+  host,openrouter.ai,UserRule-AI
+
+  host,api.together.xyz,UserRule-AI
+  host,sydney.bing.com,UserRule-AI
+  host-suffix,ai.azure.com,UserRule-AI
+  host-suffix,claudeusercontent.com,UserRule-AI
+  host-suffix,cursor.com,UserRule-AI
+  host-suffix,cursor.sh,UserRule-AI
+  host-suffix,grazie.ai,UserRule-AI
+
+  # >> Gemma
+  host-suffix,multiplayer.api.gamma.app,UserRule-AI
+  host-suffix,gamma.app,UserRule-AI
+  host-suffix,api.gamma.app,UserRule-AI
+  host-suffix,assets.api.gamma.app,UserRule-AI
+  host-suffix,billing.gamma.app,UserRule-AI
+
+  # >> LongBridge
+  host,openapi.longbridge.com,UserRule-AI
+  host,open.longbridge.com,UserRule-AI

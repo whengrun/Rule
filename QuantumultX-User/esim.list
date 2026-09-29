@@ -1,0 +1,20 @@
+# target-client: quantumultx
+  # 内容：用于海外esim的激活
+
+# 地区检测
+host-suffix,gspe1-ssl.ls.apple.com,esim
+host-suffix,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,esim
+host-suffix,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,esim
+host-suffix,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org,esim
+host-suffix,entsrv-uk.vodafone.com,esim
+host-suffix,vuk-gto.prod.ondemandconnectivity.com,esim
+ip-cidr,88.82.0.0/19,esim
+# CMLinkUK & CTExcel EE
+host-suffix,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org,esim
+host-suffix,ss.epdg.epc.mnc033.mcc234.pub.3gppnetwork.org,esim
+host-suffix,ss.epdg.epc.geo.mnc033.mcc234.pub.3gppnetwork.org,esim
+ip-cidr,46.68.0.0/17,esim
+# 新增的 EE 专属 IP 段
+ip-cidr,31.94.0.0/16,esim
+# Giffgaff 
+ip-cidr,87.194.0.0/16,esim

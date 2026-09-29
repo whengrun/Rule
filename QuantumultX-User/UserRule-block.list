@@ -1,14 +1,15 @@
-DOMAIN,api.lemonsqueezy.com
-DOMAIN,screen.studio
+# target-client: quantumultx
+  host,api.lemonsqueezy.com,UserRule-Block
+  host,screen.studio,UserRule-Block
 
-# > Adobe
-DOMAIN-SUFFIX,adobe.io
+  # > Adobe
+  host-suffix,adobe.io,UserRule-Block
 
-# > AdGuard
-#DOMAIN,api.adguard.org
+  # > AdGuard
+  # DOMAIN,api.adguard.org
 
-# > Wechat
-DOMAIN-SUFFIX,wsx.qq.com
+  # > Wechat
+  host-suffix,wsx.qq.com,UserRule-Block
 
-# > Autodesk
-DOMAIN,genuine-software2.autodesk.com
+  # > Autodesk
+  host,genuine-software2.autodesk.com,UserRule-Block

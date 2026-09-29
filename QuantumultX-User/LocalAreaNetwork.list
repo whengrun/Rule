@@ -1,0 +1,43 @@
+# target-client: quantumultx
+  # 本地/局域网地址
+  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+
+  # 本地/局域网地址
+  host-suffix,ip6-localhost,LocalAreaNetwork
+  host-suffix,ip6-loopback,LocalAreaNetwork
+  host-suffix,internal,LocalAreaNetwork
+  host-suffix,lan,LocalAreaNetwork
+  host-suffix,local,LocalAreaNetwork
+  host-suffix,localhost,LocalAreaNetwork
+  ip-cidr,0.0.0.0/8,LocalAreaNetwork
+  ip-cidr,10.0.0.0/8,LocalAreaNetwork
+  ip-cidr,100.64.0.0/10,LocalAreaNetwork
+  ip-cidr,127.0.0.0/8,LocalAreaNetwork
+  ip-cidr,169.254.0.0/16,LocalAreaNetwork
+  ip-cidr,172.16.0.0/12,LocalAreaNetwork
+  ip-cidr,192.168.0.0/16,LocalAreaNetwork
+  ip-cidr,198.18.0.0/16,LocalAreaNetwork
+  ip-cidr,224.0.0.0/4,LocalAreaNetwork
+  ip6-cidr,::1/128,LocalAreaNetwork
+  ip6-cidr,fc00::/7,LocalAreaNetwork
+  ip6-cidr,fe80::/10,LocalAreaNetwork
+  ip6-cidr,fd00::/8,LocalAreaNetwork
+
+  # Router managed 路由器管理域名
+  host,instant.arubanetworks.com,LocalAreaNetwork
+  host,setmeup.arubanetworks.com,LocalAreaNetwork
+  host,router.asus.com,LocalAreaNetwork
+  host,www.asusrouter.com,LocalAreaNetwork
+  host-suffix,hiwifi.com,LocalAreaNetwork
+  host-suffix,leike.cc,LocalAreaNetwork
+  host-suffix,miwifi.com,LocalAreaNetwork
+  host-suffix,my.router,LocalAreaNetwork
+  host-suffix,p.to,LocalAreaNetwork
+  host-suffix,peiluyou.com,LocalAreaNetwork
+  host-suffix,phicomm.me,LocalAreaNetwork
+  host-suffix,router.ctc,LocalAreaNetwork
+  host-suffix,routerlogin.com,LocalAreaNetwork
+  host-suffix,tendawifi.com,LocalAreaNetwork
+  host-suffix,zte.home,LocalAreaNetwork
+  host-suffix,tplogin.cn,LocalAreaNetwork
+  host-suffix,wifi.cmcc,LocalAreaNetwork

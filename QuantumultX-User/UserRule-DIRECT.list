@@ -1,0 +1,58 @@
+# target-client: quantumultx
+  # > tencent
+  host-suffix,qq.com,UserRule-DIRECT
+  host-suffix,wechat.com,UserRule-DIRECT
+
+  # > bilibili
+  host-suffix,interface.bilibili.com,UserRule-DIRECT
+  host-suffix,api.bilibili.com,UserRule-DIRECT
+  host-suffix,hdslb.com,UserRule-DIRECT
+
+  # > speedtest
+  host-suffix,speedtest.net,UserRule-DIRECT
+  host-keyword,speedtest,UserRule-DIRECT
+
+  # > yacd
+  host,clash.razord.top,UserRule-DIRECT
+  host,yacd.haishan.me,UserRule-DIRECT
+
+  # > 1password
+  host-suffix,1password.com,UserRule-DIRECT
+
+  # > cscec
+  host-suffix,cscec.com,UserRule-DIRECT
+
+  # > home
+  host-suffix,piranhaone.me,UserRule-DIRECT
+  ; PROCESS-NAME,HedgieMate (目标软件不支持此匹配类型，已保留为注释。)
+
+  # > synology
+  host,checkip.synology.com,UserRule-DIRECT
+  host,ddns.synology.com,UserRule-DIRECT
+
+  # > plex
+  host,v4.plex.tv,UserRule-DIRECT
+  host-suffix,plex.direct,UserRule-DIRECT
+  host-suffix,me.plexapp.com,UserRule-DIRECT
+
+  # > Adobe
+  host,photos.adobe.io,UserRule-DIRECT
+  host,lcs-cops.adobe.io,UserRule-DIRECT
+
+  # > Google FCM
+  ; GEOSITE,googlefcm (目标软件不支持此匹配类型，已保留为注释。)
+  host,mtalk4.google.com,UserRule-DIRECT
+  host,mtalk-staging.google.com,UserRule-DIRECT
+  host,mtalk-dev.google.com,UserRule-DIRECT
+
+  # > UPDF
+  host,api.updf.com,UserRule-DIRECT
+  
+  # >> typeless
+  host,api.typeless.com,UserRule-DIRECT
+  host-suffix,typeless.com,UserRule-DIRECT
+  host-suffix,typeless-static.com,UserRule-DIRECT
+
+  # >> CAD快速看图
+  ; PROCESS-NAME,CAD快速看图 (目标软件不支持此匹配类型，已保留为注释。)
+  host,cad.everdrawing.com,UserRule-DIRECT

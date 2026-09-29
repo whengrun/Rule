@@ -1,3 +1,4 @@
+# target-client: mihomo
 payload:
   # > wechat FCM
   - DOMAIN-SUFFIX,short.weixin.qq.com

@@ -1,0 +1,135 @@
+# target-client: quantumultx
+  # 内容：Google
+  # 数量：25条
+
+  # >> Google
+  # Gemini
+  host-suffix,bard.google.com,Google
+  host-suffix,gemini.google,Google
+  host-suffix,gemini.google.com,Google
+  host-suffix,gemini.gstatic.com,Google
+  host,webchannel-alkalimakersuite-pa.clients6.google.com,Google
+  host-suffix,jules.google,Google
+  host-suffix,labs.google,Google
+  host-suffix,gstatic.com,Google
+  # Here is how gemini.google.com doing HTTP 429 right now:
+  #
+  # without a special cookie, gemini.google.com will return HTTP 302 to the following URL with
+  # a special state token URL parameter:
+  # https://www.google.com/sorry/index?continue=https://gemini.google.com/...
+  #
+  # On https://www.google.com/sorry/index?continue=xxx, the CDN edge will validate this state token,
+  # compare the client IPs, and reject the request with HTTP 429 if the IPs are mismatched
+  #
+  # If the IP matches, the CDN edge will return a HTTP 302 redirect back to https://gemini.google.com
+  # with another special state token URL parameter telling gemini.google.com stop returning HTTP 302
+  # back to www.google.com/sorry/index?continue=xxx and start serving the real content.
+  #
+  # We can simply matches www.google.com/sorry/index?continue=xxx and proxy this as well
+  #
+  # Note that you will need to enable MitM www.google.com for this rule to work.
+  # URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+  # DeepMind
+  host-suffix,deepmind.com,Google
+  host-suffix,deepmind.google,Google
+  # Generative Language API
+  host-suffix,generativelanguage.googleapis.com,Google
+  host-suffix,geller-pa.googleapis.com,Google
+  host-suffix,proactivebackend-pa.googleapis.com,Google
+  host-suffix,cloudcode-pa.googleapis.com,Google
+  # Google AI Studio
+  host,ai.google.dev,Google
+  host-suffix,g.ai,Google
+  host-suffix,aistudio.google.com,Google
+  host-suffix,makersuite.google.com,Google
+  host,alkalicore-pa.clients6.google.com,Google
+  host-suffix,alkalimakersuite-pa.clients6.google.com,Google
+  host-suffix,generativeai.google,Google
+  # NotebookLM
+  host-suffix,notebooklm.google,Google
+  host-suffix,notebooklm.google.com,Google
+  # Jules
+  host,jules.google.com,Google
+  # Android Studio
+  # Antigravity
+  host,antigravity.google,Google
+  host,antigravity-unleash.goog,Google
+
+
+  host-keyword,gmail,Google
+  host-keyword,google,Google
+  host-keyword,youtube,Google
+  host-suffix,1e100.net,Google
+  host-suffix,2mdn.net,Google
+  host-suffix,app-measurement.net,Google
+  host-suffix,c.gle,Google
+  host-suffix,g.co,Google
+  host-suffix,ggpht.com,Google
+  host-suffix,goo.gl,Google
+  host-suffix,googleapis.cn,Google
+  host-suffix,googleapis.com,Google
+  host-suffix,gstatic.cn,Google
+  host-suffix,gvt0.com,Google
+  host-suffix,gvt1.com,Google
+  host-suffix,gvt2.com,Google
+  host-suffix,gvt3.com,Google
+  host-suffix,xn--ngstr-lra8j.com,Google
+  host-suffix,youtu.be,Google
+  host-suffix,youtube-nocookie.com,Google
+  host-suffix,youtube.com,Google
+  host-suffix,yt.be,Google
+  host-suffix,ytimg.com,Google
+  ip-cidr,74.125.0.0/16,Google
+  ip-cidr,173.194.0.0/16,Google
+
+  host-suffix,www.google.com,Google
+  host-suffix,googleusercontent.com,Google
+  host-suffix,gmail.com,Google
+  # DOMAIN-SUFFIX,googlevideo.com
+  host-suffix,pki.goog,Google
+  host-suffix,dns.google,Google
+  # DOMAIN-KEYWORD,google
+  host-keyword,googlevideo,Google
+  host-suffix,android.apis.google.com,Google
+  host-suffix,tenor.googleapis.com,Google
+
+  # AI
+  host,aistudio.google.com,Google
+  host,generativelanguage.googleapis.com,Google
+  host,notebooklm.google.com,Google
+  
+  # YouTube
+  # USER-AGENT,*youtube*
+  # USER-AGENT,YouTube*
+  # USER-AGENT,com.google.ios.youtube*
+  host-suffix,googlevideo.com,Google
+  host-suffix,withyoutube.com,Google
+  host-suffix,youtubeeducation.com,Google
+  host-suffix,youtubegaming.com,Google
+  host-suffix,youtubekids.com,Google
+
+  # GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
+  ip-cidr,120.232.181.162/32,Google
+  ip-cidr,120.241.147.226/32,Google
+  ip-cidr,120.253.253.226/32,Google
+  ip-cidr,120.253.255.162/32,Google
+  ip-cidr,120.253.255.34/32,Google
+  ip-cidr,120.253.255.98/32,Google
+  ip-cidr,180.163.150.162/32,Google
+  ip-cidr,180.163.150.34/32,Google
+  ip-cidr,180.163.151.162/32,Google
+  ip-cidr,180.163.151.34/32,Google
+  ip-cidr,203.208.39.0/24,Google
+  ip-cidr,203.208.40.0/24,Google
+  ip-cidr,203.208.41.0/24,Google
+  ip-cidr,203.208.43.0/24,Google
+  ip-cidr,203.208.50.0/24,Google
+  ip-cidr,220.181.174.162/32,Google
+  ip-cidr,220.181.174.226/32,Google
+  ip-cidr,220.181.174.34/32,Google
+
+  # antigravity-ide
+  # - DOMAIN,browser.events.data.microsoft.com
+  # - DOMAIN,default.exp-tas.com
+  # - DOMAIN,open-vsx.org
+  host,antigravity-ide-auto-updater-974169037036.us-central1.run.app,Google

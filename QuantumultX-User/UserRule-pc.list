@@ -1,16 +1,16 @@
-#application
-PROCESS-NAME,Downie 4
-PROCESS-NAME,obfs4proxy
-PROCESS-NAME,tor.real
-PROCESS-NAME,tor
-PROCESS-NAME,tor.exe
-PROCESS-NAME,Tor Browser.app
-PROCESS-NAME,JavaApplicationStub
-#PROCESS-NAME,OneDrive.exe
-#PROCESS-NAME,OneDrive
-#PROCESS-NAME,HP.Smart.exe
-#DOMAIN-SUFFIX,login3.id.hp.com
-PROCESS-NAME,Podcasts
-
-
-
+# target-client: quantumultx
+  # > application
+  ; PROCESS-NAME,Downie 4 (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,obfs4proxy (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,tor.real (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,tor (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,tor.exe (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,Tor Browser.app (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,JavaApplicationStub (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,MEGAsync (目标软件不支持此匹配类型，已保留为注释。)
+  # PROCESS-NAME,HP.Smart.exe
+  # DOMAIN-SUFFIX,login3.id.hp.com
+  ; PROCESS-NAME,Podcasts (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,Antigravity IDE.app (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,Antigravity IDE Helper (目标软件不支持此匹配类型，已保留为注释。)
+  ; PROCESS-NAME,Antigravity IDE Helper (Plugin) (目标软件不支持此匹配类型，已保留为注释。)

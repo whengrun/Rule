@@ -1,0 +1,398 @@
+# target-client: quantumultx
+  # 内容：国外媒体列表
+
+  # common
+  host-suffix,uplynk.com,ProxyMedia
+
+  # ABC
+  host-suffix,edgedatg.com,ProxyMedia
+  host-suffix,go.com,ProxyMedia
+
+  #
+  host-suffix,gumroad.com,ProxyMedia
+
+  # AbemaTV  
+  host-keyword,abematv.akamaized.net,ProxyMedia
+  host-suffix,abema.io,ProxyMedia
+  host-suffix,abema.tv,ProxyMedia
+  host-suffix,ameba.jp,ProxyMedia
+  host-suffix,hayabusa.io,ProxyMedia
+
+  # All4
+  host-suffix,c4assets.com,ProxyMedia
+  host-suffix,channel4.com,ProxyMedia
+
+  # Amazon
+  host-keyword,avoddashs,ProxyMedia
+  host,atv-ps.amazon.com,ProxyMedia
+  host,avodmp4s3ww-a.akamaihd.net,ProxyMedia
+  host,d1v5ir2lpwr8os.cloudfront.net,ProxyMedia
+  host,d1xfray82862hr.cloudfront.net,ProxyMedia
+  host,d22qjgkvxw22r6.cloudfront.net,ProxyMedia
+  host,d25xi40x97liuc.cloudfront.net,ProxyMedia
+  host,d27xxe7juh1us6.cloudfront.net,ProxyMedia
+  host,d3196yreox78o9.cloudfront.net,ProxyMedia
+  host,dmqdd6hw24ucf.cloudfront.net,ProxyMedia
+  host,ktpx.amazon.com,ProxyMedia
+  host-suffix,aboutamazon.com,ProxyMedia
+  host-suffix,aiv-cdn.net,ProxyMedia
+  host-suffix,aiv-delivery.net,ProxyMedia
+  host-suffix,amazon.jobs,ProxyMedia
+  host-suffix,amazontools.com,ProxyMedia
+  host-suffix,amazontours.com,ProxyMedia
+  host-suffix,amazonuniversity.jobs,ProxyMedia
+  host-suffix,amazonvideo.com,ProxyMedia
+  host-suffix,media-amazon.com,ProxyMedia
+  host-suffix,pv-cdn.net,ProxyMedia
+  host-suffix,seattlespheres.com,ProxyMedia
+  # URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+
+  # BBCiPlayer
+  #   
+  host-keyword,bbcfmt,ProxyMedia
+  host-keyword,uk-live,ProxyMedia
+  host,aod-dash-uk-live.akamaized.net,ProxyMedia
+  host,aod-hls-uk-live.akamaized.net,ProxyMedia
+  host,vod-dash-uk-live.akamaized.net,ProxyMedia
+  host,vod-thumb-uk-live.akamaized.net,ProxyMedia
+  host-suffix,bbc.co,ProxyMedia
+  host-suffix,bbc.co.uk,ProxyMedia
+  host-suffix,bbc.com,ProxyMedia
+  host-suffix,bbc.net.uk,ProxyMedia
+  host-suffix,bbcfmt.hs.llnwd.net,ProxyMedia
+  host-suffix,bbci.co,ProxyMedia
+  host-suffix,bbci.co.uk,ProxyMedia
+  host-suffix,bidi.net.uk,ProxyMedia
+
+  # Bahamut
+  #   
+  host,bahamut.akamaized.net,ProxyMedia
+  host,gamer-cds.cdn.hinet.net,ProxyMedia
+  host,gamer2-cds.cdn.hinet.net,ProxyMedia
+  host-suffix,bahamut.com.tw,ProxyMedia
+  host-suffix,gamer.com.tw,ProxyMedia
+
+  # DAZN
+  #   
+  host-keyword,voddazn,ProxyMedia
+  host-suffix,d151l6v8er5bdm.cloudfront.net,ProxyMedia
+  host-suffix,d1sgwhnao7452x.cloudfront.net,ProxyMedia
+  host-suffix,dazn-api.com,ProxyMedia
+  host-suffix,dazn.com,ProxyMedia
+  host-suffix,dazndn.com,ProxyMedia
+  host-suffix,dcblivedazn.akamaized.net,ProxyMedia
+  host-suffix,indazn.com,ProxyMedia
+  host-suffix,indaznlab.com,ProxyMedia
+
+  # Deezer
+  #   
+  host-suffix,deezer.com,ProxyMedia
+  host-suffix,dzcdn.net,ProxyMedia
+
+  # DiscoveryPlus
+  host-suffix,disco-api.com,ProxyMedia
+  host-suffix,discovery.com,ProxyMedia
+
+  # DisneyPlus
+  #
+  host-suffix,adobedtm.com,ProxyMedia
+  host-suffix,bam.nr-data.net,ProxyMedia
+  host-suffix,bamgrid.com,ProxyMedia
+  host-suffix,braze.com,ProxyMedia
+  host-suffix,cdn.optimizely.com,ProxyMedia
+  host-suffix,cdn.registerdisney.go.com,ProxyMedia
+  host-suffix,cws.conviva.com,ProxyMedia
+  host-suffix,d9.flashtalking.com,ProxyMedia
+  host-suffix,disney-plus.net,ProxyMedia
+  host-suffix,disney-portal.my.onetrust.com,ProxyMedia
+  host-suffix,disney.demdex.net,ProxyMedia
+  host-suffix,disney.my.sentry.io,ProxyMedia
+  host-suffix,disneyplus.bn5x.net,ProxyMedia
+  host-suffix,disneyplus.com,ProxyMedia
+  host-suffix,disneyplus.com.ssl.sc.omtrdc.net,ProxyMedia
+  host-suffix,disneystreaming.com,ProxyMedia
+  host-suffix,dssott.com,ProxyMedia
+  host-suffix,execute-api.us-east-1.amazonaws.com,ProxyMedia
+  host-suffix,js-agent.newrelic.com,ProxyMedia
+
+  # EncoreTVB
+  #   
+  host,bcbolt446c5271-a.akamaihd.net,ProxyMedia
+  host,content.jwplatform.com,ProxyMedia
+  host,edge.api.brightcove.com,ProxyMedia
+  host,videos-f.jwpsrv.com,ProxyMedia
+  host-suffix,encoretvb.com,ProxyMedia
+
+  # FoxNow
+  #   
+  host-suffix,fox.com,ProxyMedia
+  host-suffix,foxdcg.com,ProxyMedia
+
+  # HBO
+  # 
+  host-suffix,hbo.com,ProxyMedia
+  host-suffix,hbogo.com,ProxyMedia
+  host-suffix,hbomax.com,ProxyMedia
+  host-suffix,hbomaxcdn.com,ProxyMedia
+  host-suffix,hbonow.com,ProxyMedia
+
+  # HBO_GO_HKG
+  #   
+  host-keyword,hbogoasia,ProxyMedia
+  host,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,ProxyMedia
+  host,bcbolthboa-a.akamaihd.net,ProxyMedia
+  host,cf-images.ap-southeast-1.prod.boltdns.net,ProxyMedia
+  host,dai3fd1oh325y.cloudfront.net,ProxyMedia
+  host,hboasia1-i.akamaihd.net,ProxyMedia
+  host,hboasia2-i.akamaihd.net,ProxyMedia
+  host,hboasia3-i.akamaihd.net,ProxyMedia
+  host,hboasia4-i.akamaihd.net,ProxyMedia
+  host,hboasia5-i.akamaihd.net,ProxyMedia
+  host,hboasialive.akamaized.net,ProxyMedia
+  host,hbogoprod-vod.akamaized.net,ProxyMedia
+  host,hbolb.onwardsmg.com,ProxyMedia
+  host,hbounify-prod.evergent.com,ProxyMedia
+  host,players.brightcove.net,ProxyMedia
+  host,s3-ap-southeast-1.amazonaws.com,ProxyMedia
+  host-suffix,hboasia.com,ProxyMedia
+  host-suffix,hbogoasia.com,ProxyMedia
+  host-suffix,hbogoasia.hk,ProxyMedia
+
+  # HWTV
+  #   
+  host-suffix,5itv.tv,ProxyMedia
+  host-suffix,ocnttv.com,ProxyMedia
+
+  # Hulu
+  host-suffix,cws-hulu.conviva.com,ProxyMedia
+  host-suffix,hulu.com,ProxyMedia
+  host-suffix,hulu.hb.omtrdc.net,ProxyMedia
+  host-suffix,hulu.sc.omtrdc.net,ProxyMedia
+  host-suffix,huluad.com,ProxyMedia
+  host-suffix,huluim.com,ProxyMedia
+  host-suffix,hulustream.com,ProxyMedia
+
+  # HuluJapan
+  host-suffix,happyon.jp,ProxyMedia
+  host-suffix,hjholdings.jp,ProxyMedia
+  host-suffix,hulu.jp,ProxyMedia
+  host-suffix,prod.hjholdings.tv,ProxyMedia
+  host-suffix,streaks.jp,ProxyMedia
+  host-suffix,yb.uncn.jp,ProxyMedia
+
+  # ITV
+  #   
+  host,itvpnpmobile-a.akamaihd.net,ProxyMedia
+  host-suffix,itv.com,ProxyMedia
+  host-suffix,itvstatic.com,ProxyMedia
+
+  # Iwara
+  host-suffix,iwara.tv,ProxyMedia
+
+  # JOOX
+  #   #   
+  host-keyword,jooxweb-api,ProxyMedia
+  host-suffix,joox.com,ProxyMedia
+
+  # Japonx
+  host-keyword,japonx,ProxyMedia
+  host-keyword,japronx,ProxyMedia
+  host-suffix,japonx.com,ProxyMedia
+  host-suffix,japonx.net,ProxyMedia
+  host-suffix,japonx.tv,ProxyMedia
+  host-suffix,japonx.vip,ProxyMedia
+  host-suffix,japronx.com,ProxyMedia
+  host-suffix,japronx.net,ProxyMedia
+  host-suffix,japronx.tv,ProxyMedia
+  host-suffix,japronx.vip,ProxyMedia
+
+  # KKBOX
+  host-suffix,kfs.io,ProxyMedia
+  host-suffix,kkbox.com,ProxyMedia
+  host-suffix,kkbox.com.tw,ProxyMedia
+
+  # KKTV
+  #   #   
+  host,kktv-theater.kk.stream,ProxyMedia
+  host,theater-kktv.cdn.hinet.net,ProxyMedia
+  host-suffix,kktv.com.tw,ProxyMedia
+  host-suffix,kktv.me,ProxyMedia
+
+  # LiTV
+  host,litvfreemobile-hichannel.cdn.hinet.net,ProxyMedia
+  host-suffix,litv.tv,ProxyMedia
+
+  # LineTV
+  #   #   
+  host-suffix,d3c7rimkq79yfu.cloudfront.net,ProxyMedia
+  host-suffix,linetv.tw,ProxyMedia
+  host-suffix,profile.line-scdn.net,ProxyMedia
+
+  # My5
+  #   
+  host,d349g9zuie06uo.cloudfront.net,ProxyMedia
+  host-suffix,channel5.com,ProxyMedia
+  host-suffix,my5.tv,ProxyMedia
+
+  # MyTVSuper
+  #   
+  host-keyword,nowtv100,ProxyMedia
+  host-keyword,rthklive,ProxyMedia
+  host,mytvsuperlimited.hb.omtrdc.net,ProxyMedia
+  host,mytvsuperlimited.sc.omtrdc.net,ProxyMedia
+  host-suffix,mytvsuper.com,ProxyMedia
+  host-suffix,tvb.com,ProxyMedia
+
+  # Netflix
+  #   
+  host-keyword,apiproxy-device-prod-nlb-,ProxyMedia
+  host-keyword,dualstack.apiproxy-,ProxyMedia
+  host-keyword,netflixdnstest,ProxyMedia
+  host,netflix.com.edgesuite.net,ProxyMedia
+  host-suffix,fast.com,ProxyMedia
+  host-suffix,netflix.com,ProxyMedia
+  host-suffix,netflix.net,ProxyMedia
+  host-suffix,netflixdnstest0.com,ProxyMedia
+  host-suffix,netflixdnstest1.com,ProxyMedia
+  host-suffix,netflixdnstest2.com,ProxyMedia
+  host-suffix,netflixdnstest3.com,ProxyMedia
+  host-suffix,netflixdnstest4.com,ProxyMedia
+  host-suffix,netflixdnstest5.com,ProxyMedia
+  host-suffix,netflixdnstest6.com,ProxyMedia
+  host-suffix,netflixdnstest7.com,ProxyMedia
+  host-suffix,netflixdnstest8.com,ProxyMedia
+  host-suffix,netflixdnstest9.com,ProxyMedia
+  host-suffix,nflxext.com,ProxyMedia
+  host-suffix,nflximg.com,ProxyMedia
+  host-suffix,nflximg.net,ProxyMedia
+  host-suffix,nflxso.net,ProxyMedia
+  host-suffix,nflxvideo.net,ProxyMedia
+  ip-cidr,8.41.4.0/24,ProxyMedia
+  ip-cidr,23.246.0.0/18,ProxyMedia
+  ip-cidr,37.77.184.0/21,ProxyMedia
+  ip-cidr,38.72.126.0/24,ProxyMedia
+  ip-cidr,45.57.0.0/17,ProxyMedia
+  ip-cidr,64.120.128.0/17,ProxyMedia
+  ip-cidr,66.197.128.0/17,ProxyMedia
+  ip-cidr,69.53.224.0/19,ProxyMedia
+  ip-cidr,103.87.204.0/22,ProxyMedia
+  ip-cidr,108.175.32.0/20,ProxyMedia
+  ip-cidr,185.2.220.0/22,ProxyMedia
+  ip-cidr,185.9.188.0/22,ProxyMedia
+  ip-cidr,192.173.64.0/18,ProxyMedia
+  ip-cidr,198.38.96.0/19,ProxyMedia
+  ip-cidr,198.45.48.0/20,ProxyMedia
+  ip-cidr,203.75.84.0/24,ProxyMedia
+  ip-cidr,207.45.72.0/22,ProxyMedia
+  ip-cidr,208.75.76.0/22,ProxyMedia
+
+  # Niconico
+  #   
+  host-suffix,dmc.nico,ProxyMedia
+  host-suffix,nicovideo.jp,ProxyMedia
+  host-suffix,nimg.jp,ProxyMedia
+
+  # NivodTV
+  host-keyword,nivod,ProxyMedia
+  host-suffix,biggggg.com,ProxyMedia
+  host-suffix,mudvod.tv,ProxyMedia
+  host-suffix,nbys.tv,ProxyMedia
+  host-suffix,nbys1.tv,ProxyMedia
+  host-suffix,nbyy.tv,ProxyMedia
+  host-suffix,newpppp.com,ProxyMedia
+  host-suffix,nivod.tv,ProxyMedia
+  host-suffix,nivodi.tv,ProxyMedia
+  host-suffix,nivodz.com,ProxyMedia
+  host-suffix,vod360.net,ProxyMedia
+
+  # Olevod
+  host-keyword,olevod,ProxyMedia
+  host-suffix,haiwaikan.com,ProxyMedia
+  host-suffix,iole.tv,ProxyMedia
+  host-suffix,olehd.com,ProxyMedia
+  host-suffix,olelive.com,ProxyMedia
+  host-suffix,olevod.com,ProxyMedia
+  host-suffix,olevod.io,ProxyMedia
+  host-suffix,olevod.tv,ProxyMedia
+  host-suffix,olevodtv.com,ProxyMedia
+
+  # PBS
+  #   
+  host-suffix,pbs.org,ProxyMedia
+
+  # Pandora
+  #   
+  host-suffix,pandora.com,ProxyMedia
+
+  # Pornhub
+  host-suffix,phncdn.com,ProxyMedia
+  host-suffix,phprcdn.com,ProxyMedia
+  host-suffix,pornhub.com,ProxyMedia
+  host-suffix,pornhubpremium.com,ProxyMedia
+
+  # Qobuz
+  host-suffix,qobuz.com,ProxyMedia
+
+  # SoundCloud
+  #   
+  host-suffix,p-cdn.us,ProxyMedia
+  host-suffix,sndcdn.com,ProxyMedia
+  host-suffix,soundcloud.com,ProxyMedia
+
+  # Spotify
+  #   
+  host-keyword,-spotify-,ProxyMedia
+  host-keyword,spotify.com,ProxyMedia
+  host-suffix,pscdn.co,ProxyMedia
+  host-suffix,scdn.co,ProxyMedia
+  host-suffix,spoti.fi,ProxyMedia
+  host-suffix,spotify.com,ProxyMedia
+  host-suffix,spotifycdn.com,ProxyMedia
+  host-suffix,spotifycdn.net,ProxyMedia
+
+  # TIDAL
+  #   
+  host-suffix,tidal-cms.s3.amazonaws.com,ProxyMedia
+  host-suffix,tidal.com,ProxyMedia
+  host-suffix,tidalhifi.com,ProxyMedia
+
+  # TaiWanGood 台湾好
+  #   
+  host,hamifans.emome.net,ProxyMedia
+  host-suffix,skyking.com.tw,ProxyMedia
+
+  # TikTok
+  #   
+  host-keyword,tiktokcdn,ProxyMedia
+  host-suffix,byteoversea.com,ProxyMedia
+  host-suffix,ibytedtos.com,ProxyMedia
+  host-suffix,ipstatp.com,ProxyMedia
+  host-suffix,muscdn.com,ProxyMedia
+  host-suffix,musical.ly,ProxyMedia
+  host-suffix,tik-tokapi.com,ProxyMedia
+  host-suffix,tiktok.com,ProxyMedia
+  host-suffix,tiktokcdn.com,ProxyMedia
+  host-suffix,tiktokv.com,ProxyMedia
+
+  # Twitch
+  host-keyword,ttvnw,ProxyMedia
+  host-suffix,ext-twitch.tv,ProxyMedia
+  host-suffix,jtvnw.net,ProxyMedia
+  host-suffix,ttvnw.net,ProxyMedia
+  host-suffix,twitch-ext.rootonline.de,ProxyMedia
+  host-suffix,twitch.tv,ProxyMedia
+  host-suffix,twitchcdn.net,ProxyMedia
+
+  # ViuTV
+  #   
+  # PROCESS-NAME,com.viu.pad
+  # PROCESS-NAME,com.viu.phone
+  # PROCESS-NAME,com.vuclip.viu
+  host-suffix,cognito-identity.us-east-1.amazonaws.com,ProxyMedia
+  host-suffix,d1k2us671qcoau.cloudfront.net,ProxyMedia
+  host-suffix,d2anahhhmp1ffz.cloudfront.net,ProxyMedia
+  host-suffix,dfp6rglgjqszk.cloudfront.net,ProxyMedia
+  host-suffix,mobileanalytics.us-east-1.amazonaws.com,ProxyMedia
+  host-suffix,viu.com,ProxyMedia
+  host-suffix,viu.now.com,ProxyMedia
+  host-suffix,viu.tv,ProxyMedia

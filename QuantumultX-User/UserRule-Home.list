@@ -1,0 +1,10 @@
+# target-client: quantumultx
+  # > figma
+  host-suffix,figma.com,UserRule-Home
+  host-suffix,figmausercontent.com,UserRule-Home
+  host-suffix,figma.app,UserRule-Home
+  host-suffix,figma.site,UserRule-Home
+  host-suffix,makeproxy-c.figma.site,UserRule-Home
+  host-suffix,makeproxy-m.figma.site,UserRule-Home
+  host-suffix,esm.instatus.com,UserRule-Home
+  host-suffix,esm.sh,UserRule-Home

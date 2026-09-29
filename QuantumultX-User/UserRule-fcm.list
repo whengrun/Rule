@@ -1,5 +1,6 @@
-# > wechat FCM
-DOMAIN-SUFFIX,short.weixin.qq.com
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,dns.weixin.qq.com
-DOMAIN-SUFFIX,short.wechat.com
+# target-client: quantumultx
+  # > wechat FCM
+  host-suffix,short.weixin.qq.com,UserRule-FCM
+  host-suffix,weixin.qq.com,UserRule-FCM
+  host-suffix,dns.weixin.qq.com,UserRule-FCM
+  host-suffix,short.wechat.com,UserRule-FCM

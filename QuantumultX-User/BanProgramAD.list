@@ -1,0 +1,1129 @@
+# target-client: quantumultx
+  # 包含常用应用的各种去广告规则。
+  # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
+
+  # 163
+  host-suffix,a.youdao.com,BanProgramAD
+  host-suffix,adgeo.corp.163.com,BanProgramAD
+  host-suffix,analytics.126.net,BanProgramAD
+  host-suffix,bobo.corp.163.com,BanProgramAD
+  host-suffix,c.youdao.com,BanProgramAD
+  host-suffix,clkservice.youdao.com,BanProgramAD
+  host-suffix,conv.youdao.com,BanProgramAD
+  host-suffix,dsp-impr2.youdao.com,BanProgramAD
+  host-suffix,dsp.youdao.com,BanProgramAD
+  host-suffix,fa.corp.163.com,BanProgramAD
+  host-suffix,g.corp.163.com,BanProgramAD
+  host-suffix,g1.corp.163.com,BanProgramAD
+  host-suffix,gb.corp.163.com,BanProgramAD
+  host-suffix,gorgon.youdao.com,BanProgramAD
+  host-suffix,haitaoad.nosdn.127.net,BanProgramAD
+  host-suffix,iadmatvideo.nosdn.127.net,BanProgramAD
+  host-suffix,img1.126.net,BanProgramAD
+  host-suffix,img2.126.net,BanProgramAD
+  host-suffix,ir.mail.126.com,BanProgramAD
+  host-suffix,ir.mail.yeah.net,BanProgramAD
+  host-suffix,mimg.126.net,BanProgramAD
+  host-suffix,nc004x.corp.youdao.com,BanProgramAD
+  host-suffix,nc045x.corp.youdao.com,BanProgramAD
+  host-suffix,nex.corp.163.com,BanProgramAD
+  host-suffix,oimagea2.ydstatic.com,BanProgramAD
+  host-suffix,pagechoice.net,BanProgramAD
+  host-suffix,prom.gome.com.cn,BanProgramAD
+  host-suffix,qchannel0d.cn,BanProgramAD
+  host-suffix,qt002x.corp.youdao.com,BanProgramAD
+  host-suffix,rlogs.youdao.com,BanProgramAD
+  host-suffix,static.flv.uuzuonline.com,BanProgramAD
+  host-suffix,tb060x.corp.youdao.com,BanProgramAD
+  host-suffix,tb104x.corp.youdao.com,BanProgramAD
+  host-suffix,union.youdao.com,BanProgramAD
+  host-suffix,wanproxy.127.net,BanProgramAD
+  host-suffix,ydpushserver.youdao.com,BanProgramAD
+
+  # 17173
+  host-suffix,cvda.17173.com,BanProgramAD
+  host-suffix,imgapp.yeyou.com,BanProgramAD
+  host-suffix,log1.17173.com,BanProgramAD
+  host-suffix,s.17173cdn.com,BanProgramAD
+  host-suffix,ue.yeyoucdn.com,BanProgramAD
+  host-suffix,vda.17173.com,BanProgramAD
+
+  # 178
+  host-suffix,analytics.wanmei.com,BanProgramAD
+  host-suffix,gg.stargame.com,BanProgramAD
+
+  # 2345
+  host-suffix,dl.2345.cn,BanProgramAD
+  host-suffix,download.2345.cn,BanProgramAD
+  host-suffix,houtai.2345.cn,BanProgramAD
+  host-suffix,jifen.2345.cn,BanProgramAD
+  host-suffix,jifendownload.2345.cn,BanProgramAD
+  host-suffix,minipage.2345.cn,BanProgramAD
+  host-suffix,wan.2345.cn,BanProgramAD
+  host-suffix,zhushou.2345.cn,BanProgramAD
+
+  # 360
+  host-suffix,3600.com,BanProgramAD
+  host-suffix,gamebox.360.cn,BanProgramAD
+  host-suffix,jiagu.360.cn,BanProgramAD
+  host-suffix,kuaikan.netmon.360safe.com,BanProgramAD
+  host-suffix,leak.360.cn,BanProgramAD
+  host-suffix,lianmeng.360.cn,BanProgramAD
+  host-suffix,pub.se.360.cn,BanProgramAD
+  host-suffix,s.so.360.cn,BanProgramAD
+  host-suffix,shouji.360.cn,BanProgramAD
+  host-suffix,soft.data.weather.360.cn,BanProgramAD
+  host-suffix,stat.360safe.com,BanProgramAD
+  host-suffix,stat.m.360.cn,BanProgramAD
+  host-suffix,update.360safe.com,BanProgramAD
+  host-suffix,wan.360.cn,BanProgramAD
+
+  # 58
+  host-suffix,58.xgo.com.cn,BanProgramAD
+  host-suffix,brandshow.58.com,BanProgramAD
+  host-suffix,imp.xgo.com.cn,BanProgramAD
+  host-suffix,jing.58.com,BanProgramAD
+  host-suffix,stat.xgo.com.cn,BanProgramAD
+  host-suffix,track.58.com,BanProgramAD
+  host-suffix,tracklog.58.com,BanProgramAD
+
+  # Alibaba
+  host-suffix,acjs.aliyun.com,BanProgramAD
+  host-suffix,adash-c.m.taobao.com,BanProgramAD
+  host-suffix,adash-c.ut.taobao.com,BanProgramAD
+  host-suffix,adashx4yt.m.taobao.com,BanProgramAD
+  host-suffix,adashxgc.ut.taobao.com,BanProgramAD
+  host-suffix,afp.alicdn.com,BanProgramAD
+  host-suffix,ai.m.taobao.com,BanProgramAD
+  host-suffix,alipaylog.com,BanProgramAD
+  host-suffix,atanx.alicdn.com,BanProgramAD
+  host-suffix,atanx2.alicdn.com,BanProgramAD
+  host-suffix,fav.simba.taobao.com,BanProgramAD
+  host-suffix,g.click.taobao.com,BanProgramAD
+  host-suffix,g.tbcdn.cn,BanProgramAD
+  host-suffix,gma.alicdn.com,BanProgramAD
+  host-suffix,gtmsdd.alicdn.com,BanProgramAD
+  host-suffix,hydra.alibaba.com,BanProgramAD
+  host-suffix,m.simba.taobao.com,BanProgramAD
+  host-suffix,pindao.huoban.taobao.com,BanProgramAD
+  host-suffix,re.m.taobao.com,BanProgramAD
+  host-suffix,redirect.simba.taobao.com,BanProgramAD
+  host-suffix,rj.m.taobao.com,BanProgramAD
+  host-suffix,sdkinit.taobao.com,BanProgramAD
+  host-suffix,show.re.taobao.com,BanProgramAD
+  host-suffix,simaba.m.taobao.com,BanProgramAD
+  host-suffix,simaba.taobao.com,BanProgramAD
+  host-suffix,srd.simba.taobao.com,BanProgramAD
+  host-suffix,strip.taobaocdn.com,BanProgramAD
+  host-suffix,tns.simba.taobao.com,BanProgramAD
+  host-suffix,tyh.taobao.com,BanProgramAD
+  host-suffix,userimg.qunar.com,BanProgramAD
+  host-suffix,yiliao.hupan.com,BanProgramAD
+
+  # Adobe
+  host-suffix,3dns-2.adobe.com,BanProgramAD
+  host-suffix,3dns-3.adobe.com,BanProgramAD
+  host-suffix,activate-sea.adobe.com,BanProgramAD
+  host-suffix,activate-sjc0.adobe.com,BanProgramAD
+  host-suffix,activate.adobe.com,BanProgramAD
+  host-suffix,adobe-dns-2.adobe.com,BanProgramAD
+  host-suffix,adobe-dns-3.adobe.com,BanProgramAD
+  host-suffix,adobe-dns.adobe.com,BanProgramAD
+  host-suffix,ereg.adobe.com,BanProgramAD
+  host-suffix,geo2.adobe.com,BanProgramAD
+  host-suffix,hl2rcv.adobe.com,BanProgramAD
+  host-suffix,hlrcv.stage.adobe.com,BanProgramAD
+  host-suffix,lm.licenses.adobe.com,BanProgramAD
+  host-suffix,lmlicenses.wip4.adobe.com,BanProgramAD
+  host-suffix,na1r.services.adobe.com,BanProgramAD
+  host-suffix,na2m-pr.licenses.adobe.com,BanProgramAD
+  host-suffix,practivate.adobe.com,BanProgramAD
+  host-suffix,wip3.adobe.com,BanProgramAD
+  host-suffix,wwis-dubc1-vip60.adobe.com,BanProgramAD
+
+  # Apple
+  host-suffix,adserver.unityads.unity3d.com,BanProgramAD
+
+  # AutoHome
+  host-suffix,33.autohome.com.cn,BanProgramAD
+  host-suffix,adproxy.autohome.com.cn,BanProgramAD
+  host-suffix,al.autohome.com.cn,BanProgramAD
+  host-suffix,alert.autohome.com.cn,BanProgramAD
+  host-suffix,applogapi.autohome.com.cn,BanProgramAD
+  host-suffix,c.autohome.com.cn,BanProgramAD
+  host-suffix,cmx.autohome.com.cn,BanProgramAD
+  host-suffix,dspmnt.autohome.com.cn,BanProgramAD
+  host-suffix,pcd.autohome.com.cn,BanProgramAD
+  host-suffix,push.app.autohome.com.cn,BanProgramAD
+  host-suffix,pvx.autohome.com.cn,BanProgramAD
+  host-suffix,rd.autohome.com.cn,BanProgramAD
+  host-suffix,rdx.autohome.com.cn,BanProgramAD
+  host-suffix,stats.autohome.com.cn,BanProgramAD
+
+  # Baidu
+  host-suffix,a.baidu.cn,BanProgramAD
+  host-suffix,a.baidu.com,BanProgramAD
+  host-suffix,ad.duapps.com,BanProgramAD
+  host-suffix,ad.player.baidu.com,BanProgramAD
+  host-suffix,adm.baidu.cn,BanProgramAD
+  host-suffix,adm.baidu.com,BanProgramAD
+  host-suffix,adscdn.baidu.cn,BanProgramAD
+  host-suffix,adscdn.baidu.com,BanProgramAD
+  host-suffix,adx.xiaodutv.com,BanProgramAD
+  host-suffix,ae.bdstatic.com,BanProgramAD
+  host-suffix,afd.baidu.cn,BanProgramAD
+  host-suffix,afd.baidu.com,BanProgramAD
+  host-suffix,als.baidu.cn,BanProgramAD
+  host-suffix,als.baidu.com,BanProgramAD
+  host-suffix,anquan.baidu.cn,BanProgramAD
+  host-suffix,anquan.baidu.com,BanProgramAD
+  host-suffix,antivirus.baidu.com,BanProgramAD
+  host-suffix,api.mobula.sdk.duapps.com,BanProgramAD
+  host-suffix,appc.baidu.cn,BanProgramAD
+  host-suffix,appc.baidu.com,BanProgramAD
+  host-suffix,as.baidu.cn,BanProgramAD
+  host-suffix,as.baidu.com,BanProgramAD
+  host-suffix,baichuan.baidu.com,BanProgramAD
+  host-suffix,baidu9635.com,BanProgramAD
+  host-suffix,baidustatic.com,BanProgramAD
+  host-suffix,baidutv.baidu.com,BanProgramAD
+  host-suffix,banlv.baidu.com,BanProgramAD
+  host-suffix,bar.baidu.com,BanProgramAD
+  host-suffix,bdplus.baidu.com,BanProgramAD
+  host-suffix,btlaunch.baidu.com,BanProgramAD
+  host-suffix,c.baidu.cn,BanProgramAD
+  host-suffix,c.baidu.com,BanProgramAD
+  host-suffix,cb.baidu.cn,BanProgramAD
+  host-suffix,cb.baidu.com,BanProgramAD
+  host-suffix,cbjs.baidu.cn,BanProgramAD
+  host-suffix,cbjs.baidu.com,BanProgramAD
+  host-suffix,cbjslog.baidu.cn,BanProgramAD
+  host-suffix,cbjslog.baidu.com,BanProgramAD
+  host-suffix,cjhq.baidu.cn,BanProgramAD
+  host-suffix,cjhq.baidu.com,BanProgramAD
+  host-suffix,cleaner.baidu.com,BanProgramAD
+  host-suffix,click.bes.baidu.com,BanProgramAD
+  host-suffix,click.hm.baidu.com,BanProgramAD
+  host-suffix,click.qianqian.com,BanProgramAD
+  host-suffix,cm.baidu.com,BanProgramAD
+  host-suffix,cpro.baidu.cn,BanProgramAD
+  host-suffix,cpro.baidu.com,BanProgramAD
+  host-suffix,cpro.baidustatic.com,BanProgramAD
+  host-suffix,cpro.tieba.baidu.com,BanProgramAD
+  host-suffix,cpro.zhidao.baidu.com,BanProgramAD
+  host-suffix,cpro2.baidu.cn,BanProgramAD
+  host-suffix,cpro2.baidu.com,BanProgramAD
+  host-suffix,cpu-admin.baidu.com,BanProgramAD
+  host-suffix,crs.baidu.cn,BanProgramAD
+  host-suffix,crs.baidu.com,BanProgramAD
+  host-suffix,datax.baidu.com,BanProgramAD
+  host-suffix,dl-vip.bav.baidu.com,BanProgramAD
+  host-suffix,dl-vip.pcfaster.baidu.co.th,BanProgramAD
+  host-suffix,dl.client.baidu.com,BanProgramAD
+  host-suffix,dl.ops.baidu.com,BanProgramAD
+  host-suffix,dl1sw.baidu.com,BanProgramAD
+  host-suffix,dl2.bav.baidu.com,BanProgramAD
+  host-suffix,dlsw.baidu.com,BanProgramAD
+  host-suffix,dlsw.br.baidu.com,BanProgramAD
+  host-suffix,download.bav.baidu.com,BanProgramAD
+  host-suffix,download.sd.baidu.com,BanProgramAD
+  host-suffix,drmcmm.baidu.cn,BanProgramAD
+  host-suffix,drmcmm.baidu.com,BanProgramAD
+  host-suffix,dup.baidustatic.com,BanProgramAD
+  host-suffix,dxp.baidu.com,BanProgramAD
+  host-suffix,dzl.baidu.com,BanProgramAD
+  host-suffix,e.baidu.cn,BanProgramAD
+  host-suffix,e.baidu.com,BanProgramAD
+  host-suffix,eclick.baidu.cn,BanProgramAD
+  host-suffix,eclick.baidu.com,BanProgramAD
+  host-suffix,ecma.bdimg.com,BanProgramAD
+  host-suffix,ecmb.bdimg.com,BanProgramAD
+  host-suffix,ecmc.bdimg.com,BanProgramAD
+  host-suffix,eiv.baidu.cn,BanProgramAD
+  host-suffix,eiv.baidu.com,BanProgramAD
+  host-suffix,em.baidu.com,BanProgramAD
+  host-suffix,ers.baidu.com,BanProgramAD
+  host-suffix,f10.baidu.com,BanProgramAD
+  host-suffix,fc-.cdn.bcebos.com,BanProgramAD
+  host-suffix,fc-feed.cdn.bcebos.com,BanProgramAD
+  host-suffix,fclick.baidu.com,BanProgramAD
+  host-suffix,fexclick.baidu.com,BanProgramAD
+  host-suffix,g.baidu.com,BanProgramAD
+  host-suffix,gimg.baidu.com,BanProgramAD
+  host-suffix,guanjia.baidu.com,BanProgramAD
+  host-suffix,hc.baidu.cn,BanProgramAD
+  host-suffix,hc.baidu.com,BanProgramAD
+  host-suffix,hm.baidu.cn,BanProgramAD
+  host-suffix,hm.baidu.com,BanProgramAD
+  host-suffix,hmma.baidu.cn,BanProgramAD
+  host-suffix,hmma.baidu.com,BanProgramAD
+  host-suffix,hpd.baidu.cn,BanProgramAD
+  host-suffix,hpd.baidu.com,BanProgramAD
+  host-suffix,idm-su.baidu.com,BanProgramAD
+  host-suffix,iebar.baidu.com,BanProgramAD
+  host-suffix,ikcode.baidu.com,BanProgramAD
+  host-suffix,imageplus.baidu.cn,BanProgramAD
+  host-suffix,imageplus.baidu.com,BanProgramAD
+  host-suffix,img.taotaosou.cn,BanProgramAD
+  host-suffix,img01.taotaosou.cn,BanProgramAD
+  host-suffix,itsdata.map.baidu.com,BanProgramAD
+  host-suffix,j.br.baidu.com,BanProgramAD
+  host-suffix,kstj.baidu.com,BanProgramAD
+  host-suffix,log.music.baidu.com,BanProgramAD
+  host-suffix,log.nuomi.com,BanProgramAD
+  host-suffix,m1.baidu.com,BanProgramAD
+  host-suffix,ma.baidu.cn,BanProgramAD
+  host-suffix,ma.baidu.com,BanProgramAD
+  host-suffix,mg09.zhaopin.com,BanProgramAD
+  host-suffix,mipcache.bdstatic.com,BanProgramAD
+  host-suffix,mobads-logs.baidu.cn,BanProgramAD
+  host-suffix,mobads-logs.baidu.com,BanProgramAD
+  host-suffix,mobads.baidu.cn,BanProgramAD
+  host-suffix,mobads.baidu.com,BanProgramAD
+  host-suffix,mpro.baidu.com,BanProgramAD
+  host-suffix,mtj.baidu.cn,BanProgramAD
+  host-suffix,mtj.baidu.com,BanProgramAD
+  host-suffix,neirong.baidu.com,BanProgramAD
+  host-suffix,nsclick.baidu.cn,BanProgramAD
+  host-suffix,nsclick.baidu.com,BanProgramAD
+  host-suffix,nsclickvideo.baidu.com,BanProgramAD
+  host-suffix,openrcv.baidu.com,BanProgramAD
+  host-suffix,pc.videoclick.baidu.com,BanProgramAD
+  host-suffix,pos.baidu.com,BanProgramAD
+  host-suffix,pups.baidu.cn,BanProgramAD
+  host-suffix,pups.baidu.com,BanProgramAD
+  host-suffix,pups.bdimg.com,BanProgramAD
+  host-suffix,push.music.baidu.com,BanProgramAD
+  host-suffix,push.zhanzhang.baidu.com,BanProgramAD
+  host-suffix,qianclick.baidu.com,BanProgramAD
+  host-suffix,release.baidu.com,BanProgramAD
+  host-suffix,res.limei.com,BanProgramAD
+  host-suffix,res.mi.baidu.com,BanProgramAD
+  host-suffix,rigel.baidustatic.com,BanProgramAD
+  host-suffix,river.zhidao.baidu.com,BanProgramAD
+  host-suffix,rj.baidu.cn,BanProgramAD
+  host-suffix,rj.baidu.com,BanProgramAD
+  host-suffix,rp.baidu.cn,BanProgramAD
+  host-suffix,rp.baidu.com,BanProgramAD
+  host-suffix,rplog.baidu.com,BanProgramAD
+  host-suffix,s.baidu.com,BanProgramAD
+  host-suffix,sclick.baidu.com,BanProgramAD
+  host-suffix,sestat.baidu.com,BanProgramAD
+  host-suffix,shadu.baidu.com,BanProgramAD
+  host-suffix,share.baidu.com,BanProgramAD
+  host-suffix,sobar.baidu.com,BanProgramAD
+  host-suffix,sobartop.baidu.com,BanProgramAD
+  host-suffix,spcode.baidu.cn,BanProgramAD
+  host-suffix,spcode.baidu.com,BanProgramAD
+  host-suffix,stat.v.baidu.com,BanProgramAD
+  host-suffix,su.bdimg.com,BanProgramAD
+  host-suffix,su.bdstatic.com,BanProgramAD
+  host-suffix,tk.baidu.cn,BanProgramAD
+  host-suffix,tk.baidu.com,BanProgramAD
+  host-suffix,tkweb.baidu.com,BanProgramAD
+  host-suffix,tob-cms.bj.bcebos.com,BanProgramAD
+  host-suffix,toolbar.baidu.com,BanProgramAD
+  host-suffix,tracker.baidu.com,BanProgramAD
+  host-suffix,tuijian.baidu.com,BanProgramAD
+  host-suffix,tuisong.baidu.cn,BanProgramAD
+  host-suffix,tuisong.baidu.com,BanProgramAD
+  host-suffix,ubmcmm.baidustatic.com,BanProgramAD
+  host-suffix,ucstat.baidu.cn,BanProgramAD
+  host-suffix,ucstat.baidu.com,BanProgramAD
+  host-suffix,ulic.baidu.com,BanProgramAD
+  host-suffix,ulog.imap.baidu.com,BanProgramAD
+  host-suffix,union.baidu.cn,BanProgramAD
+  host-suffix,union.baidu.com,BanProgramAD
+  host-suffix,unionimage.baidu.com,BanProgramAD
+  host-suffix,utility.baidu.cn,BanProgramAD
+  host-suffix,utility.baidu.com,BanProgramAD
+  host-suffix,utk.baidu.cn,BanProgramAD
+  host-suffix,utk.baidu.com,BanProgramAD
+  host-suffix,videopush.baidu.cn,BanProgramAD
+  host-suffix,videopush.baidu.com,BanProgramAD
+  host-suffix,vv84.bj.bcebos.com,BanProgramAD
+  host-suffix,w.gdown.baidu.com,BanProgramAD
+  host-suffix,w.x.baidu.com,BanProgramAD
+  host-suffix,wangmeng.baidu.cn,BanProgramAD
+  host-suffix,wangmeng.baidu.com,BanProgramAD
+  host-suffix,weishi.baidu.com,BanProgramAD
+  host-suffix,wenku-cms.bj.bcebos.com,BanProgramAD
+  host-suffix,wisepush.video.baidu.com,BanProgramAD
+  host-suffix,wm.baidu.cn,BanProgramAD
+  host-suffix,wm.baidu.com,BanProgramAD
+  host-suffix,znsv.baidu.cn,BanProgramAD
+  host-suffix,znsv.baidu.com,BanProgramAD
+  host-suffix,zz.bdstatic.com,BanProgramAD
+  host-suffix,zzy1.quyaoya.com,BanProgramAD
+
+  # Book-app 起点 掌阅 书旗 宜搜
+  host-suffix,ad.zhangyue.com,BanProgramAD
+  host-suffix,adm.ps.easou.com,BanProgramAD
+  host-suffix,aishowbger.com,BanProgramAD
+  host-suffix,api.itaoxiaoshuo.com,BanProgramAD
+  host-suffix,assets.ps.easou.com,BanProgramAD
+  host-suffix,bbcoe.cn,BanProgramAD
+  host-suffix,cj.qidian.com,BanProgramAD
+  host-suffix,dkeyn.com,BanProgramAD
+  host-suffix,drdwy.com,BanProgramAD
+  host-suffix,e.aa985.cn,BanProgramAD
+  host-suffix,e.v02u9.cn,BanProgramAD
+  host-suffix,e701.net,BanProgramAD
+  host-suffix,ehxyz.com,BanProgramAD
+  host-suffix,ethod.gzgmjcx.com,BanProgramAD
+  host-suffix,focuscat.com,BanProgramAD
+  host-suffix,game.qidian.com,BanProgramAD
+  host-suffix,hdswgc.com,BanProgramAD
+  host-suffix,jyd.fjzdmy.com,BanProgramAD
+  host-suffix,m.ourlj.com,BanProgramAD
+  host-suffix,m.txtxr.com,BanProgramAD
+  host-suffix,m.vsxet.com,BanProgramAD
+  host-suffix,miam4.cn,BanProgramAD
+  host-suffix,o.if.qidian.com,BanProgramAD
+  host-suffix,p.vq6nsu.cn,BanProgramAD
+  host-suffix,picture.duokan.com,BanProgramAD
+  host-suffix,push.zhangyue.com,BanProgramAD
+  host-suffix,pyerc.com,BanProgramAD
+  host-suffix,s1.cmfu.com,BanProgramAD
+  host-suffix,sc.shayugg.com,BanProgramAD
+  host-suffix,sdk.cferw.com,BanProgramAD
+  host-suffix,sezvc.com,BanProgramAD
+  host-suffix,sys.zhangyue.com,BanProgramAD
+  host-suffix,tjlog.ps.easou.com,BanProgramAD
+  host-suffix,tongji.qidian.com,BanProgramAD
+  host-suffix,ut2.shuqistat.com,BanProgramAD
+  host-suffix,xgcsr.com,BanProgramAD
+  host-suffix,xjq.jxmqkj.com,BanProgramAD
+  host-suffix,xpe.cxaerp.com,BanProgramAD
+  host-suffix,xtzxmy.com,BanProgramAD
+  host-suffix,xyrkl.com,BanProgramAD
+  host-suffix,zhuanfakong.com,BanProgramAD
+
+  # ByteDance 头条抖音
+  host-suffix,ad.toutiao.com,BanProgramAD
+  host-suffix,dsp.toutiao.com,BanProgramAD
+  host-suffix,ic.snssdk.com,BanProgramAD
+  host-suffix,log.snssdk.com,BanProgramAD
+  host-suffix,nativeapp.toutiao.com,BanProgramAD
+  host-suffix,pangolin-sdk-toutiao-b.com,BanProgramAD
+  host-suffix,pangolin-sdk-toutiao.com,BanProgramAD
+  host-suffix,pangolin.snssdk.com,BanProgramAD
+  host-suffix,partner.toutiao.com,BanProgramAD
+  host-suffix,pglstatp-toutiao.com,BanProgramAD
+  host-suffix,sm.toutiao.com,BanProgramAD
+
+  # Dangdang
+  host-suffix,a.dangdang.com,BanProgramAD
+  host-suffix,click.dangdang.com,BanProgramAD
+  host-suffix,schprompt.dangdang.com,BanProgramAD
+  host-suffix,t.dangdang.com,BanProgramAD
+
+  # Duomi
+  host-suffix,ad.duomi.com,BanProgramAD
+  host-suffix,boxshows.com,BanProgramAD
+
+  # Facebook
+  host-suffix,staticxx.facebook.com,BanProgramAD
+
+  # Fang
+  host-suffix,click1n.soufun.com,BanProgramAD
+  host-suffix,clickm.fang.com,BanProgramAD
+  host-suffix,clickn.fang.com,BanProgramAD
+  host-suffix,countpvn.light.fang.com,BanProgramAD
+  host-suffix,countubn.light.soufun.com,BanProgramAD
+  host-suffix,mshow.fang.com,BanProgramAD
+  host-suffix,tongji.home.soufun.com,BanProgramAD
+
+  # Google
+  host-suffix,admob.com,BanProgramAD
+  host-suffix,ads.gmodules.com,BanProgramAD
+  host-suffix,ads.google.com,BanProgramAD
+  host-suffix,adservice.google.com,BanProgramAD
+  host-suffix,afd.l.google.com,BanProgramAD
+  host-suffix,badad.googleplex.com,BanProgramAD
+  host-suffix,csi.gstatic.com,BanProgramAD
+  host-suffix,doubleclick.com,BanProgramAD
+  host-suffix,doubleclick.net,BanProgramAD
+  host-suffix,google-analytics.com,BanProgramAD
+  host-suffix,googleadservices.com,BanProgramAD
+  host-suffix,googleadsserving.cn,BanProgramAD
+  host-suffix,googlecommerce.com,BanProgramAD
+  host-suffix,googlesyndication.com,BanProgramAD
+  host-suffix,mobileads.google.com,BanProgramAD
+  host-suffix,pagead-tpc.l.google.com,BanProgramAD
+  host-suffix,pagead.google.com,BanProgramAD
+  host-suffix,pagead.l.google.com,BanProgramAD
+  host-suffix,service.urchin.com,BanProgramAD
+
+  # JD
+  host-suffix,ads.union.jd.com,BanProgramAD
+  host-suffix,c-nfa.jd.com,BanProgramAD
+  host-suffix,cps.360buy.com,BanProgramAD
+  host-suffix,img-x.jd.com,BanProgramAD
+  host-suffix,jrclick.jd.com,BanProgramAD
+  host-suffix,jzt.jd.com,BanProgramAD
+  host-suffix,policy.jd.com,BanProgramAD
+  host-suffix,stat.m.jd.com,BanProgramAD
+
+  # Kugou
+  host-suffix,ads.service.kugou.com,BanProgramAD
+  host-suffix,adsfile.bssdlbig.kugou.com,BanProgramAD
+  host-suffix,d.kugou.com,BanProgramAD
+  host-suffix,downmobile.kugou.com,BanProgramAD
+  host-suffix,gad.kugou.com,BanProgramAD
+  host-suffix,game.kugou.com,BanProgramAD
+  host-suffix,gamebox.kugou.com,BanProgramAD
+  host-suffix,gcapi.sy.kugou.com,BanProgramAD
+  host-suffix,gg.kugou.com,BanProgramAD
+  host-suffix,install.kugou.com,BanProgramAD
+  host-suffix,install2.kugou.com,BanProgramAD
+  host-suffix,kgmobilestat.kugou.com,BanProgramAD
+  host-suffix,kuaikaiapp.com,BanProgramAD
+  host-suffix,log.stat.kugou.com,BanProgramAD
+  host-suffix,log.web.kugou.com,BanProgramAD
+  host-suffix,minidcsc.kugou.com,BanProgramAD
+  host-suffix,mo.kugou.com,BanProgramAD
+  host-suffix,mobilelog.kugou.com,BanProgramAD
+  host-suffix,msg.mobile.kugou.com,BanProgramAD
+  host-suffix,mvads.kugou.com,BanProgramAD
+  host-suffix,p.kugou.com,BanProgramAD
+  host-suffix,push.mobile.kugou.com,BanProgramAD
+  host-suffix,rtmonitor.kugou.com,BanProgramAD
+  host-suffix,sdn.kugou.com,BanProgramAD
+  host-suffix,tj.kugou.com,BanProgramAD
+  host-suffix,update.mobile.kugou.com,BanProgramAD
+
+  # Kuwo
+  host-suffix,apk.shouji.koowo.com,BanProgramAD
+  host-suffix,deliver.kuwo.cn,BanProgramAD
+  host-suffix,g.koowo.com,BanProgramAD
+  host-suffix,g.kuwo.cn,BanProgramAD
+  host-suffix,kwmsg.kuwo.cn,BanProgramAD
+  host-suffix,log.kuwo.cn,BanProgramAD
+  host-suffix,mobilead.kuwo.cn,BanProgramAD
+  host-suffix,msclick2.kuwo.cn,BanProgramAD
+  host-suffix,msphoneclick.kuwo.cn,BanProgramAD
+  host-suffix,updatepage.kuwo.cn,BanProgramAD
+  host-suffix,wa.kuwo.cn,BanProgramAD
+  host-suffix,webstat.kuwo.cn,BanProgramAD
+
+  # Meizu flyme 魅族
+  host-suffix,aider-res.meizu.com,BanProgramAD
+  host-suffix,api-flow.meizu.com,BanProgramAD
+  host-suffix,api-game.meizu.com,BanProgramAD
+  host-suffix,api-push.meizu.com,BanProgramAD
+  host-suffix,aries.mzres.com,BanProgramAD
+  host-suffix,bro.flyme.cn,BanProgramAD
+  host-suffix,cal.meizu.com,BanProgramAD
+  host-suffix,ebook.meizu.com,BanProgramAD
+  host-suffix,ebook.res.meizu.com,BanProgramAD
+  host-suffix,game-res.meizu.com,BanProgramAD
+  host-suffix,game.res.meizu.com,BanProgramAD
+  host-suffix,infocenter.meizu.com,BanProgramAD
+  host-suffix,openapi-news.meizu.com,BanProgramAD
+  host-suffix,push.res.meizu.com,BanProgramAD
+  host-suffix,reader.meizu.com,BanProgramAD
+  host-suffix,reader.res.meizu.com,BanProgramAD
+  host-suffix,t-e.flyme.cn,BanProgramAD
+  host-suffix,t-flow.flyme.cn,BanProgramAD
+  host-suffix,tongji-res1.meizu.com,BanProgramAD
+  host-suffix,tongji.meizu.com,BanProgramAD
+  host-suffix,umid.orion.meizu.com,BanProgramAD
+  host-suffix,upush.res.meizu.com,BanProgramAD
+  host-suffix,uxip.meizu.com,BanProgramAD
+
+  # Meitu
+  host-suffix,a.koudai.com,BanProgramAD
+  host-suffix,adui.tg.meitu.com,BanProgramAD
+  host-suffix,corp.meitu.com,BanProgramAD
+  host-suffix,dc.meitustat.com,BanProgramAD
+  host-suffix,gg.meitu.com,BanProgramAD
+  host-suffix,mdc.meitustat.com,BanProgramAD
+  host-suffix,meitubeauty.meitudata.com,BanProgramAD
+  host-suffix,message.meitu.com,BanProgramAD
+  host-suffix,rabbit.meitustat.com,BanProgramAD
+  host-suffix,rabbit.tg.meitu.com,BanProgramAD
+  host-suffix,tuiguang.meitu.com,BanProgramAD
+  host-suffix,xiuxiu.android.dl.meitu.com,BanProgramAD
+  host-suffix,xiuxiu.mobile.meitudata.com,BanProgramAD
+
+  # Miui 小米
+  host-suffix,a.market.xiaomi.com,BanProgramAD
+  host-suffix,ad.xiaomi.com,BanProgramAD
+  host-suffix,ad1.xiaomi.com,BanProgramAD
+  host-suffix,adv.sec.intl.miui.com,BanProgramAD
+  host-suffix,adv.sec.miui.com,BanProgramAD
+  host-suffix,bss.pandora.xiaomi.com,BanProgramAD
+  host-suffix,d.g.mi.com,BanProgramAD
+  host-suffix,data.mistat.xiaomi.com,BanProgramAD
+  host-suffix,de.pandora.xiaomi.com,BanProgramAD
+  host-suffix,dvb.pandora.xiaomi.com,BanProgramAD
+  host-suffix,jellyfish.pandora.xiaomi.com,BanProgramAD
+  host-suffix,migc.g.mi.com,BanProgramAD
+  host-suffix,migcreport.g.mi.com,BanProgramAD
+  host-suffix,notice.game.xiaomi.com,BanProgramAD
+  host-suffix,ppurifier.game.xiaomi.com,BanProgramAD
+  host-suffix,r.browser.miui.com,BanProgramAD
+  host-suffix,security.browser.miui.com,BanProgramAD
+  host-suffix,shenghuo.xiaomi.com,BanProgramAD
+  host-suffix,stat.pandora.xiaomi.com,BanProgramAD
+  host-suffix,union.mi.com,BanProgramAD
+
+  # Moji
+  host-suffix,ad.api.moji.com,BanProgramAD
+  host-suffix,app.moji001.com,BanProgramAD
+  host-suffix,cdn.moji002.com,BanProgramAD
+  host-suffix,cdn2.moji002.com,BanProgramAD
+  host-suffix,fds.api.moji.com,BanProgramAD
+  host-suffix,log.moji.com,BanProgramAD
+  host-suffix,stat.moji.com,BanProgramAD
+  host-suffix,ugc.moji001.com,BanProgramAD
+
+  # Qingting.fm
+  host-suffix,ad.qingting.fm,BanProgramAD
+  host-suffix,admgr.qingting.fm,BanProgramAD
+  host-suffix,dload.qd.qingting.fm,BanProgramAD
+  host-suffix,logger.qingting.fm,BanProgramAD
+  host-suffix,s.qd.qingting.fm,BanProgramAD
+  host-suffix,s.qd.qingtingfm.com,BanProgramAD
+
+  # QQ
+  host-keyword,omgmtaw,BanProgramAD
+  host,adsmind.apdcdn.tc.qq.com,BanProgramAD
+  host,adsmind.gdtimg.com,BanProgramAD
+  host,adsmind.tc.qq.com,BanProgramAD
+  host,pgdt.gtimg.cn,BanProgramAD
+  host,pgdt.gtimg.com,BanProgramAD
+  host,pgdt.ugdtimg.com,BanProgramAD
+  host,splashqqlive.gtimg.com,BanProgramAD
+  host,wa.gtimg.com,BanProgramAD
+  host,wxsnsdy.wxs.qq.com,BanProgramAD
+  host,wxsnsdythumb.wxs.qq.com,BanProgramAD
+  host-suffix,act.qq.com,BanProgramAD
+  host-suffix,ad.qun.qq.com,BanProgramAD
+  host-suffix,adsfile.qq.com,BanProgramAD
+  host-suffix,bugly.qq.com,BanProgramAD
+  host-suffix,buluo.qq.com,BanProgramAD
+  host-suffix,e.qq.com,BanProgramAD
+  host-suffix,gdt.qq.com,BanProgramAD
+  host-suffix,l.qq.com,BanProgramAD
+  host-suffix,monitor.qq.com,BanProgramAD
+  host-suffix,pingma.qq.com,BanProgramAD
+  host-suffix,pingtcss.qq.com,BanProgramAD
+  host-suffix,report.qq.com,BanProgramAD
+  host-suffix,tajs.qq.com,BanProgramAD
+  host-suffix,tcss.qq.com,BanProgramAD
+  host-suffix,uu.qq.com,BanProgramAD
+
+  # RenRen
+  host-suffix,ebp.renren.com,BanProgramAD
+  host-suffix,jebe.renren.com,BanProgramAD
+  host-suffix,jebe.xnimg.cn,BanProgramAD
+
+  # Sina
+  host-suffix,ad.sina.com.cn,BanProgramAD
+  host-suffix,adbox.sina.com.cn,BanProgramAD
+  host-suffix,add.sina.com.cn,BanProgramAD
+  host-suffix,adimg.mobile.sina.cn,BanProgramAD
+  host-suffix,adm.sina.com.cn,BanProgramAD
+  host-suffix,alitui.weibo.com.cn,BanProgramAD
+  host-suffix,biz.weibo.com.cn,BanProgramAD
+  host-suffix,cre.dp.sina.cn,BanProgramAD
+  host-suffix,dcads.sina.com.cn,BanProgramAD
+  host-suffix,dd.sina.com.cn,BanProgramAD
+  host-suffix,dmp.sina.com.cn,BanProgramAD
+  host-suffix,game.weibo.com.cn,BanProgramAD
+  host-suffix,gw5.push.mcp.weibo.cn,BanProgramAD
+  host-suffix,leju.sina.com.cn,BanProgramAD
+  host-suffix,log.mix.sina.com.cn,BanProgramAD
+  host-suffix,mobileads.dx.cn,BanProgramAD
+  host-suffix,newspush.sinajs.cn,BanProgramAD
+  host-suffix,sax.mobile.sina.cn,BanProgramAD
+  host-suffix,saxd.sina.com.cn,BanProgramAD
+  host-suffix,sdkapp.mobile.sina.cn,BanProgramAD
+  host-suffix,sdkapp.uve.weibo.com,BanProgramAD
+  host-suffix,sdkclick.mobile.sina.cn,BanProgramAD
+  host-suffix,slog.sina.com.cn,BanProgramAD
+  host-suffix,trends.mobile.sina.cn,BanProgramAD
+  host-suffix,tui.weibo.com,BanProgramAD
+  host-suffix,u1.img.mobile.sina.cn,BanProgramAD
+  host-suffix,wax.weibo.com.cn,BanProgramAD
+  host-suffix,wbapp.mobile.sina.cn,BanProgramAD
+  host-suffix,wbapp.uve.weibo.com,BanProgramAD
+  host-suffix,wbclick.mobile.sina.cn,BanProgramAD
+  host-suffix,wbpctips.mobile.sina.cn,BanProgramAD
+  host-suffix,zymo.mps.weibo.com,BanProgramAD
+
+  # Teleplus
+  host-suffix,applovin.com,BanProgramAD
+  host-suffix,guangzhuiyuan.com,BanProgramAD
+
+  # Twitter
+  host-suffix,ads-twitter.com,BanProgramAD
+  host-suffix,ads.twitter.com,BanProgramAD
+  host-suffix,analytics.twitter.com,BanProgramAD
+  host-suffix,p.twitter.com,BanProgramAD
+  host-suffix,scribe.twitter.com,BanProgramAD
+  host-suffix,syndication-o.twitter.com,BanProgramAD
+  host-suffix,syndication.twitter.com,BanProgramAD
+  host-suffix,tellapart.com,BanProgramAD
+  host-suffix,urls.api.twitter.com,BanProgramAD
+
+  # UC ali
+  host-suffix,adslot.uc.cn,BanProgramAD
+  host-suffix,api.mp.uc.cn,BanProgramAD
+  host-suffix,applog.uc.cn,BanProgramAD
+  host-suffix,client.video.ucweb.com,BanProgramAD
+  host-suffix,cms.ucweb.com,BanProgramAD
+  host-suffix,dispatcher.upmc.uc.cn,BanProgramAD
+  host-suffix,huichuan.sm.cn,BanProgramAD
+  host-suffix,log.cs.pp.cn,BanProgramAD
+  host-suffix,m.uczzd.cn,BanProgramAD
+  host-suffix,patriot.cs.pp.cn,BanProgramAD
+  host-suffix,puds.ucweb.com,BanProgramAD
+  host-suffix,server.m.pp.cn,BanProgramAD
+  host-suffix,track.uc.cn,BanProgramAD
+  host-suffix,u.uc123.com,BanProgramAD
+  host-suffix,u.ucfly.com,BanProgramAD
+  host-suffix,uc.ucweb.com,BanProgramAD
+  host-suffix,ucsec.ucweb.com,BanProgramAD
+  host-suffix,ucsec1.ucweb.com,BanProgramAD
+
+  # Weifeng
+  host-suffix,aoodoo.feng.com,BanProgramAD
+  host-suffix,fengbuy.com,BanProgramAD
+  host-suffix,push.feng.com,BanProgramAD
+  host-suffix,we.tm,BanProgramAD
+  host-suffix,yes1.feng.com,BanProgramAD
+
+  # WPS Office
+  host-suffix,ad.docer.wps.cn,BanProgramAD
+  host-suffix,adm.zookingsoft.com,BanProgramAD
+  host-suffix,bannera.kingsoft-office-service.com,BanProgramAD
+  host-suffix,bole.shangshufang.ksosoft.com,BanProgramAD
+  host-suffix,counter.kingsoft.com,BanProgramAD
+  host-suffix,docerad.wps.cn,BanProgramAD
+  host-suffix,gou.wps.cn,BanProgramAD
+  host-suffix,hoplink.ksosoft.com,BanProgramAD
+  host-suffix,ic.ksosoft.com,BanProgramAD
+  host-suffix,img.gou.wpscdn.cn,BanProgramAD
+  host-suffix,info.wps.cn,BanProgramAD
+  host-suffix,ios-informationplatform.wps.cn,BanProgramAD
+  host-suffix,minfo.wps.cn,BanProgramAD
+  host-suffix,mo.res.wpscdn.cn,BanProgramAD
+  host-suffix,news.docer.com,BanProgramAD
+  host-suffix,notify.wps.cn,BanProgramAD
+  host-suffix,pc.uf.ksosoft.com,BanProgramAD
+  host-suffix,pcfg.wps.cn,BanProgramAD
+  host-suffix,pixiu.shangshufang.ksosoft.com,BanProgramAD
+  host-suffix,push.wps.cn,BanProgramAD
+  host-suffix,rating6.kingsoft-office-service.com,BanProgramAD
+  host-suffix,up.wps.kingsoft.com,BanProgramAD
+  host-suffix,wpsweb-dc.wps.cn,BanProgramAD
+
+  # Wi-Fi key
+  host-suffix,c.51y5.net,BanProgramAD
+  host-suffix,cdsget.51y5.net,BanProgramAD
+  host-suffix,news-imgpb.51y5.net,BanProgramAD
+  host-suffix,wifiapidd.51y5.net,BanProgramAD
+  host-suffix,wkanc.51y5.net,BanProgramAD
+
+  # Ximalaya 喜马拉雅
+  host-suffix,adse.ximalaya.com,BanProgramAD
+  host-suffix,linkeye.ximalaya.com,BanProgramAD
+  host-suffix,location.ximalaya.com,BanProgramAD
+  host-suffix,xdcs-collector.ximalaya.com,BanProgramAD
+
+  # Xunlei 迅雷app&看看
+  host-suffix,biz5.kankan.com,BanProgramAD
+  host-suffix,float.kankan.com,BanProgramAD
+  host-suffix,hub5btmain.sandai.net,BanProgramAD
+  host-suffix,hub5emu.sandai.net,BanProgramAD
+  host-suffix,logic.cpm.cm.kankan.com,BanProgramAD
+  host-suffix,upgrade.xl9.xunlei.com,BanProgramAD
+
+  # Yahoo
+  host-suffix,ad.wretch.cc,BanProgramAD
+  host-suffix,ads.yahoo.com,BanProgramAD
+  host-suffix,adserver.yahoo.com,BanProgramAD
+  host-suffix,adss.yahoo.com,BanProgramAD
+  host-suffix,analytics.query.yahoo.com,BanProgramAD
+  host-suffix,analytics.yahoo.com,BanProgramAD
+  host-suffix,ane.yahoo.co.jp,BanProgramAD
+  host-suffix,ard.yahoo.co.jp,BanProgramAD
+  host-suffix,beap-bc.yahoo.com,BanProgramAD
+  host-suffix,clicks.beap.bc.yahoo.com,BanProgramAD
+  host-suffix,comet.yahoo.com,BanProgramAD
+  host-suffix,doubleplay-conf-yql.media.yahoo.com,BanProgramAD
+  host-suffix,flurry.com,BanProgramAD
+  host-suffix,gemini.yahoo.com,BanProgramAD
+  host-suffix,geo.yahoo.com,BanProgramAD
+  host-suffix,js-apac-ss.ysm.yahoo.com,BanProgramAD
+  host-suffix,locdrop.query.yahoo.com,BanProgramAD
+  host-suffix,onepush.query.yahoo.com,BanProgramAD
+  host-suffix,p3p.yahoo.com,BanProgramAD
+  host-suffix,partnerads.ysm.yahoo.com,BanProgramAD
+  host-suffix,ws.progrss.yahoo.com,BanProgramAD
+  host-suffix,yads.yahoo.co.jp,BanProgramAD
+  host-suffix,ybp.yahoo.com,BanProgramAD
+
+  # Zhihu
+
+  # Ads in Video apps 下面都是 ********************
+
+  # 6间房
+  host-suffix,shrek.6.cn,BanProgramAD
+  host-suffix,simba.6.cn,BanProgramAD
+  host-suffix,union.6.cn,BanProgramAD
+
+  # Baofeng 暴风影音
+  host-suffix,logger.baofeng.com,BanProgramAD
+  host-suffix,xs.houyi.baofeng.net,BanProgramAD
+
+  # Douyu
+  host-suffix,dotcounter.douyutv.com,BanProgramAD
+
+  # Fenghuang 凤凰TV
+  host-suffix,api.newad.ifeng.com,BanProgramAD
+  host-suffix,exp.3g.ifeng.com,BanProgramAD
+  host-suffix,game.ifeng.com,BanProgramAD
+  host-suffix,iis3g.deliver.ifeng.com,BanProgramAD
+  host-suffix,mfp.deliver.ifeng.com,BanProgramAD
+  host-suffix,stadig.ifeng.com,BanProgramAD
+
+  # Funshion 风行
+  host-suffix,adm.funshion.com,BanProgramAD
+  host-suffix,jobsfe.funshion.com,BanProgramAD
+  host-suffix,po.funshion.com,BanProgramAD
+  host-suffix,pub.funshion.com,BanProgramAD
+  host-suffix,pv.funshion.com,BanProgramAD
+  host-suffix,stat.funshion.com,BanProgramAD
+
+  # iqiyi PPS 爱奇艺
+  host-suffix,ad.m.iqiyi.com,BanProgramAD
+  host-suffix,afp.iqiyi.com,BanProgramAD
+  host-suffix,c.uaa.iqiyi.com,BanProgramAD
+  host-suffix,cloudpush.iqiyi.com,BanProgramAD
+  host-suffix,cm.passport.iqiyi.com,BanProgramAD
+  host-suffix,cupid.iqiyi.com,BanProgramAD
+  host-suffix,emoticon.sns.iqiyi.com,BanProgramAD
+  host-suffix,gamecenter.iqiyi.com,BanProgramAD
+  host-suffix,ifacelog.iqiyi.com,BanProgramAD
+  host-suffix,mbdlog.iqiyi.com,BanProgramAD
+  host-suffix,meta.video.qiyi.com,BanProgramAD
+  host-suffix,msg.71.am,BanProgramAD
+  host-suffix,msg1.video.qiyi.com,BanProgramAD
+  host-suffix,msg2.video.qiyi.com,BanProgramAD
+  host-suffix,paopao.iqiyi.com,BanProgramAD
+  host-suffix,paopaod.qiyipic.com,BanProgramAD
+  host-suffix,policy.video.iqiyi.com,BanProgramAD
+  host-suffix,yuedu.iqiyi.com,BanProgramAD
+  ip-cidr,101.227.200.0/24,BanProgramAD
+  ip-cidr,101.227.200.11/32,BanProgramAD
+  ip-cidr,101.227.200.28/32,BanProgramAD
+  ip-cidr,101.227.97.240/32,BanProgramAD
+  ip-cidr,124.192.153.42/32,BanProgramAD
+
+  # Ku6 酷6
+  host-suffix,gug.ku6cdn.com,BanProgramAD
+  host-suffix,pq.stat.ku6.com,BanProgramAD
+  host-suffix,st.vq.ku6.cn,BanProgramAD
+  host-suffix,static.ku6.com,BanProgramAD
+
+  # LeTV 乐视
+  host-suffix,1.letvlive.com,BanProgramAD
+  host-suffix,2.letvlive.com,BanProgramAD
+  host-suffix,ark.letv.com,BanProgramAD
+  host-suffix,dc.letv.com,BanProgramAD
+  host-suffix,fz.letv.com,BanProgramAD
+  host-suffix,g3.letv.com,BanProgramAD
+  host-suffix,game.letvstore.com,BanProgramAD
+  host-suffix,i0.letvimg.com,BanProgramAD
+  host-suffix,i3.letvimg.com,BanProgramAD
+  host-suffix,minisite.letv.com,BanProgramAD
+  host-suffix,n.mark.letv.com,BanProgramAD
+  host-suffix,pro.hoye.letv.com,BanProgramAD
+  host-suffix,pro.letv.com,BanProgramAD
+  host-suffix,stat.letv.com,BanProgramAD
+  host-suffix,static.app.m.letv.com,BanProgramAD
+
+  # MGTV 芒果TV
+  host-suffix,click.hunantv.com,BanProgramAD
+  host-suffix,da.hunantv.com,BanProgramAD
+  host-suffix,da.mgtv.com,BanProgramAD
+  host-suffix,log.hunantv.com,BanProgramAD
+  host-suffix,log.v2.hunantv.com,BanProgramAD
+  host-suffix,p2.hunantv.com,BanProgramAD
+  host-suffix,res.hunantv.com,BanProgramAD
+
+  # Sohu 搜狐
+  host-suffix,888.tv.sohu.com,BanProgramAD
+  host-suffix,adnet.sohu.com,BanProgramAD
+  host-suffix,ads.sohu.com,BanProgramAD
+  host-suffix,aty.hd.sohu.com,BanProgramAD
+  host-suffix,aty.sohu.com,BanProgramAD
+  host-suffix,bd.hd.sohu.com,BanProgramAD
+  host-suffix,click.hd.sohu.com,BanProgramAD
+  host-suffix,click2.hd.sohu.com,BanProgramAD
+  host-suffix,ctr.hd.sohu.com,BanProgramAD
+  host-suffix,epro.sohu.com,BanProgramAD
+  host-suffix,go.sohu.com,BanProgramAD
+  host-suffix,golden1.sohu.com,BanProgramAD
+  host-suffix,hui.sohu.com,BanProgramAD
+  host-suffix,inte.sogoucdn.com,BanProgramAD
+  host-suffix,inte.sohu.com,BanProgramAD
+  host-suffix,lm.tv.sohu.com,BanProgramAD
+  host-suffix,pb.hd.sohu.com,BanProgramAD
+  host-suffix,push.tv.sohu.com,BanProgramAD
+  host-suffix,pv.hd.sohu.com,BanProgramAD
+  host-suffix,pv.sohu.com,BanProgramAD
+  host-suffix,theta.sogoucdn.com,BanProgramAD
+  host-suffix,um.hd.sohu.com,BanProgramAD
+  host-suffix,uranus.sogou.com,BanProgramAD
+  host-suffix,uranus.sohu.com,BanProgramAD
+  host-suffix,wan.sohu.com,BanProgramAD
+  host-suffix,wl.hd.sohu.com,BanProgramAD
+  host-suffix,yule.sohu.com,BanProgramAD
+
+  # Sogou 搜狗
+  host-suffix,123.sogou.com,BanProgramAD
+  host-suffix,123.sogoucdn.com,BanProgramAD
+  host-suffix,adsence.sogou.com,BanProgramAD
+  host-suffix,amfi.gou.sogou.com,BanProgramAD
+  host-suffix,brand.sogou.com,BanProgramAD
+  host-suffix,cpc.sogou.com,BanProgramAD
+  host-suffix,epro.sogou.com,BanProgramAD
+  host-suffix,fair.sogou.com,BanProgramAD
+  host-suffix,files2.sogou.com,BanProgramAD
+  host-suffix,galaxy.sogoucdn.com,BanProgramAD
+  host-suffix,golden1.sogou.com,BanProgramAD
+  host-suffix,goto.sogou.com,BanProgramAD
+  host-suffix,inte.sogou.com,BanProgramAD
+  host-suffix,iwan.sogou.com,BanProgramAD
+  host-suffix,lu.sogou.com,BanProgramAD
+  host-suffix,lu.sogoucdn.com,BanProgramAD
+  host-suffix,pb.sogou.com,BanProgramAD
+  host-suffix,pd.sogou.com,BanProgramAD
+  host-suffix,pv.sogou.com,BanProgramAD
+  host-suffix,theta.sogou.com,BanProgramAD
+  host-suffix,wan.sogou.com,BanProgramAD
+  host-suffix,wangmeng.sogou.com,BanProgramAD
+
+  # PPTV、PPLive
+  host-suffix,afp.pplive.com,BanProgramAD
+  host-suffix,app.aplus.pptv.com,BanProgramAD
+  host-suffix,as.aplus.pptv.com,BanProgramAD
+  host-suffix,asimgs.pplive.cn,BanProgramAD
+  host-suffix,de.as.pptv.com,BanProgramAD
+  host-suffix,jp.as.pptv.com,BanProgramAD
+  host-suffix,pp2.pptv.com,BanProgramAD
+  host-suffix,stat.pptv.com,BanProgramAD
+
+  # QQ Live
+  host-suffix,btrace.video.qq.com,BanProgramAD
+  host-suffix,c.l.qq.com,BanProgramAD
+  host-suffix,dp3.qq.com,BanProgramAD
+  host-suffix,livep.l.qq.com,BanProgramAD
+  host-suffix,lives.l.qq.com,BanProgramAD
+  host-suffix,livew.l.qq.com,BanProgramAD
+  host-suffix,mcgi.v.qq.com,BanProgramAD
+  host-suffix,mdevstat.qqlive.qq.com,BanProgramAD
+  host-suffix,omgmta1.qq.com,BanProgramAD
+  host-suffix,p.l.qq.com,BanProgramAD
+  host-suffix,rcgi.video.qq.com,BanProgramAD
+  host-suffix,t.l.qq.com,BanProgramAD
+  host-suffix,u.l.qq.com,BanProgramAD
+
+  # Youku & Tudou
+  host-suffix,a-dxk.play.api.3g.youku.com,BanProgramAD
+  host-suffix,actives.youku.com,BanProgramAD
+  host-suffix,ad.api.3g.tudou.com,BanProgramAD
+  host-suffix,ad.api.3g.youku.com,BanProgramAD
+  host-suffix,ad.api.mobile.youku.com,BanProgramAD
+  host-suffix,ad.mobile.youku.com,BanProgramAD
+  host-suffix,adcontrol.tudou.com,BanProgramAD
+  host-suffix,adplay.tudou.com,BanProgramAD
+  host-suffix,b.smartvideo.youku.com,BanProgramAD
+  host-suffix,c.yes.youku.com,BanProgramAD
+  host-suffix,dev-push.m.youku.com,BanProgramAD
+  host-suffix,dl.g.youku.com,BanProgramAD
+  host-suffix,dmapp.youku.com,BanProgramAD
+  host-suffix,e.stat.ykimg.com,BanProgramAD
+  host-suffix,gamex.mobile.youku.com,BanProgramAD
+  host-suffix,goods.tudou.com,BanProgramAD
+  host-suffix,hudong.pl.youku.com,BanProgramAD
+  host-suffix,hz.youku.com,BanProgramAD
+  host-suffix,iwstat.tudou.com,BanProgramAD
+  host-suffix,iyes.youku.com,BanProgramAD
+  host-suffix,l.ykimg.com,BanProgramAD
+  host-suffix,l.youku.com,BanProgramAD
+  host-suffix,lstat.youku.com,BanProgramAD
+  host-suffix,lvip.youku.com,BanProgramAD
+  host-suffix,mobilemsg.youku.com,BanProgramAD
+  host-suffix,msg.youku.com,BanProgramAD
+  host-suffix,myes.youku.com,BanProgramAD
+  host-suffix,nstat.tudou.com,BanProgramAD
+  host-suffix,p-log.ykimg.com,BanProgramAD
+  host-suffix,p.l.ykimg.com,BanProgramAD
+  host-suffix,p.l.youku.com,BanProgramAD
+  host-suffix,passport-log.youku.com,BanProgramAD
+  host-suffix,push.m.youku.com,BanProgramAD
+  host-suffix,r.l.youku.com,BanProgramAD
+  host-suffix,s.p.youku.com,BanProgramAD
+  host-suffix,sdk.m.youku.com,BanProgramAD
+  host-suffix,stat.tudou.com,BanProgramAD
+  host-suffix,stat.youku.com,BanProgramAD
+  host-suffix,stats.tudou.com,BanProgramAD
+  host-suffix,store.tv.api.3g.youku.com,BanProgramAD
+  host-suffix,store.xl.api.3g.youku.com,BanProgramAD
+  host-suffix,tdrec.youku.com,BanProgramAD
+  host-suffix,test.ott.youku.com,BanProgramAD
+  host-suffix,v.l.youku.com,BanProgramAD
+  host-suffix,val.api.youku.com,BanProgramAD
+  host-suffix,wan.youku.com,BanProgramAD
+  host-suffix,ykatr.youku.com,BanProgramAD
+  host-suffix,ykrec.youku.com,BanProgramAD
+  host-suffix,ykrectab.youku.com,BanProgramAD
+  ip-cidr,117.177.248.17/32,BanProgramAD
+  ip-cidr,117.177.248.41/32,BanProgramAD
+  ip-cidr,223.87.176.139/32,BanProgramAD
+  ip-cidr,223.87.176.176/32,BanProgramAD
+  ip-cidr,223.87.177.180/32,BanProgramAD
+  ip-cidr,223.87.177.182/32,BanProgramAD
+  ip-cidr,223.87.177.184/32,BanProgramAD
+  ip-cidr,223.87.177.43/32,BanProgramAD
+  ip-cidr,223.87.177.47/32,BanProgramAD
+  ip-cidr,223.87.177.80/32,BanProgramAD
+  ip-cidr,223.87.182.101/32,BanProgramAD
+  ip-cidr,223.87.182.102/32,BanProgramAD
+  ip-cidr,223.87.182.11/32,BanProgramAD
+  ip-cidr,223.87.182.52/32,BanProgramAD
+
+  # Youtube
+  host-suffix,azabu-u.ac.jp,BanProgramAD
+  host-suffix,couchcoaster.jp,BanProgramAD
+  host-suffix,delivery.dmkt-sp.jp,BanProgramAD
+  host-suffix,ehg-youtube.hitbox.com,BanProgramAD
+  host-suffix,nichibenren.or.jp,BanProgramAD
+  host-suffix,nicorette.co.kr,BanProgramAD
+  host-suffix,ssl-youtube.2cnt.net,BanProgramAD
+  host-suffix,youtube.112.2o7.net,BanProgramAD
+  host-suffix,youtube.2cnt.net,BanProgramAD
+
+  # Others ads in Video apps
+  host-suffix,acsystem.wasu.tv,BanProgramAD
+  host-suffix,ads.cdn.tvb.com,BanProgramAD
+  host-suffix,ads.wasu.tv,BanProgramAD
+  host-suffix,afp.wasu.tv,BanProgramAD
+  host-suffix,c.algovid.com,BanProgramAD
+  host-suffix,gg.jtertp.com,BanProgramAD
+  host-suffix,gridsum-vd.cntv.cn,BanProgramAD
+  host-suffix,kwflvcdn.000dn.com,BanProgramAD
+  host-suffix,logstat.t.sfht.com,BanProgramAD
+  host-suffix,match.rtbidder.net,BanProgramAD
+  host-suffix,n-st.vip.com,BanProgramAD
+  host-suffix,pop.uusee.com,BanProgramAD
+  host-suffix,static.duoshuo.com,BanProgramAD
+  host-suffix,t.cr-nielsen.com,BanProgramAD
+  host-suffix,terren.cntv.cn,BanProgramAD
+
+  # Ads in Video apps end 上面都是 ********************
+
+  # 常用网站广告
+  host-suffix,1.win7china.com,BanProgramAD
+  host-suffix,168.it168.com,BanProgramAD
+  host-suffix,2.win7china.com,BanProgramAD
+  host-suffix,801.tianya.cn,BanProgramAD
+  host-suffix,801.tianyaui.cn,BanProgramAD
+  host-suffix,803.tianya.cn,BanProgramAD
+  host-suffix,803.tianyaui.cn,BanProgramAD
+  host-suffix,806.tianya.cn,BanProgramAD
+  host-suffix,806.tianyaui.cn,BanProgramAD
+  host-suffix,808.tianya.cn,BanProgramAD
+  host-suffix,808.tianyaui.cn,BanProgramAD
+  host-suffix,92x.tumblr.com,BanProgramAD
+  host-suffix,a1.itc.cn,BanProgramAD
+  host-suffix,ad-channel.wikawika.xyz,BanProgramAD
+  host-suffix,ad-display.wikawika.xyz,BanProgramAD
+  host-suffix,ad.12306.cn,BanProgramAD
+  host-suffix,ad.3.cn,BanProgramAD
+  host-suffix,ad.95306.cn,BanProgramAD
+  host-suffix,ad.caiyunapp.com,BanProgramAD
+  host-suffix,ad.cctv.com,BanProgramAD
+  host-suffix,ad.cmvideo.cn,BanProgramAD
+  host-suffix,ad.csdn.net,BanProgramAD
+  host-suffix,ad.ganji.com,BanProgramAD
+  host-suffix,ad.house365.com,BanProgramAD
+  host-suffix,ad.thepaper.cn,BanProgramAD
+  host-suffix,ad.unimhk.com,BanProgramAD
+  host-suffix,adadmin.house365.com,BanProgramAD
+  host-suffix,adhome.1fangchan.com,BanProgramAD
+  host-suffix,adm.10jqka.com.cn,BanProgramAD
+  host-suffix,ads.csdn.net,BanProgramAD
+  host-suffix,ads.feedly.com,BanProgramAD
+  host-suffix,ads.genieessp.com,BanProgramAD
+  host-suffix,ads.house365.com,BanProgramAD
+  host-suffix,ads.linkedin.com,BanProgramAD
+  host-suffix,adshownew.it168.com,BanProgramAD
+  host-suffix,adv.ccb.com,BanProgramAD
+  host-suffix,advert.api.thejoyrun.com,BanProgramAD
+  host-suffix,analytics.ganji.com,BanProgramAD
+  host-suffix,api-deal.kechenggezi.com,BanProgramAD
+  host-suffix,api-z.weidian.com,BanProgramAD
+  host-suffix,app-monitor.ele.me,BanProgramAD
+  host-suffix,bat.bing.com,BanProgramAD
+  host-suffix,bd1.52che.com,BanProgramAD
+  host-suffix,bd2.52che.com,BanProgramAD
+  host-suffix,bdj.tianya.cn,BanProgramAD
+  host-suffix,bdj.tianyaui.cn,BanProgramAD
+  host-suffix,beacon.tingyun.com,BanProgramAD
+  host-suffix,cdn.jiuzhilan.com,BanProgramAD
+  host-suffix,click.cheshi-img.com,BanProgramAD
+  host-suffix,click.cheshi.com,BanProgramAD
+  host-suffix,click.ganji.com,BanProgramAD
+  host-suffix,click.tianya.cn,BanProgramAD
+  host-suffix,click.tianyaui.cn,BanProgramAD
+  host-suffix,client-api.ele.me,BanProgramAD
+  host-suffix,collector.githubapp.com,BanProgramAD
+  host-suffix,counter.csdn.net,BanProgramAD
+  host-suffix,d0.xcar.com.cn,BanProgramAD
+  host-suffix,de.soquair.com,BanProgramAD
+  host-suffix,dol.tianya.cn,BanProgramAD
+  host-suffix,dol.tianyaui.cn,BanProgramAD
+  host-suffix,dw.xcar.com.cn,BanProgramAD
+  host-suffix,e.nexac.com,BanProgramAD
+  host-suffix,exp.17wo.cn,BanProgramAD
+  host-suffix,game.51yund.com,BanProgramAD
+  host-suffix,ganjituiguang.ganji.com,BanProgramAD
+  host-suffix,grand.ele.me,BanProgramAD
+  host-suffix,hosting.miarroba.info,BanProgramAD
+  host-suffix,iadsdk.apple.com,BanProgramAD
+  host-suffix,image.gentags.com,BanProgramAD
+  host-suffix,its-dori.tumblr.com,BanProgramAD
+  host-suffix,log.outbrain.com,BanProgramAD
+  host-suffix,m.12306media.com,BanProgramAD
+  host-suffix,media.cheshi-img.com,BanProgramAD
+  host-suffix,media.cheshi.com,BanProgramAD
+  host-suffix,mobile-pubt.ele.me,BanProgramAD
+  host-suffix,mobileads.msn.com,BanProgramAD
+  host-suffix,n.cosbot.cn,BanProgramAD
+  host-suffix,newton-api.ele.me,BanProgramAD
+  host-suffix,pdl.gionee.com,BanProgramAD
+  host-suffix,pica-juicy.picacomic.com,BanProgramAD
+  host-suffix,pixel.wp.com,BanProgramAD
+  host-suffix,pub.mop.com,BanProgramAD
+  host-suffix,push.wandoujia.com,BanProgramAD
+  host-suffix,pv.cheshi-img.com,BanProgramAD
+  host-suffix,pv.cheshi.com,BanProgramAD
+  host-suffix,pv.xcar.com.cn,BanProgramAD
+  host-suffix,qdp.qidian.com,BanProgramAD
+  host-suffix,res.gwifi.com.cn,BanProgramAD
+  host-suffix,ssp.kssws.ks-cdn.com,BanProgramAD
+  host-suffix,sta.ganji.com,BanProgramAD
+  host-suffix,stat.it168.com,BanProgramAD
+  host-suffix,stats.chinaz.com,BanProgramAD
+  host-suffix,stats.developingperspective.com,BanProgramAD
+  host-suffix,track.hujiang.com,BanProgramAD
+  host-suffix,tracker.yhd.com,BanProgramAD
+  host-suffix,tralog.ganji.com,BanProgramAD
+  host-suffix,up.qingdaonews.com,BanProgramAD

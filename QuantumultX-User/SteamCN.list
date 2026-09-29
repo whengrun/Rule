@@ -1,0 +1,19 @@
+# target-client: quantumultx
+  # 内容：SteamCN
+  # 数量：16条
+  host,csgo.wmsj.cn,SteamCN
+  host,dl.steam.clngaa.com,SteamCN
+  host,dl.steam.ksyna.com,SteamCN
+  host,dota2.wmsj.cn,SteamCN
+  host,st.dl.bscstorage.net,SteamCN
+  host,st.dl.eccdnx.com,SteamCN
+  host,st.dl.pinyuncloud.com,SteamCN
+  host,steampipe.steamcontent.tnkjmec.com,SteamCN
+  host,steampowered.com.8686c.com,SteamCN
+  host,steamstatic.com.8686c.com,SteamCN
+  host,wmsjsteam.com,SteamCN
+  host,xz.pphimalayanrt.com,SteamCN
+  host-suffix,cm.steampowered.com,SteamCN
+  host-suffix,steamchina.com,SteamCN
+  host-suffix,steamcontent.com,SteamCN
+  host-suffix,steamusercontent.com,SteamCN
