@@ -18,6 +18,7 @@
   host-suffix,ip.skk.moe,地域定位
   host-suffix,easyenable.com,地域定位
   host-suffix,db-ip.com,地域定位
+  host-suffix,longbridge.com,地域定位
 
   # > BetterTouchTool
   ; PROCESS-NAME,BetterTouchTool (目标软件不支持此匹配类型，已保留为注释。)

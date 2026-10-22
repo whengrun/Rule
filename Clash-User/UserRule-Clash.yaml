@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,ip.skk.moe
   - DOMAIN-SUFFIX,easyenable.com
   - DOMAIN-SUFFIX,db-ip.com
+  - DOMAIN-SUFFIX,longbridge.com
 
   # > BetterTouchTool
   - PROCESS-NAME,BetterTouchTool
