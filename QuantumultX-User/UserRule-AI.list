@@ -108,6 +108,8 @@
 
   # >> Meta AI
   host-suffix,meta.ai,AI平台
+  host-suffix,meta.com,AI平台
+  host-suffix,muse.ai,AI平台
 
   # >> Cloudflare AI Gateway
   host,gateway.ai.cloudflare.com,AI平台

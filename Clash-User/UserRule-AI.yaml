@@ -109,6 +109,8 @@ payload:
 
   # >> Meta AI
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,muse.ai
 
   # >> Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
