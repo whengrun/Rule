@@ -127,6 +127,7 @@
   host-suffix,z-lib.ai,地域定位
   host-suffix,z-lib.id,地域定位
   host-suffix,scribd.com,地域定位
+  host,www.novel543.com,地域定位
 
   # > Protonmail
   host-suffix,protonvpn.com,地域定位
