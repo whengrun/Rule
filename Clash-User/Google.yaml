@@ -133,4 +133,9 @@ payload:
   # - DOMAIN,browser.events.data.microsoft.com
   # - DOMAIN,default.exp-tas.com
   # - DOMAIN,open-vsx.org
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,antigravity.google.com
+  - DOMAIN-SUFFIX,antigravity-unleash.google
   - DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
+  - DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+  - DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
