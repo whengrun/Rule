@@ -344,3 +344,21 @@ payload:
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,mazegenerator.net
   - DOMAIN,api.my-ip.io
+
+  # Figma 核心域名
+  - DOMAIN-SUFFIX,figma.com
+  - DOMAIN-SUFFIX,figmausercontent.com
+  - DOMAIN-SUFFIX,figma.app
+  - DOMAIN-SUFFIX,figma.site
+  - DOMAIN-SUFFIX,figmadaemon.com
+
+  # Figma Make 依赖
+  - DOMAIN-SUFFIX,esm.sh
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,awswaf.com
+  - DOMAIN-SUFFIX,arkoselabs.com
+
+  # Figma 新增官方依赖
+  - DOMAIN-SUFFIX,weavy.ai
+  - DOMAIN-SUFFIX,figmaweave.com
+  - DOMAIN-SUFFIX,prodregistryv2.org
