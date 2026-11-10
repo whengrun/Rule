@@ -21,6 +21,9 @@ payload:
   - DOMAIN-SUFFIX,db-ip.com
   - DOMAIN-SUFFIX,longbridge.com
 
+  # > Sony
+  - DOMAIN,unlock.me.sony.com
+
   # > BetterTouchTool
   - PROCESS-NAME,BetterTouchTool
   - DOMAIN-SUFFIX,updates.folivora.ai
