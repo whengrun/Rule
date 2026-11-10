@@ -19,3 +19,6 @@ payload:
   # DOMAIN-SUFFIX,figmadaemon.com
   # DOMAIN-SUFFIX,api.sprig.com
   # DOMAIN-SUFFIX,browser-intake-datadoghq.com
+
+  # > home
+  - PROCESS-NAME,Home
