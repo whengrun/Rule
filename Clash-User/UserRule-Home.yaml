@@ -19,3 +19,7 @@ payload:
   # DOMAIN-SUFFIX,figmadaemon.com
   # DOMAIN-SUFFIX,api.sprig.com
   # DOMAIN-SUFFIX,browser-intake-datadoghq.com
+
+  # > yacd
+  - DOMAIN,clash.razord.top
+  - DOMAIN,yacd.haishan.me
