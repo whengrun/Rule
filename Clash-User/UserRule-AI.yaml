@@ -38,9 +38,6 @@ payload:
   - DOMAIN-SUFFIX,descript.com
   - DOMAIN-SUFFIX,descriptapp.com
 
-  # >> Apple Intelligence
-  - DOMAIN,api-siri-prod.apple.com
-
   # >> OpenAI / ChatGPT
   # OpenAI A/B Flag, no geo blocking
   # DOMAIN,api.statsig.com
@@ -80,17 +77,52 @@ payload:
   - IP-CIDR,160.79.104.0/23,no-resolve
   - IP-CIDR6,2607:6bc0::/48,no-resolve
 
+  # >> Apple Intelligence / Siri / Relay rules
+  # Route these domains to a supported-region proxy group, such as a US node.
   # >> Apple Relay
   # Sadly, even though Oblivious HTTP Relay is an open standard, supposed to enhance privacy. Apple uses a loophole
   # to get user real request country and IP address from third-party CDN providers (like Cloudflare or Fastly) to
   # blocks country from accessing Apple Intelligence services.
-  # DOMAIN,apple-relay.fastly-edge.com
-  # DOMAIN,apple-relay.cloudflare.com
-  # DOMAIN,apple-relay.apple.com
-  # DOMAIN,cp4.cloudflare.com
 
-  # >> com.apple.geod
-  # DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,seed.siri.apple.com
+  # DOMAIN,probe.icloud.com
+  # DOMAIN,metrics.icloud.com
+  # DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN,guzzoni.apple.com
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,wps.apple.com
+  - DOMAIN-SUFFIX,smoot.apple.com
+  # DOMAIN-KEYWORD,siri
+
+  # ----------------------------------------------------------
+  # Apple Intelligence / Private Cloud Compute
+  # ----------------------------------------------------------
+  - DOMAIN,apple-relay.fastly-edge.com
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN,cp4.cloudflare.com
+  - DOMAIN,api-siri-prod.apple.com
+
+  # ----------------------------------------------------------
+  # Apple Intelligence relay / bootstrap
+  # ----------------------------------------------------------
+
+  - DOMAIN,apple-relay.mask.apple-dns.net
+  - DOMAIN,mask-api.icloud.com
+  - DOMAIN,mask-api.fe2.apple-dns.net
+  - DOMAIN,mask-api.fe.apple-dns.net
+  - DOMAIN,apple-relay.akamaized.net
+  - DOMAIN,apple-carry-relay.cloudflare.com
+  - DOMAIN,mask-t.apple-dns.net
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask.icloud.com
+  - DOMAIN-SUFFIX,apps.mzstatic.com
+
+  # ----------------------------------------------------------
+  # Apple region determination
+  # ----------------------------------------------------------
+  - DOMAIN,gspe1-ssl.ls.apple.com
   # TODO: find other domains that com.apple.geod is trying to connect to.
 
   # >> Perplexity
