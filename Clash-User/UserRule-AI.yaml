@@ -38,6 +38,9 @@ payload:
   - DOMAIN-SUFFIX,descript.com
   - DOMAIN-SUFFIX,descriptapp.com
 
+  # >> Apple Intelligence
+  - DOMAIN,api-siri-prod.apple.com
+
   # >> OpenAI / ChatGPT
   # OpenAI A/B Flag, no geo blocking
   # DOMAIN,api.statsig.com
