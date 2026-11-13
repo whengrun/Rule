@@ -84,7 +84,7 @@ payload:
   # to get user real request country and IP address from third-party CDN providers (like Cloudflare or Fastly) to
   # blocks country from accessing Apple Intelligence services.
 
-  - DOMAIN,gateway.icloud.com
+  - DOMAIN-SUFFIX,gateway.icloud.com
   - DOMAIN,seed.siri.apple.com
   # DOMAIN,probe.icloud.com
   # DOMAIN,metrics.icloud.com
@@ -98,10 +98,10 @@ payload:
   # ----------------------------------------------------------
   # Apple Intelligence / Private Cloud Compute
   # ----------------------------------------------------------
-  - DOMAIN,apple-relay.fastly-edge.com
-  - DOMAIN,apple-relay.cloudflare.com
-  - DOMAIN,apple-relay.apple.com
-  - DOMAIN,cp4.cloudflare.com
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN-SUFFIX,cp4.cloudflare.com
   - DOMAIN,api-siri-prod.apple.com
 
   # ----------------------------------------------------------
@@ -122,7 +122,7 @@ payload:
   # ----------------------------------------------------------
   # Apple region determination
   # ----------------------------------------------------------
-  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
   # TODO: find other domains that com.apple.geod is trying to connect to.
 
   # >> Perplexity
