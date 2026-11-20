@@ -84,45 +84,45 @@ payload:
   # to get user real request country and IP address from third-party CDN providers (like Cloudflare or Fastly) to
   # blocks country from accessing Apple Intelligence services.
 
-  - DOMAIN-SUFFIX,gateway.icloud.com
-  - DOMAIN,seed.siri.apple.com
+  # - DOMAIN-SUFFIX,gateway.icloud.com
+  # - DOMAIN,seed.siri.apple.com
   # DOMAIN,probe.icloud.com
   # DOMAIN,metrics.icloud.com
   # DOMAIN-SUFFIX,ls.apple.com
-  - DOMAIN,guzzoni.apple.com
-  - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN,wps.apple.com
-  - DOMAIN-SUFFIX,smoot.apple.com
+  # - DOMAIN,guzzoni.apple.com
+  # - DOMAIN-SUFFIX,smoot.apple.com
+  # - DOMAIN,wps.apple.com
+  # - DOMAIN-SUFFIX,smoot.apple.com
   # DOMAIN-KEYWORD,siri
 
   # ----------------------------------------------------------
   # Apple Intelligence / Private Cloud Compute
   # ----------------------------------------------------------
-  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
-  - DOMAIN-SUFFIX,apple-relay.apple.com
-  - DOMAIN-SUFFIX,cp4.cloudflare.com
-  - DOMAIN,api-siri-prod.apple.com
+  # - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  # - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  # - DOMAIN-SUFFIX,apple-relay.apple.com
+  # - DOMAIN-SUFFIX,cp4.cloudflare.com
+  # - DOMAIN,api-siri-prod.apple.com
 
   # ----------------------------------------------------------
   # Apple Intelligence relay / bootstrap
   # ----------------------------------------------------------
 
-  - DOMAIN,apple-relay.mask.apple-dns.net
-  - DOMAIN,mask-api.icloud.com
-  - DOMAIN,mask-api.fe2.apple-dns.net
-  - DOMAIN,mask-api.fe.apple-dns.net
-  - DOMAIN,apple-relay.akamaized.net
-  - DOMAIN,apple-carry-relay.cloudflare.com
-  - DOMAIN,mask-t.apple-dns.net
-  - DOMAIN-SUFFIX,mask-h2.icloud.com
-  - DOMAIN-SUFFIX,mask.icloud.com
-  - DOMAIN-SUFFIX,apps.mzstatic.com
+  # - DOMAIN,apple-relay.mask.apple-dns.net
+  # - DOMAIN,mask-api.icloud.com
+  # - DOMAIN,mask-api.fe2.apple-dns.net
+  # - DOMAIN,mask-api.fe.apple-dns.net
+  # - DOMAIN,apple-relay.akamaized.net
+  # - DOMAIN,apple-carry-relay.cloudflare.com
+  # - DOMAIN,mask-t.apple-dns.net
+  # - DOMAIN-SUFFIX,mask-h2.icloud.com
+  # - DOMAIN-SUFFIX,mask.icloud.com
+  # - DOMAIN-SUFFIX,apps.mzstatic.com
 
   # ----------------------------------------------------------
   # Apple region determination
   # ----------------------------------------------------------
-  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  # - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
   # TODO: find other domains that com.apple.geod is trying to connect to.
 
   # >> Perplexity
