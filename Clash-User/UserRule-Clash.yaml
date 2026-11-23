@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,easyenable.com
   - DOMAIN-SUFFIX,db-ip.com
   - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,codeweavers.com
 
   # > Sony
   - DOMAIN,unlock.me.sony.com
